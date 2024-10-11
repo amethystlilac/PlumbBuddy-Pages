@@ -1,0 +1,22 @@
+﻿@inherits LayoutComponentBase
+@inject IJSRuntime JSRuntime
+
+<MudThemeProvider DefaultScrollbar="true" IsDarkMode="@isDarkMode" Theme="@Theme" />
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+<MudScrollbar Color="info" HoverColor="primary" TrackColor="#27272f30" Width="12" />
+<MudTypographyProvider />
+
+<MudLayout>
+    <MudAppBar>
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="HandleMainMenuOnClick" />
+        <MudImage Src="/img/PlumbBuddyLogo.svg" Elevation="2" Width="48" Height="48" ObjectFit="ObjectFit.Fill" ObjectPosition="ObjectPosition.Center" />
+    </MudAppBar>
+    <MudDrawer @bind-Open="@isDrawerOpen">
+
+    </MudDrawer>
+    <MudMainContent>
+        @Body
+    </MudMainContent>
+</MudLayout>
