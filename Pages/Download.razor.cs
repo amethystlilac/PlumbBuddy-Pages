@@ -5,7 +5,7 @@ partial class Download
     readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
     [
         new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
-        new("Download", null, icon: MaterialDesignIcons.Normal.Download)
+        new("Download", "/download", icon: MaterialDesignIcons.Normal.Download)
     ];
     string os = string.Empty;
 

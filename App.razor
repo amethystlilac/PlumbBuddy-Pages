@@ -7,7 +7,8 @@
         <PageTitle>Page Not Found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
             <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
-                <MudTextM3 Typo="TypoM3.Headline" Class="mb-2">Page Not Found</MudTextM3>
+                <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
+                <MudDivider Class="my-2" />
                 <MudMarkdown Value="@haiku404" />
                 <MudAlert Severity="Severity.Info">You can open my menu to try to find what you're looking for, or <MudLink Href="/">click here</MudLink> to go to my landing page.</MudAlert>
             </MudContainer>

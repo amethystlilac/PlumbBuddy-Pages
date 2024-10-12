@@ -5,7 +5,8 @@
 
 <PageTitle>Redirect</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
-    <MudTextM3 Typo="TypoM3.Headline" Class="mb-2">Redirect</MudTextM3>
+    <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
+    <MudDivider Class="my-2" />
     @if (noRedirect)
     {
         <MudAlert Severity="Severity.Normal">This page is for launching redirects and no redirect has been specified. I have nothing to do.</MudAlert>
@@ -30,7 +31,7 @@
     else if (redirecting)
     {
         <MudAlert Severity="Severity.Success">You are being redirected to your intended destination now.</MudAlert>
-        <MudProgressLinear Color="Color.Success" Indeterminate Class="mb-4" />
+        <MudProgressLinear Color="Color.Success" Indeterminate Class="mb-2" />
         <MudTextM3>Or, just click here: <MudLink Href="@redirectLocation">@redirectLocation</MudLink></MudTextM3>
     }
 </MudContainer>

@@ -1,6 +1,24 @@
 @page "/"
 
 <PageTitle>PlumbBuddy</PageTitle>
-<MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
-
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-6">
+    <MudCarousel TData="object" AutoCycle EnableSwipeGesture ShowArrows ShowBullets Class="mud-width-full rounded" Style="height: calc(100vh - 190px);">
+        <MudCarouselItem Color="Color.Success">
+            <div class="d-flex" style="height: 100%">
+            </div>
+        </MudCarouselItem>
+        <MudCarouselItem Color="Color.Primary">
+            <div class="d-flex" style="height: 100%">
+            </div>
+        </MudCarouselItem>
+        <MudCarouselItem Color="Color.Tertiary">
+            <div class="d-flex" style="height: 100%">
+            </div>
+        </MudCarouselItem>
+    </MudCarousel>
+    <MudGrid Justify="Justify.Center" Class="mt-1">
+        <MudItem>
+            <MudAlert Icon="@MaterialDesignIcons.Normal.Application">The current version of PlumbBuddy is <strong>0.1.24</strong>.</MudAlert>
+        </MudItem>
+    </MudGrid>
 </MudContainer>

@@ -16,18 +16,17 @@
     <MudAppBar>
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="HandleMainMenuOnClick" />
         <MudImage Src="/img/PlumbBuddyLogo.svg" Elevation="2" Width="48" Height="48" ObjectFit="ObjectFit.Fill" ObjectPosition="ObjectPosition.Center" />
-        <MudTextM3 Typo="TypoM3.Title" Class="ml-3">PlumbBuddy.app</MudTextM3>
         <MudSpacer />
-        <MudTooltip Text="Download PlumbBuddy" Color="Color.Success" Arrow>
+        <MudTooltip Text="Download" Color="Color.Success" Arrow>
             <MudIconButton Icon="@MaterialDesignIcons.Normal.Download" Color="Color.Success" Href="/download" />
         </MudTooltip>
-        <MudTooltip>
+        <MudTooltip Text="Features" Color="Color.Primary" Arrow>
             <MudIconButton Icon="@MaterialDesignIcons.Normal.FeatureSearch" Color="Color.Primary" Href="/features" />
         </MudTooltip>
-        <MudTooltip>
+        <MudTooltip Text="Source Code" Color="Color.Secondary" Arrow>
             <MudIconButton Icon="@MaterialDesignIcons.Normal.SourceRepository" Color="Color.Secondary" Href="https://github.com/Llama-Logic" Target="_blank" />
         </MudTooltip>
-        <MudTooltip>
+        <MudTooltip Text="Community Services" Color="Color.Tertiary" Arrow>
             <MudIconButton Icon="@MaterialDesignIcons.Normal.Offer" Color="Color.Tertiary" Href="/community-services" />
         </MudTooltip>
     </MudAppBar>

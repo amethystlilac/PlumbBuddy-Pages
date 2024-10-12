@@ -1,7 +1,12 @@
-﻿namespace PlumbBuddyPages.Pages;
+namespace PlumbBuddyPages.Pages;
 
 partial class Redirect
 {
+    readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
+    [
+        new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
+        new("Redirect", "/redirect", icon: MaterialDesignIcons.Normal.Share)
+    ];
     bool loadingRedirects;
     bool loadingRedirectsFailed;
     bool noRedirect;
