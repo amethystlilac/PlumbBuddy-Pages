@@ -13,7 +13,7 @@
 <div style="background-image: url(/img/Cloudy.svg); background-position: center; background-size: cover; height: 100vh; left: 0; overflow: hidden; opacity: .15; position: fixed; top: 0; width: 100vw; z-index: -10;"></div>
 
 <MudLayout>
-    <MudAppBar>
+    <MudAppBar Fixed>
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="HandleMainMenuOnClick" />
         <MudImage Src="/img/PlumbBuddyLogo.svg" Elevation="2" Width="48" Height="48" ObjectFit="ObjectFit.Fill" ObjectPosition="ObjectPosition.Center" />
         <MudSpacer />
@@ -34,6 +34,13 @@
         <MainMenu />
     </MudDrawer>
     <MudMainContent>
-        @Body
+        <div class="relative" style="height: calc(100vh - 88px);">
+            @Body
+            <MudContainer MaxWidth="MaxWidth.Large" Class="absolute" Style="left: 0; right: 0; bottom: 0; margin: 0 auto;">
+                <MudDivider Class="my-2" />
+                <MudTextM3 Typo="TypoM3.Label" Align="Align.Center">This site is not affiliated with nor endorsed by Maxis or Electronic Arts, Inc.</MudTextM3>
+                <MudTextM3 Typo="TypoM3.Label" Align="Align.Center"><MudLink Typo="Typo.caption" Href="https://help.ea.com/en-gb/help/the-sims/the-sims-4/mods-and-the-sims-4-game-updates/" Target="_blank">EA Custom Content Policy</MudLink> • <MudLink Typo="Typo.caption" Href="https://www.ea.com/games/the-sims/the-sims-4/download" Target="_blank">Play The Sims 4 for Free!</MudLink></MudTextM3>
+            </MudContainer>
+        </div>
     </MudMainContent>
 </MudLayout>
