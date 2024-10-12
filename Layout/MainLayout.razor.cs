@@ -7,12 +7,12 @@ partial class MainLayout
         {
             PaletteLight = new PaletteLight()
             {
-                Primary = "#00cfefff",
+                Primary = "#00a2ffff",
                 Tertiary = "#74c044ff"
             },
             PaletteDark = new PaletteDark()
             {
-                Primary = "#00cfefff",
+                Primary = "#00a2ffff",
                 Tertiary = "#74c044ff"
             }
         };
