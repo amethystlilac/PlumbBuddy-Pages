@@ -38,4 +38,9 @@
       <EmbeddedResource Include="Resources\**" />
     </ItemGroup>
 
+    <Target Name="UpdateIndexHtmlVersion" AfterTargets="Publish">
+        <Message Text="Updating version number in published index.html" Importance="high" />
+        <Exec Command="pwsh -File UpdateVersion.ps1 -publishDir $(PublishDir)" />
+    </Target>
+
 </Project>
