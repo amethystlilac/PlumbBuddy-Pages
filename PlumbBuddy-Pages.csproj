@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>PlumbBuddyPages</RootNamespace>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="Controls\" />
         <Folder Include="Properties\" />
     </ItemGroup>
 
@@ -26,6 +28,14 @@
         <Content Remove="site\**" />
         <EmbeddedResource Remove="site\**" />
         <None Remove="site\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Resources\**" />
     </ItemGroup>
 
 </Project>

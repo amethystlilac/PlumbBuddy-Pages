@@ -1,0 +1,13 @@
+.background {
+    background-image: url(/img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    left: 0;
+    opacity: .1;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -10;
+}

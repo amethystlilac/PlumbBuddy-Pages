@@ -1,4 +1,4 @@
-﻿namespace PlumbBuddy_Pages.Layout;
+namespace PlumbBuddyPages.Layout;
 
 partial class MainLayout
 {
@@ -31,6 +31,20 @@ partial class MainLayout
         await base.OnInitializedAsync();
         SetPreferredColorScheme(await JSRuntime.InvokeAsync<string>("getPreferredColorScheme"));
         await JSRuntime.InvokeVoidAsync("subscribeToPreferredColorSchemeChanges", DotNetObjectReference.Create(this));
+
+        var lastInitialized = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "lastInitialized");
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", "lastInitialized", DateTimeOffset.Now.ToString());
+        if (string.IsNullOrWhiteSpace(lastInitialized))
+            Snackbar.Add("We use cookies to improve your experience. If you don't consent, we'll kindly direct you to the EU's website to file your complaint. 🍪", Severity.Info, config =>
+            {
+                config.Action = "Complain";
+                config.Onclick = snackbar =>
+                {
+                    NavigationManager.NavigateTo("https://www.edpb.europa.eu/about-edpb/about-edpb/members_en");
+                    return Task.CompletedTask;
+                };
+                config.RequireInteraction = true;
+            });
     }
 
     void SetPreferredColorScheme(string colorScheme) =>

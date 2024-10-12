@@ -1,8 +1,9 @@
-﻿@page "/redirect"
+@page "/redirect"
 @inject HttpClient HttpClient
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
 
+<PageTitle>Redirect</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudTextM3 Typo="TypoM3.Headline" Class="mb-2">Redirect</MudTextM3>
     @if (noRedirect)

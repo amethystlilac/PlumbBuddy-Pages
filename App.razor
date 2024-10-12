@@ -1,12 +1,20 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
-        <PageTitle>Not found</PageTitle>
+        <PageTitle>Page Not Found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+            <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+                <MudTextM3 Typo="TypoM3.Headline" Class="mb-2">Page Not Found</MudTextM3>
+                <InlineMarkdown>
+                    > Llama lost its way,
+                    > Plumbob flickers, page not found—
+                    > Mods wait patiently.
+                </InlineMarkdown>
+                <MudAlert Severity="Severity.Info">You can open my menu to try to find what you're looking for, or <MudLink Href="/">click here</MudLink> to go to my landing page.</MudAlert>
+            </MudContainer>
         </LayoutView>
     </NotFound>
 </Router>

@@ -1,6 +1,5 @@
-﻿global using Microsoft.AspNetCore.Components;
-global using Microsoft.AspNetCore.Components.Rendering;
-global using Microsoft.AspNetCore.Components.RenderTree;
+global using Bromix.MudBlazor.MaterialDesignIcons;
+global using Microsoft.AspNetCore.Components;
 global using Microsoft.AspNetCore.Components.Web;
 global using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 global using Microsoft.AspNetCore.WebUtilities;
@@ -9,5 +8,5 @@ global using Microsoft.JSInterop;
 global using MudBlazor;
 global using MudBlazor.Services;
 global using MudExtensions.Services;
-global using System.Diagnostics.CodeAnalysis;
 global using System.Net.Http.Json;
+global using System.Reflection;

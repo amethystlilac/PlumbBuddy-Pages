@@ -1,5 +1,7 @@
-﻿@inherits LayoutComponentBase
+@inherits LayoutComponentBase
 @inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject ISnackbar Snackbar
 
 <MudThemeProvider DefaultScrollbar="true" IsDarkMode="@isDarkMode" Theme="@Theme" />
 <MudPopoverProvider />
@@ -8,13 +10,16 @@
 <MudScrollbar Color="info" HoverColor="primary" TrackColor="#27272f30" Width="12" />
 <MudTypographyProvider />
 
+<div class="background"></div>
+
 <MudLayout>
     <MudAppBar>
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="HandleMainMenuOnClick" />
         <MudImage Src="/img/PlumbBuddyLogo.svg" Elevation="2" Width="48" Height="48" ObjectFit="ObjectFit.Fill" ObjectPosition="ObjectPosition.Center" />
+        <MudTextM3 Typo="TypoM3.Title" Class="ml-3">PlumbBuddy.app</MudTextM3>
     </MudAppBar>
-    <MudDrawer @bind-Open="@isDrawerOpen">
-
+    <MudDrawer @bind-Open="@isDrawerOpen" Class="overflow-x-hidden">
+        <MainMenu />
     </MudDrawer>
     <MudMainContent>
         @Body

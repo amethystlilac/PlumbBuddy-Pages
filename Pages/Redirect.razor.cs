@@ -1,4 +1,4 @@
-﻿namespace PlumbBuddy_Pages.Pages;
+﻿namespace PlumbBuddyPages.Pages;
 
 partial class Redirect
 {
