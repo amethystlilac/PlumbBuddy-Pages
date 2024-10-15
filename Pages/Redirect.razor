@@ -26,12 +26,12 @@
     }
     else if (redirectNotFound)
     {
-        <MudAlert Severity="Severity.Error">I'm sorry, but I couldn't find a redirect by that name in my catalog.</MudAlert>
+        <Display404 />
     }
     else if (redirecting)
     {
         <MudAlert Severity="Severity.Success">You are being redirected to your intended destination now.</MudAlert>
         <MudProgressLinear Color="Color.Success" Indeterminate Class="mb-2" />
-        <MudTextM3>Or, just click here: <MudLink Href="@redirectLocation">@redirectLocation</MudLink></MudTextM3>
+        <MudTextM3>Or, just click here: <MudLink Href="@redirectLocation?.ToString()">@redirectLocation?.ToString()</MudLink></MudTextM3>
     }
 </MudContainer>

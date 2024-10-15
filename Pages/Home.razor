@@ -16,18 +16,44 @@
             </div>
         </MudCarouselItem>
     </MudCarousel>
-    <MudGrid Justify="Justify.Center" Spacing="0">
-        <MudItem>
-            <MudAlert Icon="@MaterialDesignIcons.Normal.Application">Current version: <strong>0.1.24</strong></MudAlert>
-        </MudItem>
-        <MudItem>
-            <MudAlert Severity="Severity.Warning">Lifecycle stage: <strong>Pre-Alpha</strong></MudAlert>
-        </MudItem>
-        <MudItem>
-            <MudAlert Severity="Severity.Success">Windows release status: <strong>Okay</strong></MudAlert>
-        </MudItem>
-        <MudItem>
-            <MudAlert Severity="Severity.Success">macOS release status: <strong>Okay</strong></MudAlert>
-        </MudItem>
+    <MudGrid Justify="Justify.Center" Spacing="4" Class="align-center mt-n1">
+        <MudHidden Breakpoint="Breakpoint.MdAndDown">
+            <MudItem>
+                <MudAlert Icon="@MaterialDesignIcons.Normal.Application">Current version: <strong>0.1.25</strong></MudAlert>
+            </MudItem>
+            <MudItem>
+                <MudAlert Severity="Severity.Warning">Lifecycle stage: <strong>Pre-Alpha</strong></MudAlert>
+            </MudItem>
+        </MudHidden>
+        <MudHidden Breakpoint="Breakpoint.MdAndDown" Invert>
+            <MudItem>
+                <MudAlert Icon="@MaterialDesignIcons.Normal.Application"><strong>0.1.25</strong></MudAlert>
+            </MudItem>
+            <MudItem>
+                <MudBadge Icon="@MaterialDesignIcons.Normal.Alert" Color="Color.Warning" Origin="Origin.CenterRight" Overlap>
+                    <MudIcon Icon="@MaterialDesignIcons.Normal.Alpha" Size="Size.Large" />
+                </MudBadge>
+            </MudItem>
+        </MudHidden>
+        <MudHidden Breakpoint="Breakpoint.LgAndDown">
+            <MudItem>
+                <MudAlert Severity="Severity.Success">Windows release status: <strong>Okay</strong></MudAlert>
+            </MudItem>
+            <MudItem>
+                <MudAlert Severity="Severity.Success">macOS release status: <strong>Okay</strong></MudAlert>
+            </MudItem>
+        </MudHidden>
+        <MudHidden Breakpoint="Breakpoint.LgAndDown" Invert>
+            <MudItem>
+                <MudBadge Icon="@MaterialDesignIcons.Normal.Check" Color="Color.Success" Origin="Origin.CenterRight" Overlap>
+                    <MudIcon Icon="@MaterialDesignIcons.Normal.Microsoft" Size="Size.Large" />
+                </MudBadge>
+            </MudItem>
+            <MudItem>
+                <MudBadge Icon="@MaterialDesignIcons.Normal.Check" Color="Color.Success" Origin="Origin.CenterRight" Overlap>
+                    <MudIcon Icon="@MaterialDesignIcons.Normal.Apple" Size="Size.Large" />
+                </MudBadge>
+            </MudItem>
+        </MudHidden>
     </MudGrid>
 </MudContainer>
