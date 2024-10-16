@@ -1,4 +1,4 @@
-namespace PlumbBuddyPages;
+namespace PlumbBuddyPages.Models;
 
 public static class Yaml
 {

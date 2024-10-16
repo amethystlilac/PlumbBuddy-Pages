@@ -1,14 +1,8 @@
+
 namespace PlumbBuddyPages.Pages;
 
 partial class Redirect
 {
-    class PackDescription
-    {
-        public required string EnglishName { get; set; }
-        public required string EaStub { get; set; }
-        public required string SteamStub { get; set; }
-    }
-
     readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
     [
         new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),

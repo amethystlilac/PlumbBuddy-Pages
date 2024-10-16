@@ -1,7 +1,7 @@
 using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 
-namespace PlumbBuddyPages;
+namespace PlumbBuddyPages.Models;
 
 sealed class YamlUriConverter :
     IYamlTypeConverter
