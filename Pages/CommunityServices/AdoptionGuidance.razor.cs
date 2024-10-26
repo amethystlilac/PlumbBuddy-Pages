@@ -18,7 +18,7 @@ partial class AdoptionGuidance
           * Are they creating under a new name?
           * If it's a mod that rarely breaks, the creator might appear out of nowhere to update it and then vanish into obscurity again.
           * Or maybe they announced their retirement/hiatus.
-          * I'm sorry to say that if a modder insists their mod isn't broken but you believe it is or that it needs an update even if not "broken,"'" then it's not orphaned. Make sure to check the comments to see if they're responding to people.
+          * I'm sorry to say that if a modder insists their mod isn't broken but you believe it is or that it needs an update even if not "broken," then it's not orphaned. Make sure to check the comments to see if they're responding to people.
         * Have you checked the original creator's TOU, if one exists?
           * Some people might not want their mods adopted, or they might be fine with their mod being updated as is but not with things being altered or added to.
           * Be especially cautious if you plan to alter its current function drastically, incorporate it into another mod, or greatly expand on or reduce its scope.
