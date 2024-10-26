@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PlumbBuddy-Pages",
   "resources": {
-    "hash": "sha256-62vLe4rLJ6OJS3rLmsaRdj3DNVGW+6P+1Ky7ptMGzgY=",
+    "hash": "sha256-baSmxkEtaIH2etLeLVzakPu9Kw9qhpmy+qr9XEYE4bw=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.q5m9cafb5o.js": "sha256-iWKn4XdtKO29F4Zm9V4yT5HB86Qtm/XP2Ulqp7ryhG8="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "Bromix.MudBlazor.MaterialDesignIcons.wasm": "sha256-teFbbqaXJoVzIYGotTTs1OskElnXxM9ERgjIVtc/wxg=",
-      "CodeBeam.MudBlazor.Extensions.wasm": "sha256-NTKPoNCB/t/0yhHZlBpM9IkNiYvssZzT/4Y686QNZmQ=",
+      "CodeBeam.MudBlazor.Extensions.wasm": "sha256-brJCZuotgowbQ2KXd2nSdhz4CwgEicrtykIxUGC4N3o=",
       "CsvHelper.wasm": "sha256-C+c9R05nmsSkIe8W7X3Zm/Yxg23hvBLxDZAKLIzBRlY=",
       "Humanizer.wasm": "sha256-4NbSboZzzP9nikRtXapUZNzOyITt7ht9TNqCIQHr5OE=",
       "Markdig.wasm": "sha256-Jv9S5coLP28fMUd+sd72uOfd5e3pWx+IFMRNtR/lykc=",
@@ -40,9 +40,9 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-ua1wkm/TaUVHLRtctUs/Y1edQGwgGt4ABa/len7PZng=",
       "Microsoft.JSInterop.wasm": "sha256-kv+cG6OCwt0AJP8yH7YtODxnMt56tbwF7FIE5Ps6BdI=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-r/+bWAAxKn2+Wu3MRYDXvKEbHjLNuptflgNuNhQdK6w=",
-      "MudBlazor.Markdown.wasm": "sha256-JBdofILr2RvT5eDq6NMIVAhZsHEylWagUVprQqRnyNI=",
-      "MudBlazor.wasm": "sha256-8mFZ0DhkdpKmC4IBhEmz6EFzYmfEB936RAwFLQe+OXo=",
-      "PlumbBuddy-Pages.wasm": "sha256-PCojg9xQ15e4APTiQb6+0rQR3r2pK5pgUTRUjZ7Yf5U=",
+      "MudBlazor.Markdown.wasm": "sha256-auOwsD9T5VWK2Sp7yqwAeqGPIQnPBm5sNnKTa3u8q6A=",
+      "MudBlazor.wasm": "sha256-ReKMXbV5XT9Zsuku4Mmi74d4X4nziVnLIIApVX7Wz9g=",
+      "PlumbBuddy-Pages.wasm": "sha256-U9P0ur8cLsALiIW0qyE0KdJbqP/L6IoulpI/0KJNktc=",
       "System.Collections.Concurrent.wasm": "sha256-kHhhlucnqrSq4vcn6CBzf1ysBesHmwhI5id/2xBtcUM=",
       "System.Collections.Immutable.wasm": "sha256-LFbR5iAMgSNBQkvTerIUyXfEmhoQV9oWTaYigeJvgKU=",
       "System.Collections.NonGeneric.wasm": "sha256-AsYVp1FCWEKG5FtX91fxTwydYt4fzpqVLGCjRWQ/Ko8=",

@@ -1,0 +1,53 @@
+@page "/community-services/adoption-guidance"
+
+<PageTitle>Adoption Guidance</PageTitle>
+<MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
+    <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
+    <MudDivider Class="my-2" />
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12">
+            <MudTextM3>
+                Hi there!
+                I hear you’re looking into adopting a mod that had been sadly orphaned.
+                Maybe the creator retired, or maybe they’ve taken an extended hiatus and one (or more) of their mods broke, and you’re stepping up.
+                Thanks!
+            </MudTextM3>
+        </MudItem>
+        <MudItem xs="12">
+            <MudTextM3>
+                If this is your first time adopting a mod, there are a few things you’ll want to consider as an upstanding member of the TS4 modding community.
+                For example:
+            </MudTextM3>
+        </MudItem>
+        <MudItem xs="12">
+            <MudMarkdown Value="@bulletListMarkdown" />
+        </MudItem>
+        <MudItem xs="12">
+            <MudTextM3>
+                If you’re unsure, you might want to ask some other modders for advice.
+                A good place to do that is <MudLink Href="https://discord.com/invite/creator-musings-605863047654801428" Target="_blank">the Creator Musings Discord server</MudLink>.
+            </MudTextM3>
+        </MudItem>
+        <MudItem>
+            <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/6VAF1YThcbc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+            </iframe>
+        </MudItem>
+        <MudFlexBreak />
+        <MudItem>
+            <MudTextM3 Typo="TypoM3.Label" Align="Align.Center">
+                <em>On the Creator Musings Discord server, you may get to meet the Lady MizoreYukii,<br />just like Sir Ian McKellen did when he first adopted an orphaned Sims 4 mod!</em>
+            </MudTextM3>
+        </MudItem>
+        <MudItem xs="12">
+            <MudTextM3>
+                Please make sure to credit the original creator, and to leave their name intact in the manifest when you add your own.
+                If the original creator had a redirect set up on PlumbBuddy.app (this website), <MudLink Href="/community-services/redirect-hosting">contact us</MudLink> when you've published your update so that we can update that too!
+            </MudTextM3>
+        </MudItem>
+    </MudGrid>
+</MudContainer>
