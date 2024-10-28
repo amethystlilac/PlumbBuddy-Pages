@@ -1,26 +1,16 @@
 namespace PlumbBuddyPages.Pages;
 
-partial class Download
+partial class Home
 {
-    readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
-    [
-        new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
-        new("Download", "/download", icon: MaterialDesignIcons.Normal.Download)
-    ];
-    bool isInitializationComplete;
-    ReleaseAsset? macOSOptimalReleaseAsset;
-    Release? optimalRelease;
-    ReleaseAsset? windowsOptimalReleaseAsset;
-    string os = string.Empty;
+    string currentVersion = "Checking";
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         await base.OnAfterRenderAsync(firstRender);
         if (firstRender)
         {
-            os = await JSRuntime.InvokeAsync<string>("getOperatingSystem");
             var releases = await new GitHubClient(new ProductHeaderValue("PlumbBuddy.app")).Repository.Release.GetAll("Llama-Logic", "PlumbBuddy");
-            optimalRelease = releases
+            var currentMostStableRelease = releases
                 .OrderBy(release => release.TagName switch
                 {
                     string alphaReleaseTagName when alphaReleaseTagName.StartsWith("release/") => 0,
@@ -31,9 +21,7 @@ partial class Download
                 })
                 .ThenByDescending(release => release.PublishedAt ?? release.CreatedAt)
                 .FirstOrDefault();
-            windowsOptimalReleaseAsset = optimalRelease?.Assets.FirstOrDefault(a => a.Name.EndsWith(".msix"));
-            macOSOptimalReleaseAsset = optimalRelease?.Assets.FirstOrDefault(a => a.Name.EndsWith(".zip"));
-            isInitializationComplete = true;
+            currentVersion = currentMostStableRelease?.TagName[(currentMostStableRelease.TagName.IndexOf("/") + 1)..] ?? "Unknown";
             StateHasChanged();
         }
     }

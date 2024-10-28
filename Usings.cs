@@ -8,6 +8,7 @@ global using Microsoft.JSInterop;
 global using MudBlazor;
 global using MudBlazor.Services;
 global using MudExtensions.Services;
+global using Octokit;
 global using PlumbBuddyPages.Models;
 global using System.Diagnostics.CodeAnalysis;
 global using System.Reflection;

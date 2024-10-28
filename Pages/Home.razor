@@ -19,15 +19,15 @@
     <MudGrid Justify="Justify.Center" Spacing="4" Class="align-center mt-n1">
         <MudHidden Breakpoint="Breakpoint.MdAndDown">
             <MudItem>
-                <MudAlert Icon="@MaterialDesignIcons.Normal.Application">Current version: <strong>0.1.26</strong></MudAlert>
+                <MudAlert Icon="@MaterialDesignIcons.Normal.Application">Current version: <strong>@currentVersion</strong></MudAlert>
             </MudItem>
             <MudItem>
-                <MudAlert Severity="Severity.Warning">Lifecycle stage: <strong>Pre-Alpha</strong></MudAlert>
+                <MudAlert Severity="Severity.Warning">Lifecycle stage: <strong>Alpha</strong></MudAlert>
             </MudItem>
         </MudHidden>
         <MudHidden Breakpoint="Breakpoint.MdAndDown" Invert>
             <MudItem>
-                <MudAlert Icon="@MaterialDesignIcons.Normal.Application"><strong>0.1.26</strong></MudAlert>
+                <MudAlert Icon="@MaterialDesignIcons.Normal.Application"><strong>@currentVersion</strong></MudAlert>
             </MudItem>
             <MudItem>
                 <MudBadge Icon="@MaterialDesignIcons.Normal.Alert" Color="Color.Warning" Origin="Origin.CenterRight" Overlap>
