@@ -1,0 +1,191 @@
+"Sims After Dark":
+  logo_media: https://simsafterdark.com/wp-content/uploads/2023/06/SAD_Placeholder_Plumbob_square.png
+  description:
+    "": |
+      Join the Sims After Dark Discord Server to get help with your Last Exception errors.
+  ask_for_help_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
+          Please make sure to read ALL rules when you join.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
+      - label: Select a Channel
+        icon: MessageText
+        content: |
+          Under the `SUPPORT HUB 🤯` category on the left side of Discord, click on the `#📌〢game-and-mod-support` channel.
+      - label: Upload your Game Version file
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter. The file will disappear, and our friendly bot, BellaBae&, will assign you roles based on your game version and operating system.
+        show_game_version_file_highlighter: true
+      - label: Ask for help
+        icon: Help
+        content: |
+          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+  supported_text_file_patterns:
+    - pattern: ^LastException.*\.txt$
+      ignore_case: true
+    - pattern: ^mc_lastexception\.html$
+      ignore_case: true
+    - pattern: ^BE\-ExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^BE\-UIExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^LastUIException.*\.txt$
+      ignore_case: true
+  text_file_submission_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
+      - label: Select a Channel
+        icon: Robot
+        content: |
+          Find the `##📌〢error-file-support` text channel under the `SUPPORT HUB 🤯` category on the left side of Discord.
+      - label: Upload your error file
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and our friendly bot, BellaBae&, will respond.<br /><br />If the bot does not respond, it means she does not know the error, that you have too many files for her to scan, or that your file is too big for her to scan; please refrain from deleting and resending the file multiple times or sending it in multiple channels. Please wait for a support team member to help you.<br /><br />Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+        show_text_file_highlighter: true
+"Deaderpool":
+  logo_media: https://deaderpool-mccc.com/images/newlogo.svg
+  description:
+    "": |
+      Join the Deaderpool Discord Server for general and MCCC-related support.
+  ask_for_help_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity. After you join, there is a full, current list of banned content available in the `#server-info` channel under the `🛑START HERE!🛑` category.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/MCCC) to join the Deaderpool Discord server.
+      - label: Go to Purgatory
+        icon: FireCircle
+        content: |
+          Find the `#purgatory` channel under the `🛑START HERE!🛑` category on the left side of Discord.
+      - label: Upload your Game Version File
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, and press enter.
+        show_game_version_file_highlighter: true
+      - label: Select a Channel
+        icon: MessageText
+        content: |
+          Under the `💥HELP CENTER💥` category on the left side of Discord, click on the `#general-support` channel.
+      - label: Ask for help
+        icon: Help
+        content: |
+          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+  supported_text_file_patterns:
+    - pattern: ^LastException.*\.txt$
+      ignore_case: true
+    - pattern: ^mc_lastexception\.html$
+      ignore_case: true
+    - pattern: ^BE\-ExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^BE\-UIExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^LastUIException.*\.txt$
+      ignore_case: true
+  text_file_submission_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity. After you join, there is a full, current list of banned content available in the `#server-info` channel under the `🛑START HERE!🛑` category.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/MCCC) to join the Deaderpool Discord server.
+      - label: Go to Purgatory
+        icon: FireCircle
+        content: |
+          Find the `#purgatory` channel under the `🛑START HERE!🛑` category on the left side of Discord.
+      - label: Upload your Game Version File
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, and press enter.
+        show_game_version_file_highlighter: true
+      - label: Select a Channel
+        icon: MessageText
+        content: |
+          Under the `💥HELP CENTER💥` category on the left side of Discord, click on the `#error-support` channel.
+      - label: Upload your error file
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and wait for a support team member to help you.<br /><br />Please refrain from deleting and resending the file multiple times or sending it in multiple channels.
+        show_text_file_highlighter: true
+"TwistedMexi on Patreon":
+  logo_media: https://twistedmexi.com/resources/images/logo.png
+  description:
+    "": |
+      Join Twisted Mexi's Discord Server for help with Better Exceptions reports, Twisted Mexi mods, and general support.
+  ask_for_help_steps:
+    "":
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](https://discord.gg/ZJ9QFPUCYb) to join the TwistedMexi on Patreon Discord server.
+      - label: Read the Rules
+        icon: PoliceBadge
+        content: |
+          Find the `#server_rules` channel on the left side of Discord. Reading and agreeing to the rules is required before you can ask for help.
+      - label: Select a Channel
+        icon: MessageText
+        content: |
+          Under the `CHAT & SUPPORT` category on the left side of Discord, click on the `#support_questions` channel.
+      - label: Ask for help
+        icon: Help
+        content: |
+          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+  supported_text_file_patterns:
+    - pattern: ^LastException.*\.txt$
+      ignore_case: true
+    - pattern: ^mc_lastexception\.html$
+      ignore_case: true
+    - pattern: ^BE\-ExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^BE\-UIExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^LastUIException.*\.txt$
+      ignore_case: true
+  text_file_submission_steps:
+    "":
+       - label: Join the Discord
+         icon: OpenInApp
+         content: |
+           [Click here](https://discord.gg/ZJ9QFPUCYb) to join the TwistedMexi on Patreon Discord server.
+       - label: Read the Rules
+         icon: PoliceBadge
+         content: |
+           Find the `#server_rules` channel on the left side of Discord. Reading and agreeing to the rules is required before you can ask for help.
+       - label: Select a Channel
+         icon: MessageText
+         content: |
+           Under the `CHAT & SUPPORT` category on the left side of Discord, click on the `#be_exceptionreport_here` channel.
+       - label: Upload your error file
+         icon: FileUpload
+         content: |
+           Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and our friendly bot, BellaBae&, will respond.<br /><br />If the bot does not respond, it means she does not know the error, that you have too many files for her to scan, or that your file is too big for her to scan; please refrain from deleting and resending the file multiple times or sending it in multiple channels.<br /><br />Please wait for a support team member to help you. Please remember that our support team is made up of **volunteers**. Allocate at least 15 minutes for receiving help, but if no one's available, you may need to try again later.
+         show_text_file_highlighter: true
