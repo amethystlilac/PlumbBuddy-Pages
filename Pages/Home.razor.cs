@@ -21,7 +21,7 @@ partial class Home
                 })
                 .ThenByDescending(release => release.PublishedAt ?? release.CreatedAt)
                 .FirstOrDefault();
-            currentVersion = currentMostStableRelease?.TagName[(currentMostStableRelease.TagName.IndexOf("/") + 1)..] ?? "Unknown";
+            currentVersion = currentMostStableRelease?.TagName[(currentMostStableRelease.TagName.IndexOf('/', StringComparison.Ordinal) + 1)..] ?? "Unknown";
             StateHasChanged();
         }
     }
