@@ -8,12 +8,14 @@ partial class MainLayout
             PaletteLight = new PaletteLight()
             {
                 Primary = "#00a2ffff",
-                Tertiary = "#74c044ff"
+                Tertiary = "#74c044ff",
+                Warning = "#d98806ff"
             },
             PaletteDark = new PaletteDark()
             {
                 Primary = "#00a2ffff",
-                Tertiary = "#74c044ff"
+                Tertiary = "#74c044ff",
+                Warning = "#d98806ff"
             }
         };
 
