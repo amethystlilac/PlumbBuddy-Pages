@@ -1,8 +1,162 @@
 @page "/features/mod-health-scans"
 
 <PageTitle>Mod Health Scans</PageTitle>
+<MudAnimate Selector=".plumbbuddy-is-thinking" AnimationType="AnimationType.Fade" Value="1" ValueSecondary="0.5" Duration="0.5" Infinite="true" AnimationTiming="AnimationTiming.EaseOut" AnimationDirection="AnimationDirection.AlternateReverse" AnimationFillMode="AnimationFillMode.Forwards" />
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12">
+            <MudTextM3>
+                PlumbBuddy is <strong>always</strong> watching your game and Mods folder, on the look-out for anything to tell you about... <em>and help you with</em>.
+            </MudTextM3>
+        </MudItem>
+        <MudFlexBreak />
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/switches.webp" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Cog" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Ensuring Optimal Game Options</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            If you have package mods installed, but they are disabled in The Sims 4, PlumbBuddy will tell you and offer to change the option setting for you.
+                            If you have script mods installed, but they are disabled in The Sims 4, PlumbBuddy will—you guessed it—tell you and offer to change the option setting for you.
+                        </MudTextM3>
+                        <MudTextM3>
+                            And if that persky <strong>Show Mods List at Startup</strong> "feature" of the game is enabled, PlumbBuddy will warn you about that and offer to turn it off for you, helping you recover valuable game start-up time.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions Class="justify-center">
+                    <MudStack Spacing="4" Row Class="ma-2" Style="opacity: .5;">
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.PackageVariantClosedRemove" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.SourceBranchRemove" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.SpeedometerSlow" />
+                    </MudStack>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/messy_storage_room.jpeg" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.FolderWrench" Color="Color.Secondary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Secondary">Problems Found in your Mods folder</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            There are certain non-negotiable rules when it comes to installing mods in The Sims 4—regarding technicalities such as file-folder depth—and certain best practices on which the community universally agrees—e.g. don't put generic archive files in your Mods folder.
+                            PlumbBuddy knows these rules and practices.
+                            And it watches your Mods folder with an eye toward them.
+                            It will tell you when there's a change you ought to make—and in some cases, even offer to make it for you.
+                        </MudTextM3>
+                        <MudDivider />
+                        <MudTextM3>
+                            PlumbBuddy is also able to identify errors and exceptions logged in your User Data folder.
+                            If it finds any, it will guide you through the process of "taking your Sims 4 game to the doctor"—i.e. submitting the file to the Community Discord of your choice—if you want to know more about what went wrong.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions Class="justify-center">
+                    <MudStack Spacing="4" Row Class="ma-2" Style="opacity: .5;">
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.FolderArrowUpDown" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.FolderZip" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.ZipBox" />
+                        <MudIcon Icon="@MaterialDesignIcons.Outline.FolderZip" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.FileDocumentAlert" />
+                    </MudStack>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/sunlight.jpg" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.PackageVariantClosedPlus" Color="Color.Tertiary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Tertiary">Essentials You Are Missing</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            PlumbBuddy's first priorities are safety and stability.
+                            While <strong>it is <em>categorically</em> not a mod manager</strong>, it can and will make recommendations of mods to install.
+                            There are two reasons it will do this.
+                        </MudTextM3>
+                        <MudDivider />
+                        <MudTextM3 Typo="TypoM3.Title">
+                            General Game Safety and Stability
+                        </MudTextM3>
+                        <MudTextM3>
+                            Examples in this category include <MudLink Href="https://deaderpool-mccc.com/" Target="_blank">Deaderpool's MC Command Center</MudLink> and <MudLink Href="https://www.patreon.com/posts/98126153" Target="_blank">TwistedMexi's ModGuard</MudLink>.
+                        </MudTextM3>
+                        <MudDivider />
+                        <MudTextM3 Typo="TypoM3.Title">
+                            <em>Your Game's</em> Stability <em>in Particular</em>
+                        </MudTextM3>
+                        <MudTextM3>
+                            If the creator of a mod you've installed has specified that it requires a pack or another mod to work properly <em>and you don't have that installed</em>, PlumbBuddy will draw your attention to that fact and help you easily get that content into your game so the mod you've installed works as intended.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions Class="justify-center">
+                    <MudStack Spacing="4" Row Class="ma-2" Style="opacity: .5;">
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.PackageVariantClosedPlus" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.BagPersonalOff" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.BagPersonalTag" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.PuzzleRemove" />
+                    </MudStack>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/scan_hologram.jpeg" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.SyncAlert" Color="Color.Warning" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Warning">Advanced Game &amp; Mod Analysis</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudTextM3>
+                            Every time PlumbBuddy catalogs changes you've made in your Mods folder, you're going to briefly see this:
+                        </MudTextM3>
+                        <MudChip T="string" Icon="@MaterialDesignIcons.Normal.SelectCompare" Color="Color.Secondary" Class="plumbbuddy-is-thinking">
+                            <ChildContent>Analyzing Topography</ChildContent>
+                        </MudChip>
+                        <MudTextM3>
+                            This means PlumbBuddy is considering how the mod packages you have installed are overriding each others' resources.
+                            This is important because it tells PlumbBuddy whether a change that was just made has invalidated the game's cache, rendering it <strong>stale</strong>.
+                            A stale cache can be the cause of strange artifacts and glitches in the game's interface, so, accordingly, PlumbBuddy will alert you to the state of the cache—<em>and offer to clear it for you</em>.
+                        </MudTextM3>
+                        <MudDivider />
+                        <MudTextM3>
+                            Finally, some mods have complex installation requirements.
+                            Using manifests, creators can instruct PlumbBuddy on all the intricate details of those requirements.
+                            If they have done so, PlumbBuddy will double-check to ensure that their mod is installed in a correct manner.
+                            If it is not, PlumbBuddy will tell you the problems it found—along with links back to the creator's website, if you need it—so that you can make informed decisions in fixing the problem.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions Class="justify-center">
+                    <MudStack Spacing="4" Row Class="ma-2" Style="opacity: .5;">
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.FridgeAlert" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.TimelineAlert" />
+                        <MudIcon Icon="@MaterialDesignIcons.Normal.Fencing" />
+                    </MudStack>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
 </MudContainer>

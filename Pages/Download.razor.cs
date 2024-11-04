@@ -18,6 +18,7 @@ partial class Download
         await base.OnAfterRenderAsync(firstRender);
         if (firstRender)
         {
+            await Task.Delay(TimeSpan.FromSeconds(3));
             os = await JSRuntime.InvokeAsync<string>("getOperatingSystem");
             var releases = await new GitHubClient(new ProductHeaderValue("PlumbBuddy.app")).Repository.Release.GetAll("Llama-Logic", "PlumbBuddy");
             optimalRelease = releases

@@ -9,11 +9,36 @@
         @if (!isInitializationComplete)
         {
             <MudItem>
-                <MudTextM3>Checking with the GitHub repository to see what releases of PlumbBuddy are available for download...</MudTextM3>
+                <MudTextM3 Style="opacity: .5;">I think you want this version based on your computer's operating system:</MudTextM3>
             </MudItem>
             <MudFlexBreak />
+            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6">
+                <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Pulse" Width="76px" Height="76px" />
+                <MudStack AlignItems="AlignItems.Center" Spacing="2">
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="200px" Height="18px" />
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="300px" Height="16px" />
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="275px" Height="20px" />
+                </MudStack>
+            </MudStack>
+            <MudFlexBreak />
             <MudItem>
-                <MudProgressCircular Color="Color.Primary" Indeterminate="true" />
+                <MudTextM3 Style="opacity: .5;">But, if not that one, could it be...</MudTextM3>
+            </MudItem>
+            <MudFlexBreak />
+            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6">
+                <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Pulse" Width="76px" Height="76px" />
+                <MudStack AlignItems="AlignItems.Center" Spacing="2">
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="200px" Height="18px" />
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="300px" Height="16px" />
+                    <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="275px" Height="20px" />
+                </MudStack>
+            </MudStack>
+            <MudFlexBreak />
+            <MudItem>
+                <MudStack Row AlignItems="AlignItems.Center">
+                    <MudProgressCircular Color="Color.Primary" Indeterminate />
+                    <MudTextM3>Asking GitHub about recent PlumbBuddy releases...</MudTextM3>
+                </MudStack>
             </MudItem>
         }
         else
