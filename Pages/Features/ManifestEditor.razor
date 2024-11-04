@@ -4,5 +4,178 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12">
+            <MudTextM3>
+                <em>Finally</em>, Creators can make mods self-describing, identifying <strong>who</strong> made them, <strong>where</strong> they came from, and <strong>what</strong> they need.
+            </MudTextM3>
+        </MudItem>
+        <MudFlexBreak />
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.FileCertificate" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Select: Opening Your Mod in the Manifest Editor</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pt-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                Teach me about your mod so I can help players (and other creators) with it.
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                It will be <em>manifestly</em> awesome. 😏
+                            </MudTextM3>
+                            <MudGrid Justify="Justify.Center" Class="mb-4">
+                                <MudItem xs="10">
+                                    <MudTextM3 Typo="TypoM3.Body" Align="Align.Center" Class="mt-4">
+                                        Let's start by selecting <strong>any</strong> file for your mod.
+                                    </MudTextM3>
+                                    <MudTextM3 Typo="TypoM3.Body" Align="Align.Center" Class="mt-4">
+                                        It doesn’t matter if it’s a package or a script archive.
+                                        If there's more than one file for your mod, you can just pick the most prominent one, the first one you made, the one that’s first alphabetically, or pick one at random. Doesn’t really matter 🤷.
+                                        You'll be able to specify any remaining files on the next step.
+                                    </MudTextM3>
+                                </MudItem>
+                            </MudGrid>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Tag" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Details: The Big Picture Stuff</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                Alright, let's get started nice and easy... 😅
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                📝 How about we cover the basics first?
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.FileCheck" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Components: Got Multiple Files? That's Okay.</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                Here are all the files we currently consider a part of your mod.
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                🏗️ Are we leaving anything out?
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Asterisk" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Requirements: Need Packs? Other Mods? Let Me Know.</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                🤔 We're all searching for fulfillment at the end of the day.
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                What does your mod <strong>need</strong> to be happy? 😊
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Offer" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Cross-Mod: Maybe Other Mods Will Need Yours!</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                🕹️ Entertaining the player ourselves isn't the only way we can bring value.
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                Sometimes it's helping others shine. 💁‍♀️
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.BarcodeScan" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Hashing: Decide the Level of Customization You'll Allow</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                Some players like to alter packages for their own purposes. 📦
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                🔐 We should talk about what you're comfortable with.
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12">
+            <MudCard>
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.FileSign" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Confirm: One Last Double-Check of What You've Chosen</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudStack AlignItems="AlignItems.Center" Spacing="0" Class="rounded mud-paper-outlined pa-4">
+                            <MudTextM3 Typo="TypoM3.Title" Align="Align.Center">
+                                📃 If I had any notes or concerns, I put them below. If the area's blank then... 🤷 no notes.
+                            </MudTextM3>
+                            <MudTextM3 Typo="TypoM3.Headline" Align="Align.Center">
+                                Click <MudChip T="string" Label="true" Color="Color.Tertiary" Size="Size.Large">FINISH</MudChip> to update the manifest in your mod files and they'll be ready to go. 🚀
+                            </MudTextM3>
+                        </MudStack>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
 </MudContainer>

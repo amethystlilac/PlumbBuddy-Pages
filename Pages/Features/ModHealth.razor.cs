@@ -1,11 +1,11 @@
 namespace PlumbBuddyPages.Pages.Features;
 
-partial class ModHealthScans
+partial class ModHealth
 {
     readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
     [
         new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
         new("Features", "/features", icon: MaterialDesignIcons.Normal.FeatureSearch),
-        new("Mod Health Scans", "/features/mod-health-scans", icon: MaterialDesignIcons.Normal.CubeScan)
+        new("Mod Health", "/features/mod-health", icon: MaterialDesignIcons.Normal.BottleTonicPlus)
     ];
 }
