@@ -4,5 +4,27 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12" md="6" lg="4">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/mod_health_scans.jpg" Height="200" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.CubeScan" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Mod Health Scans</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            PlumbBuddy is <strong>always</strong> watching your game and Mods folder, on the look-out for anything to tell you about... <em>and help you with</em>.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Href="/features/mod-health-scans" Color="Color.Primary" StartIcon="@MaterialDesignIcons.Normal.PageNext">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
 </MudContainer>
