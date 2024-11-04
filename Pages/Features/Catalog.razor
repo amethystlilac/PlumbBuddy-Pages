@@ -4,5 +4,135 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12">
+            <MudTextM3>
+                Manifests aren't <em>just</em> for me and the Mod Creators.
+                You get to see what they say, too!
+                And that can be <em>quite useful</em>.
+            </MudTextM3>
+        </MudItem>
+        <MudFlexBreak />
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/catalog_listing.jpg" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Puzzle" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">See a List of All Your Manifested Mods</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudTextM3>
+                            The Catalog prominently features a notice that only mods in which creators have included manifests will appear.
+                        </MudTextM3>
+                        <MudAlert Severity="Severity.Info">Mods appear in your Catalog when creators have included manifests in them.</MudAlert>
+                        <MudTextM3>
+                            But for those which <em>are manifested</em>, you get to see a nice and tidy list.
+                            Here's an example:
+                        </MudTextM3>
+                        <div class="overflow-y-auto rounded mud-paper-outlined" style="backdrop-filter: blur(10px); background-color: color-mix(in srgb, transparent, var(--mud-palette-surface) 60%); height: 215px; width: 80%; -webkit-backdrop-filter: blur(10px);">
+                            <MudList T="object">
+                                <MudListItem T="object" Text="FlowFit" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="Home and Land Company" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="MissBee's Child Aspirations Set updated" SecondaryText="Amethyst Lilac" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="Organic - Hair" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="Private Practice" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="R|E" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="SNBank" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="SNB - Bills" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                                <MudListItem T="object" Text="SNB - Financial Center" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
+                            </MudList>
+                        </div>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/checklist.jpg" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Details" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Drill Down Into the Details</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudTextM3>
+                            Once you have selected a mod from the list, the Catalog will show you basic details about the mod.
+                            That looks like this:
+                        </MudTextM3>
+                        <MudPaper Outlined Class="rounded px-8 py-4">
+                            <MudStack Spacing="1" AlignItems="AlignItems.Center">
+                                <MudStack Row AlignItems="AlignItems.Baseline">
+                                    <MudTextM3 Typo="TypoM3.Headline">Private Practice</MudTextM3>
+                                    <MudTextM3 Typo="TypoM3.Headline" Size="Size.Small">2.4.6.2</MudTextM3>
+                                </MudStack>
+                                <MudLink Href="https://simrealist.itch.io/private-practice-public" Target="_blank">https://simrealist.itch.io/private-practice-public</MudLink>
+                                <MudStack Row>
+                                    <MudChip T="string" Text="SimRealist" Icon="@MaterialDesignIcons.Normal.Account" Color="Color.Primary" />
+                                </MudStack>
+                                <MudTooltip Arrow Text="@($"Private Practice requires that EP01 is installed. You do have EP01 installed. Click here to view the store page for EP01.")" Color="Color.Success">
+                                    <MudButton Variant="Variant.Filled" Size="Size.Small" Href="/redirect?purchase-pack=EP01" Target="_blank" StartIcon="@MaterialDesignIcons.Normal.BagPersonal" Color="Color.Success">EP01</MudButton>
+                                </MudTooltip>
+                            </MudStack>
+                        </MudPaper>
+                        <MudTextM3>
+                            Included below these details will be the location in your Mods folder of each file that's a part of the mod, along with buttons that open Windows File Explorer or macOS Finder right to that file.
+                            That looks like this:
+                        </MudTextM3>
+                        <MudPaper Outlined Class="rounded pr-2">
+                            <MudStack Row AlignItems="AlignItems.Center">
+                                <MudBreadcrumbs Items="@(new BreadcrumbItem[] { new("SimRealist", "javascript:void(0)", icon: MaterialDesignIcons.Normal.Folder), new("SimRealist_-_PrivatePractice_2.4.6.2.package", "javascript:void(0)", icon: MaterialDesignIcons.Normal.PackageVariantClosed) })" />
+                                <MudSpacer />
+                                <MudTooltip Text="View this File" Arrow>
+                                    <MudIconButton Icon="@MaterialDesignIcons.Normal.FileFind" Size="Size.Small" />
+                                </MudTooltip>
+                            </MudStack>
+                        </MudPaper>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/dependency_graph.png" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Graph" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Discover How Your Mods Need Each Other</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudTextM3>
+                            The Catalog entry for every mod will list both its dependencies (the mods it requires) <em>and its dependents</em> (the mods which require it).
+                            You are able to see names, creators, and even download page URLs for each related mod.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" lg="6">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/magnifying_glass.png" Height="300" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@Icons.Material.Filled.Search" Color="Color.Primary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Search <em>All</em> of the Things</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack AlignItems="AlignItems.Center">
+                        <MudTextM3>
+                            Multiple search boxes in the Catalog's interface let you search for anything.
+                            You can look for: a mod's name, one of its creators, its download page URL, its pack requirements, its dependencies, or its dependents.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
 </MudContainer>
