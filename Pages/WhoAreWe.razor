@@ -1,19 +1,19 @@
 @page "/who-are-we"
 
-<PageTitle>Who Are We</PageTitle>
+<PageTitle>Who Are We?</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-    <MudGrid>
-        <MudItem xs="12" md="6" lg="3">
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12" md="6" lg="4">
             <MudCard Style="height: 100%;">
                 <MudCardMedia Image="/img/AmethystLilacOnSixam.png" Height="300" Style="background-position: top center;" />
                 <MudCardHeader>
-                    <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">Amethyst Lilac</MudTextM3>
+                    <MudTextM3 Typo="TypoM3.Title" Style="color: #9A4DFF;">Amethyst Lilac</MudTextM3>
                 </MudCardHeader>
                 <MudCardContent>
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary" Size="Size.Small">Mod Creator Consultant</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title" Size="Size.Small" Style="color: #9A4DFF;">Mod Creator Consultant</MudTextM3>
                         <MudTextM3>
                             Hi!
                             I'm Amethyst.
@@ -29,15 +29,15 @@
                 </MudCardActions>
             </MudCard>
         </MudItem>
-        <MudItem xs="12" md="6" lg="3">
+        <MudItem xs="12" md="6" lg="4">
             <MudCard Style="height: 100%;">
                 <MudCardMedia Image="/img/BlackCherry.png" Height="300" />
                 <MudCardHeader>
-                    <MudTextM3 Typo="TypoM3.Title" Color="Color.Secondary">BlackCherry</MudTextM3>
+                    <MudTextM3 Typo="TypoM3.Title" Style="color: #FFC83D;">BlackCherry</MudTextM3>
                 </MudCardHeader>
                 <MudCardContent>
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Secondary" Size="Size.Small">Windows Support Consultant</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title" Style="color: #FFC83D;" Size="Size.Small">Windows Support Consultant</MudTextM3>
                         <MudTextM3>
                             Hi, I'm BlackCherry!
                             When I'm not busy with one of my legacy saves or taking a break from playing to build, I like to help people with their games.
@@ -51,15 +51,15 @@
                 </MudCardActions>
             </MudCard>
         </MudItem>
-        <MudItem xs="12" md="6" lg="3">
+        <MudItem xs="12" md="6" lg="4">
             <MudCard Style="height: 100%;">
                 <MudCardMedia Image="/img/CodeBleuWithBuddy.png" Height="300" Style="background-position: top center;" />
                 <MudCardHeader>
-                    <MudTextM3 Typo="TypoM3.Title">CodeBleu</MudTextM3>
+                    <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">CodeBleu</MudTextM3>
                 </MudCardHeader>
                 <MudCardContent>
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title" Size="Size.Small">Developer</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title" Size="Size.Small" Color="Color.Primary">Developer</MudTextM3>
                         <MudTextM3>
                             I do all the coding (so far), as my name would suggest.
                             They say behind every great man is a woman rolling her eyes, and fate saw fit to bless me with <em>three</em>.
@@ -74,7 +74,30 @@
                 </MudCardActions>
             </MudCard>
         </MudItem>
-        <MudItem xs="12" md="6" lg="3">
+        <MudItem xs="12" md="6" lg="4">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/HelenTheHunter.png" Height="300" Style="background-position: top center;" />
+                <MudCardHeader>
+                    <MudTextM3 Typo="TypoM3.Title" Style="color: #FF8C00;">Helen</MudTextM3>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3 Typo="TypoM3.Title" Size="Size.Small" Style="color: #FF8C00;">User Experience Consultant</MudTextM3>
+                        <MudTextM3>
+                            Hi, I'm Helen.
+                            I love to make mods and help people fix their modded game.
+                            When I actually get round to playing I like doing short(ish) challenges and giving SimMe all the things I can't afford in real life.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudTooltip Arrow Text="You can find me on Patreon">
+                        <MudIconButton Icon="@MaterialDesignIcons.Normal.Patreon" Href="https://www.patreon.com/c/BrightOrangeSunset" />
+                    </MudTooltip>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" md="6" lg="4">
             <MudCard Style="height: 100%;">
                 <MudCardMedia Image="/img/MegAtPark.png" Height="300" Style="background-position: top center;" />
                 <MudCardHeader>
