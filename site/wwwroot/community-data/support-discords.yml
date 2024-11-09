@@ -1,67 +1,34 @@
-"Sims After Dark":
-  logo_media: https://simsafterdark.com/wp-content/uploads/2023/06/SAD_Placeholder_Plumbob_square.png
+CodeBleu:
+  logo_media: https://avatars.githubusercontent.com/u/25014958?v=4
   description:
     "": |
-      Join the Sims After Dark Discord Server to get help with your Last Exception errors.
-  ask_for_help_steps:
-    "":
-      - label: Rules
-        icon: PoliceBadge
-        content: |
-          There are two rules we would like you to be aware of before joining:
-          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
-          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
-          Please make sure to read ALL rules when you join.
-      - label: Join the Discord
-        icon: OpenInApp
-        content: |
-          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
-      - label: Select a Channel
-        icon: MessageText
-        content: |
-          Under the `SUPPORT HUB 🤯` category on the left side of Discord, click on the `#📌〢game-and-mod-support` channel.
-      - label: Upload your Game Version file
-        icon: FileUpload
-        content: |
-          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter. The file will disappear, and our friendly bot, BellaBae&, will assign you roles based on your game version and operating system.
-        show_game_version_file_highlighter: true
-      - label: Ask for help
-        icon: Help
-        content: |
-          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
-  supported_text_file_patterns:
-    - pattern: ^LastException.*\.txt$
-      ignore_case: true
-    - pattern: ^mc_lastexception\.html$
-      ignore_case: true
-    - pattern: ^BE\-ExceptionReport.*\.html$
-      ignore_case: true
-    - pattern: ^BE\-UIExceptionReport.*\.html$
-      ignore_case: true
-    - pattern: ^LastUIException.*\.txt$
-      ignore_case: true
-  text_file_submission_steps:
-    "":
-      - label: Rules
-        icon: PoliceBadge
-        content: |
-          There are two rules we would like you to be aware of before joining:
-          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
-          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
-      - label: Join the Discord
-        icon: OpenInApp
-        content: |
-          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
-      - label: Select a Channel
-        icon: Robot
-        content: |
-          Find the `##📌〢error-file-support` text channel under the `SUPPORT HUB 🤯` category on the left side of Discord.
-      - label: Upload your error file
-        icon: FileUpload
-        content: |
-          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and our friendly bot, BellaBae&, will respond.<br /><br />If the bot does not respond, it means she does not know the error, that you have too many files for her to scan, or that your file is too big for her to scan; please refrain from deleting and resending the file multiple times or sending it in multiple channels. Please wait for a support team member to help you.<br /><br />Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
-        show_text_file_highlighter: true
-"Deaderpool":
+      Wow, I can't believe you're actually running one of my mods. That's crazy. What's up, you need help with it?
+  specific_creators:
+    CodeBleu:
+      ask_for_help_steps:
+        "":
+          - label: Rules
+            icon: PoliceBadge
+            content: |
+              Rules for My Discord:
+              1. Don't talk about my Discord.
+              2. Don't talk about my Discord.
+              3. Don't gross me out with custom content contraband.
+              4. Don't be a dick, unless that's followed immediately with the word "appointment".
+          - label: Join the Discord
+            icon: OpenInApp
+            content: |
+              [Click here](https://discord.gg/yYdMFveUnA) to join the CodeBleu Discord server.
+          - label: Select a Channel
+            icon: MessageText
+            content: |
+              Under the `MY MODS` category on the left side of Discord, click on the `#support` channel.
+          - label: Ask for Help
+            icon: Help
+            content: |
+              Describe your issue and wait for me to get off my lazy ass and look at it. Please remember that I don't *owe you anything* just because you're using my mod. If you're an ass, you're gonna get ignored, kicked, or banned depending upon how annoying you are.
+
+Deaderpool:
   logo_media: https://deaderpool-mccc.com/images/newlogo.svg
   description:
     "": |
@@ -135,4 +102,68 @@
         icon: FileUpload
         content: |
           Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and wait for a support team member to help you.<br /><br />Please refrain from deleting and resending the file multiple times or sending it in multiple channels.
+        show_text_file_highlighter: true
+
+"Sims After Dark":
+  logo_media: https://simsafterdark.com/wp-content/uploads/2023/06/SAD_Placeholder_Plumbob_square.png
+  description:
+    "": |
+      Join the Sims After Dark Discord Server to get help with your Last Exception errors.
+  ask_for_help_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
+          Please make sure to read ALL rules when you join.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
+      - label: Select a Channel
+        icon: MessageText
+        content: |
+          Under the `SUPPORT HUB 🤯` category on the left side of Discord, click on the `#📌〢game-and-mod-support` channel.
+      - label: Upload your Game Version file
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter. The file will disappear, and our friendly bot, BellaBae&, will assign you roles based on your game version and operating system.
+        show_game_version_file_highlighter: true
+      - label: Ask for help
+        icon: Help
+        content: |
+          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+  supported_text_file_patterns:
+    - pattern: ^LastException.*\.txt$
+      ignore_case: true
+    - pattern: ^mc_lastexception\.html$
+      ignore_case: true
+    - pattern: ^BE\-ExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^BE\-UIExceptionReport.*\.html$
+      ignore_case: true
+    - pattern: ^LastUIException.*\.txt$
+      ignore_case: true
+  text_file_submission_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported for various reasons.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/simsafterdark) to join the Sims After Dark Discord server.
+      - label: Select a Channel
+        icon: Robot
+        content: |
+          Find the `##📌〢error-file-support` text channel under the `SUPPORT HUB 🤯` category on the left side of Discord.
+      - label: Upload your error file
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and our friendly bot, BellaBae&, will respond.<br /><br />If the bot does not respond, it means she does not know the error, that you have too many files for her to scan, or that your file is too big for her to scan; please refrain from deleting and resending the file multiple times or sending it in multiple channels. Please wait for a support team member to help you.<br /><br />Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
         show_text_file_highlighter: true
