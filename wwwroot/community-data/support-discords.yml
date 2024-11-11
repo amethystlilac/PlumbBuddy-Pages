@@ -255,15 +255,15 @@ PlumbBuddy:
   logo_media: https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site/wwwroot/img/tools-spanner-hammer-icon-size_512.png?raw=true
   description:
     "": |
-      You've decided you want to try to fix it yourself? Here's some advice and places you can get startred.
+      You've decided you want to try to fix it yourself? Here's some advice and places you can get started.
   ask_for_help_steps:
     "":
       - label: Test without mods
         icon: BugCheck
         content: |
           The first thing you'll probably want to do is find out if your problem is from a mod or from the game.
-          You don't need to delete anything at this point. Just move it somewhere safe and see if your issues continue with an empty mods folder.
-          Make sure to clear your cache before you test!
+          Either move your entire mods folder somewhere safe, like a folder on your desktop, or rename it where it is. No need to delete anything except your cache files. You can use the handy button at the top of PlumbBuddy to clear your cache.
+          Check if your problem continues with your mods removed.
           This should tell you if your problem is from the game or from something in your mods folder. But be careful! Sometimes you can get errors from *removing* mods and custom content too. And make sure not to save with your mods and CC removed.
           If the problem continues with your mods and cc removed, you might want to try a [game repair](https://simsafterdark.com/diy-troubleshooting-library/how-to-folder-refresh-game-repair/).
       - label: The mod lists
@@ -273,7 +273,7 @@ PlumbBuddy:
           There's LuthienRising, who maintains a list of broken mods and custom content at Answers HQ. The current version of her list is pinned [here](https://answers.ea.com/t5/Mods-CC-Issues/bd-p/the-sims-4-game-issues-mods-en). It's important to note that her list only includes things that follow EA's T for Teen rating and otherwise follow AHQ's rules. Older lists are linked on the Mods & CC Issues page too, if you need to go back further.
           There's Scarlet, who keeps a list of all (or most) mods. There are 4 different versions of the list, and you can pick the one that fits your needs [here](https://scarletsrealm.com/the-mod-list/). Scarlet's list may contain more mods than LuthienRising's, but it doesn't include custom content unless it breaks as a category (all beds, for example). Make sure to check the Obsolete list too! It's linked at the top of the page.
           If you're a member of a sims discord server, you may have seen a mod news feed from the Sims After Dark or the Deaderpool discord servers. These contain valuable information about which mods have broken or been updated, and they're updated daily.
-          If you're not a member of a discord server that has that feed, you can always join the servers themsselves. You can join the [Sims After Dark server](http://discord.gg/simsafterdark) and see the `#general-mon-news` channel in the `Announcements and News` section, or you can join the [Deaderpool server](http://discord.gg/MCCC) and see the `#mod-news` channel in the `Bulletin Board` section. You can scroll back as far as you need to.
+          If you're not a member of a discord server that has that feed, you can always join the servers themselves. You can join the [Sims After Dark server](http://discord.gg/simsafterdark) and see the `#general-mon-news` channel in the `Announcements and News` section, or you can join the [Deaderpool server](http://discord.gg/MCCC) and see the `#mod-news` channel in the `Bulletin Board` section. You can scroll back as far as you need to.
       - label: DIY Troubleshooting Library
         icon: HeartHalfFull
         content: |
