@@ -155,6 +155,38 @@ Deaderpool:
             content: |
                 Check the 'Read First' channel for your chosen modder and make sure you have followed all the instructions.
 
+PlumbBuddy:
+  ask_for_help_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          I'm about to escort you to the Discord created by my creators specifically for getting help with me. But before I do, you should know they will have the following expectations of you.
+          1. Be kind and respectful of others opinions.
+          2. Keep discussions of real world political and religious topics out of this **gaming** server.
+          3. Do **not** DM people in this server, including the mods and admins.
+          4. We don't care how you got the game but do **not** talk about piracy. This could result in a ban at moderator/admin discretion.
+          5. Ban appeals are only accepted through the form linked on the website. If you send a ban appeal through DM, it will be refused.
+          6. Keep NSFW links and discussion to the designated NSFW channels. While NSFW topics are allowed in the appropriate channels, severely NSFW topics or illegal content are not. No discussion of or links to anything that includes rape, bestiality, or pedophilia. This will result in a ban at moderator/admin discretion. If you are a minor and are discovered accessing NSFW channels, you may be banned at moderator/admin discretion.
+          If you agree to abide by all of the above, click the **Next** button to continue.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/UPHYUGahcv) to join the PlumbBuddy Discord server.
+      - label: Assign Your Roles
+        icon: Tag
+        content: |
+          Go to the `#roles` channel at the top of the channels list, read each post with reactions and click the ones appropriate for you.
+      - label: Go to the User Support Channel
+        icon: MessageText
+        content: |
+          Go to the `#user_support` channel in the `MOD USER AREA` category of the channels list.
+      - label: Ask for Help
+        icon: Help
+        content: |
+          Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later. ***If someone asks** for a copy of my log file, click the button below and I will show it to you. You can drag & drop that file in to Discord.*
+        show_app_log_file_highlighter: true
+
 "Sims After Dark":
   logo_media: https://simsafterdark.com/wp-content/uploads/2023/06/SAD_Placeholder_Plumbob_square.png
   description:
