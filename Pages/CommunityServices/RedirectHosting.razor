@@ -4,5 +4,20 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-    <MudTextM3>Coming soon.</MudTextM3>
+    <MudStack>
+        <MudMarkdown Value="@markdown" />
+        <MudBreadcrumbs Items="@([
+            new("PlumbBuddy-Pages", "https://github.com/Llama-Logic/PlumbBuddy-Pages", icon: MaterialDesignIcons.Normal.SourceRepository),
+            new("wwwroot", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/wwwroot", icon: MaterialDesignIcons.Normal.Folder),
+            new("community-data", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/wwwroot/community-data", icon: MaterialDesignIcons.Normal.Folder),
+            new("redirects.yml", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/wwwroot/community-data/redirects.yml", icon: MaterialDesignIcons.Normal.FileTable)
+        ])" Class="pa-0" />
+        <MudBreadcrumbs Items="@([
+            new("PlumbBuddy-Pages", "https://github.com/Llama-Logic/PlumbBuddy-Pages", icon: MaterialDesignIcons.Normal.SourceRepository),
+            new("site", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site", icon: MaterialDesignIcons.Normal.Folder),
+            new("wwwroot", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site/wwwroot", icon: MaterialDesignIcons.Normal.Folder),
+            new("community-data", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site/wwwroot/community-data", icon: MaterialDesignIcons.Normal.Folder),
+            new("redirects.yml", "https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site/wwwroot/community-data/redirects.yml", icon: MaterialDesignIcons.Normal.FileTable)
+        ])" Class="pa-0" />
+    </MudStack>
 </MudContainer>
