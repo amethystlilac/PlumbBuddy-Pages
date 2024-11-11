@@ -4,5 +4,48 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-    <MudTextM3>Coming soon.</MudTextM3>
+    <MudGrid Justify="Justify.Center">
+        <MudItem xs="12" md="6" lg="4">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/detour.jpg" Height="200" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Share" Color="Color.Tertiary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Tertiary">Redirect Hosting</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            We host redirect links, intended for creators to use in their Llama Logic mod manifests, to ensure that the manifests contain stable links.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Href="/community-services/redirect-hosting" Color="Color.Tertiary" StartIcon="@MaterialDesignIcons.Normal.PageNext">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+        <MudItem xs="12" md="6" lg="4">
+            <MudCard Style="height: 100%;">
+                <MudCardMedia Image="/img/support_representative.jpg" Height="200" />
+                <MudCardHeader>
+                    <MudStack Row AlignItems="AlignItems.Center">
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.FaceAgent" Color="Color.Tertiary" />
+                        <MudTextM3 Typo="TypoM3.Title" Color="Color.Tertiary">Support Venues</MudTextM3>
+                    </MudStack>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudStack>
+                        <MudTextM3>
+                            When a player gets an error, or when they need help with a mod, or when they need help with anything game related, there’s a convenient button in PlumbBuddy that they can click and be guided through finding that help.
+                        </MudTextM3>
+                    </MudStack>
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton Href="/community-services/support-venues" Color="Color.Tertiary" StartIcon="@MaterialDesignIcons.Normal.PageNext">Learn More</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+    </MudGrid>
 </MudContainer>

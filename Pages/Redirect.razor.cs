@@ -1,4 +1,3 @@
-
 namespace PlumbBuddyPages.Pages;
 
 partial class Redirect

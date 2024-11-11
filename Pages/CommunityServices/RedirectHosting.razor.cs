@@ -2,14 +2,7 @@ namespace PlumbBuddyPages.Pages.CommunityServices;
 
 partial class RedirectHosting
 {
-    readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
-    [
-        new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
-        new("Community Services", "/community-services", icon: MaterialDesignIcons.Normal.Offer),
-        new("Redirect Hosting", "/community-services/redirect-hosting", icon: MaterialDesignIcons.Normal.Share)
-    ];
-
-    readonly string markdown =
+    const string markdown =
         """
         This page displays redirect links, intended for creators to use in their Llama Logic mod manifests, to ensure that the manifests contain stable links.
 
@@ -25,10 +18,35 @@ partial class RedirectHosting
         5. Once we’ve completed the process, the thread will be closed. If you need to update your information, please open a new thread.
 
         ##### Option 2: Github
-        1. There are two identical files that need to be updated, listed in the section below. They are kept in [the GitHub Repository for this website](https://github.com/Llama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can [review this video](https://youtu.be/bdb0JQ-j6U4?t=214).
+        1. There are two identical files that need to be updated, listed as the links below. They are kept in [the GitHub repository for this website](https://github.com/Llama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can [review this video](https://youtu.be/bdb0JQ-j6U4?t=214).
         2. Please keep the entries in alphabetical order, by owner (creator) name, starting after ModGuard. Use the redirects already listed as examples. Format is important.
         3. Submit your pull request. You may be asked for more information or to make changes. Please subscribe to notifications on the pull request and watch the email associated with your Github account to avoid having it denied due to non-responsiveness.
 
         ###### `redirects.yml` Locations
         """;
+
+    readonly IReadOnlyList<BreadcrumbItem> breadcrumbs =
+    [
+        new("PlumbBuddy.app", "/", icon: MaterialDesignIcons.Normal.Web),
+        new("Community Services", "/community-services", icon: MaterialDesignIcons.Normal.Offer),
+        new("Redirect Hosting", "/community-services/redirect-hosting", icon: MaterialDesignIcons.Normal.Share)
+    ];
+    IReadOnlyDictionary<string, Uri>? redirects;
+    string redirectsSearchText = string.Empty;
+
+    bool IncludeRedirect(KeyValuePair<string, Uri> keyValuePair)
+    {
+        if (string.IsNullOrWhiteSpace(redirectsSearchText))
+            return true;
+        if (keyValuePair.Key.Contains(redirectsSearchText, StringComparison.OrdinalIgnoreCase))
+            return true;
+        if (keyValuePair.Value.ToString().Contains(redirectsSearchText, StringComparison.OrdinalIgnoreCase))
+            return true;
+        return false;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        redirects = await HttpClient.GetFromYamlAsync<Dictionary<string, Uri>>("community-data/redirects.yml");
+    }
 }
