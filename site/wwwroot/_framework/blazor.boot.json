@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PlumbBuddy-Pages",
   "resources": {
-    "hash": "sha256-e+jHE98Xrl8yB9JkpP7wqdFh181Rr70sL0DlMIDWCeo=",
+    "hash": "sha256-UmEdNvHI5d0/7HqTjt/FIma+JmThaHats+2iimrXigs=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.q5m9cafb5o.js": "sha256-iWKn4XdtKO29F4Zm9V4yT5HB86Qtm/XP2Ulqp7ryhG8="
     },
@@ -45,7 +45,7 @@
       "MudBlazor.wasm": "sha256-jfJb6UFFvH4RjurcsSNY7g3e5kprM0vHE1R1zfoFGU8=",
       "netstandard.wasm": "sha256-+vu9DwrgKJFI39qP/V3DBxXpupkOKBh/XGjrA5B5OjY=",
       "Octokit.wasm": "sha256-h4a5luUbvS+HMGKlssAXQ8PRf2h3zG7LHTnrKcBLQrE=",
-      "PlumbBuddy-Pages.wasm": "sha256-EGHVq0XQEDPilAXF9FAT8nNrbpwkmPEQWx032dpUoT8=",
+      "PlumbBuddy-Pages.wasm": "sha256-j3prYy/BXkpVDTE/D3GUtYPjSEL0mH0GJ9dQ57qhMow=",
       "System.Collections.Concurrent.wasm": "sha256-kHhhlucnqrSq4vcn6CBzf1ysBesHmwhI5id/2xBtcUM=",
       "System.Collections.Immutable.wasm": "sha256-LFbR5iAMgSNBQkvTerIUyXfEmhoQV9oWTaYigeJvgKU=",
       "System.Collections.NonGeneric.wasm": "sha256-AsYVp1FCWEKG5FtX91fxTwydYt4fzpqVLGCjRWQ/Ko8=",
