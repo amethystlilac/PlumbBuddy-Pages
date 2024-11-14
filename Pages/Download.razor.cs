@@ -32,8 +32,8 @@ partial class Download
                 })
                 .ThenByDescending(release => release.PublishedAt ?? release.CreatedAt)
                 .FirstOrDefault();
-            windowsOptimalReleaseAsset = optimalRelease?.Assets.FirstOrDefault(a => a.Name.EndsWith(".msix"));
-            macOSOptimalReleaseAsset = optimalRelease?.Assets.FirstOrDefault(a => a.Name.EndsWith(".zip"));
+            windowsOptimalReleaseAsset = optimalRelease?.Assets.OrderBy(a => a.Name.Length).ThenBy(a => a.Name).FirstOrDefault(a => a.Name.EndsWith(".msix"));
+            macOSOptimalReleaseAsset = optimalRelease?.Assets.OrderBy(a => a.Name.Length).ThenBy(a => a.Name).FirstOrDefault(a => a.Name.EndsWith(".zip"));
             isInitializationComplete = true;
             StateHasChanged();
         }
