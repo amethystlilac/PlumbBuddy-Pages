@@ -198,11 +198,12 @@ PlumbBuddy:
         icon: BugCheck
         content: |
           The first thing you'll probably want to do is find out if your problem is from a mod or from the game.<br>
-          Either move your entire mods folder somewhere safe, like a folder on your desktop, or rename it where it is. No need to delete anything except your cache files. You can use the handy button below clear your cache.<br>
+          First, make sure PlumbBuddy is not generating a global manifest right now using the toggle switch below. Then, either move your entire mods folder somewhere safe, like a folder on your desktop, or rename it where it is. No need to delete anything except your cache files. You can use the handy button below clear your cache.<br>
           Check if your problem continues with your mods removed.<br>
           This should tell you if your problem is from the game or from something in your mods folder. But be careful! Sometimes you can get errors from *removing* mods and custom content too. And make sure not to save with your mods and CC removed, or you'll be removing your mods and CC from your save. No one likes bald and naked sims (unless that's what you mean to have).<br>
           If the problem continues with your mods and cc removed, you might want to try a [game repair](https://simsafterdark.com/diy-troubleshooting-library/how-to-folder-refresh-game-repair/).
         show_clear_cache: true
+        show_global_manifest_generation_toggle: true
       - label: The mod lists
         icon: Charity
         content: |
