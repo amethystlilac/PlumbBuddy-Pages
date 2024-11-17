@@ -20,7 +20,7 @@ partial class SupportVenues
         4. For your help steps, icons are sourced from [this Material Design Icons Catalog](https://pictogrammers.com/library/mdi/).
            * They must not have outline in the name.
            * Remove dashes and CapitalizeEachWord.
-        5. Before you make your pull request, make sure to test the file. Download it, go to your PB installation (click the heart in the menu 10 times to access Dev Tools if you don’t know where that is) and replace the support-discords.yml file already there.
+        5. Before you make your pull request, make sure to test the file. Download it, go to your PB installation (click the heart in the menu 10 times to access Dev Tools if you don’t know where that is) and replace the support-discords.yml file already in PlumbBuddy's cache.
         6. If PlumbBuddy displays an error when you use the **Ask For Help** function, you formatted it wrong. If you don’t get an error, check that everything looks right, and then submit your pull request. You may be asked for more information or to make changes. Please subscribe to notifications on the pull request and watch the email associated with your Github account to avoid having it denied due to non-responsiveness.
         """;
 

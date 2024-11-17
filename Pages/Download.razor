@@ -5,16 +5,16 @@
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-4">
     <MudBreadcrumbs Items="@breadcrumbs" Class="pa-0" />
     <MudDivider Class="my-2" />
-    <MudGrid Justify="Justify.Center">
+    <MudGrid>
         @if (!isInitializationComplete)
         {
             <MudItem>
                 <MudTextM3 Style="opacity: .5;">I think you want this version based on your computer's operating system:</MudTextM3>
             </MudItem>
             <MudFlexBreak />
-            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6">
+            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6 ml-6">
                 <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Pulse" Width="76px" Height="76px" />
-                <MudStack AlignItems="AlignItems.Center" Spacing="2">
+                <MudStack Spacing="2">
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="200px" Height="18px" />
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="300px" Height="16px" />
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="275px" Height="20px" />
@@ -25,9 +25,9 @@
                 <MudTextM3 Style="opacity: .5;">But, if not that one, could it be...</MudTextM3>
             </MudItem>
             <MudFlexBreak />
-            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6">
+            <MudStack Row AlignItems="AlignItems.Center" Class="mt-6 ml-6">
                 <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Pulse" Width="76px" Height="76px" />
-                <MudStack AlignItems="AlignItems.Center" Spacing="2">
+                <MudStack Spacing="2">
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="200px" Height="18px" />
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="300px" Height="16px" />
                     <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Pulse" Width="275px" Height="20px" />
@@ -52,10 +52,10 @@
                     @if (os == "macOS" && macOSOptimalReleaseAsset is not null)
                     {
                         <MudImage Src="/img/macOSLogo.png" Width="76" Height="76" ObjectPosition="ObjectPosition.Center" />
-                        <MudStack Spacing="0" Class="align-center">
+                        <MudStack Spacing="0">
                             <MudLink Href="@macOSOptimalReleaseAsset.BrowserDownloadUrl">@macOSOptimalReleaseAsset.Name</MudLink>
                             <MudTextM3 Typo="TypoM3.Label">Version @optimalRelease!.TagName[(optimalRelease.TagName.IndexOf("/") + 1)..] for macOS Sonoma or later</MudTextM3>
-                            <MudStack Row Spacing="0">
+                            <MudStack Row Spacing="0" Class="ml-n1">
                                 <MudTooltip Arrow Color="Color.Success" Text="This release of PlumbBuddy has been signed with a digital certificate so that you know it hasn't been tampered with.">
                                     <MudChip T="string" Icon="@MaterialDesignIcons.Normal.FileSign" Color="Color.Success" Size="Size.Small">Code Signed</MudChip>
                                 </MudTooltip>
@@ -74,10 +74,10 @@
                     else if (os == "Windows" && windowsOptimalReleaseAsset is not null)
                     {
                         <MudImage Src="/img/WindowsLogo.svg" Width="76" Height="76" ObjectPosition="ObjectPosition.Center" />
-                        <MudStack Spacing="0" Class="align-center">
+                        <MudStack Spacing="0">
                             <MudLink Href="@windowsOptimalReleaseAsset.BrowserDownloadUrl">@windowsOptimalReleaseAsset.Name</MudLink>
                             <MudTextM3 Typo="TypoM3.Label">Version @optimalRelease!.TagName[(optimalRelease.TagName.IndexOf("/") + 1)..] for Windows 10 or later</MudTextM3>
-                            <MudStack Row Spacing="0">
+                            <MudStack Row Spacing="0" Class="ml-n1">
                                 <MudTooltip Arrow Color="Color.Success" Text="This release of PlumbBuddy has been signed with a digital certificate so that you know it hasn't been tampered with.">
                                     <MudChip T="string" Icon="@MaterialDesignIcons.Normal.FileSign" Color="Color.Success" Size="Size.Small">Code Signed</MudChip>
                                 </MudTooltip>
@@ -112,10 +112,10 @@
                         @if (os == "macOS" && windowsOptimalReleaseAsset is not null)
                         {
                             <MudImage Src="/img/WindowsLogo.svg" Width="76" Height="76" ObjectPosition="ObjectPosition.Center" />
-                            <MudStack Spacing="0" Class="align-center">
+                            <MudStack Spacing="0">
                                 <MudLink Href="@windowsOptimalReleaseAsset.BrowserDownloadUrl">@windowsOptimalReleaseAsset.Name</MudLink>
                                 <MudTextM3 Typo="TypoM3.Label">Version @optimalRelease!.TagName[(optimalRelease.TagName.IndexOf("/") + 1)..] for Windows 10 or later</MudTextM3>
-                                <MudStack Row Spacing="0">
+                                <MudStack Row Spacing="0" Class="ml-n1">
                                     <MudTooltip Arrow Color="Color.Success" Text="This release of PlumbBuddy has been signed with a digital certificate so that you know it hasn't been tampered with.">
                                         <MudChip T="string" Icon="@MaterialDesignIcons.Normal.FileSign" Color="Color.Success" Size="Size.Small">Code Signed</MudChip>
                                     </MudTooltip>
@@ -131,10 +131,10 @@
                         else if (os == "Windows" && macOSOptimalReleaseAsset is not null)
                         {
                             <MudImage Src="/img/macOSLogo.png" Width="76" Height="76" ObjectPosition="ObjectPosition.Center" />
-                            <MudStack Spacing="0" Class="align-center">
+                            <MudStack Spacing="0">
                                 <MudLink Href="@macOSOptimalReleaseAsset.BrowserDownloadUrl">@macOSOptimalReleaseAsset.Name</MudLink>
                                 <MudTextM3 Typo="TypoM3.Label">Version @optimalRelease!.TagName[(optimalRelease.TagName.IndexOf("/") + 1)..] for macOS Sonoma or later</MudTextM3>
-                                <MudStack Row Spacing="0">
+                                <MudStack Row Spacing="0" Class="ml-n1">
                                     <MudTooltip Arrow Color="Color.Success" Text="This release of PlumbBuddy has been signed with a digital certificate so that you know it hasn't been tampered with.">
                                         <MudChip T="string" Icon="@MaterialDesignIcons.Normal.FileSign" Color="Color.Success" Size="Size.Small">Code Signed</MudChip>
                                     </MudTooltip>
@@ -154,6 +154,46 @@
                 </MudItem>
             }
             <MudFlexBreak />
+            @if (optimalRelease is not null)
+            {
+                <MudItem xs="12">
+                    <MudTextM3 Typo="TypoM3.Title" Size="Size.Large">More information about @(optimalRelease.Name)</MudTextM3>
+                </MudItem>
+                <MudItem Class="flex-grow-1">
+                    <MudField Variant="Variant.Filled" Label="Release URL">
+                        <MudChip T="string" Icon="@MaterialDesignIcons.Normal.Github" Href="@(optimalRelease.HtmlUrl)">
+                            @(optimalRelease.HtmlUrl)
+                        </MudChip>
+                    </MudField>
+                </MudItem>
+                <MudItem>
+                    <MudField Variant="Variant.Filled" Label="Published by">
+                        <MudChip T="string" Href="@(optimalRelease.Author.HtmlUrl)">
+                            <AvatarContent>
+                                <MudAvatar>
+                                    <MudImage Src="@(optimalRelease.Author.AvatarUrl)" />
+                                </MudAvatar>
+                            </AvatarContent>
+                            <ChildContent>
+                                @(optimalRelease.Author.Login)
+                            </ChildContent>
+                        </MudChip>
+                    </MudField>
+                </MudItem>
+                <MudItem>
+                    <MudField Variant="Variant.Filled" Label="Published at">
+                        <MudChip T="string" Icon="@MaterialDesignIcons.Normal.CalendarClock">
+                            @(optimalRelease.PublishedAt)
+                        </MudChip>
+                    </MudField>
+                </MudItem>
+                <MudItem xs="12">
+                    <MudField Variant="Variant.Filled" Label="Full Description">
+                        <MudMarkdown Value="@(optimalRelease.Body)" />
+                    </MudField>
+                </MudItem>
+                <MudFlexBreak />
+            }
             <MudItem>
                 <MudLink Href="https://github.com/Llama-Logic/PlumbBuddy/releases" Target="_blank">View more releases of PlumbBuddy on GitHub</MudLink>
             </MudItem>

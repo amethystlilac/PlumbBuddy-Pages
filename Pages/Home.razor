@@ -2,17 +2,46 @@
 
 <PageTitle>PlumbBuddy</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-6">
-    <MudCarousel TData="object" AutoCycle EnableSwipeGesture ShowArrows ShowBullets Class="mud-width-full rounded" Style="height: calc(100vh - 210px);">
-        <MudCarouselItem Color="Color.Tertiary" Style="background-image: url(/img/launchpad.jpg); background-size: cover; background-position: center;">
+    <MudCarousel TData="object" AutoCycle AutoCycleTime="@(TimeSpan.FromSeconds(10))" EnableSwipeGesture ShowArrows ShowBullets Class="mud-width-full rounded" Style="height: calc(100vh - 210px);">
+        <MudCarouselItem Color="Color.Success" Style="background-image: url(/img/cloudy_blue_sky.jpg); background-size: cover; background-position: center;">
+            <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
+                <MudPaper Elevation="5" Class="pa-4 mud-success">
+                    <MudStack>
+                        <MudTextM3 Typo="TypoM3.Title">PlumbBuddy 1.0 is Here!</MudTextM3>
+                        <MudPaper Outlined Class="pa-4">
+                            <MudTextM3>
+                                Want a buddy <strong>always</strong> watching your game and Mods folder, on the look-out for anything to tell you about... <em>and help you with?</em>
+                                Well, you can <MudLink Href="/download">download it now</MudLink> for your Windows PC or Mac!
+                            </MudTextM3>
+                        </MudPaper>
+                    </MudStack>
+                </MudPaper>
+            </MudStack>
+        </MudCarouselItem>
+        <MudCarouselItem Color="Color.Primary" Style="background-image: url(/img/mod_health_scans.jpg); background-size: cover; background-position: center;">
+            <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
+                <MudPaper Elevation="5" Class="pa-4 mud-theme-primary">
+                    <MudStack>
+                        <MudTextM3 Typo="TypoM3.Title">New Feature: <strong>Mod Health</strong></MudTextM3>
+                        <MudPaper Outlined Class="pa-4">
+                            <MudTextM3>
+                                Mod Health helps you by <strong>Ensuring Optimal Game Options</strong>, <strong>Finding Problems in Your Mods Folder</strong>, <strong>Pointing Out Essentials You're Missing</strong>, and <strong>Performing Analysis of Your Game &amp; Mods</strong>.
+                                <MudLink Href="/features/mod-health">Click here</MudLink> to learn more.
+                            </MudTextM3>
+                        </MudPaper>
+                    </MudStack>
+                </MudPaper>
+            </MudStack>
+        </MudCarouselItem>
+        <MudCarouselItem Color="Color.Tertiary" Style="background-image: url(/img/support_representative.jpg); background-size: cover; background-position: center;">
             <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
                 <MudPaper Elevation="5" Class="pa-4 mud-theme-tertiary">
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title">The Creator Preview has Begun!</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title">New Community Service: <strong>Support Venues</strong></MudTextM3>
                         <MudPaper Outlined Class="pa-4">
                             <MudTextM3>
-                                If you're a Sims 4 Mod Creator, you are welcome to <MudLink Href="/download">download the preview version of PlumbBuddy</MudLink> and have a look.
-                                <MudLink Href="/features">The feature pages</MudLink> on this site are also already up for your perusal.
-                                We'd love to hear your feedback on <MudLink Href="https://discord.com/invite/creator-musings-605863047654801428" Target="_blank">the Creator Musings Discord</MudLink>.
+                                When a player gets an error or when they need help with anything game or mod related, there’s a convenient button in PlumbBuddy that they can click and be guided through finding that help.
+                                <MudLink Href="/community-services/support-venues">Click here</MudLink> if you want to pitch in.
                             </MudTextM3>
                         </MudPaper>
                     </MudStack>
@@ -26,7 +55,7 @@
                 <MudAlert Icon="@MaterialDesignIcons.Normal.Application">Current version: <strong>@currentVersion</strong></MudAlert>
             </MudItem>
             <MudItem>
-                <MudAlert Severity="Severity.Warning">Lifecycle stage: <strong>Beta</strong></MudAlert>
+                <MudAlert Severity="Severity.Success" Icon="@MaterialDesignIcons.Normal.Certificate">Lifecycle stage: <strong>Stable</strong></MudAlert>
             </MudItem>
         </MudHidden>
         <MudHidden Breakpoint="Breakpoint.MdAndDown" Invert>
@@ -34,8 +63,8 @@
                 <MudAlert Icon="@MaterialDesignIcons.Normal.Application"><strong>@currentVersion</strong></MudAlert>
             </MudItem>
             <MudItem>
-                <MudBadge Icon="@MaterialDesignIcons.Normal.Alert" Color="Color.Warning" Origin="Origin.CenterRight" Overlap>
-                    <MudIcon Icon="@MaterialDesignIcons.Normal.Beta" Size="Size.Large" />
+                <MudBadge Icon="@MaterialDesignIcons.Normal.Check" Color="Color.Success" Origin="Origin.CenterRight" Overlap>
+                    <MudIcon Icon="@MaterialDesignIcons.Normal.Certificate" Size="Size.Large" />
                 </MudBadge>
             </MudItem>
         </MudHidden>
