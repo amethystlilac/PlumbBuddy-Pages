@@ -10,6 +10,7 @@ partial class Download
     bool isInitializationComplete;
     ReleaseAsset? macOSOptimalReleaseAsset;
     Release? optimalRelease;
+    int totalDownloads;
     ReleaseAsset? windowsOptimalReleaseAsset;
     string os = string.Empty;
 
@@ -34,6 +35,7 @@ partial class Download
                 .FirstOrDefault();
             windowsOptimalReleaseAsset = optimalRelease?.Assets.OrderBy(a => a.Name.Length).ThenBy(a => a.Name).FirstOrDefault(a => a.Name.EndsWith(".msix"));
             macOSOptimalReleaseAsset = optimalRelease?.Assets.OrderBy(a => a.Name.Length).ThenBy(a => a.Name).FirstOrDefault(a => a.Name.EndsWith(".zip"));
+            totalDownloads = releases.SelectMany(release => release.Assets.Select(asset => asset.DownloadCount)).Sum();
             isInitializationComplete = true;
             StateHasChanged();
         }
