@@ -195,7 +195,10 @@
                 <MudFlexBreak />
             }
             <MudItem>
-                <MudTextM3>According to GitHub, PlumbBuddy has been downloaded @(totalDownloads.ToString("n0")) times.</MudTextM3>
+                <MudTextM3>According to GitHub, PlumbBuddy has been downloaded @("time".ToQuantity(totalDownloads, "n0")). Isn't that nifty? Click one of the download links on the top of the page and <strong>🫵 you</strong> could be the @((totalDownloads + 1).ToOrdinalWords())! 🎆</MudTextM3>
+            </MudItem>
+            <MudFlexBreak />
+            <MudItem>
                 <MudLink Href="https://github.com/Llama-Logic/PlumbBuddy/releases" Target="_blank">View more releases of PlumbBuddy on GitHub</MudLink>
             </MudItem>
         }
