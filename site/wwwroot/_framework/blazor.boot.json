@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PlumbBuddy-Pages",
   "resources": {
-    "hash": "sha256-SmVgewmxchZYa81RvAn9iyPfzDPIV7COIZ503puZkas=",
+    "hash": "sha256-tGJgU3UaGPANJmFxINVbBvSbF3sauDaUAVEYBOkqpxk=",
     "fingerprinting": {
       "Bromix.MudBlazor.MaterialDesignIcons.19vuk56vs0.wasm": "Bromix.MudBlazor.MaterialDesignIcons.wasm",
       "CodeBeam.MudBlazor.Extensions.jbs57b44ex.wasm": "CodeBeam.MudBlazor.Extensions.wasm",
@@ -31,7 +31,7 @@
       "MudBlazor.hzxyo77f1s.wasm": "MudBlazor.wasm",
       "netstandard.mwshht6nyd.wasm": "netstandard.wasm",
       "Octokit.l5jyse5wga.wasm": "Octokit.wasm",
-      "PlumbBuddy-Pages.f4mjgjiinn.wasm": "PlumbBuddy-Pages.wasm",
+      "PlumbBuddy-Pages.53hlvcpaht.wasm": "PlumbBuddy-Pages.wasm",
       "System.Collections.Concurrent.19ckrumzfz.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.lo17h2lsfp.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.NonGeneric.im1bku48sr.wasm": "System.Collections.NonGeneric.wasm",
@@ -54,7 +54,7 @@
       "System.Net.Http.pv3h0ajp0v.wasm": "System.Net.Http.wasm",
       "System.Net.Primitives.m5scvxc1ae.wasm": "System.Net.Primitives.wasm",
       "System.ObjectModel.d3v6vfom2e.wasm": "System.ObjectModel.wasm",
-      "System.Private.CoreLib.nzevmvuibu.wasm": "System.Private.CoreLib.wasm",
+      "System.Private.CoreLib.co1z0cmqnb.wasm": "System.Private.CoreLib.wasm",
       "System.Private.Uri.7409y4u3g9.wasm": "System.Private.Uri.wasm",
       "System.Private.Xml.0i97urog83.wasm": "System.Private.Xml.wasm",
       "System.Runtime.InteropServices.JavaScript.3uvku0ibnu.wasm": "System.Runtime.InteropServices.JavaScript.wasm",
@@ -72,10 +72,13 @@
       "System.6bp5k9v1ih.wasm": "System.wasm",
       "YamlDotNet.2yjdxeunao.wasm": "YamlDotNet.wasm",
       "zxing.cslsbo1ipr.wasm": "zxing.wasm",
-      "dotnet.native.fnjuiev33k.js": "dotnet.native.js",
-      "dotnet.native.lwp8dghrde.wasm": "dotnet.native.wasm",
+      "dotnet.native.cwzaxrq4t1.js": "dotnet.native.js",
+      "dotnet.native.ms3zb8pcu3.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.o8gq1i8bk6.js": "dotnet.runtime.js",
+      "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
+      "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
+      "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
       "Humanizer.resources.ywrwvesg23.wasm": "Humanizer.resources.wasm",
       "Humanizer.resources.08lwhm08x4.wasm": "Humanizer.resources.wasm",
       "Humanizer.resources.5zb07tir5k.wasm": "Humanizer.resources.wasm",
@@ -126,16 +129,21 @@
       "Humanizer.resources.q9i86svuax.wasm": "Humanizer.resources.wasm"
     },
     "jsModuleNative": {
-      "dotnet.native.fnjuiev33k.js": "sha256-+7joIgk9He8XbaZIFYVkUVXWEHFNr+IWNFOiNlQEXMw="
+      "dotnet.native.cwzaxrq4t1.js": "sha256-PIEGJX6IGP5ileFqkAO8BtW3cLBnpvsmuytsDwKuNKc="
     },
     "jsModuleRuntime": {
       "dotnet.runtime.o8gq1i8bk6.js": "sha256-uD1t4tsPtmIHsx30SC4OztehGGaHVDksFD38rL2e3P4="
     },
     "wasmNative": {
-      "dotnet.native.lwp8dghrde.wasm": "sha256-JXKjXvfbkpJwGYUG48k715BTV7yBedHKs83+OrFODpo="
+      "dotnet.native.ms3zb8pcu3.wasm": "sha256-9pj17biet/giqQqHibeY1ET132tE4ErsZdZGreh689Y="
+    },
+    "icu": {
+      "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
+      "icudt_EFIGS.tptq2av103.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
+      "icudt_no_CJK.lfu7j35m59.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "coreAssembly": {
-      "System.Private.CoreLib.nzevmvuibu.wasm": "sha256-XZAEMLt90I2fwWCvL8I2SZ0eCfYUfp8OgEqI4GMTTLE=",
+      "System.Private.CoreLib.co1z0cmqnb.wasm": "sha256-PIMpPgc4BhxNX434yEYca0X4Lq2OvZSNb7h5cOAb4gg=",
       "System.Runtime.InteropServices.JavaScript.3uvku0ibnu.wasm": "sha256-K5wa4QwWB8A0OrHM4yWK86Nl6ItEv9c3ctAASLMYLKo="
     },
     "assembly": {
@@ -167,7 +175,7 @@
       "MudBlazor.hzxyo77f1s.wasm": "sha256-c1tVURtAXl7dv0ANtAtmFOMTznvNmF7CFso0UKd0FU0=",
       "netstandard.mwshht6nyd.wasm": "sha256-lhEdizys5XJ7O9BINl+xxSRMCd1kSd2FxrLVbt8ihck=",
       "Octokit.l5jyse5wga.wasm": "sha256-h4a5luUbvS+HMGKlssAXQ8PRf2h3zG7LHTnrKcBLQrE=",
-      "PlumbBuddy-Pages.f4mjgjiinn.wasm": "sha256-v9J0icWbuVlqLwApdE+pLjFWWV9Zpe8Rd47rY+EMK0k=",
+      "PlumbBuddy-Pages.53hlvcpaht.wasm": "sha256-wYjVW0v0LlUpbW9hnK9pRs/K4NnyYwYTaZMT/a9c0Y0=",
       "System.Collections.Concurrent.19ckrumzfz.wasm": "sha256-+zH1XFznaeeNgG9KXwZPbSMvFX9kcJXd63JHgzL0k7E=",
       "System.Collections.Immutable.lo17h2lsfp.wasm": "sha256-RU38Z4F2gFFyc8JKqz0T+bzy9hRIH2mWdHWxWOu5aaI=",
       "System.Collections.NonGeneric.im1bku48sr.wasm": "sha256-Bhei9rPBp0CPQMtr+9Mtx/XgOz2vcz9EnVd0IeFTtbA=",
@@ -357,7 +365,7 @@
   "cacheBootResources": true,
   "debugLevel": 0,
   "linkerEnabled": true,
-  "globalizationMode": "invariant",
+  "globalizationMode": "sharded",
   "extensions": {
     "blazor": {}
   }

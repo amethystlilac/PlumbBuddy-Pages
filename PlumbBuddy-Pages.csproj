@@ -2,7 +2,6 @@
 
     <PropertyGroup>
         <ImplicitUsings>enable</ImplicitUsings>
-        <InvariantGlobalization>true</InvariantGlobalization>
         <Nullable>enable</Nullable>
         <RootNamespace>PlumbBuddyPages</RootNamespace>
         <TargetFramework>net9.0</TargetFramework>
