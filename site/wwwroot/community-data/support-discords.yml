@@ -103,34 +103,34 @@ Deaderpool:
         content: |
           Click the button below to select the file on your computer, drag that into the message box in the Discord channel, press enter, and wait for a support team member to help you.<br /><br />Please refrain from deleting and resending the file multiple times or sending it in multiple channels.
         show_text_file_highlighter: true
-    patch_day_help_steps:
-      "":
-        - label: Rules
-          icon: PoliceBadge
-          content: |
-            There are two rules we would like you to be aware of before joining:
-            1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported.
-            2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity. After you join, there is a full, current list of banned content available in the `#server-info` channel under the `🛑START HERE!🛑` category.
-        - label: Join the Discord
-          icon: OpenInApp
-          content: |
-            [Click here](http://discord.gg/MCCC) to join the Deaderpool Discord server.
-        - label: Go to Purgatory
-          icon: FireCircle
-          content: |
-            Find the `#purgatory` channel under the `🛑START HERE!🛑` category on the left side of Discord.
-        - label: Upload your Game Version File
-          icon: FileUpload
-          content: |
-            Click the button below to select the file on your computer, drag that into the message box in the Discord channel, and press enter.
-          show_game_version_file_highlighter: true
-        - label: Check for Updates
-          icon: Update
-          content: |
-            Under the `📌BULLETIN BOARD` category on the left side of Discord, click on the `#mod-news` channel.
-            This channel lists mod news, such as broken mods, updated mods, mods cleared for patches, and even new mods.
-            Scroll through to see it all!
-        
+  patch_day_help_steps:
+    "":
+      - label: Rules
+        icon: PoliceBadge
+        content: |
+          There are two rules we would like you to be aware of before joining:
+          1. **No pirated game support**<br />We offer support for current, legal game versions only. Outdated game versions, pirated games or packs, DLC unlockers, etc. are not supported.
+          2. **No support if you are using mods depicting rape, bestiality, or pedophilia**<br />Please be aware that if those files are found in your error report, we reserve the right to ban you **instantly** and **without warning** depending on the severity. After you join, there is a full, current list of banned content available in the `#server-info` channel under the `🛑START HERE!🛑` category.
+      - label: Join the Discord
+        icon: OpenInApp
+        content: |
+          [Click here](http://discord.gg/MCCC) to join the Deaderpool Discord server.
+      - label: Go to Purgatory
+        icon: FireCircle
+        content: |
+          Find the `#purgatory` channel under the `🛑START HERE!🛑` category on the left side of Discord.
+      - label: Upload your Game Version File
+        icon: FileUpload
+        content: |
+          Click the button below to select the file on your computer, drag that into the message box in the Discord channel, and press enter.
+        show_game_version_file_highlighter: true
+      - label: Check for Updates
+        icon: Update
+        content: |
+          Under the `📌BULLETIN BOARD` category on the left side of Discord, click on the `#mod-news` channel.
+          This channel lists mod news, such as broken mods, updated mods, mods cleared for patches, and even new mods.
+          Scroll through to see it all!
+
 "Haven of Chaos & Hunter":
   logo_media: https://chaosgames.nl/HelenTheHunter/Join-Us.png
   description:
