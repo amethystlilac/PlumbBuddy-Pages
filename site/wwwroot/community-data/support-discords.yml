@@ -127,9 +127,9 @@ Deaderpool:
       - label: Check for Updates
         icon: Update
         content: |
-          Under the `📌BULLETIN BOARD` category on the left side of Discord, click on the `#mod-news` channel.<br>
-          This channel lists mod news, such as broken mods, updated mods, mods cleared for patches, and even new mods.<br>
-          Scroll through to see it all!<br><br>
+          Under the `📌BULLETIN BOARD` category on the left side of Discord, click on the `#mod-news` channel.
+          This channel lists mod news, such as broken mods, updated mods, mods cleared for patches, and even new mods.
+          Scroll through to see it all!
           If you are over eighteen, you might also want to check `nsfw-mod-news`, in the `🔞DUNGEON` category. You will need to take the `NSFW` role in `#add-roles` (in `🛑START HERE!🛑`) to see that channel.
 
 "Haven of Chaos & Hunter":
