@@ -14,7 +14,7 @@ partial class SupportVenues
         5. Once we’ve completed the process, the thread will be closed. If you need to update your information, or if you decide to no longer offer support, please open a new thread.
 
         ##### Option 2: Github
-        1. There are two identical files that need to be updated, listed as the links below. They are kept in [the GitHub repository for this website](https://github.com/Llama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can [review this video](https://youtu.be/bdb0JQ-j6U4?t=214).
+        1. There are two identical files that need to be updated, listed as the links below. They are kept in [the GitHub repository for this website](https://github.com/Llama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can [review this video](https://youtu.be/usTVkhbDjmE).
         2. Please keep your edit in alphabetical order, by server name.
         3. Follow the examples given by the other servers listed. The format is important. If you want an option not shown (say, you do only mac support), ask if it can be done.
         4. For your help steps, icons are sourced from [this Material Design Icons Catalog](https://pictogrammers.com/library/mdi/).
