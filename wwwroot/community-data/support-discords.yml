@@ -215,7 +215,7 @@ LittleMsSam:
           - label: Ask for Help
             icon: Help
             content: |
-              Describe your issue, and wait for a support team member to be available. Please remember that our support team is made up of **volunteers**, and if no one's available, you may need to try again later.
+              Describe your issue as detailed as possible, and be patience please. LittleMsSam or those who are willing to help are answering as soon as possible.
 
 PlumbBuddy:
   ask_for_help_steps:
