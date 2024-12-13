@@ -215,7 +215,7 @@ LittleMsSam:
           - label: Ask for Help
             icon: Help
             content: |
-              Describe your issue as detailed as possible, and be patience please. LittleMsSam or those who are willing to help are answering as soon as possible.
+              Describe your issue in as much detail as possible, and be patient please. LittleMsSam or those who are willing to help will answer as soon as possible.
 
 PlumbBuddy:
   ask_for_help_steps:
