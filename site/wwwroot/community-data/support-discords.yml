@@ -183,6 +183,40 @@ Deaderpool:
             content: |
                 Check the 'Read First' channel for your chosen modder and make sure you have followed all the instructions.
 
+LittleMsSam:
+  logo_media: https://www.lms-mods.com/images/Sims/LMS16.png
+  description:
+    "": |
+      Need help with my mods? Join my Discord.
+  specific_creators:
+    LittleMsSam:
+      ask_for_help_steps:
+        "":
+          - label: Rules
+            icon: PoliceBadge
+            content: |
+              * Ages 13 & up ONLY. Discord TOS: [https://discordapp.com/terms](https://discordapp.com/terms)
+              * You **MUST** have the current **LEGAL** version of Sims 4 AND any DLC packs. We WILL NOT support ANY pirated software. Period. 
+              * Crew members are chosen by Admin, and will enforce Server peace. 
+              * All Rights Reserved. No Hate! **ZERO TOLERANCE. No Bullying. No Racism. No Illegal Activity. No Harassment.** If you wouldn't say it in front of your parents, then DO NOT say it here... 
+              * **Be Respectful.** If you can't say something nice, keep it to yourself. Arguing or being abusive may lead to a Kick or Ban. 
+              * **Be patient.** Instant responses won't always happen. Do not post the same thing in multiple channels. 
+              * **No NSFW Talk** in channels. Keep it PG13. Remember this Discord is for Users 13+.
+              * **Be considerate.** Do not over-use CAPS. Please post complete thoughts/sentences. 
+              * The everyone & here tags are Reserved for Admin/Crew. People not wanting to receive Mentions should adjust Notifications settings. These tags will be used when we feel they're appropriate. 
+          - label: Join the Discord
+            icon: OpenInApp
+            content: |
+              [Click here](https://discord.gg/KpZsvRM) to join the **LittleMsSam's Cozy Corner** Discord server.
+          - label: Select a Channel
+            icon: MessageText
+            content: |
+              Under the `LITTLEMSSAM'S MODS ONLY` category on the left side of Discord, click on the `#lms-mods-support` channel.
+          - label: Ask for Help
+            icon: Help
+            content: |
+              Describe your issue in as much detail as possible, and be patient please. LittleMsSam or those who are willing to help will answer as soon as possible.
+
 PlumbBuddy:
   ask_for_help_steps:
     "":
