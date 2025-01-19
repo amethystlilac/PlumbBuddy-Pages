@@ -3,45 +3,67 @@
 <PageTitle>PlumbBuddy</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-6">
     <MudCarousel TData="object" AutoCycle AutoCycleTime="@(TimeSpan.FromSeconds(10))" EnableSwipeGesture ShowArrows ShowBullets Class="mud-width-full rounded" Style="height: calc(100vh - 210px);">
-        <MudCarouselItem Color="Color.Success" Style="background-image: url(/img/cloudy_blue_sky.jpg); background-size: cover; background-position: center;">
+        <MudCarouselItem Color="Color.Success" Style="background-image: url(/img/archivist_cloaked.jpg); background-size: cover; background-position: center;">
             <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
                 <MudPaper Elevation="5" Class="pa-4 mud-success">
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title">PlumbBuddy 1.0 is Here!</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title">PlumbBuddy 1.2 is Here!</MudTextM3>
                         <MudPaper Outlined Class="pa-4">
                             <MudTextM3>
-                                Want a buddy <strong>always</strong> watching your game and Mods folder, on the look-out for anything to tell you about... <em>and help you with?</em>
-                                Well, you can <MudLink Href="/download">download it now</MudLink> for your Windows PC or Mac!
+                                Your buddy to help with mods now also keeps your saves safe.
+								Plus it has four new themes from creators.
+                                Well, what are you waiting for?!
+								<MudLink Href="/download">Download it now</MudLink> for your Windows PC or Mac!
                             </MudTextM3>
                         </MudPaper>
                     </MudStack>
                 </MudPaper>
             </MudStack>
         </MudCarouselItem>
-        <MudCarouselItem Color="Color.Primary" Style="background-image: url(/img/mod_health_scans.jpg); background-size: cover; background-position: center;">
-            <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
-                <MudPaper Elevation="5" Class="pa-4 mud-theme-primary">
-                    <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title">New Feature: <strong>Mod Health</strong></MudTextM3>
-                        <MudPaper Outlined Class="pa-4">
-                            <MudTextM3>
-                                Mod Health helps you by <strong>Ensuring Optimal Game Options</strong>, <strong>Finding Problems in Your Mods Folder</strong>, <strong>Pointing Out Essentials You're Missing</strong>, and <strong>Performing Analysis of Your Game &amp; Mods</strong>.
-                                <MudLink Href="/features/mod-health">Click here</MudLink> to learn more.
-                            </MudTextM3>
-                        </MudPaper>
-                    </MudStack>
-                </MudPaper>
-            </MudStack>
-        </MudCarouselItem>
-        <MudCarouselItem Color="Color.Tertiary" Style="background-image: url(/img/support_representative.jpg); background-size: cover; background-position: center;">
+		<MudCarouselItem Color="Color.Primary" Style="background-image: url(/img/mod_health_scans.jpg); background-size: cover; background-position: center;">
+			<MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
+				<MudPaper Elevation="5" Class="pa-4 mud-theme-primary">
+					<MudStack>
+						<MudTextM3 Typo="TypoM3.Title"><strong>Mod Health</strong></MudTextM3>
+						<MudPaper Outlined Class="pa-4">
+							<MudTextM3>
+								Mod Health helps you by <strong>Ensuring Optimal Game Options</strong>, <strong>Finding Problems in Your Mods Folder</strong>, <strong>Pointing Out Essentials You're Missing</strong>, and <strong>Performing Analysis of Your Game &amp; Mods</strong>.
+								<MudLink Href="/features/mod-health">Click here</MudLink> to learn more.
+							</MudTextM3>
+						</MudPaper>
+					</MudStack>
+				</MudPaper>
+			</MudStack>
+		</MudCarouselItem>
+		<MudCarouselItem Color="Color.Secondary" Style="background-image: url(/img/arcane_vault.jpg); background-size: cover; background-position: center;">
+			<MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
+				<MudPaper Elevation="5" Class="pa-4 mud-theme-secondary">
+					<MudStack>
+						<MudStack Row AlignItems="AlignItems.Center">
+							<MudTextM3 Typo="TypoM3.Title">
+								<strong>Archivist</strong>
+							</MudTextM3>
+							<MudIcon Icon="@MaterialDesignIcons.Normal.NewBox" Size="Size.Large" />
+						</MudStack>
+						<MudPaper Outlined Class="pa-4">
+							<MudTextM3>
+								Archivist is ready to help you never lose a save again.
+								<MudLink Href="/features/archivist">Click here</MudLink> to learn more.
+							</MudTextM3>
+						</MudPaper>
+					</MudStack>
+				</MudPaper>
+			</MudStack>
+		</MudCarouselItem>
+		<MudCarouselItem Color="Color.Tertiary" Style="background-image: url(/img/construction_workers.jpg); background-size: cover; background-position: center;">
             <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
                 <MudPaper Elevation="5" Class="pa-4 mud-theme-tertiary">
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title">New Community Service: <strong>Support Venues</strong></MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title"><strong>Manifest Editor</strong></MudTextM3>
                         <MudPaper Outlined Class="pa-4">
                             <MudTextM3>
-                                When a player gets an error or when they need help with anything game or mod related, there’s a convenient button in PlumbBuddy that they can click and be guided through finding that help.
-                                <MudLink Href="/community-services/support-venues">Click here</MudLink> if you want to pitch in.
+								<em>Finally</em>, Creators can make mods self-describing: identifying <strong>who</strong> made them, <strong>where</strong> they came from, and <strong>what</strong> they need.
+                                If you're a mod creator who would like to make your mods easier for players to install and configure, <MudLink Href="/features/manifest-editor">click here</MudLink> to learn more.
                             </MudTextM3>
                         </MudPaper>
                     </MudStack>

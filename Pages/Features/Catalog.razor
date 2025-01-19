@@ -18,7 +18,7 @@
                 <MudCardMedia Image="/img/catalog_listing.jpg" Height="300" />
                 <MudCardHeader>
                     <MudStack Row AlignItems="AlignItems.Center">
-                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Puzzle" Color="Color.Primary" />
+                        <MudIcon Size="Size.Large" Icon="@MaterialDesignIcons.Normal.Certificate" Color="Color.Primary" />
                         <MudTextM3 Typo="TypoM3.Title" Color="Color.Primary">See a List of All Your Manifested Mods</MudTextM3>
                     </MudStack>
                 </MudCardHeader>
@@ -34,16 +34,10 @@
                         </MudTextM3>
                         <div class="overflow-y-auto rounded mud-paper-outlined" style="backdrop-filter: blur(10px); background-color: color-mix(in srgb, transparent, var(--mud-palette-surface) 60%); height: 215px; width: 80%; -webkit-backdrop-filter: blur(10px);">
                             <MudList T="object">
-                                <MudListItem T="object" Text="FlowFit" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="Home and Land Company" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="MissBee's Child Aspirations Set updated" SecondaryText="Amethyst Lilac" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="Organic - Hair" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="Private Practice" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="R|E" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="SNBank" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="SNB - Bills" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                                <MudListItem T="object" Text="SNB - Financial Center" SecondaryText="SimRealist" Icon="@MaterialDesignIcons.Normal.Puzzle" />
-                            </MudList>
+								<MudListItem T="object" Text="Lot 51 Core Library" SecondaryText="Lot 51" Icon="@MaterialDesignIcons.Normal.Certificate" IconColor="Color.Primary" />
+								<MudListItem T="object" Text="MissBee's Child Aspirations Set updated" SecondaryText="Amethyst Lilac" Icon="@MaterialDesignIcons.Normal.Certificate" IconColor="Color.Primary" />
+								<MudListItem T="object" Text="XML Injector" SecondaryText="Scumbumbo Team" Icon="@MaterialDesignIcons.Normal.Certificate" IconColor="Color.Primary" />
+							</MudList>
                         </div>
                     </MudStack>
                 </MudCardContent>
@@ -67,15 +61,15 @@
                         <MudPaper Outlined Class="rounded px-8 py-4">
                             <MudStack Spacing="1" AlignItems="AlignItems.Center">
                                 <MudStack Row AlignItems="AlignItems.Baseline">
-                                    <MudTextM3 Typo="TypoM3.Headline">Private Practice</MudTextM3>
-                                    <MudTextM3 Typo="TypoM3.Headline" Size="Size.Small">2.4.6.2</MudTextM3>
+									<MudTextM3 Typo="TypoM3.Headline">XML Injector</MudTextM3>
+                                    <MudTextM3 Typo="TypoM3.Headline" Size="Size.Small">4.1</MudTextM3>
                                 </MudStack>
-                                <MudLink Href="https://simrealist.itch.io/private-practice-public" Target="_blank">https://simrealist.itch.io/private-practice-public</MudLink>
+								<MudLink Href="https://scumbumbomods.com/xml-injector" Target="_blank">https://scumbumbomods.com/xml-injector</MudLink>
                                 <MudStack Row>
-                                    <MudChip T="string" Text="SimRealist" Icon="@MaterialDesignIcons.Normal.Account" Color="Color.Primary" />
+									<MudChip T="string" Text="Scumbumbo Team" Icon="@MaterialDesignIcons.Normal.Account" Color="Color.Primary" />
                                 </MudStack>
-                                <MudTooltip Arrow Text="@($"Private Practice requires that EP01 is installed. You do have EP01 installed. Click here to view the store page for EP01.")" Color="Color.Success">
-                                    <MudButton Variant="Variant.Filled" Size="Size.Small" Href="/redirect?purchase-pack=EP01" Target="_blank" StartIcon="@MaterialDesignIcons.Normal.BagPersonal" Color="Color.Success">EP01</MudButton>
+								<MudTooltip Arrow Text="@($"Click here to ask specifically for help with XML Injector in a Community Support venue.")" Color="Color.Info">
+									<MudButton Variant="Variant.Filled" Size="Size.Small" Target="_blank" StartIcon="@MaterialDesignIcons.Normal.FaceAgent" Color="Color.Info">Ask for Help</MudButton>
                                 </MudTooltip>
                             </MudStack>
                         </MudPaper>
@@ -85,7 +79,7 @@
                         </MudTextM3>
                         <MudPaper Outlined Class="rounded pr-2">
                             <MudStack Row AlignItems="AlignItems.Center">
-                                <MudBreadcrumbs Items="@(new BreadcrumbItem[] { new("SimRealist", "javascript:void(0)", icon: MaterialDesignIcons.Normal.Folder), new("SimRealist_-_PrivatePractice_2.4.6.2.package", "javascript:void(0)", icon: MaterialDesignIcons.Normal.PackageVariantClosed) })" />
+								<MudBreadcrumbs Items="@(new BreadcrumbItem[] { new("Libraries", "javascript:void(0)", icon: MaterialDesignIcons.Normal.Folder), new("XmlInjector_Script_v4.1_life-and-death-patch-fix.ts4script", "javascript:void(0)", icon: MaterialDesignIcons.Normal.SourceBranch) })" />
                                 <MudSpacer />
                                 <MudTooltip Text="View this File" Arrow>
                                     <MudIconButton Icon="@MaterialDesignIcons.Normal.FileFind" Size="Size.Small" />
