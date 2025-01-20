@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "PlumbBuddy-Pages",
   "resources": {
-    "hash": "sha256-i6zUd4QxSQl0gDo030NgQD3UWdl+RcDjbcBDaeXvqFw=",
+    "hash": "sha256-D8bDbpyD6GnylL3SqliEbDu+4jU4Sq3ciHkbVw6DJps=",
     "fingerprinting": {
       "Bromix.MudBlazor.MaterialDesignIcons.19vuk56vs0.wasm": "Bromix.MudBlazor.MaterialDesignIcons.wasm",
       "CodeBeam.MudBlazor.Extensions.jbs57b44ex.wasm": "CodeBeam.MudBlazor.Extensions.wasm",
@@ -31,7 +31,7 @@
       "MudBlazor.hzxyo77f1s.wasm": "MudBlazor.wasm",
       "netstandard.h3uzjzcbik.wasm": "netstandard.wasm",
       "Octokit.l5jyse5wga.wasm": "Octokit.wasm",
-      "PlumbBuddy-Pages.ubmwzjwoik.wasm": "PlumbBuddy-Pages.wasm",
+      "PlumbBuddy-Pages.oastj90sa9.wasm": "PlumbBuddy-Pages.wasm",
       "System.Collections.Concurrent.vcqq91tjcp.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.uinclu7u1n.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.NonGeneric.mxkokthqqj.wasm": "System.Collections.NonGeneric.wasm",
@@ -175,7 +175,7 @@
       "MudBlazor.hzxyo77f1s.wasm": "sha256-c1tVURtAXl7dv0ANtAtmFOMTznvNmF7CFso0UKd0FU0=",
       "netstandard.h3uzjzcbik.wasm": "sha256-4513tp1RptTYwuB4CFgAKL4HVdd/DWCT2iEBKGevTRA=",
       "Octokit.l5jyse5wga.wasm": "sha256-h4a5luUbvS+HMGKlssAXQ8PRf2h3zG7LHTnrKcBLQrE=",
-      "PlumbBuddy-Pages.ubmwzjwoik.wasm": "sha256-9peTPdJTN4fOYKepzb+N8AJvPfzkfN4yiFwQGUYHFRw=",
+      "PlumbBuddy-Pages.oastj90sa9.wasm": "sha256-gOuounh5wk0HxgtfmQnDcC8ySZ+bWx/+iqV+qGzfl4U=",
       "System.Collections.Concurrent.vcqq91tjcp.wasm": "sha256-7+TXhG0EXBonq6jpsAXAwwgbvr5SyKhi97RAvPsj3Nk=",
       "System.Collections.Immutable.uinclu7u1n.wasm": "sha256-Fl/Ub51qTekocAN0IFBNS2exzwB+6GFppkmaH5y7hpQ=",
       "System.Collections.NonGeneric.mxkokthqqj.wasm": "sha256-+jefemtDa7hp1ALM46KU8v3JYfB+ZJxehuEw8BI7uyQ=",
