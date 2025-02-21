@@ -270,23 +270,23 @@ PlumbBuddy:
         icon: Charity
         content: |
           There are some kind people who take the time to collect reports about mods and cc that cause issues in games.<br>
-          There's LuthienRising, who maintains a list of broken mods and custom content at Answers HQ. The current version of her list is pinned [here](https://answers.ea.com/t5/Mods-CC-Issues/bd-p/the-sims-4-game-issues-mods-en). It's important to note that her list only includes things that follow EA's T for Teen rating and otherwise follow AHQ's rules. Older lists are linked on the Mods & CC Issues page too, if you need to go back further.<br>
+          There's LuthienRising, who maintains a list of broken mods and custom content at Answers HQ. The current version of her list is listed [here](https://forums.ea.com/discussions/the-sims-4-mods-and-custom-content-en/mod--cc-issues-start-here/5035292). It's important to note that her list only includes things that follow EA's T for Teen rating and otherwise follow AHQ's rules. Older lists will be linked too, if you need to go back further.<br>
           There's Scarlet, who keeps a list of all (or most) mods. There are 4 different versions of the list, and you can pick the one that fits your needs [here](https://scarletsrealm.com/the-mod-list/). Scarlet's list may contain more mods than LuthienRising's, but it doesn't include custom content unless it breaks as a category (all beds, for example). Make sure to check the Obsolete list too! It's linked at the top of the page.<br>
           If you're a member of a sims discord server, you may have seen a mod news feed from the Sims After Dark or the Deaderpool discord servers. These contain valuable information about which mods have broken or been updated, and they're updated daily.<br>
           If you're not a member of a discord server that has that feed, you can always join the servers themselves. You can join the [Sims After Dark server](http://discord.gg/simsafterdark) and see the `#general-mod-news` channel in the `Announcements and News` section, or you can join the [Deaderpool server](http://discord.gg/MCCC) and see the `#mod-news` channel in the `Bulletin Board` section. You can scroll back as far as you need to.<br>
       - label: DIY Troubleshooting Library
         icon: HeartHalfFull
         content: |
-          The Sims After Dark website has a lot of resources that will help you troubleshoot your own game. <br>
+          The Sims After Dark website has a lot of resources that will help you troubleshoot your own game.<br>
           This includes a beginner's guide to modding, how to find the mod or CC that's breaking your game (or just doing something you don't want), how to batch fix your CC, and how to survive a patch, among others.<br>
           You can find the DIY Troubleshooting Library [here](https://simsafterdark.com/diy-troubleshooting-library/).
       - label: Game Bugs and Technical Issues
         icon: Ladybug
         content: |
           Sometimes it's not a mod. Sometimes it's just the game misbehaving, or something about your system that's not happy.<br>
-          Answers HQ has a Bug Reports forum where you can search for other people who have your same issue and see what they did to fix it, or post about your own experience and someone might know a workaround. You might even call attention from the Sims team to your issue. They have to know it's a problem if they're going to fix it. [Click here](https://answers.ea.com/t5/Bug-Reports/bd-p/The-Sims-4-Bugs) to go to the Bug Report forum.<br>
-          If it's not a bug, but rather a technical problem, you can try the Technical Issues forum instead. There's a [Windows](https://answers.ea.com/t5/PC/bd-p/The-Sims-4) section, a [Mac](https://answers.ea.com/t5/Mac/bd-p/The-Sims-Mac) section, and a section for [Consoles](https://answers.ea.com/t5/Consoles/bd-p/the-sims-4-technical-issues-consoles-en).<br>
-          You can also leave feedback in the [Game Feedback & Ideas](https://answers.ea.com/t5/Game-Feedback-Ideas/bd-p/the-sims-4-game-suggestions-en) section, if there's something that you don't like but that they don't consider to be an official bug.
+          The EA Forums have a Bug Reports area where you can search for other people who have your same issue and see what they did to fix it, or post about your own experience and someone might know a workaround. You might even call attention from the Sims team to your issue! They have to know it's a problem if they're going to fix it. [Click here](https://forums.ea.com/idea/the-sims-4-bug-reports-en/general-information-about-the-bug-reports-forum/4965007) to go to the Bug Report forum.<br>
+          If it's not a bug, but rather a technical problem, you can try the Technical Issues forum instead. There's a [Windows](https://forums.ea.com/category/the-sims-4-en/discussions/the-sims-4-technical-issues-pc-en) section, a [Mac](https://forums.ea.com/category/the-sims-4-en/discussions/the-sims-4-technical-issues-mac-en) section, and a section for [Consoles](https://forums.ea.com/category/the-sims-4-en/discussions/the-sims-4-technical-issues-consoles-en).<br>
+          You can also leave feedback in [The Sims 4 Feedback](https://forums.ea.com/category/the-sims-4-en/discussions/the-sims-4-feedback-en) section, if there's something that you don't like but that they don't consider to be an official bug, or ask a question in [The Sims 4 Gameplay Questions & Issues](https://forums.ea.com/category/the-sims-4-en/discussions/the-sims-4-gameplay-en).
       - label: If you still need help
         icon: Handshake
         content: |
