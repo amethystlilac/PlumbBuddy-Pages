@@ -66,6 +66,10 @@ EP17:
   english_name: Life and Death
   ea_stub: the-sims-4-life-and-death-expansion-pack
   steam_stub: 2815290
+EP18:
+  english_name: Businesses & Hobbies
+  ea_stub: the-sims-4-businesses-and-hobbies-expansion-pack
+  steam_stub: 2815310
 FP01:
   english_name: Holiday Celebration
   steam_stub: 1235764
@@ -357,4 +361,3 @@ SP62:
   english_name: Business Chic Kit
   ea_stub: the-sims-4-business-chic-kit
   steam_stub: 3199820
-
