@@ -3,16 +3,14 @@
 <PageTitle>PlumbBuddy</PageTitle>
 <MudContainer MaxWidth="MaxWidth.Large" Class="mt-6">
     <MudCarousel TData="object" AutoCycle AutoCycleTime="@(TimeSpan.FromSeconds(10))" EnableSwipeGesture ShowArrows ShowBullets Class="mud-width-full rounded" Style="height: calc(100vh - 210px);">
-        <MudCarouselItem Color="Color.Success" Style="background-image: url(/img/archivist_cloaked.jpg); background-size: cover; background-position: center;">
+        <MudCarouselItem Color="Color.Success" Style="background-image: url(/img/boseong.jpg); background-size: cover; background-position: center;">
             <MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
                 <MudPaper Elevation="5" Class="pa-4 mud-success">
                     <MudStack>
-                        <MudTextM3 Typo="TypoM3.Title">PlumbBuddy 1.2 is Here!</MudTextM3>
+                        <MudTextM3 Typo="TypoM3.Title">PlumbBuddy 1.3 is Here!</MudTextM3>
                         <MudPaper Outlined Class="pa-4">
                             <MudTextM3>
-                                Your buddy to help with mods now also keeps your saves safe.
-								Plus it has four new themes from creators.
-                                Well, what are you waiting for?!
+                                Your buddy to help with mods and saves now also helps you help other mod users if you understand multiple languages!
 								<MudLink Href="/download">Download it now</MudLink> for your Windows PC or Mac!
                             </MudTextM3>
                         </MudPaper>
@@ -43,12 +41,31 @@
 							<MudTextM3 Typo="TypoM3.Title">
 								<strong>Archivist</strong>
 							</MudTextM3>
-							<MudIcon Icon="@MaterialDesignIcons.Normal.NewBox" Size="Size.Large" />
 						</MudStack>
 						<MudPaper Outlined Class="pa-4">
 							<MudTextM3>
 								Archivist is ready to help you never lose a save again.
 								<MudLink Href="/features/archivist">Click here</MudLink> to learn more.
+							</MudTextM3>
+						</MudPaper>
+					</MudStack>
+				</MudPaper>
+			</MudStack>
+		</MudCarouselItem>
+		<MudCarouselItem Color="Color.Secondary" Style="background-image: url(/img/santorini.jpg); background-size: cover; background-position: center;">
+			<MudStack Class="pt-8 pl-8" Style="width: 85%; height: 100%;">
+				<MudPaper Elevation="5" Class="pa-4 mud-theme-secondary">
+					<MudStack>
+						<MudStack Row AlignItems="AlignItems.Center">
+							<MudTextM3 Typo="TypoM3.Title">
+								<strong>Parlay</strong>
+							</MudTextM3>
+							<MudIcon Icon="@MaterialDesignIcons.Normal.NewBox" Size="Size.Large" />
+						</MudStack>
+						<MudPaper Outlined Class="pa-4">
+							<MudTextM3>
+								Is there a mod that you love but it’s just not available in your language? Parlay is there for you.
+								<MudLink Href="/features/parlay">Click here</MudLink> to learn more.
 							</MudTextM3>
 						</MudPaper>
 					</MudStack>
