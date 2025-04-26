@@ -31,7 +31,7 @@
                     </template>
                     <div
                         v-if="feature.image"
-                        :style="{ width: '100%', height: '300px', backgroundImage: `url('/src/assets/${feature.image}')`, backgroundPosition: feature.imagePosition ?? 'center', backgroundSize: 'cover' }"
+                        :style="{ width: '100%', height: '300px', backgroundImage: `url('@/assets/${feature.image}')`, backgroundPosition: feature.imagePosition ?? 'center', backgroundSize: 'cover' }"
                     >
                     </div>
                     <v-card-text>
