@@ -19,7 +19,7 @@
                         class="h-100"
                     >
                         <div
-                            :style="`width: 100%; height: 300px; background-image: url('@/assets/${person.image}'); background-position: ${person.imagePosition ?? 'center'}; background-size: cover;`"
+                            :style="`width: 100%; height: 300px; background-image: url('/img/${person.image}'); background-position: ${person.imagePosition ?? 'center'}; background-size: cover;`"
                         >
                         </div>
                         <v-card-title

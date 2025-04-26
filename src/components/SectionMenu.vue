@@ -31,7 +31,7 @@
                         </span>
                     </template>
                     <div
-                        :style="{ width: '100%', height: '300px', backgroundImage: `url('@/assets/${section.image}')`, backgroundPosition: section.imagePosition ?? 'center', backgroundSize: 'cover' }"
+                        :style="{ width: '100%', height: '300px', backgroundImage: `url('/img/${section.image}')`, backgroundPosition: section.imagePosition ?? 'center', backgroundSize: 'cover' }"
                     >
                     </div>
                     <v-card-text>
