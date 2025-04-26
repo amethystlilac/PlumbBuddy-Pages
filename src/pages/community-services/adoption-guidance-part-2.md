@@ -1,0 +1,2 @@
+Please make sure to credit the original creator, and to leave their name intact in the manifest when you add your own.
+If the original creator had a redirect set up on PlumbBuddy.app (this website), [contact us](/community-services/redirect-hosting) when you've published your update so that we can update that too!
