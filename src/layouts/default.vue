@@ -5,7 +5,7 @@
     @click="rail = false"
   >
     <v-list-item
-      prepend-avatar="../assets/PlumbBuddyLogo.svg"
+      prepend-avatar="/img/PlumbBuddyLogo.svg"
       title="PlumbBuddy"
     >
       <template v-slot:append>
@@ -220,7 +220,7 @@
 
 <style>
   #site-background {
-    background-image: url(@/assets/Cloudy.svg);
+    background-image: url(/img/Cloudy.svg);
     background-position: center;
     background-size: cover;
     height: 100vh;

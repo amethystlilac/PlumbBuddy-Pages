@@ -90,7 +90,7 @@
   const carouselHeight = computed(() => height.value - 120);
   const carouselItems = [
     {
-      background: '@/assets/boseong.jpg',
+      background: '/img/boseong.jpg',
       color: 'success',
       title: 'PlumbBuddy 1.3 is Here!',
       text: `Your buddy to help with mods and saves now also helps you help other mod users if you understand multiple languages!`,
@@ -99,7 +99,7 @@
       buttonPath: '/download',
     },
     {
-      background: '@/assets/mod_health_scans.jpg',
+      background: '/img/mod_health_scans.jpg',
       color: 'primary',
       title: 'Mod Health',
       text: `Mod Health helps you by <strong>Ensuring Optimal Game Options</strong>, <strong>Finding Problems in Your Mods Folder</strong>, <strong>Pointing Out Essentials You're Missing</strong>, and <strong>Performing Analysis of Your Game &amp; Mods</strong>.`,
@@ -108,7 +108,7 @@
       buttonPath: '/features/mod-health',
     },
     {
-      background: '@/assets/arcane_vault.jpg',
+      background: '/img/arcane_vault.jpg',
       color: 'secondary',
       title: 'Archivist',
       text: `Archivist is ready to help you never lose a save again.`,
@@ -117,7 +117,7 @@
       buttonPath: '/features/archivist',
     },
     {
-      background: '@/assets/santorini.jpg',
+      background: '/img/santorini.jpg',
       color: 'secondary',
       title: 'Parlay',
       text: `Is there a mod that you love but it's just not available in your language? Parlay is there for you.`,
@@ -126,7 +126,7 @@
       buttonPath: '/features/parlay',
     },
     {
-      background: '@/assets/construction_workers.jpg',
+      background: '/img/construction_workers.jpg',
       color: 'tertiary',
       title: 'Manifest Editor',
       text: `<em>Finally</em>, Creators can make mods self-describing: identifying <strong>who</strong> made them, <strong>where</strong> they came from, and <strong>what</strong> they need.`,

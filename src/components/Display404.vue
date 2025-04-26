@@ -3,7 +3,7 @@
         class="rounded-lg mr-4"
         elevation="5"
         height="96"
-        src="@/assets/missing_image.png"
+        src="/img/missing_image.png"
         style="float: left;"
         width="96"
     />

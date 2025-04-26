@@ -67,6 +67,6 @@
     const isWindows = asset.name.endsWith('.msix');
     const tagParts = release.tag_name.split('/');
     const description = `${isWindows ? `${(asset.name.endsWith('_arm64.msix') ? 'arm64' : 'Intel/AMD x64')}` : 'Universal Binary'} Version ${tagParts[1]} for ${isWindows ? 'Windows 10 or later' : 'macOS Sonoma or later'}`;
-    const imgSrc = isWindows ? '@/assets/WindowsLogo.svg' : '@/assets/macOSLogo.png';
+    const imgSrc = isWindows ? '/img/WindowsLogo.svg' : '/img/macOSLogo.png';
 
 </script>
