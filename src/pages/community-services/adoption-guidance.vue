@@ -1,7 +1,7 @@
 <template>
-    <v-breadcrumbs
-        bg-color="tertiary"
-        :items="[{title: 'PlumbBuddy.app', to: '/'}, {title: 'Community Services', to: '/community-services'}, {title: 'Adoption Guidance'}]"
+    <MenuToggleBreadcrumbs
+        color="tertiary"
+        :items="[{title: 'Community Services', to: '/community-services'}, {title: 'Adoption Guidance'}]"
     />
     <div class="main-container">
         <Markdown :source="adoptionGuidancePart1Markdown" class="standard-text" />

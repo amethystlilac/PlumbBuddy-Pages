@@ -13,6 +13,7 @@ declare module 'vue' {
     DownloadReleaseAsset: typeof import('./src/components/DownloadReleaseAsset.vue')['default']
     FeatureCard: typeof import('./src/components/FeatureCard.vue')['default']
     FeaturePanels: typeof import('./src/components/FeaturePanels.vue')['default']
+    MenuToggleBreadcrumbs: typeof import('./src/components/MenuToggleBreadcrumbs.vue')['default']
     PersonCard: typeof import('./src/components/PersonCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

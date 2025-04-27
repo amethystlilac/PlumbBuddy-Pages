@@ -1,4 +1,5 @@
 <template>
+  <MenuToggleBreadcrumbs />
   <v-carousel
     cycle
     :height="`${carouselHeight}px`"
@@ -87,7 +88,7 @@
     window.removeEventListener('resize', updateHeight);
   });
 
-  const carouselHeight = computed(() => height.value - 120);
+  const carouselHeight = computed(() => height.value - 175);
   const carouselItems = [
     {
       background: '/img/boseong.jpg',

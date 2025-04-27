@@ -1,7 +1,7 @@
 <template>
-    <v-breadcrumbs
-        bg-color="info"
-        :items="[{title: 'PlumbBuddy.app', to: '/'}, {title: 'Redirect'}]"
+    <MenuToggleBreadcrumbs
+        color="info"
+        :items="[{title: 'Redirect'}]"
     />
     <div class="main-container">
         <v-alert

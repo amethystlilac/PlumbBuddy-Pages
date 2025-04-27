@@ -1,7 +1,7 @@
 <template>
-    <v-breadcrumbs
-        bg-color="info"
-        :items="[{title: 'PlumbBuddy.app', to: '/'}, {title: 'Privacy Policy'}]"
+    <MenuToggleBreadcrumbs
+        color="info"
+        :items="[{title: 'Privacy Policy'}]"
     />
     <div class="main-container">
         <Markdown :source="privacyPolicyMarkdown" class="standard-text" />

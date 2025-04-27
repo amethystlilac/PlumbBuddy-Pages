@@ -1,7 +1,7 @@
 <template>
-    <v-breadcrumbs
-        bg-color="info"
-        :items="[{title: 'PlumbBuddy.app', to: '/'}, {title: 'Terms of Use'}]"
+    <MenuToggleBreadcrumbs
+        color="info"
+        :items="[{title: 'Terms of Use'}]"
     />
     <div class="main-container">
         <Markdown

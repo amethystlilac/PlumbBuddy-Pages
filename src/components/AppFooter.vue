@@ -3,48 +3,6 @@
     app
     height="40"
   >
-    <router-link
-      title="Landing"
-      to="/"
-    >
-      <v-avatar
-        image="/img/PlumbBuddyLogo.svg"
-        size="24"
-      />
-      <v-tooltip
-        activator="parent"
-        location="top"
-      >
-        Landing
-      </v-tooltip>
-    </router-link>
-    <v-divider
-      class="ml-3"
-      vertical
-    />
-    <router-link
-      v-for="navLocation in navLocations"
-      :title="navLocation.title"
-      :to="navLocation.path"
-    >
-      <v-icon
-        class="ml-3"
-        :color="navLocation.color"
-        :icon="navLocation.icon"
-        size="20"
-      >
-      </v-icon>
-      <v-tooltip
-        activator="parent"
-        location="top"
-      >
-        {{ navLocation.title }}
-      </v-tooltip>
-    </router-link>
-    <v-divider
-      class="ml-3"
-      vertical
-    />
     <a
       v-for="item in items"
       :key="item.title"
@@ -58,12 +16,6 @@
         :icon="item.icon"
         :size="item.icon === '$vuetify' ? 24 : 16"
       />
-      <v-tooltip
-        activator="parent"
-        location="top"
-      >
-        {{ item.title }}
-      </v-tooltip>
     </a>
 
     <div
@@ -76,49 +28,6 @@
 </template>
 
 <script setup>
-  import { useAppStore } from '@/stores/app';
-
-  const appStore = useAppStore();
-
-  const navLocations = [
-    {
-      color: 'success',
-      icon: 'mdi-download',
-      path: '/download',
-      title: 'Download',
-    },
-    {
-      color: 'info',
-      icon: 'mdi-account-question',
-      path: '/who-are-we',
-      title: 'Who Are We?',
-    },
-    {
-      color: 'primary',
-      icon: 'mdi-feature-search',
-      path: '/features',
-      title: 'Features',
-    },
-    {
-      color: 'tertiary',
-      icon: 'mdi-offer',
-      path: '/community-services',
-      title: 'Community Services',
-    },
-    {
-      color: 'info',
-      icon: 'mdi-file-sign',
-      path: '/terms-of-use',
-      title: 'Terms of Use',
-    },
-    {
-      color: 'info',
-      icon: 'mdi-shield-account',
-      path: '/privacy-policy',
-      title: 'Privacy Policy',
-    },
-  ];
-
   const items = [
     {
       title: 'LlamaLogic GitHub',

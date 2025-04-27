@@ -7,6 +7,7 @@ export const useAppStore = defineStore('app', {
     state: () => ({
         currentRelease: null,
         isDesktop: false,
+        isMenuOpen: false,
         isPhone: false,
         isTablet: false,
         releases: [],
@@ -26,6 +27,10 @@ export const useAppStore = defineStore('app', {
                 return;
             }
             await this.refreshReleases();
+        },
+
+        setIsMenuOpen(isMenuOpen) {
+            this.isMenuOpen = isMenuOpen;
         },
 
         async refreshReleases() {

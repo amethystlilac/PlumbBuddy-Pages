@@ -1,7 +1,7 @@
 <template>
-    <v-breadcrumbs
-        bg-color="primary"
-        :items="[{title: 'PlumbBuddy.app', to: '/'}, {title: 'Features'}]"
+    <MenuToggleBreadcrumbs
+        color="primary"
+        :items="[{title: 'Features'}]"
     />
     <div class="main-container">
         <SectionMenu
