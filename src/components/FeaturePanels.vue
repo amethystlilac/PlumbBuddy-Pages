@@ -1,56 +1,35 @@
 <template>
     <v-container
+        v-if="!appStore.isPhone"
     >
         <v-row
             justify="center"
+            class="ga-4"
         >
             <v-col
                 v-for="feature in features"
+                class="ma-0 pa-0"
                 xs="12"
                 lg="6"
             >
-                <v-card
-                    class="h-100"
-                >
-                    <template
-                        v-slot:prepend
-                    >
-                        <v-icon
-                            :color="feature.color"
-                            :icon="feature.icon"
-                        />
-                    </template>                    
-                    <template
-                        v-slot:title
-                    >
-                        <span
-                            :style="{ color: theme.current.value.colors[feature.color] }"
-                        >
-                            {{ feature.name }}
-                        </span>
-                    </template>
-                    <div
-                        v-if="feature.image"
-                        :style="{ width: '100%', height: '300px', backgroundImage: `url('/img/${feature.image}')`, backgroundPosition: feature.imagePosition ?? 'center', backgroundSize: 'cover' }"
-                    >
-                    </div>
-                    <v-card-text>
-                        <Markdown
-                            :source="feature.description"
-                            class="standard-text"
-                        />
-                    </v-card-text>
-                </v-card>
+                <FeatureCard
+                    :feature="feature"
+                />
             </v-col>
         </v-row>
     </v-container>
+    <FeatureCard
+        v-if="appStore.isPhone"
+        v-for="feature in features"
+        class="mt-2"
+        :feature="feature"
+    />
 </template>
 
 <script setup>
-    import { useTheme } from 'vuetify';
-    import Markdown from 'vue3-markdown-it';
+    import { useAppStore } from '@/stores/app';
 
-    const theme = useTheme();
+    const appStore = useAppStore();
 
     const { features } = defineProps({
         features: Array

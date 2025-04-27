@@ -5,6 +5,7 @@
     />
     <div class="main-container">
         <v-container
+            v-if="!appStore.isPhone"
         >
             <v-row
                 justify="center"
@@ -15,53 +16,26 @@
                     md="6"
                     lg="4"
                 >
-                    <v-card
-                        class="h-100"
-                    >
-                        <div
-                            :style="`width: 100%; height: 300px; background-image: url('/img/${person.image}'); background-position: ${person.imagePosition ?? 'center'}; background-size: cover;`"
-                        >
-                        </div>
-                        <v-card-title
-                            :style="`color: ${person.accent};`"
-                        >
-                            {{ person.name }}
-                        </v-card-title>
-                        <v-card-subtitle
-                            :style="`color: ${person.accent};`"
-                        >
-                            {{ person.title }}
-                        </v-card-subtitle>
-                        <v-card-text>
-                            <Markdown
-                                :source="person.message"
-                                class="standard-text"
-                            />
-                        </v-card-text>
-                        <v-card-actions>
-                            <v-btn
-                                v-for="button in person.buttons"
-                                :href="button.href"
-                                :prepend-icon="button.icon"
-                                target="_blank"
-                            >
-                                {{ button.label }}
-                                <v-tooltip
-                                    activator="parent"
-                                    location="bottom"
-                                    :text="button.tip"
-                                />
-                            </v-btn>
-                        </v-card-actions>
-                    </v-card>
+                    <PersonCard
+                        :person="person"
+                    />
                 </v-col>
             </v-row>
         </v-container>
+        <PersonCard
+            v-if="appStore.isPhone"
+            v-for="person in folks"
+            class="mt-2"
+            :person="person"
+        />
     </div>
 </template>
 
 <script setup>
     import Markdown from 'vue3-markdown-it';
+    import { useAppStore } from '@/stores/app';
+
+    const appStore = useAppStore();
 
     const folks = [
     {

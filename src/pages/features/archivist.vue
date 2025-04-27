@@ -57,7 +57,7 @@ Archivist will remember where it came from, but will treat it as if it was a new
         {
             color: 'secondary',
             icon: 'mdi-home-heart',
-            name: 'Restore and Branch',
+            name: 'Customize Your Saves',
             image: 'photos_in_photos.jpg',
             description: `
 Pick a name and a thumbnail for your save's Chronicle within Archivist, and if you want, in the game too!

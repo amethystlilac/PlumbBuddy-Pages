@@ -11,9 +11,12 @@ declare module 'vue' {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
     Display404: typeof import('./src/components/Display404.vue')['default']
     DownloadReleaseAsset: typeof import('./src/components/DownloadReleaseAsset.vue')['default']
+    FeatureCard: typeof import('./src/components/FeatureCard.vue')['default']
     FeaturePanels: typeof import('./src/components/FeaturePanels.vue')['default']
+    PersonCard: typeof import('./src/components/PersonCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SectionCard: typeof import('./src/components/SectionCard.vue')['default']
     SectionMenu: typeof import('./src/components/SectionMenu.vue')['default']
   }
 }
