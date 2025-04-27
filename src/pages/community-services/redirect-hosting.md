@@ -12,7 +12,7 @@ If you’d like to use a redirect link in your own manifest, you have two option
 5. Once we’ve completed the process, the thread will be closed. If you need to update your information, please open a new thread.
 
 ##### Option 2: Github
-1. There are two identical files that need to be updated, listed as the links below. They are kept in [the GitHub repository for this website](https://github.com/lama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can review [this video](https://youtu.be/bdb0JQ-j6U4?t=214).
+1. There is one file that need to be updated, linked below. It is kept in [the GitHub repository for this website](https://github.com/lama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can review [this video](https://youtu.be/bdb0JQ-j6U4?t=214).
 2. Please keep the entries in alphabetical order, by owner (creator) name, starting after ModGuard. Use the redirects already listed as examples. Format is mportant.
 3. Submit your pull request. You may be asked for more information or to make changes. Please subscribe to notifications on the pull request and watch the email ssociated with your Github account to avoid having it denied due to non-responsiveness.
    
