@@ -52,7 +52,7 @@ You are able to see names, creators, and even download page URLs for each relate
         },
         {
             color: 'primary',
-            icon: 'mdi-search',
+            icon: 'mdi-magnify',
             name: 'Search All of the Things',
             image: 'magnifying_glass.png',
             description: `
