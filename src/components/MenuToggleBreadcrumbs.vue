@@ -10,9 +10,17 @@
                 class="mr-2"
                 height="24"
                 src="/img/PlumbBuddyLogo.svg"
+                style="cursor: pointer;"
                 width="24"
                 @click="toggleMenu"
-            />
+            >
+                <v-tooltip
+                    activator="parent"
+                    location="end"
+                >
+                    PlumbBuddy.app Main Menu
+                </v-tooltip>
+            </v-img>
         </template>
     </v-breadcrumbs>
 </template>
