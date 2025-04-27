@@ -10,7 +10,7 @@
         />
         <v-breadcrumbs
             class="pa-0"
-            :items="[{title: 'PlumbBuddy-Pages', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages'}, {title: 'public', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/public'}, {title: 'community-data', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/public/community-data'}, {title: 'support-discords.yml', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/public/community-data/support-discords.yml'}, '']"
+            :items="[{title: 'PlumbBuddy-Pages', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages'}, {title: 'public', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/tree/main/public'}, {title: 'community-data', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/tree/main/public/community-data'}, {title: 'support-discords.yml', href: 'https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/public/community-data/support-discords.yml'}, '']"
         />
     </div>
 </template>
