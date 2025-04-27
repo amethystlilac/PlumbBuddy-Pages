@@ -250,7 +250,7 @@ PlumbBuddy:
         show_app_log_file_highlighter: true
 
 "Self Help":
-  logo_media: https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/site/wwwroot/img/tools-spanner-hammer-icon-size_512.png?raw=true
+  logo_media: https://github.com/Llama-Logic/PlumbBuddy-Pages/blob/main/public/img/tools-spanner-hammer-icon-size_512.png?raw=true
   description:
     "": |
       You've decided you want to try to fix it yourself? Here's some advice and places you can get started.
