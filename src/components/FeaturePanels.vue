@@ -4,13 +4,11 @@
     >
         <v-row
             justify="center"
-            class="ga-4"
         >
             <v-col
                 v-for="feature in features"
-                class="ma-0 pa-0"
                 xs="12"
-                lg="6"
+                sm="6"
             >
                 <FeatureCard
                     :feature="feature"
