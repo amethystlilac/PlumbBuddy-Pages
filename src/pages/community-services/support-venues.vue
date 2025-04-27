@@ -5,7 +5,7 @@
     />
     <div class="main-container">
         <Markdown
-            :source="suppoerVenuesMarkdown" 
+            :source="supportVenuesMarkdown" 
             class="standard-text"
         />
         <v-breadcrumbs
@@ -17,5 +17,5 @@
 
 <script setup>
     import Markdown from 'vue3-markdown-it';
-    import suppoerVenuesMarkdown from './support-venues.md?raw';
+    import supportVenuesMarkdown from './support-venues.md?raw';
 </script>
