@@ -65,19 +65,19 @@
 <script setup>
     import { ref } from 'vue';
     import { useRouter, useRoute } from 'vue-router';
-    import { useAppStore } from '@/stores/app';
+    import { useGlobalState } from '@/stores/global-state';
 
     const router = useRouter();
     const route = useRoute();
-    const appStore = useAppStore();
+    const globalState = useGlobalState();
 
-    const drawer = ref(appStore.isMenuOpen);
-    watch(() => appStore.isMenuOpen, (newValue, oldValue) => {
+    const drawer = ref(globalState.isMenuOpen.value);
+    watch(() => globalState.isMenuOpen.value, (newValue, oldValue) => {
         drawer.value = newValue;
     });
     watch(drawer, (newValue, oldValue) => {
-        if (appStore.isMenuOpen !== newValue) {
-            appStore.setIsMenuOpen(newValue);
+        if (globalState.isMenuOpen.value !== newValue) {
+            globalState.setIsMenuOpen(newValue);
         }
     });
 

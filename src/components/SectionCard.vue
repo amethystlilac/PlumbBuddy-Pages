@@ -19,10 +19,12 @@
                 {{ section.name }}
             </span>
         </template>
-        <div
-            :style="{ width: '100%', height: '300px', backgroundImage: `url('/img/${section.image}')`, backgroundPosition: section.imagePosition ?? 'center', backgroundSize: 'cover' }"
-        >
-        </div>
+        <v-parallax
+            v-if="section.image"
+            height="300px"
+            scale="0.75"
+            :src="`/img/${section.image}`"
+        />
         <v-card-text>
             <Markdown
                 :source="section.description"

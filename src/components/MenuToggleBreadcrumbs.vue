@@ -15,6 +15,7 @@
                 @click="toggleMenu"
             >
                 <v-tooltip
+                    v-if="!mobile"
                     activator="parent"
                     location="end"
                 >
@@ -26,9 +27,11 @@
 </template>
 
 <script setup>
-    import { useAppStore } from '@/stores/app';
+    import { useDisplay } from 'vuetify';
+    import { useGlobalState } from '@/stores/global-state';
 
-    const appStore = useAppStore();
+    const { mobile } = useDisplay();
+    const globalState = useGlobalState();
 
     const { color, items } = defineProps({
         color: String,
@@ -36,6 +39,6 @@
     });
 
     function toggleMenu() {
-        appStore.setIsMenuOpen(!appStore.isMenuOpen);
+        globalState.setIsMenuOpen(!globalState.isMenuOpen.value);
     }
 </script>

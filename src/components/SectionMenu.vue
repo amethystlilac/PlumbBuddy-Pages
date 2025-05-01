@@ -1,6 +1,6 @@
 <template>
     <v-container
-        v-if="!appStore.isPhone"
+        v-if="!mobile"
     >
         <v-row
             justify="center"
@@ -18,7 +18,7 @@
         </v-row>
     </v-container>
     <SectionCard
-        v-if="appStore.isPhone"
+        v-if="mobile"
         v-for="section in sections"
         class="mt-2"
         :section="section"
@@ -26,9 +26,9 @@
 </template>
 
 <script setup>
-    import { useAppStore } from '@/stores/app';
+    import { useDisplay } from 'vuetify';
 
-    const appStore = useAppStore();
+    const { mobile } = useDisplay();
 
     const { sections } = defineProps({
         sections: Array

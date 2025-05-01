@@ -33,7 +33,7 @@
         </v-carousel-item>
     </v-carousel>
     <div
-        v-if="currentRelease"
+        v-if="globalState.currentReleaseVersion.value && globalState.currentReleaseLifecycleStageName.value"
         class="ma-4 d-flex ga-4"
     >
         <v-alert
@@ -42,16 +42,16 @@
             variant="tonal"
         >
             <span v-if="!xs">Current version: </span>
-            <strong>{{ currentVersion }}</strong>
+            <strong>{{ globalState.currentReleaseVersion.value }}</strong>
         </v-alert>
         <v-alert
-            :color="tagRoot === 'release-alpha' ? 'error' : tagRoot === 'release-beta' ? 'warning' : tagRoot === 'release-preview' ? 'info' : 'success'"
+            :color="globalState.currentReleaseLifecycleStageThemeColor.value"
             density="compact"
-            :icon="tagRoot === 'release-alpha' ? 'mdi-alpha' : tagRoot === 'release-beta' ? 'mdi-beta' : tagRoot === 'release-preview' ? 'mdi-certificate-outline' : 'mdi-certificate'"
+            :icon="globalState.currentReleaseLifecycleStageIcon.value"
             variant="tonal"
         >
             <span v-if="!xs">Lifecycle stage: </span>
-            <strong>{{ tagRoot === 'release-alpha' ? 'Alpha' : tagRoot === 'release-beta' ? 'Beta' : tagRoot === 'release-preview' ? 'Preview' : 'Stable' }}</strong>
+            <strong>{{ globalState.currentReleaseLifecycleStageName.value }}</strong>
         </v-alert>
     </div>
 </template>
@@ -60,13 +60,10 @@
     import { ref, computed, onMounted, onBeforeUnmount } from 'vue';
     import { useRouter } from 'vue-router';
     import { useDisplay } from 'vuetify';
-    import { useAppStore } from '@/stores/app';
+    import { useGlobalState } from '@/stores/global-state';
 
     const router = useRouter();
-    const appStore = useAppStore();
-    const currentRelease = ref(null);
-    const tagRoot = ref('');
-    const currentVersion = ref('');
+    const globalState = useGlobalState();
 
     const height = ref(window.innerHeight);
     const { xs } = useDisplay();
@@ -76,11 +73,7 @@
     }
 
     onMounted(async () => {
-        await appStore.loadReleases();
-        currentRelease.value = appStore.currentRelease;
-        const tagNameElements = currentRelease.value.tag_name.split('/');
-        tagRoot.value = tagNameElements[0];
-        currentVersion.value = tagNameElements[1];
+        await globalState.loadReleases();
         window.addEventListener('resize', updateHeight);
     });
 

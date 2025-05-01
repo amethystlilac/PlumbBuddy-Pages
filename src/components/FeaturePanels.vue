@@ -1,6 +1,6 @@
 <template>
     <v-container
-        v-if="!appStore.isPhone"
+        v-if="!mobile"
     >
         <v-row
             justify="center"
@@ -17,7 +17,7 @@
         </v-row>
     </v-container>
     <FeatureCard
-        v-if="appStore.isPhone"
+        v-if="mobile"
         v-for="feature in features"
         class="mt-2"
         :feature="feature"
@@ -25,9 +25,9 @@
 </template>
 
 <script setup>
-    import { useAppStore } from '@/stores/app';
+    import { useDisplay } from 'vuetify';
 
-    const appStore = useAppStore();
+    const { mobile } = useDisplay();
 
     const { features } = defineProps({
         features: Array

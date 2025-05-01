@@ -3,9 +3,9 @@
         color="info"
         :items="[{title: 'Who Are We?'}]"
     />
-    <div class="main-container">
+    <div class="main-container" style="margin-bottom: 38vh;">
         <v-container
-            v-if="!appStore.isPhone"
+            v-if="!mobile"
         >
             <v-row
                 justify="center"
@@ -23,7 +23,7 @@
             </v-row>
         </v-container>
         <PersonCard
-            v-if="appStore.isPhone"
+            v-if="mobile"
             v-for="person in folks"
             class="mt-2"
             :person="person"
@@ -32,10 +32,10 @@
 </template>
 
 <script setup>
+    import { useDisplay } from 'vuetify';
     import Markdown from 'vue3-markdown-it';
-    import { useAppStore } from '@/stores/app';
 
-    const appStore = useAppStore();
+    const { mobile } = useDisplay();
 
     const folks = [
     {

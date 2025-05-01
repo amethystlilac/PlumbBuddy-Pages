@@ -2,10 +2,12 @@
     <v-card
         class="h-100"
     >
-        <div
-            :style="`width: 100%; height: 300px; background-image: url('/img/${person.image}'); background-position: ${person.imagePosition ?? 'center'}; background-size: cover;`"
-        >
-        </div>
+        <v-parallax
+            v-if="person.image"
+            height="300px"
+            scale="0.85"
+            :src="`/img/${person.image}`"
+        />
         <v-card-title
             :style="`color: ${person.accent};`"
         >

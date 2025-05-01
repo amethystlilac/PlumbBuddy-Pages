@@ -19,11 +19,12 @@
                 {{ feature.name }}
             </span>
         </template>
-        <div
+        <v-parallax
             v-if="feature.image"
-            :style="{ width: '100%', height: '300px', backgroundImage: `url('/img/${feature.image}')`, backgroundPosition: feature.imagePosition ?? 'center', backgroundSize: 'cover' }"
-        >
-        </div>
+            height="300px"
+            scale="0.75"
+            :src="`/img/${feature.image}`"
+        />
         <v-card-text>
             <Markdown
                 :source="feature.description"
