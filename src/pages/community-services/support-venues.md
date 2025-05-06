@@ -9,7 +9,7 @@ When a player gets an error, or when they need help with a mod, or when they nee
 ##### Option 2: Github
 1. There is one file that needs to be updated, linked below. It is kept in [the GitHub repository for this website](https://github.com/lama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can review [this video](https://youtu.be/usTVkhbDjmE).
 2. Please keep your edit in alphabetical order, by server name.
-3. Follow the examples given by the other servers listed. The format is important. If you want an option not shown (say, you do only mac support), ask if it can be done.
+3. Follow the examples given by the other servers listed. The format is important. If you want an option not shown (say, you do only Mac support), ask if it can be done.
 4. For your help steps, icons are sourced from [this Material Design Icons Catalog](https://pictogrammers.com/library/mdi/).
    * They must not have outline in the name.
    * Remove dashes and CapitalizeEachWord.
