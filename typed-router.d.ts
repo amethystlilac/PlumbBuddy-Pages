@@ -34,6 +34,12 @@ declare module 'vue-router/auto-routes' {
     '/privacy-policy': RouteRecordInfo<'/privacy-policy', '/privacy-policy', Record<never, never>, Record<never, never>>,
     '/redirect': RouteRecordInfo<'/redirect', '/redirect', Record<never, never>, Record<never, never>>,
     '/terms-of-use': RouteRecordInfo<'/terms-of-use', '/terms-of-use', Record<never, never>, Record<never, never>>,
+    '/text-guides/': RouteRecordInfo<'/text-guides/', '/text-guides', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-download': RouteRecordInfo<'/text-guides/casual-download', '/text-guides/casual-download', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-onboarding': RouteRecordInfo<'/text-guides/casual-onboarding', '/text-guides/casual-onboarding', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-setup': RouteRecordInfo<'/text-guides/casual-setup', '/text-guides/casual-setup', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-tabs': RouteRecordInfo<'/text-guides/casual-tabs', '/text-guides/casual-tabs', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-ui': RouteRecordInfo<'/text-guides/casual-ui', '/text-guides/casual-ui', Record<never, never>, Record<never, never>>,
     '/who-are-we': RouteRecordInfo<'/who-are-we', '/who-are-we', Record<never, never>, Record<never, never>>,
   }
 }

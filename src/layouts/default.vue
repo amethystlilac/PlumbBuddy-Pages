@@ -202,6 +202,51 @@
             isDivider: true,
         },
         {
+            color: 'primary',
+            icon: 'mdi-book-alphabet',
+            path: '/text-guides',
+            title: 'Guides',
+        },
+        {
+            color: 'primary',
+            icon: 'mdi-play-circle',
+            path: '/text-guides/casual-setup',
+            title: 'Casual Player Setup',
+        },
+        {
+            color: 'primary',
+            icon: 'mdi-clipboard-play',
+            path: '/text-guides/enthusiast-setup',
+            title: 'Enthusiast Player Setup',
+        },
+        {
+            color: 'secondary',
+            icon: 'mdi-translate-variant',
+            path: '/text-guides/parlay',
+            title: 'Parlay for Translators',
+        },
+        {
+            color: 'success',
+            icon: 'mdi-play-box-multiple',
+            path: '/text-guides/creator-setup',
+            title: 'Creator Setup',
+        },
+        {
+            color: 'success',
+            icon: 'mdi-tag-edit',
+            path: '/text-guides/manifest-editor',
+            title: 'Manifest Editor for Creators',
+        },
+        {
+            color: 'error',
+            icon: 'mdi-chat-question',
+            path: '/text-guides/help',
+            title: 'Help with PlumbBuddy',
+        },
+        {
+            isDivider: true,
+        },
+        {
             color: 'info',
             icon: 'mdi-file-sign',
             path: '/terms-of-use',

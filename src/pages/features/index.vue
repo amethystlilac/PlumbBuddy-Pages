@@ -29,6 +29,14 @@
             to: 'features/catalog',
         },
         {
+            color: 'primary',
+            icon: 'mdi-dog',
+            name: 'Mod Hound',
+            image: 'Nose.png',
+            description: 'As another way to help you keep your Mods folder healthy, ModHound has partnered with PlumbBuddy to let you get reports from inside the app. Find your broken and outdated mods at the click of a button!',
+            to: 'features/modhound',
+        },
+        {
             color: 'secondary',
             icon: 'mdi-archive-clock',
             name: 'Archivist',

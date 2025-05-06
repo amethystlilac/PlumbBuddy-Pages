@@ -9,6 +9,10 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
+    ContentCard: typeof import('./src/components/ContentCard.vue')['default']
+    ContentMenu: typeof import('./src/components/ContentMenu.vue')['default']
+    ContentsCard: typeof import('./src/components/ContentsCard.vue')['default']
+    ContentsMenu: typeof import('./src/components/ContentsMenu.vue')['default']
     Display404: typeof import('./src/components/Display404.vue')['default']
     DownloadReleaseAsset: typeof import('./src/components/DownloadReleaseAsset.vue')['default']
     FeatureCard: typeof import('./src/components/FeatureCard.vue')['default']
