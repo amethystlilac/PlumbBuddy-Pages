@@ -1,11 +1,12 @@
 <template>
     <MenuToggleBreadcrumbs
         color="success"
-        :items="[{title: 'Guides', to: '/text-guides'}, {title: 'What are you looking at?'}]"
+        :items="[{title: 'Guides', to: '/text-guides'}, {title: 'User Interface Overview'}]"
     />
     <div class="main-container">
         <v-divider />
         <p>
+            <center>User Interface Overview</center>
             <center><img src=/img/checklistWide.png></img></center>
             <center>The menus and buttons</center>
         </p>

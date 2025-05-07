@@ -7,8 +7,8 @@
         >
             <v-col
                 v-for="content in contents"
-                xs="12"
-                sm="6"
+                xs="7"
+                sm="4"
             >
                 <ContentCard
                     :content="content"

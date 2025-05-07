@@ -57,4 +57,4 @@ Pick which kind of setting you want to change or look at, and when that setting 
 
 ![image](/img/PB-casual-settings.png)
 
-Continue on to [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) to see some things PlumbBuddy does to keep your Mods folder Healthy.
+Continue on to [What can PlumbBuddy do for you?](https://plumbbuddy.app/text-guides/casual-tabs) to see some things PlumbBuddy does to keep your Mods folder Healthy.

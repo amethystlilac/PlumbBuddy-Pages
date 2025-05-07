@@ -21,8 +21,8 @@
         </template>
         <v-parallax
             v-if="content.image"
-            height="300px"
-            scale="0.75"
+            height="200px"
+            scale=".9"
             :src="`/img/${content.image}`"
         />
         <v-card-text>

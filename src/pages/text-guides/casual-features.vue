@@ -1,16 +1,18 @@
 <template>
     <MenuToggleBreadcrumbs
         color="info"
-        :items="[{title: 'Guides', to: '/text-guides'}, {title: 'What can PlumbBuddy do for you?'}]"
+        :items="[{title: 'Guides', to: '/text-guides'}, {title: 'The Features'}]"
     />
     <div class="main-container">
         <v-divider />
         <p>
-            <center><img src=/img/helping-hand.jpeg></img></center>
+            <center>The Features</center>
+            <center><img src=/img/helping-hand-wide.jpeg></img></center>
             <center>How can PlumbBuddy help you keep your Mods folder healthy?</center>
         </p>
+        <v-divider />
         <Markdown
-            :source="casualTabsMarkdown" 
+            :source="casualFeaturesMarkdown" 
             class="standard-text"
         />
     </div>
@@ -18,5 +20,5 @@
 
 <script setup>
     import Markdown from 'vue3-markdown-it';
-    import casualTabsMarkdown from './casual-tabs.md?raw';
+    import casualFeaturesMarkdown from './casual-features.md?raw';
 </script>

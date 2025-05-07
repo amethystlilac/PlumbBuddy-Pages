@@ -6,6 +6,7 @@
     <div class="main-container">
         <v-divider />
         <p>
+            <center>Downloading and Installing PlumbBuddy</center>
             <center><img src=/img/DownloadArrowWide.jpeg></img></center>
             <center>The first step to getting PlumbBuddy up and running and helping you it to install it.</center>
         </p>

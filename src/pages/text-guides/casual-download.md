@@ -22,6 +22,8 @@ Once PlumbBuddy has finished installing, move on to [Starting PlumbBuddy for the
 
 ### Installing on Mac
 
-Once it's finished downloading, 
+Once PlumbBuddy has finished downloading, find it where it downloaded. If it's still in a .zip folder, you need to unzip it.
 
-Once PlumbBuddy has finished installing, move on to [Starting PlumbBuddy for the First time](https://plumbbuddy.app/text-guides/casual-onboarding).
+Then drag it into your applications folder and wait for it to finish installing.
+
+Once installation is complete, move on to [PlumbBuddy First Time Setup](https://plumbbuddy.app/text-guides/casual-onboarding).
