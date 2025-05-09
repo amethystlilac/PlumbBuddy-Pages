@@ -6,7 +6,7 @@ You might get some alerts right away. That’s fine. PlumbBuddy will do its best
 
 ![image](/img/PB-casual-mod-health.png)
 
-If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/mod-health) guide.
+If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) guide.
 
 ---
 
@@ -56,7 +56,7 @@ In addition, many of the files in the report will come with buttons to view the 
 
 ![image](/img/PB-ModHoundTab.png)
 
-If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/mod-hound) guide.
+If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/casual-mod-hound) guide.
 
 ---
 

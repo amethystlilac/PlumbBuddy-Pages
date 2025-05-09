@@ -15,6 +15,8 @@ declare module 'vue' {
     DownloadReleaseAsset: typeof import('./src/components/DownloadReleaseAsset.vue')['default']
     FeatureCard: typeof import('./src/components/FeatureCard.vue')['default']
     FeaturePanels: typeof import('./src/components/FeaturePanels.vue')['default']
+    GuideCard: typeof import('./src/components/GuideCard.vue')['default']
+    GuideMenu: typeof import('./src/components/GuideMenu.vue')['default']
     MenuToggleBreadcrumbs: typeof import('./src/components/MenuToggleBreadcrumbs.vue')['default']
     PersonCard: typeof import('./src/components/PersonCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
