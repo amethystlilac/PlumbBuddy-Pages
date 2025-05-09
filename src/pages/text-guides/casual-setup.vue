@@ -57,7 +57,7 @@
             name: 'Mod Health',
             image: 'nurse-health.jpeg',
             description: `What the Scans Tell You`,
-            to: 'mod-health',
+            to: 'casual-mod-health',
         },
         {
             color: 'success',
@@ -65,7 +65,7 @@
             name: 'Mod Hound',
             image: 'ModHoundLogoSm.png',
             description: `A Different Way to Check Your Mods`,
-            to: 'mod-hound',
+            to: 'casual-mod-hound',
         },
         {
             color: 'success',
