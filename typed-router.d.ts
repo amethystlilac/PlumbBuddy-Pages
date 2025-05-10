@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/text-guides/casual-download': RouteRecordInfo<'/text-guides/casual-download', '/text-guides/casual-download', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-features': RouteRecordInfo<'/text-guides/casual-features', '/text-guides/casual-features', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-mod-health': RouteRecordInfo<'/text-guides/casual-mod-health', '/text-guides/casual-mod-health', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-mod-hound': RouteRecordInfo<'/text-guides/casual-mod-hound', '/text-guides/casual-mod-hound', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-onboarding': RouteRecordInfo<'/text-guides/casual-onboarding', '/text-guides/casual-onboarding', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-setup': RouteRecordInfo<'/text-guides/casual-setup', '/text-guides/casual-setup', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-ui': RouteRecordInfo<'/text-guides/casual-ui', '/text-guides/casual-ui', Record<never, never>, Record<never, never>>,

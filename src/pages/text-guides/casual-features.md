@@ -50,7 +50,7 @@ It will give you lists of:
 * Up to Date
 * Not Tracked
 
-Except for duplicates, the report will only give advice about mods that the creator has listed on Mod Hound.
+The report will only give advice about mods that the creator has listed on Mod Hound.
 
 In addition, many of the files in the report will come with buttons to view the file in your mods folder and/or to go to the download page for the mod, or in the case of the missing requirement, to download that.
 

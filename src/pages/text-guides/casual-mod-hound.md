@@ -1,33 +1,175 @@
-### [Mod Hound]()
+[Mod Hound](https://app.ts4modhound.com/) is a website created by [Lumpinou](https://www.patreon.com/lumpinou).
 
-[Mod Hound](https://app.ts4modhound.com/) is a website created by [Lumpinou](https://www.patreon.com/lumpinou). It's a place where modders can list their mods, including if they were updated, if they're broken or obsolete or working fine with the current patch, and if they require other mods that are also listed on the site. Players can then have the website scan their mods folder for various things.
+For mod creators, it's a place where you can list your mods, including if they were updated, if they're broken or obsolete or working fine with the current patch, and if they require other mods that are also listed on the site; and where you can use various other tools that are useful when modding.
 
-Mod Hound has collaborated with PlumbBuddy to incorporate these scans in PlumbBuddy. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app by clicking on the various parts of the report on the left.
+For players, it's a place where you can have the website scan your Mods folder (or your mc_lastexception, BE-ExceptionReport.html, or Lumpinou File Log File) for various things, like outdated or broken mods.
 
-It will give you lists of:
+Mod Hound has collaborated with PlumbBuddy to incorporate these scans in the PlumbBuddy app. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app.
 
-* Outdated mods – mods that you need to update, based on the date of the file in your mods folder compared to the date of the file listed on Mod Hound
-* Duplicate mods – files that you have two or more copies of, based on the file names
-* Broken/Obsolete mods – mods the creator has indicated are broken (they will *probably* be updated at some point) or obsolete (they no longer exist in their current form, but they might have a replacement — you should check the download page)
-* Incompatible mods – two or more mods that can’t be used together
-* Missing Requirements – mods that are missing another mod that they need to work
-* Unknown Status – mods that are listed on Mod Hound but that don’t have a current status listed by their creator
-* Up to Date – mods that should be up to date according to their date of the file in your mods folder compared to the date listed on Mod Hound
-* Not Tracked – mods and custom content (CC) that aren’t listed on Mod Hound
+***Note:*** Mod Hound will ONLY give you results about mods that are listed on Mod Hound. It has no knowledge about any mods not listed there. It can also only give you information if that information is listed by the creator.
 
-Except for duplicates, the report will only give advice about mods that the creator has listed on Mod Hound.
+---
 
-In addition, many of the files in the report will come with buttons to view the file in your mods folder and/or to go to the download page for the mod, or in the case of the missing requirement, to download that.
+### The Settings
 
-There are settings for Mod Hound, available by clicking on the gear next to the Request New Report button, and also available in PlumbBuddy settings. You can decide how long PlumbBuddy will store your reports (so you can look at them later if you need to) and which files and folders PlumbBuddy will not send to Mod Hound, and see the effects of what those exclusions are. 
+Mod Hound settings can be accessed in the menu on the left of PlumbBuddy, with other PlumbBuddy settings, of from the Mod Hound tab, by clicking on the gear icon next to the Request New Report button.
 
-It’s important to note that Mod Hound is not meant to list CC, and it has an upper limit of files that it will scan, to prevent the site from crashing. If the number of files is over that limit, PlumbBuddy won’t send them, and PlumbBuddy will advise you to add exclusions if you have over 5000 files, since that would mainly be CC.
+![image](/img/modhound-gear.png)
 
-In the settings, the symbol above the number of Packages Included will turn a warning colour if you're over the *recommended* number of files to send, and an error colour if you're over the number of files that PlumbBuddy is able to send because Mod Hound would reject them so that the site doesn't crash. You can fix this by adding Packages Exclusions. When you do that, the number on the left will go down and the number on the right (Packages Excluded) will go up, telling you how much of a difference you're making.
+---
 
-You add exclusions by listing your CC folders or what your CC folder names start with. For example, if all of a lot of your CC is in a folder called `CAS`, you would exclude `CAS/`. If all of your CC folders start with `CC`, you'd exclude `CC`, but that could end up excluding more than you want it to — it would look for all things that start with CC, not just the folder name.
+*Report Retention Period:*
 
-_*Note: it’s important to use forward slashes (`/`), not backward slashes (`\`).*_
+This setting tells PlumbBuddy how long you want your Mod Hound reports kept. You can refer back to them at any point as long as they still exist in PlumbBuddy's database.
 
-![image](/img/PB-ModHoundTab.png)
-![image](/img/PB-ModHoundSettings-Casual.png)
+You can go as low as two days or as high as twelve weeks using the sliding scale. At the left are two buttons: one to tell PlumbBuddy to keep your reports *forever* (or at least until PlumbBuddy gets uninstalled), and the other to go back to the default setting, which is four weeks.
+
+---
+
+*Pacakges Exclusions:*
+
+This setting is to tell PlumbBuddy where your Custom Content is in your Mods folder, so that it won't try to send those files to Mod Hound.
+
+***Mod Hound doesn't list CC, and it has a strict file limit for how many files it will scan.***
+
+If you have over 5,000 files (.package and .ts4script) in your Mods folder, PlumbBuddy will warn you that you have a lot of files and you should consider excluding your CC. This is to prevent taxing the Mod Hound website, to keep it happy and healthy and available for everyone to use.
+
+If you have over 26,000 files, PlumbBuddy will refuse to submit them, because Mod Hound will reject them. Again, Mod Hound is not designed to have any information on your CC, just on your mods.
+
+In the settings, when you have over 5,000 files, the box next to the number of files at the bottom left will change from green to a warning colour. If you have over 26,000 files, the box will turn to an error colour, giving a visual clue that you that you can't request a report until you remove some files or use an Exclusion above.
+
+The easiest and most reliable way to add an Exclusion is to type in the name of a folder in which you have CC (just CC, no mods) and end it with a forward slash (/), then hit enter. This will tell PlumbBuddy to ignore anything in that folder. Do not use a backslash (\).
+
+* It must include the **full path** to that folder. If you have, for example, a folder called CAS, and inside that folder you have a folder called CC and a folder called Traits, you'd need to type in 'CAS/CC/' to exclude the CC but not the traits.
+
+* You can choose to not type in each folder name if you have multiple that start the same way, but this may have unintended results. If you type in just CC and not 'CC-CAS/', in the image below, it would exclude all of the folders listed, but also potentially other things that you don't want to exclude.
+
+You can see the number of files that are being excluded in real time as you change your Exclusions.
+
+![image](/img/modhound-settings-casual.png)
+
+---
+
+### Requesting a Report
+
+When you want to have Mod Hound scan your Mods folder, you can click the Request New Report button on the right on the Mod Hound tab.
+
+If your Mod Health scans aren't complete yet, PlumbBuddy will pause before sending the request, because Mod Health tells the Mod Hound tab what files you have.
+
+PlumbBuddy will keep you updated on your report's progress.
+
+![image](/img/modhound-in-progress.png)
+
+When your report is ready, there will be a notification in the top right.
+
+![image](/img/modhound-ready.png)
+
+Or you might get a notification that you've already requested a report on this exact same Mods folder (same files and same file dates) and nothing has changed on Mod Hound's end, and PlumbBuddy will bring that report up for you.
+
+![image](/img/modhound-dupe.png)
+
+If you want to view an existing report, you can select it from the drop down box.
+
+![image](/img/modhound-pick-report.png)
+
+---
+
+### Reading a Report
+
+Once you have (or select) your report, everything might be all good, or you might have some results that you should work on. Click on a section of the report to see what it says.
+
+![image](/img/modhound-report-menu.png)
+
+Each report can be searched by file, mod, or creator name, by date, and by the update notes. You can clear your search by clicking the X in the search bar.
+
+![image](/img/modhound-report-search.png)
+
+---
+
+*Outdated:*
+
+This is a list of mods that are in your Mods folder that you need to update, based on the date of the file in your Mods folder compared to the date of the file listed on Mod Hound.
+
+It will give you the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
+
+At the left, there are two buttons: one to show you the file in your Mods folder, and the second to take you to the download page listed for the mod. You should delete the old copy and add the updated version.
+
+---
+
+*Duplicates:*
+
+This is a list of files that you have two or mods copies of, based on the file names.
+
+It will give you the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
+
+At the left, there are two buttons: one to show you the file in your Mods folder, and the second to take you to the download page listed for the mod. If one copy is older than the other, delete the older copy. Make sure to keep all files from a single mod together.
+
+In the end, you should have only one copy of each mod.
+
+---
+
+*Broken/Obsolete:*
+
+These are mods that the creator has listed as broken (they will *probably* be updated at some point, but you shouldn't have them in your Mods folder at this point) or obsolete (they no longer exist, or they no longer exist in their current form).
+
+It will give you the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
+
+At the left, there are two buttons: one to show you the file in your Mods folder, and the second to take you to the download page listed for the mod.
+
+Pay close attention to the update notes. They may tell you what you need to do — if you need to delete it completely, or if there's a new version available. You can also check the download page to see if there's any information available there.
+
+Either way, the broken or obsolete files you have should be deleted from your Mods folder.
+
+---
+
+*Incompatible:*
+
+These are mods that you have in your Mods folder that the creator says cannot be used together.
+
+They will be divided into sets, such as First Incompatibility and Second Incompatibility. Click on each one to see the files/mods. It will give you the names of each one. Click on the name to be taken to the file's location in your Mod folder.
+
+These may be files from the same mod but are a 'pick one version' type of conflict. For example, maybe you're supposed to pick one uniform colour. These may be mods that conflict as a whole, and you need to pick one and delete the other. If both mods have other mods that require them, you may be able to use either, or some mods require a specific mod. In that case, you'd have to make a decision about which you would keep after checking the mod descriptions.
+
+![image](/img/modhound-incomp.png)
+
+---
+
+*Missing Requirements:*
+
+These are mods that are missing another mod that they need to work.
+
+They will be divided into sets, such as First Missing Requirement and Second Missing Requirement. Click on each one to see the Mod Missing the Requirement and the Mods that Make Up the Requirement. It will give you the names of each one. Click on the name of the missing requirement to be taken to its download page.
+
+If a mod creator listed something as required for their mod to work, then often not having it can lead to problems in game — from visual issues to errors to the game not loading — or to the mod not functioning at all.
+
+Mod Hound can only give you this information if *both* the requiring mod and the required mod are listed on Mod Hound, and if the creator has listed the requirement.
+
+---
+
+*Unknown Status:*
+
+These are mods that are listed on Mod Hound but that don’t have a current status listed by their creator.
+
+It will give you the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
+
+There isn't really any advice Mod Hound can give for these mods. You can check the download page to see if more information is given there. Otherwise, they have the same status as any untracked.
+
+---
+
+*Up to Date:*
+
+These are mods that should be up to date according to their date of the file in your mods folder compared to the date listed on Mod Hound. They've been cleared for the patch that Mod Hound is currently tracking, and you have the most recent version listed.
+
+It will list the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
+
+There's nothing to do with this report. It's just there for your information.
+
+---
+
+*Not Tracked:*
+
+These are mods (or custom content) that aren't listed on Mod Hound.
+
+It will list the file name, file date, and file type (Package or Ts4Script).
+
+There's nothing to do with this report. It's just there for your information.
