@@ -422,6 +422,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 *Extra info:*
 
 * PlumbBuddy can only give you this information if the creator has both manifested their mod and included information about requirements in that manifest.
+* In the case of the requirement being by someone other than the creator of the mod requiring it, PlumbBuddy can only give you this information both mods have been manifested.
 * Having a mod installed but not having everything required to use it can lead to problems in game — from visual issues to errors to the game not loading — or to the mod not functioning at all.`,
 
         },
