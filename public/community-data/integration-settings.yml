@@ -1,4 +1,5 @@
 mod_hound:
   packages_batch_hard_limit: 26000
-  packages_batch_warning_threshold: 1000
-  report_service_unavailable_message: null
+  packages_batch_warning_threshold: 5000
+  report_service_unavailable_message: |
+    Lumpinou says she is <em>fucking <strong>done</strong></em> with CodeBleu's horrible dad jokes. So, unfortunately, you're going to have to <a href="https://app.ts4modhound.com/visitor/load">check your Mods with Mod Hound yourself</a>.
