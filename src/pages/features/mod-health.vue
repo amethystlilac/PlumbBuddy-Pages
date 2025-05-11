@@ -3,7 +3,7 @@
         color="primary"
         :items="[{title: 'Features', to: '/features'}, {title: 'Mod Health'}]"
     />
-    <div class="main-container">
+    <v-container>
         <p>
             PlumbBuddy is <strong>always</strong> watching your game and Mods folder, on the look-out for anything to tell you about... <em>and help you with</em>.
         </p>
@@ -11,7 +11,7 @@
         <FeaturePanels
             :features="features"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

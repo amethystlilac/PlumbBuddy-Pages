@@ -3,11 +3,11 @@
         color="tertiary"
         :items="[{title: 'Community Services'}]"
     />
-    <div class="main-container">
+    <v-container>
         <SectionMenu
             :sections="sections"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

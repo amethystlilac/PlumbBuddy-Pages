@@ -3,24 +3,24 @@
         color="info"
         :items="[{title: 'Who Are We?'}]"
     />
-    <div class="main-container" style="margin-bottom: 38vh;">
-        <v-container>
-            <v-row
-                justify="center"
+    <v-container
+        style="margin-bottom: 38vh;"
+    >
+        <v-row
+            justify="center"
+        >
+            <v-col
+                v-for="person in folks"
+                cols="12"
+                md="6"
+                lg="4"
             >
-                <v-col
-                    v-for="person in folks"
-                    cols="12"
-                    md="6"
-                    lg="4"
-                >
-                    <PersonCard
-                        :person="person"
-                    />
-                </v-col>
-            </v-row>
-        </v-container>
-    </div>
+                <PersonCard
+                    :person="person"
+                />
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script setup>
