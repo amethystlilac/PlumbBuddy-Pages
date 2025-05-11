@@ -1,4 +1,4 @@
 mod_hound:
   packages_batch_hard_limit: 26000
-  packages_batch_warning_threshold: 5000
+  packages_batch_warning_threshold: 2
   report_service_unavailable_message: null
