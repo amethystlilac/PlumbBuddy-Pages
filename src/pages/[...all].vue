@@ -3,7 +3,7 @@
         color="error"
         :items="[{title: 'HTTP 404 — Not Found'}]"
     />
-    <div class="main-container">
+    <v-container>
         <Display404 />
-    </div>
+    </v-container>
 </template>

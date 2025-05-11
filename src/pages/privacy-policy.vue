@@ -3,9 +3,9 @@
         color="info"
         :items="[{title: 'Privacy Policy'}]"
     />
-    <div class="main-container">
+    <v-container>
         <Markdown :source="privacyPolicyMarkdown" class="standard-text" />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

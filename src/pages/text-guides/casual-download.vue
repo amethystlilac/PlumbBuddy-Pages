@@ -3,7 +3,7 @@
         color="primary"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'Downloading and Installing PlumbBuddy'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-divider />
         <p>
             <center>Downloading and Installing PlumbBuddy</center>
@@ -14,7 +14,7 @@
             :source="casualDownloadMarkdown" 
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

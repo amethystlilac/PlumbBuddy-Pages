@@ -3,7 +3,7 @@
         color="success"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'Mod Health'}]"
     />
-    <div class="main-container">
+    <v-container>
         <p>
             <center>Mod Health</center>
             <center><img src="/img/nurse-health.jpeg"</center>
@@ -28,7 +28,7 @@
         <GuideMenu
             :guides="guides"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>
