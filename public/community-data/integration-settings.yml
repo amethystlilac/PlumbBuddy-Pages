@@ -1,4 +1,4 @@
 mod_hound:
   packages_batch_hard_limit: 26000
   packages_batch_warning_threshold: 5000
-  report_service_unavailable_message: test
+  report_service_unavailable_message: Error. Please check <a href="https://app.ts4modhound.com/index">Modhound</a> for updates
