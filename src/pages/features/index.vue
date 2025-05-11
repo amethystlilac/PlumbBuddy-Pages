@@ -3,11 +3,11 @@
         color="primary"
         :items="[{title: 'Features'}]"
     />
-    <div class="main-container">
+    <v-container>
         <SectionMenu
             :sections="sections"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

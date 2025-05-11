@@ -3,7 +3,7 @@
         color="secondary"
         :items="[{title: 'Features', to: '/features'}, {title: 'Archivist'}]"
     />
-    <div class="main-container">
+    <v-container>
         <p>
             Archivist is ready to help you never lose a save again.
         </p>
@@ -11,7 +11,7 @@
         <FeaturePanels
             :features="features"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>
