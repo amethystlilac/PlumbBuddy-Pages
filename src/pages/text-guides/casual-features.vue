@@ -3,7 +3,7 @@
         color="info"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'The Features'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-divider />
         <p>
             <center>The Features</center>
@@ -15,7 +15,7 @@
             :source="casualFeaturesMarkdown" 
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

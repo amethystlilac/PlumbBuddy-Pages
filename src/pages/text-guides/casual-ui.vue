@@ -3,7 +3,7 @@
         color="success"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'User Interface Overview'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-divider />
         <p>
             <center>User Interface Overview</center>
@@ -14,7 +14,7 @@
             :source="casualUIMarkdown" 
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>
