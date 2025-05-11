@@ -3,12 +3,12 @@
         color="info"
         :items="[{title: 'Terms of Use'}]"
     />
-    <div class="main-container">
+    <v-container>
         <Markdown
             :source="termsOfUseMarkdown"
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

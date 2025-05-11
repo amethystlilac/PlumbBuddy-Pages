@@ -3,7 +3,7 @@
         color="info"
         :items="[{title: 'Redirect'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-alert
             v-if="status === 'noRedirect'"
             text="This page is for launching redirects and no redirect has been specified. I have nothing to do."
@@ -50,7 +50,7 @@
         >
             Or, just click here: <a :href="url">{{ url }}</a>
         </p>
-    </div>
+    </v-container>
 </template>
 
 <script setup>

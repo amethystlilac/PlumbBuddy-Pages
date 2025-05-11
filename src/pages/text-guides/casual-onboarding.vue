@@ -3,7 +3,7 @@
         color="secondary"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'PlumbBuddy First Time Setup'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-divider />
         <p>
             <center>PlumbBuddy First Time Setup</center>
@@ -14,7 +14,7 @@
             :source="casualOnboardingMarkdown" 
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

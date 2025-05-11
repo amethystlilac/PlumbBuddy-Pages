@@ -3,18 +3,18 @@
         color="primary"
         :items="[{title: 'Casual Player PlumbBuddy Setup Guide'}]"
     />
-    <div class="main-container">
+    <v-container>
         <div class="mx-auto" style="width: 560px;">
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/5qze0OZn1Rw?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <p>
-            <center>How to get PlumbBuddy up and running so you can get back to playing your game with something watching out for you.</center>
+        <p class="text-center">
+            How to get PlumbBuddy up and running so you can get back to playing your game with something watching out for you.
         </p>
         <v-divider />
         <ContentMenu
             :contents="contents"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

@@ -3,7 +3,7 @@
         color="success"
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'Mod Hound'}]"
     />
-    <div class="main-container">
+    <v-container>
         <v-divider />
         <p>
             <center>Mod Hound</center>
@@ -14,7 +14,7 @@
             :source="casualModHoundMarkdown" 
             class="standard-text"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>
