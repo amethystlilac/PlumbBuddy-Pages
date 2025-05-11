@@ -14,7 +14,7 @@ Mod Hound has collaborated with PlumbBuddy to incorporate these scans in the Plu
 
 Mod Hound settings can be accessed in the menu on the left of PlumbBuddy, with other PlumbBuddy settings, of from the Mod Hound tab, by clicking on the gear icon next to the Request New Report button.
 
-![image](/img/modhound-gear.png)
+![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Request New Report button and a gear icon below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
 
 ---
 
@@ -46,7 +46,7 @@ The easiest and most reliable way to add an Exclusion is to type in the name of 
 
 You can see the number of files that are being excluded in real time as you change your Exclusions.
 
-![image](/img/modhound-settings-casual.png)
+![image](/img/modhound-settings-casual.png "The Mod Hound settings as described above, with three folders excluded, and at the bottom, a green symbol and 3025 Packages included on the left, and a grey symbol and 2533 Packages Excluded")
 
 ---
 
@@ -58,19 +58,19 @@ If your Mod Health scans aren't complete yet, PlumbBuddy will pause before sendi
 
 PlumbBuddy will keep you updated on your report's progress.
 
-![image](/img/modhound-in-progress.png)
+![image](/img/modhound-in-progress.png "The Mod Hound dog in a circle at the top above the words Waiting for Mod Hound's response, and a filling blue bar at the bottom")
 
 When your report is ready, there will be a notification in the top right.
 
-![image](/img/modhound-ready.png)
+![image](/img/modhound-ready.png "A green box saying 'Good news, your Mod Hound report is finished and ready to view!'")
 
 Or you might get a notification that you've already requested a report on this exact same Mods folder (same files and same file dates) and nothing has changed on Mod Hound's end, and PlumbBuddy will bring that report up for you.
 
-![image](/img/modhound-dupe.png)
+![image](/img/modhound-dupe.png "A green box saying 'Good news, I already asked Mod Hound about this exact configurration of your Mods folder about 44 seconds ago, and according to Mod Hound, nothing has changed since then. I've selected that report for you for your convenience.'")
 
 If you want to view an existing report, you can select it from the drop down box.
 
-![image](/img/modhound-pick-report.png)
+![image](/img/modhound-pick-report.png "A dropdown box with three dates to select, in front of a blurry background with a blue bar at the top")
 
 ---
 
@@ -78,11 +78,11 @@ If you want to view an existing report, you can select it from the drop down box
 
 Once you have (or select) your report, everything might be all good, or you might have some results that you should work on. Click on a section of the report to see what it says.
 
-![image](/img/modhound-report-menu.png)
+![image](/img/modhound-report-menu.png "At the top is a date in a box titled Display Report. Below that is a list of categories, each with a number to the right.")
 
 Each report can be searched by file, mod, or creator name, by date, and by the update notes. You can clear your search by clicking the X in the search bar.
 
-![image](/img/modhound-report-search.png)
+![image](/img/modhound-report-search.png "An image of an Up to Date report being searched for 'little'")
 
 ---
 
@@ -130,7 +130,7 @@ They will be divided into sets, such as First Incompatibility and Second Incompa
 
 These may be files from the same mod but are a 'pick one version' type of conflict. For example, maybe you're supposed to pick one uniform colour. These may be mods that conflict as a whole, and you need to pick one and delete the other. If both mods have other mods that require them, you may be able to use either, or some mods require a specific mod. In that case, you'd have to make a decision about which you would keep after checking the mod descriptions.
 
-![image](/img/modhound-incomp.png)
+![image](/img/modhound-incomp.png "An image from an Incompatible report, with the First Incompatibility section open to show the names of the two incompatible mods")
 
 ---
 

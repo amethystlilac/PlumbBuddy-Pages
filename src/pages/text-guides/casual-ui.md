@@ -4,13 +4,13 @@ Once PlumbBuddy is set up, it will open to the Mod Health tab and start scanning
 
 First it will start cataloging your mods. It will give an estimated time of how long that will take at the top, and there will be a progress bar. You shouldn’t start the game or make changes to your mods folder while this is happening.
 
-![image](/img/PB-casual-cataloging.png)
+![image](/img/PB-casual-cataloging.png "An image of the top bar of the PlumbBuddy app, with a Cataloging Mods bar filling towards a timer counting down")
 
 Once PlumbBuddy is done scanning your Mods folder, it will begin analyzing your cache files to see if they need to be deleted. You can go ahead and make changes now. If PlumbBuddy found things that need to be fixed, you can fix them, or you can start your game if you want to play.
 
 The last scan to finish will be the cache, and it will tell you if your cache is fine or needs to be deleted, or if there are no cache files.
 
-![image](/img/PB-casual-analyzing-top.png)
+![image](/img/PB-casual-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Totograpy notification")
 
 ---
 
@@ -23,7 +23,7 @@ After PlumbBuddy finishes cataloging, at the top left, you have:
 * A button to quickly clear your cache files
 * An ‘Ask for Help’ button, which will bring up options for getting help, and will guide you through the initial process for getting help if you choose, for example, to go to a general support discord server
 
-![image](/img/PB-casual-top-menu.png)
+![image](/img/PB-casual-top-menu.png "An image of the top bar of the PlumbBuddy app, with the buttons described above")
 
 ---
 
@@ -41,7 +41,7 @@ If you open the menu, you’ll see:
 
 On Mac, you just close the window to shutdown PlumbBuddy
 
-![image](/img/PB-menu.png)
+![image](/img/PB-menu.png "PlumbBuddy's menu, as described above")
 
 ---
 
@@ -55,6 +55,6 @@ If you click the settings button, there are 5 kinds of settings that you can cha
 
 Pick which kind of setting you want to change or look at, and when that setting is the way you want it, click OK at the bottom right, or cancel if you don't want to change anything.
 
-![image](/img/PB-casual-settings.png)
+![image](/img/PB-casual-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user ia a Casual Player, with 'Automatically check for updates' toggled off, 'Offer to find mod update news'when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
 
 Continue on to [What can PlumbBuddy do for you?](https://plumbbuddy.app/text-guides/casual-tabs) to see some things PlumbBuddy does to keep your Mods folder Healthy.

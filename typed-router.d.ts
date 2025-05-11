@@ -35,6 +35,7 @@ declare module 'vue-router/auto-routes' {
     '/redirect': RouteRecordInfo<'/redirect', '/redirect', Record<never, never>, Record<never, never>>,
     '/terms-of-use': RouteRecordInfo<'/terms-of-use', '/terms-of-use', Record<never, never>, Record<never, never>>,
     '/text-guides/': RouteRecordInfo<'/text-guides/', '/text-guides', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-archivist': RouteRecordInfo<'/text-guides/casual-archivist', '/text-guides/casual-archivist', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-download': RouteRecordInfo<'/text-guides/casual-download', '/text-guides/casual-download', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-features': RouteRecordInfo<'/text-guides/casual-features', '/text-guides/casual-features', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-mod-health': RouteRecordInfo<'/text-guides/casual-mod-health', '/text-guides/casual-mod-health', Record<never, never>, Record<never, never>>,
