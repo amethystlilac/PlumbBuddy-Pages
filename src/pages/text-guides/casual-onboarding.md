@@ -6,7 +6,7 @@ Setting up PlumbBuddy is fairly straightforward. There aren't really many ways i
 
 When you first install and open PlumbBuddy, the first thing you’ll see is the End User License Agreement. You have to agree to this to use PlumbBuddy. Read through it, and then click the Next button at the bottom right.
 
-![image](/img/PB-EULA.png)
+![image](/img/PB-EULA.png "An image of the top of the End User License Agreement, with the other tabs visible as a line of circles along the top")
 
 ---
 
@@ -18,7 +18,7 @@ On the second tab, you can pick which one you want to use. Click on them to see 
 
 This guide uses the default dark mode theme, but you can use whatever you want.
 
-![image](/img/PB-theme-choice.png)
+![image](/img/PB-theme-choice.png "An image of some of the theme choices available in PlumbBuddy")
 
 ---
 
@@ -32,7 +32,7 @@ You can switch between types by clicking the circles at the top (blue for Casual
 
 Pick Casual (blue) and click Next at the bottom right.
 
-![image](/img/PB-Casual-Bob.png)
+![image](/img/PB-Casual-Bob.png "An image of the Introductions tab in PlumbBuddy. At the top are instructions to use the circles or arrows to choose. Below is an image of Bob Pancakes playing a video game, with a description of a casual player in front: 'I got PlumbBuddy because I want to play The Sims 4 with mods, but without any hassles. Don't bother me with a bunch of technical mumbo-jumbo. Just keep an eye on my mods, let me know when there's a problem, and give me an easy-to-follow way to fix it.'")
 
 ---
 
@@ -48,7 +48,7 @@ At the top, PlumbBuddy will show:
 * If it detected the game installed using the EA app
 * If it detected the game installed using Steam
 
-![image](/img/PB-folders-OS.png)
+![image](/img/PB-folders-OS.png "An image showing that the user is using Windows and English (Canade), with a Reset Paths button below, and the EA App, with a Select button below, and a Steam symbol to the right with no button below")
 
 If you have the game installed using both the EA app and Steam, you can pick which one is used by clicking the Select button underneath that install.
 
@@ -59,18 +59,18 @@ Below that, there are four boxes.
 3. The third box is your Downloads Folder. By default, this is your computer's regular downloads folder, but you can change it to somewhere else if you want. This is used, for example, if you have a .zip file in your Mods folder and PlumbBuddy offers to move it out for you.
 4. The fourth box is where Archivist will store its database, if you activate it. By default, it will be a folder in your Documents folder, but you can put it anywhere you want. If the folder doesn’t already exist, it will be created when you turn Archivist on.
 
-![image](/img/PB-folders-files.png)
+![image](/img/PB-folders-files.png "An image of the folders as described above, with a Browse button to the right end of each box")
 
 If you change any of these and then you want to go back to the default, click Reset Path for User Data and Downloads and Archivist, under your operating system at the top, and Select for Installation Files, under EA App/Steam.
 
 If anything shows up red here, try clicking Reset Path or Select.
 
-![image](/img/PB-folders-error.png)
+![image](/img/PB-folders-error.png "An image of an invalid Download Folder path, with 'Bruh... there's not even a folder there' in red at the bottom")
 
 Once you’ve checked these or changed them, click Next at the bottom right.
 
-![image](/img/PB-folder-mac.png)
-![image](/img/PB-folder-windows.png)
+![image](/img/PB-folder-mac.png "An image of a Mac user's folder settings")
+![image](/img/PB-folder-windows.png "An image of a Windows user's folder settings")
 
 ---
 
@@ -86,7 +86,7 @@ The other two toggles are off by default. If you turn them on, they'll warn you 
 
 Once you've made your decisions, click Next on the bottom right.
 
-![image](/img/PB-Setup-ModHealth.png)
+![image](/img/PB-Setup-ModHealth.png "An inage of the Mod Health settings as described above: ModGuard (with a Twisted Mexi icon to the left) and the error setting (with a discord icon to the left) toggled on, then a heading Error Logging Option, with toggles for Mc Command Center and Better Exceptions toggled off, and a brief explanation of some of the benefits and drawbacks of each")
 
 ---
 
@@ -101,7 +101,7 @@ Here are certain things that PlumbBuddy does by default that you can turn off, a
 
 Once you’ve made a decision, click Finish on the bottom right.
 
-![image](/img/PB-PB%20settings.png)
+![image](/img/PB-PB%20settings.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' toggled off, 'Offer to find mod update news'when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off")
 
 And we're done!
 
