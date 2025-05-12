@@ -5,9 +5,11 @@
     />
     <v-container>
         <v-divider />
+        <div class="mx-auto" style="width: 560px;">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/RGsqfyKJo5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         <p>
             <center>Archivist</center>
-            <center><img src=/img/treasure-wide.png></img></center>
             <center>Saving Your Saves</center>
         </p>
         <Markdown

@@ -109,4 +109,4 @@ And we're done!
 
 Once you've finished the basic setup, PlumbBuddy will begin scanning your Mods folder for any issues. 
 
-While that finishes, you might want to head over to [What You See When You Have PlumbBuddy Open](https://plumbbuddy.app/text-guides/casual-ui) to see what's happening.
+While that finishes, you might want to head over to [User Interface Overview](https://plumbbuddy.app/text-guides/casual-ui) to see what's happening.
