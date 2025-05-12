@@ -43,6 +43,7 @@ declare module 'vue-router/auto-routes' {
     '/text-guides/casual-onboarding': RouteRecordInfo<'/text-guides/casual-onboarding', '/text-guides/casual-onboarding', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-setup': RouteRecordInfo<'/text-guides/casual-setup', '/text-guides/casual-setup', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-ui': RouteRecordInfo<'/text-guides/casual-ui', '/text-guides/casual-ui', Record<never, never>, Record<never, never>>,
+    '/text-guides/player-parlay': RouteRecordInfo<'/text-guides/player-parlay', '/text-guides/player-parlay', Record<never, never>, Record<never, never>>,
     '/who-are-we': RouteRecordInfo<'/who-are-we', '/who-are-we', Record<never, never>, Record<never, never>>,
   }
 }

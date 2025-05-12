@@ -68,13 +68,13 @@ Archivist uses some special terms to describe what it's doing.
 
     The new save slot will be at the top of your saves list in game. If you open the game again, this will be the save that you open if you click Resume.
 
-    It's the equivalent of doind a save-as in game.
+    It's the equivalent of doing a save-as in game.
 
 * **Branch** — *Moving to a new Chronicle*
 
     Branching a Snapshot creates a whole new Chronicle starting from that Snapshot.
 
-    In game, it's the equivalent of doing a save-as, with a new new save slot appearing at the top of your saves list in game. If you open the game again, this will be the save that you open if you click Resume.
+    In game, it's the equivalent of doing a save-as, with a new save slot appearing at the top of your saves list in game. If you open the game again, this will be the save that you open if you click Resume.
 
     But in Archivist, the new Branch will be separated from the original Chronicle, while maintaining its history.
 
@@ -90,7 +90,7 @@ The first time you look at Archivist, it will be blank. That’s because it’s 
 
 ![image](/img/casual-archivist-empty.png "An image of Archivist empty, with two toggles set to the off position and a faded folder icon on the left. The other PlumbBuddy tabs are visible along the top")
 
-There are two toggles and a folder icon on the top left. The first toggle turns on Archivist scanning its own databse for *existing* Chronicles. This toggle needs to be on before you can turn on the second toggle or click the folder icon.
+There are two toggles and a folder icon on the top left. The first toggle turns on Archivist scanning its own database for *existing* Chronicles. This toggle needs to be on before you can turn on the second toggle or click the folder icon.
 
 If you have existing backup files of your saves, ones you've saved outside your saves folder in the normal game format, you can click the folder icon to have Archivist scan your backup folder. Archivist will only scan the folder you pick, not subfolders. If you have backups of saves currently in your saves folder, you may want to do this first, starting with the oldest if you have multiple. Or not, up to you — Archivist will still know which is oldest, but your Snapshot numbers won’t be in order.
 

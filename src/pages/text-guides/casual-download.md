@@ -8,7 +8,7 @@ The easiest way to install the PlumbBuddy app is from [the download page](https:
 
 If you're on Windows, you want the .msix file with the Windows symbol, and if you're on a Mac, you want the .zip file with the 'mac os' symbol. Click on the one that's right for you and download it.
 
-If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the .msix file if you're on Windowsor the .zip file if you're on Mac.
+If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the .msix file if you're on Windows or the .zip file if you're on Mac.
 
 ---
 

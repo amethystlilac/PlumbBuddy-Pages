@@ -81,7 +81,7 @@
             name: 'Parlay',
             image: 'chat-balloons.jpeg',
             description: `Your Mods in Your Language`,
-            to: 'parlay',
+            to: 'player-parlay',
         },
     ];
 </script>

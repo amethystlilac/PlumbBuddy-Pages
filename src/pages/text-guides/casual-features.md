@@ -33,7 +33,7 @@ You can search the whole catalogue on the top right of the catalogue, and you ca
 
 ---
 
-### [Mod Hound]()
+### [Mod Hound](https://plumbbuddy.app/features/mod-hound)
 
 [Mod Hound](https://app.ts4modhound.com/) is a website created by [Lumpinou](https://www.patreon.com/lumpinou). It's a place where modders can list their mods, including if they were updated, if they're broken or obsolete or working fine with the current patch, and if they require other mods that are also listed on the site. Players can then have the website scan their mods folder for various things.
 

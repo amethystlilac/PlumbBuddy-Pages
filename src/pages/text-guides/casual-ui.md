@@ -10,7 +10,7 @@ Once PlumbBuddy is done scanning your Mods folder, it will begin analyzing your 
 
 The last scan to finish will be the cache, and it will tell you if your cache is fine or needs to be deleted, or if there are no cache files.
 
-![image](/img/PB-casual-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Totograpy notification")
+![image](/img/PB-casual-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Topograpy notification")
 
 ---
 
@@ -55,6 +55,6 @@ If you click the settings button, there are 5 kinds of settings that you can cha
 
 Pick which kind of setting you want to change or look at, and when that setting is the way you want it, click OK at the bottom right, or cancel if you don't want to change anything.
 
-![image](/img/PB-casual-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user ia a Casual Player, with 'Automatically check for updates' toggled off, 'Offer to find mod update news'when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
+![image](/img/PB-casual-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user is a Casual Player, with 'Automatically check for updates' toggled off, 'Offer to find mod update news when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
 
 Continue on to [The Features](https://plumbbuddy.app/text-guides/casual-features) to see some things PlumbBuddy does to keep your Mods folder Healthy.

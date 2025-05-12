@@ -8,7 +8,7 @@
         <p>
             <center>Mod Hound</center>
             <center><img src=/img/ModHoundLogoSm.png></img></center>
-            <center>A Different Way to Check Your Mods.</center>
+            <center>A Different Way to Check Your Mods</center>
         </p>
         <Markdown
             :source="casualModHoundMarkdown" 

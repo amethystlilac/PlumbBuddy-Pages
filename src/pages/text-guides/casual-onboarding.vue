@@ -8,7 +8,7 @@
         <p>
             <center>PlumbBuddy First Time Setup</center>
             <center><img src=/img/ToggleGreenWide.png></img></center>
-            <center>Just a few steps to get PlumbBuddy working for you.</center>
+            <center>Just a few steps to get PlumbBuddy working for you</center>
         </p>
         <Markdown
             :source="casualOnboardingMarkdown" 

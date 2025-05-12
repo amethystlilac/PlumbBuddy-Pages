@@ -12,7 +12,7 @@ When you first install and open PlumbBuddy, the first thing you’ll see is the 
 
 ### Themes
 
-PlumbBuddy has a default light or dark theme based on your computer's settings, but you can choose from a varirty of other themes that are included. Some are light mode only, some are dark mode only, and some have both — these follow your computer's settings.
+PlumbBuddy has a default light or dark theme based on your computer's settings, but you can choose from a variety of other themes that are included. Some are light mode only, some are dark mode only, and some have both — these follow your computer's settings.
 
 On the second tab, you can pick which one you want to use. Click on them to see what they look like, and click on them again to turn them off. Pick one (or none) for now, and then click next at the bottom right. If you want to, you can change your theme later in Settings.
 
@@ -86,7 +86,7 @@ The other two toggles are off by default. If you turn them on, they'll warn you 
 
 Once you've made your decisions, click Next on the bottom right.
 
-![image](/img/PB-Setup-ModHealth.png "An inage of the Mod Health settings as described above: ModGuard (with a Twisted Mexi icon to the left) and the error setting (with a discord icon to the left) toggled on, then a heading Error Logging Option, with toggles for Mc Command Center and Better Exceptions toggled off, and a brief explanation of some of the benefits and drawbacks of each")
+![image](/img/PB-Setup-ModHealth.png "An image of the Mod Health settings as described above: ModGuard (with a Twisted Mexi icon to the left) and the error setting (with a discord icon to the left) toggled on, then a heading Error Logging Option, with toggles for Mc Command Center and Better Exceptions toggled off, and a brief explanation of some of the benefits and drawbacks of each")
 
 ---
 
@@ -94,14 +94,14 @@ Once you've made your decisions, click Next on the bottom right.
 
 Here are certain things that PlumbBuddy does by default that you can turn off, and things it doesn't do for you by default that you can turn on.
 
-* You can turn on auto checking for PlumbBuddy updates, which is off by default. This would make sure that you alwyas know if your PlumbBuddy app has all the latest features and bug fixes.
+* You can turn on auto checking for PlumbBuddy updates, which is off by default. This would make sure that you always know if your PlumbBuddy app has all the latest features and bug fixes.
 * You can turn off offering to help you find mod update news after you’ve updated your game, which is on by default.
-* You can turn off the global manifest package, which is on by default. This is a file that makes the information PB has about the mods installed in your mods folder available so that other mods can make use of it.
+* You can turn off the global manifest package, which is on by default. This is a file that makes the information PlumbBuddy has about the mods installed in your mods folder available so that other mods can make use of it.
 * You can turn on PlumbBuddy having an icon in the system tray on Windows, which is off by default.
 
 Once you’ve made a decision, click Finish on the bottom right.
 
-![image](/img/PB-PB%20settings.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' toggled off, 'Offer to find mod update news'when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off")
+![image](/img/PB-PB%20settings.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' toggled off, 'Offer to find mod update news when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off")
 
 And we're done!
 
