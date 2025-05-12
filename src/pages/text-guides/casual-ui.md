@@ -57,4 +57,4 @@ Pick which kind of setting you want to change or look at, and when that setting 
 
 ![image](/img/PB-casual-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user ia a Casual Player, with 'Automatically check for updates' toggled off, 'Offer to find mod update news'when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
 
-Continue on to [What can PlumbBuddy do for you?](https://plumbbuddy.app/text-guides/casual-tabs) to see some things PlumbBuddy does to keep your Mods folder Healthy.
+Continue on to [The Features](https://plumbbuddy.app/text-guides/casual-features) to see some things PlumbBuddy does to keep your Mods folder Healthy.

@@ -37,7 +37,7 @@ You can search the whole catalogue on the top right of the catalogue, and you ca
 
 [Mod Hound](https://app.ts4modhound.com/) is a website created by [Lumpinou](https://www.patreon.com/lumpinou). It's a place where modders can list their mods, including if they were updated, if they're broken or obsolete or working fine with the current patch, and if they require other mods that are also listed on the site. Players can then have the website scan their mods folder for various things.
 
-Mod Hound has collaborated with PlumbBuddy to incorporate these scans in PlumbBuddy. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app by clicking on the various parts of the report on the left.
+Mod Hound has collaborated with PlumbBuddy to incorporate these scans into PlumbBuddy. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app by clicking on the various parts of the report on the left.
 
 It will give you lists of:
 

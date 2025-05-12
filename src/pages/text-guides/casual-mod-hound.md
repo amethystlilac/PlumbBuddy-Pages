@@ -4,7 +4,7 @@ For mod creators, it's a place where you can list your mods, including if they w
 
 For players, it's a place where you can have the website scan your Mods folder (or your mc_lastexception, BE-ExceptionReport.html, or Lumpinou File Log File) for various things, like outdated or broken mods.
 
-Mod Hound has collaborated with PlumbBuddy to incorporate these scans in the PlumbBuddy app. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app.
+Mod Hound has collaborated with PlumbBuddy to incorporate these scans into the PlumbBuddy app. On the Mod Hound tab, you can request that PlumbBuddy send a list of your mods to Mod Hound, and Mod Hound will send back a report that you can view in the app.
 
 ***Note:*** Mod Hound will ONLY give you results about mods that are listed on Mod Hound. It has no knowledge about any mods not listed there. It can also only give you information if that information is listed by the creator.
 
