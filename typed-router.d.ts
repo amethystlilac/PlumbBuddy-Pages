@@ -34,6 +34,16 @@ declare module 'vue-router/auto-routes' {
     '/privacy-policy': RouteRecordInfo<'/privacy-policy', '/privacy-policy', Record<never, never>, Record<never, never>>,
     '/redirect': RouteRecordInfo<'/redirect', '/redirect', Record<never, never>, Record<never, never>>,
     '/terms-of-use': RouteRecordInfo<'/terms-of-use', '/terms-of-use', Record<never, never>, Record<never, never>>,
+    '/text-guides/': RouteRecordInfo<'/text-guides/', '/text-guides', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-archivist': RouteRecordInfo<'/text-guides/casual-archivist', '/text-guides/casual-archivist', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-download': RouteRecordInfo<'/text-guides/casual-download', '/text-guides/casual-download', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-features': RouteRecordInfo<'/text-guides/casual-features', '/text-guides/casual-features', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-mod-health': RouteRecordInfo<'/text-guides/casual-mod-health', '/text-guides/casual-mod-health', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-mod-hound': RouteRecordInfo<'/text-guides/casual-mod-hound', '/text-guides/casual-mod-hound', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-onboarding': RouteRecordInfo<'/text-guides/casual-onboarding', '/text-guides/casual-onboarding', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-setup': RouteRecordInfo<'/text-guides/casual-setup', '/text-guides/casual-setup', Record<never, never>, Record<never, never>>,
+    '/text-guides/casual-ui': RouteRecordInfo<'/text-guides/casual-ui', '/text-guides/casual-ui', Record<never, never>, Record<never, never>>,
+    '/text-guides/player-parlay': RouteRecordInfo<'/text-guides/player-parlay', '/text-guides/player-parlay', Record<never, never>, Record<never, never>>,
     '/who-are-we': RouteRecordInfo<'/who-are-we', '/who-are-we', Record<never, never>, Record<never, never>>,
   }
 }

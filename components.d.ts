@@ -9,10 +9,14 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
+    ContentCard: typeof import('./src/components/ContentCard.vue')['default']
+    ContentMenu: typeof import('./src/components/ContentMenu.vue')['default']
     Display404: typeof import('./src/components/Display404.vue')['default']
     DownloadReleaseAsset: typeof import('./src/components/DownloadReleaseAsset.vue')['default']
     FeatureCard: typeof import('./src/components/FeatureCard.vue')['default']
     FeaturePanels: typeof import('./src/components/FeaturePanels.vue')['default']
+    GuideCard: typeof import('./src/components/GuideCard.vue')['default']
+    GuideMenu: typeof import('./src/components/GuideMenu.vue')['default']
     MenuToggleBreadcrumbs: typeof import('./src/components/MenuToggleBreadcrumbs.vue')['default']
     PersonCard: typeof import('./src/components/PersonCard.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
