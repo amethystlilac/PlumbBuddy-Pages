@@ -128,6 +128,12 @@
             path: '/features/catalog',
             title: 'Catalog',
         },
+        /*{
+            color: 'primary',
+            icon: 'mdi-dog',
+            path: '/features/mod-hound',
+            title: 'Mod Hound',
+        },*/
         {
             color: 'secondary',
             icon: 'mdi-archive-clock',
