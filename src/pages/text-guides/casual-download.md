@@ -8,7 +8,7 @@ The easiest way to install the PlumbBuddy app is from [the download page](https:
 
 If you're on a non-ARM Windows computer, you want a .msix file with the Windows symbol that doesn't have AMD in the file name. If you're on an ARM Windows computer, you want can use any of the .msix files, but the one specifically for ARM computers may give increased performance. If you aren't sure if you have an ARM computer, use the regular non-ARM file, unless the PlumbBuddy site detects that you are using an ARM computer. If you're on a Mac, you want the .zip file with the 'mac os' symbol. Click on the one that's right for you and download it.
 
-If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the file that's right for youfor you.
+If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the file that's right for you.
 
 ---
 
