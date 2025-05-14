@@ -1,5 +1,5 @@
 import { computed, shallowRef } from 'vue'
-import { createGlobalState } from '@vueuse/core'
+import { asyncComputed, createGlobalState } from '@vueuse/core'
 import dayjs from 'dayjs';
 import localizedFormat from 'dayjs/plugin/localizedFormat';
 import utc from 'dayjs/plugin/utc';
@@ -29,13 +29,23 @@ export const useGlobalState = createGlobalState(() => {
 
     const currentReleasePublishedAt = computed(() => currentRelease.value ? dayjs.utc(currentRelease.value.published_at).local().format('LLLL') : null);
 
-    const currentReleaseRecommendedAsset = computed(() => {
+    const currentReleaseRecommendedAsset = asyncComputed(async () => {
         if (!currentRelease.value) {
             return null;
         }
         const isWindows = (platform.os?.family ?? 'Unknown') === 'Windows';
         if (isWindows) {
-            const instructionSetSuffix = /\barm64\b/i.test(platform.ua) ? '_arm64.msix' : '_x64.msix';
+            debugger;
+            let instructionSetSuffix = '_x64.msix';
+            if (navigator.userAgentData) {
+                const userAgent = await navigator.userAgentData.getHighEntropyValues([
+                    "architecture",
+                    "bitness"
+                ]);
+                if (userAgent.architecture === 'arm' && userAgent.bitness === '64') {
+                    instructionSetSuffix = '_arm64.msix';
+                }
+            }
             return currentRelease.value.assets.find(asset => asset.name.endsWith(instructionSetSuffix))
                 ?? currentRelease.value.assets.find(asset => asset.name.endsWith('.msix'))
                 ?? currentRelease.value.assets[0];
