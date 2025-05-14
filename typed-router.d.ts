@@ -43,6 +43,9 @@ declare module 'vue-router/auto-routes' {
     '/text-guides/casual-onboarding': RouteRecordInfo<'/text-guides/casual-onboarding', '/text-guides/casual-onboarding', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-setup': RouteRecordInfo<'/text-guides/casual-setup', '/text-guides/casual-setup', Record<never, never>, Record<never, never>>,
     '/text-guides/casual-ui': RouteRecordInfo<'/text-guides/casual-ui', '/text-guides/casual-ui', Record<never, never>, Record<never, never>>,
+    '/text-guides/enthusiast-download': RouteRecordInfo<'/text-guides/enthusiast-download', '/text-guides/enthusiast-download', Record<never, never>, Record<never, never>>,
+    '/text-guides/enthusiast-onboarding': RouteRecordInfo<'/text-guides/enthusiast-onboarding', '/text-guides/enthusiast-onboarding', Record<never, never>, Record<never, never>>,
+    '/text-guides/enthusiast-setup': RouteRecordInfo<'/text-guides/enthusiast-setup', '/text-guides/enthusiast-setup', Record<never, never>, Record<never, never>>,
     '/text-guides/player-parlay': RouteRecordInfo<'/text-guides/player-parlay', '/text-guides/player-parlay', Record<never, never>, Record<never, never>>,
     '/who-are-we': RouteRecordInfo<'/who-are-we', '/who-are-we', Record<never, never>, Record<never, never>>,
   }
