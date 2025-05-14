@@ -128,12 +128,12 @@
             path: '/features/catalog',
             title: 'Catalog',
         },
-        /*{
+        {
             color: 'primary',
             icon: 'mdi-dog',
             path: '/features/mod-hound',
             title: 'Mod Hound',
-        },*/
+        },
         {
             color: 'secondary',
             icon: 'mdi-archive-clock',
@@ -218,6 +218,36 @@
             icon: 'mdi-play-circle',
             path: '/text-guides/casual-setup',
             title: 'Casual Player Setup',
+        },
+        {
+            color: 'primary',
+            icon: 'mdi-clipboard-play',
+            path: '/text-guides/enthusiast-setup',
+            title: 'Enthusiast Player Setup',
+        },
+        {
+            color: 'secondary',
+            icon: 'mdi-translate-variant',
+            path: '/text-guides/parlay',
+            title: 'Parlay for Translators',
+        },
+        {
+            color: 'success',
+            icon: 'mdi-play-box-multiple',
+            path: '/text-guides/creator-setup',
+            title: 'Creator Setup',
+        },
+        {
+            color: 'success',
+            icon: 'mdi-tag-edit',
+            path: '/text-guides/manifest-editor',
+            title: 'Manifest Editor for Creators',
+        },
+        {
+            color: 'error',
+            icon: 'mdi-chat-question',
+            path: '/text-guides/help',
+            title: 'Help with PlumbBuddy',
         },
         {
             isDivider: true,
