@@ -12,7 +12,7 @@ When you first install and open PlumbBuddy, the first thing you’ll see is the 
 
 ### Themes
 
-PlumbBuddy has a default light or dark theme based on your computer's settings, but you can choose from a variety of other themes that are included. Some are light mode only, some are dark mode only, and some have both — these follow your computer's settings.
+PlumbBuddy has a default light or dark theme based on your computer's settings, but you can choose from a variety of other themes that are included. Some are light mode only, some are dark mode only, and some have both — those follow your computer's settings.
 
 On the second tab, you can pick which one you want to use. Click on them to see what they look like, and click on them again to turn them off. Pick one (or none) for now, and then click next at the bottom right. If you want to, you can change your theme later in Settings.
 

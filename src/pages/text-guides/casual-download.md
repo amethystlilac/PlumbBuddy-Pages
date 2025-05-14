@@ -4,11 +4,11 @@
 
 The easiest way to install the PlumbBuddy app is from [the download page](https://plumbbuddy.app/download). There, the website will make a pretty good guess about which version you need, but you can pick another version if it guesses wrong. The one at the top is the one you'll want most of the time.
 
-![image](/img/Download.png "An image of the PlumbBuddy download options, with the Windows download at the top and the Mac download under Other Options at the bottom")
+![image](/img/Download.png "An image of the PlumbBuddy download options, with the Windows download for non-ARM computers at the top. Under Other Options below, are an alternate download for non-ARM computers, the Mac download, and the download for Windows computers using ARM")
 
-If you're on Windows, you want the .msix file with the Windows symbol, and if you're on a Mac, you want the .zip file with the 'mac os' symbol. Click on the one that's right for you and download it.
+If you're on a non-ARM Windows computer, you want a .msix file with the Windows symbol that doesn't have AMD in the file name. If you're on an ARM Windows computer, you want can use any of the .msix files, but the one specifically for ARM computers may give increased performance. If you aren't sure if you have an ARM computer, use the regular non-ARM file, unless the PlumbBuddy site detects that you are using an ARM computer. If you're on a Mac, you want the .zip file with the 'mac os' symbol. Click on the one that's right for you and download it.
 
-If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the .msix file if you're on Windows or the .zip file if you're on Mac.
+If for any reason the website download link isn't working for you, you can also download PlumbBuddy from GitHub. You can get the latest version [here](https://github.com/Llama-Logic/PlumbBuddy/releases/latest). Scroll to the bottom of the page, and download the file that's right for youfor you.
 
 ---
 
