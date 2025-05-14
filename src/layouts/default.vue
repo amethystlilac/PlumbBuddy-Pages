@@ -219,7 +219,7 @@
             path: '/text-guides/casual-setup',
             title: 'Casual Player Setup',
         },
-        {
+        /*{
             color: 'primary',
             icon: 'mdi-clipboard-play',
             path: '/text-guides/enthusiast-setup',
@@ -248,7 +248,7 @@
             icon: 'mdi-chat-question',
             path: '/text-guides/help',
             title: 'Help with PlumbBuddy',
-        },
+        },*/
         {
             isDivider: true,
         },
