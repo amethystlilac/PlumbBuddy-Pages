@@ -1,5 +1,4 @@
 mod_hound:
   packages_batch_hard_limit: 26000
   packages_batch_warning_threshold: 5000
-  report_service_timeout: '00:10:00'
   report_service_unavailable_message: null
