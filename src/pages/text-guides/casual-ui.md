@@ -30,16 +30,16 @@ After PlumbBuddy finishes cataloging, at the top left, you have:
 If you open the menu, you’ll see:
 
 * The PlumbBuddy symbol, name, and version
-* A button to open your downloads folder
-* A button to open your mods folder
+* A button to open your Downloads folder
+* A button to open your Mods folder
 * A button to quickly clear your cache
-* An ‘Ask for Help’ button, which will bring up options for support. You can pick a general support discord server there, and the link for the PlumbBuddy discord server is there if you need help with PlumbBuddy itself.
+* An ‘Ask for Help’ button, which will bring up options for support. You can pick a general support discord server there, see some self-help steps, and the link for the PlumbBuddy discord server is there if you need help with PlumbBuddy itself.
 * A button to check for updates of PlumbBuddy
 * The settings button
 * A button to close the window (but not shut down PlumbBuddy) on Windows only
 * A button to shut down PlumbBuddy on Windows only
 
-On Mac, you just close the window to shutdown PlumbBuddy
+On Mac, you just close the window to shutdown PlumbBuddy.
 
 ![image](/img/PB-menu.png "PlumbBuddy's menu, as described above")
 
@@ -49,7 +49,7 @@ If you click the settings button, there are 5 kinds of settings that you can cha
 
 * General, for who you are and to change certain PlumbBuddy settings.
 * Theme, to change the theme.
-* Folders, to change the folders or to reset them to the default.
+* Folders, to change the folder locations or to reset them to the default.
 * Mod Health, to enable or disable PlumbBuddy’s scans. If you want to change which kinds of warnings PlumbBuddy will give you, you can do it here. If you accidentally (or on purpose) clicked Stop Telling Me and then changed your mind, here is where you can re-enable scans. You can also leave things on default.
 * Mod Hound, to change your Mod Hound settings, like how long you keep reports.
 

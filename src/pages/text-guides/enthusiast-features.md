@@ -2,11 +2,11 @@
 
 Once you have PlumbBuddy set up and some mods with manifests installed, PlumbBuddy will get to work helping you keep your game running as smoothly as possible.
 
-You might get some alerts right away. That’s fine. PlumbBuddy will do its best to tell you what you need to do. You might be told you have a .zip file in your mods folder, where it’s not supposed to be, or that you have a missing requirement for a mod. You might get a recommendation to download a specific mod that will help you. Just read what it says, and decide what you want to do. Or you might have no alerts at all.
+You might get some alerts right away. PlumbBuddy will do its best to tell you what you need to do. You might be told you have a .zip file in your mods folder, where it’s not supposed to be, or that you have a missing requirement for a mod. You might get a recommendation to download a specific mod that will help you. Or you might have no alerts at all.
 
-![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
+![image](/img/PB-enth-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
 
-If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) guide.
+If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/ehthusiast-mod-health) guide.
 
 ---
 
@@ -56,7 +56,7 @@ In addition, many of the files in the report will come with buttons to view the 
 
 ![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected below that, but no results shown to the right. The background is a frog on a lily pad. Across the top are the other tabs.")
 
-If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/casual-mod-hound) guide.
+If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/enthusiast-mod-hound) guide.
 
 ---
 
@@ -70,7 +70,7 @@ There are two toggles at the top right. The one on the left turns on Archivist a
 
 ![image](/img/PB-Archivist.png "The Archivist tab, with a list of saves on the left. One is selected, showing a list of Snapshots on the right. At the top of the list of Snapshots is a sim in a red dress on the left and the name of the save and some details about it to the right. Across the top are the other tabs")
 
-To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/casual-archivist) guide.
+To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/enthusiast-archivist) guide.
 
 ---
 
@@ -79,6 +79,8 @@ To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text
 Have you found a mod that's perfect, but not available in your language? Maybe you know *enough* to get by, but would prefer that you could read it in game without effort. *Maybe* you even want to translate it and share it, but have no idea where to start.
 
 Parlay is an easy way to translate almost any mod into the language of your choice. As you translate, it creates a translation file in your mods folder that you can use yourself, share with others, or share with the mod creator.
+
+While not its purpose, it can also be used to customize the existing strings of a mod to your preference, by creating an override file to change just the text.
 
 ![image](/img/PB-ParlayTyping.png "The Parlay tab, with a mod translation from in progress")
 

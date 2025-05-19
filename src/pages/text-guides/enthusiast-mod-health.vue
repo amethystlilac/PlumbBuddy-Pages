@@ -11,9 +11,9 @@
         </p>
         <v-divider />
         <p>
-            When you installed PlumbBuddy for the first time, you were given the option to turn off a warning if you don't have ModGuard in your mods folder and an alert that you have an error file, and to turn on warnings if you don't have the mods Better Exceptions by Twisted Mexi and/or MC Command Center by Deaderpool installed.<br><br>
+            When you installed PlumbBuddy for the first time, you were shown many Mod Health scans that you could turn on or off.<br><br>
 
-            For Casual Players, other scans are on by default. You can turn them off (or on) in PlumbBuddy settings, accessed through the menu on the left, or by clicking 'Stop Telling Me' when Mod Health finds something to tell you about.<br><br>
+            For Enthusiast Players, most scans are on by default. You can turn them off (or on) in PlumbBuddy settings, accessed through the menu on the left, or by clicking 'Stop Telling Me' when Mod Health finds something to tell you about.<br><br>
 
             In the Mod Health section of PlumbBuddy settings, there are four categories:<br><br>
 
@@ -248,14 +248,15 @@ or
 
 * If this file is in a *__MACOSX* folder, you should delete the entire folder and everything that it contains. It is a hidden file from a Mac computer. It has no use, and will only cause problems.
 * If it begins with ._, you should delete it. It is almost certainly a hidden file from a Mac computer. It has no use, and will only cause problems.
+* These hidden hidden Mac files are included in .zip files created on Mac computers. It's probably a good idea to report these to the creator, so that they can resolve the issue on their end, and either delete the files or zip the files in a way that doesn't include these hidden files.
 * If it appears to be a normal .package or .ts4script file, check the download site. Perhaps it got corrupted in downloading (or in uploading).`,
         },
         {
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
-            image: 'casual-error-found.png',
-            description: `### The Game or one of Your Mods is Calling for Help!
+            image: 'enthusiast-error-found.png',
+            description: `### A File Likely Containing an Error Has Been Found!
 
 *Setting:*
 
@@ -430,7 +431,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
-            image: 'casual-cache-stale.png',
+            image: 'enth-cache-stale.png',
             description: `### The Cache is Stale
 
 *Setting:*
@@ -488,7 +489,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
             image: 'casual-conflict.png',
-            description: `### Multiple Mods Claim (Thing That You Can Only Have One Of)
+            description: `### Multiple Mods Claim (Exclusivity)
 
 *Setting:*
 
