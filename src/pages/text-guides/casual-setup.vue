@@ -73,7 +73,7 @@
             name: 'Archivist',
             image: 'treasure-7879866_640.png',
             description: `Saving Your Saves`,
-            to: 'casual-archivist',
+            to: 'archivist',
         },
         {
             color: 'success',

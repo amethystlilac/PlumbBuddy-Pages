@@ -13,7 +13,7 @@
             <center>A Different Way to Check Your Mods</center>
         </p>
         <Markdown
-            :source="casualModHoundMarkdown" 
+            :source="enthusiastModHoundMarkdown" 
             class="standard-text"
         />
     </v-container>
@@ -21,5 +21,5 @@
 
 <script setup>
     import Markdown from 'vue3-markdown-it';
-    import casualModHoundMarkdown from './casual-mod-hound.md?raw';
+    import enthusiastModHoundMarkdown from './enthusiast-mod-hound.md?raw';
 </script>

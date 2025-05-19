@@ -13,7 +13,7 @@
             <center>Saving Your Saves</center>
         </p>
         <Markdown
-            :source="casualArchivistMarkdown" 
+            :source="ArchivistMarkdown" 
             class="standard-text"
         />
     </v-container>
@@ -21,5 +21,5 @@
 
 <script setup>
     import Markdown from 'vue3-markdown-it';
-    import casualArchivistMarkdown from './casual-archivist.md?raw';
+    import ArchivistMarkdown from './archivist.md?raw';
 </script>

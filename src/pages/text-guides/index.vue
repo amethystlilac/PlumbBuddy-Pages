@@ -34,8 +34,8 @@
             name: 'Parlay for Translators',
             image: 'santorini.jpg',
             description: `If you want to help other people have your favourite mod in your language or just have it for yourself, this guide get you started.`,
-            to: 'text-guides/translators-parlay',
-        },
+            to: 'text-guides/player-parlay',
+        },/*
         {
             color: 'success',
             icon: 'mdi-play-box-multiple',
@@ -51,7 +51,7 @@
             image: 'developer-discuss-photo-md.jpeg',
             description: `An in-depth guide to what you need to know to get your mods manifested.`,
             to: 'text-guides/creators-manifest-editor',
-        },
+        },*/
         {
             color: 'error',
             icon: 'mdi-chat-question',
@@ -59,6 +59,6 @@
             image: 'Confused.jpeg',
             description: `If you still can't figure it out.`,
             to: 'text-guides/help',
-        },        
+        },  
     ];
 </script>

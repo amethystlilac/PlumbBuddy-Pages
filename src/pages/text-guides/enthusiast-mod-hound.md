@@ -34,11 +34,17 @@ This setting is to tell PlumbBuddy where your Custom Content is in your Mods fol
 
 ***File limits may change based on the needs of the Mod Hound website. The defaults are listed here.***
 
-If you have over 5,000 files (.package and .ts4script) in your Mods folder, PlumbBuddy will warn you that you have a lot of files and you should consider excluding your CC. This is to prevent taxing the Mod Hound website, to keep it happy and healthy and available for everyone to use.
+If you have over 5,000* files (.package and .ts4script) in your Mods folder, PlumbBuddy will warn you that you have a lot of files and you should consider excluding your CC. This is to prevent taxing the Mod Hound website, to keep it happy and healthy and available for everyone to use.
 
-If you have over 26,000 files, PlumbBuddy will refuse to submit them, because Mod Hound will reject them. Again, Mod Hound is not designed to have any information on your CC, just on your mods.
+If you have over 26,000* files, PlumbBuddy will refuse to submit them, because Mod Hound will reject them. Again, Mod Hound is not designed to have any information on your CC, just on your mods.
 
 In the settings, when you have over 5,000 files, the box next to the number of files at the bottom left will change from green to a warning colour. If you have over 26,000 files, the box will turn to an error colour, giving a visual clue that you that you can't request a report until you remove some files or use an Exclusion above.
+
+You can see the number of files that are being excluded in real time as you change your Exclusions.
+
+There are two ways to add an exclusion:
+
+1. Look for Leading Text in Package File Paths
 
 The easiest and most reliable way to add an Exclusion is to type in the name of a folder inside your Mods folder in which you have CC (just CC, no mods) and end it with a forward slash (/), then hit enter. This will tell PlumbBuddy to ignore anything in that folder. Do not use a backslash (\).
 
@@ -46,9 +52,13 @@ The easiest and most reliable way to add an Exclusion is to type in the name of 
 
 * You can choose to not type in each folder name if you have multiple that start the same way, but this may have unintended results. If you type in just CC and not 'CC-CAS/', in the image below, it would exclude all of the folders listed, but also potentially other things that you don't want to exclude.
 
-You can see the number of files that are being excluded in real time as you change your Exclusions.
+2. Test Package File Paths with Regular Expressions
 
-![image](/img/modhound-settings-casual.png "The Mod Hound settings as described above, with three folders excluded, and at the bottom, a green symbol and 3025 Packages included on the left, and a grey symbol and 2533 Packages Excluded")
+If you're familiar with Regex, this is for you.
+
+This is for if you want to exclude a wide group of folders named in a similar way, but that don't *start* the same way, or if you want to exclude things that contain a specific term, or other things you can do with Regex. You can be both more precise and broader in your search. If you aren't sure how to use Regex, if you type in something that just won't work, you'll get a prompt asking if you want to be taken to a sandbox website so you can experiment.
+
+![image](/img/modhound-settings-enth.png "The Mod Hound settings as described above, with three folders excluded, and at the bottom, a green symbol and 3033 Packages included on the left, and a grey symbol and 2534 Packages Excluded")
 
 ---
 

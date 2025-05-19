@@ -10,7 +10,7 @@ Once PlumbBuddy is done scanning your Mods folder, it will begin analyzing your 
 
 The last scan to finish will be the cache, and it will tell you if your cache is fine or needs to be deleted, or if there are no cache files. Typically, you'll be advised to clear your cache if you've removed files from your Mods folder, to delete any remaining data that the game is trying to hold onto from them, or if you've *moved* files in your Mods folder, such as by renaming a folder, so that one file that was overriding another is now being overridden.
 
-![image](/img/PB-enth-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Topograpy notification")
+![image](/img/PB-enth-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Topography notification")
 
 ---
 

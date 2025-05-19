@@ -76,8 +76,6 @@ Once you’ve completed your translation, you can use the button at the top righ
 
 ![image](/img/parlay-find-file.png "An image pointing out the button to use to find your translation file")
 
-![image](/img/parlay-translation-file.png "The translation file next to the original package file")
-
 By default, the file will be named something like `!amethyst_Family Reward Trait.fr-FR.l10n.package`. 
 
 This is:
@@ -89,7 +87,8 @@ This is:
 
 Essentially: `!Mod Name.language-location.translation.package`
 
-![image](/img/parlay-gendered.png "Parlay suggesting possible tokens")
+
+![image](/img/parlay-translation-file.png "The translation file next to the original package file")
 
 This file will show in your Catalog. If you look at it, it will list you as the translator.
 

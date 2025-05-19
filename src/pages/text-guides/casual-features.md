@@ -70,7 +70,7 @@ There are two toggles at the top right. The one on the left turns on Archivist a
 
 ![image](/img/PB-Archivist.png "The Archivist tab, with a list of saves on the left. One is selected, showing a list of Snapshots on the right. At the top of the list of Snapshots is a sim in a red dress on the left and the name of the save and some details about it to the right. Across the top are the other tabs")
 
-To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/casual-archivist) guide.
+To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/archivist) guide.
 
 ---
 

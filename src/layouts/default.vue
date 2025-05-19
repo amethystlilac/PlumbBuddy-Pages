@@ -228,9 +228,9 @@
         {
             color: 'secondary',
             icon: 'mdi-translate-variant',
-            path: '/text-guides/parlay',
+            path: '/text-guides/player-parlay',
             title: 'Parlay for Translators',
-        },
+        },/*
         {
             color: 'success',
             icon: 'mdi-play-box-multiple',
@@ -242,7 +242,7 @@
             icon: 'mdi-tag-edit',
             path: '/text-guides/manifest-editor',
             title: 'Manifest Editor for Creators',
-        },
+        },*/
         {
             color: 'error',
             icon: 'mdi-chat-question',

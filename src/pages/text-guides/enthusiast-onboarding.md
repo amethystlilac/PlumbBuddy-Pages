@@ -34,7 +34,7 @@ You can switch between types by clicking the circles at the top (blue for Casual
 
 Pick Enthusiast (red) and click Next at the bottom right.
 
-![image](/img/PB-enthusiast-Nancy.png "An image of the Introductions tab in PlumbBuddy. At the top are instructions to use the circles or arrows to choose. Below is an image of Nancy Landgraab playing a video game, with a description of an enthusiast player in front: 'I've been using mods in The SIms 4 for some time and I got PlumbBuddy to help automate all the mod maintenance I need to do. I'm comfortable with the technical stuff, so don't hold back. I want to see all the options, learn what they do, and exercise full control over them. I may have unusual preferences regarding how I want PlumbBuddy to behave.'")
+![image](/img/PB-enthusiast-Nancy.png "An image of the Introductions tab in PlumbBuddy. At the top are instructions to use the circles or arrows to choose. Below is an image of Nancy Landgraab playing a video game, with a description of an enthusiast player in front: 'I've been using mods in The Sims 4 for some time and I got PlumbBuddy to help automate all the mod maintenance I need to do. I'm comfortable with the technical stuff, so don't hold back. I want to see all the options, learn what they do, and exercise full control over them. I may have unusual preferences regarding how I want PlumbBuddy to behave.'")
 
 ---
 
@@ -109,7 +109,7 @@ You can read more about the various Mod Health scans on the [Mod Health](https:/
 
 Once you've made your decisions, click Next on the bottom right.
 
-![image](/img/PB-Setup-ModHealth-Enth.png "An image of the Mod Health settings as described above: four bars with various coloured bubbles inside each with text, representing Mod Health scans. At the right of each bar is an x for removing all scans and a symbol to click to open a dropdown menu. At the bottom are Enable All, DIsable All, and Set Default buttons.")
+![image](/img/PB-Setup-ModHealth-Enth.png "An image of the Mod Health settings as described above: four bars with various coloured bubbles inside each with text, representing Mod Health scans. At the right of each bar is an x for removing all scans and a symbol to click to open a dropdown menu. At the bottom are Enable All, Disable All, and Set Default buttons.")
 
 ---
 
