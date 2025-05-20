@@ -19,6 +19,18 @@ LearnAboutMCCommandCenter: https://deaderpool-mccc.com/
 ModGuard: https://www.patreon.com/posts/98126153
 
 # Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Catalog)
+PlumbBuddyInAppGuideCatalogCasual: https://plumbbuddy.app/text-guides/casual-features#catalog
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Catalog)
+PlumbBuddyInAppGuideCatalogCreator: https://plumbbuddy.app/text-guides/creator-features#catalog
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Catalog)
+PlumbBuddyInAppGuideCatalogEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-features#catalog
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideFoldersCasual: https://plumbbuddy.app/text-guides/casual-onboarding#folders
 
