@@ -17,3 +17,15 @@ LearnAboutMCCommandCenter: https://deaderpool-mccc.com/
 # Owner: Twisted Mexi
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Mod Guard Missing Scan Resolution)
 ModGuard: https://www.patreon.com/posts/98126153
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersCasual: https://plumbbuddy.app/text-guides/casual-onboarding#folders
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersCreator: https://plumbbuddy.app/text-guides/creator-onboarding#folders
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-onboarding#folders
