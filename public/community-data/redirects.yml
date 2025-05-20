@@ -31,13 +31,25 @@ PlumbBuddyInAppGuideFoldersCreator: https://plumbbuddy.app/text-guides/creator-o
 PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-onboarding#folders
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
 PlumbBuddyInAppGuideModHealthCasual: https://plumbbuddy.app/text-guides/casual-mod-health
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
 PlumbBuddyInAppGuideModHealthCreator: https://plumbbuddy.app/text-guides/enthusiast-mod-health
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
 PlumbBuddyInAppGuideModHealthEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundCasual: https://plumbbuddy.app/text-guides/casual-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundCreator: https://plumbbuddy.app/text-guides/creator-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-hound
