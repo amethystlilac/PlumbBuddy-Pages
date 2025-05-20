@@ -48,6 +48,10 @@ PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthus
 
 # Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditor: https://plumbbuddy.app/text-guides/manifest-editor
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
 PlumbBuddyInAppGuideManifestEditorSelect: https://plumbbuddy.app/text-guides/manifest-editor#select
 
 # Owner: Amethyst Lilac
