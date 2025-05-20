@@ -74,6 +74,7 @@ or
 * They are also turned off after many game patches and need to be turned back on.`,
         },
         {
+            id: 'show-mod-list-startup-setting-scan',
             color: 'primary',
             icon: 'mdi-radiobox-indeterminate-variant',
             name: 'In The Sims 4 game options…',
@@ -107,6 +108,7 @@ or
 * This can mean the difference between a loading time of up to several hours and a loading time counted in minutes.`,
         },
         {
+            id: 'depth-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -151,6 +153,7 @@ or
 * PlumbBuddy would offer to move *mod.ts4script* (and likely the rest of the mod) up to Creator Name.`,
         },
         {
+            id: 'loose-zip-archive-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -184,6 +187,7 @@ or
 * This can sometimes result in the game reading parts of what’s inside a .zip file, and the game reading part of something is never good. It can cause strange errors that are difficult to diagnose.`,
         },
         {
+            id: 'loose-archive-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -217,6 +221,7 @@ or
 * They are convenient ways to upload multiple files at once, but that game can't read their contents.`,
         },
         {
+            id: 'corrupt-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -253,6 +258,7 @@ or
 * If it appears to be a normal .package or .ts4script file, check the download site. Perhaps it got corrupted in downloading (or in uploading).`,
         },
         {
+            id: 'error-log-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -285,6 +291,7 @@ or
 * The error file can contain important information that can let support volunteers help you with your game, or even help EA find the cause if it turns out to be a game bug.`,
         },
         {
+            id: 'mccc-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -325,6 +332,7 @@ or
 This scan is **disabled by default**, but it’s a great idea to use either MCCC or Better Exceptions, or both.`,
         },
         {
+            id: 'be-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -365,6 +373,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 `,
         },
         {
+            id: 'modguard-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -394,6 +403,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 * ModGuard is essentially an anti-virus for .ts4script files. It will block attempts by them to install or run malicious files and warn you.`,
         },
         {
+            id: 'dependency-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -429,6 +439,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 
         },
         {
+            id: 'cache-staleness-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -461,6 +472,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 * Not clearing your cache can mean that your game is holding on to old information, such as data from mods or custom content that you’ve deleted, or files that have been moved so that the game is now reading them differently.`,
         },
         {
+            id: 'multiple-mod-version-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -486,6 +498,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 * PlumbBuddy will also offer to show you each copy of the mod in your Mods folder, so that you can decide which copy you want to keep.`,
         },
         {
+            id: 'exclusivity-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -519,6 +532,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 * If both mods have other mods that require them, you may be able to use either, or some mods require a specific mod. In that case, you'd have to make a decision about which you would keep after checking the mod descriptions.`,
         },
         {
+            id: 'mismatched-inscribed-hashes-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',

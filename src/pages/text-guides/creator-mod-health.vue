@@ -76,6 +76,7 @@ or
 * They are also turned off after many game patches and need to be turned back on.`,
         },
         {
+            id: 'show-mod-list-startup-setting-scan',
             color: 'primary',
             icon: 'mdi-radiobox-indeterminate-variant',
             name: 'In The Sims 4 game options…',
@@ -109,6 +110,7 @@ or
 * This can mean the difference between a loading time of up to several hours and a loading time counted in minutes.`,
         },
         {
+            id: 'depth-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -153,6 +155,7 @@ or
 * PlumbBuddy would offer to move *mod.ts4script* (and likely the rest of the mod) up to Creator Name.`,
         },
         {
+            id: 'loose-zip-archive-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -186,6 +189,7 @@ or
 * This can sometimes result in the game reading parts of what’s inside a .zip file, and the game reading part of something is never good. It can cause strange errors that are difficult to diagnose.`,
         },
         {
+            id: 'loose-archive-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -219,6 +223,7 @@ or
 * They are convenient ways to upload multiple files at once, but that game can't read their contents.`,
         },
         {
+            id: 'corrupt-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -257,6 +262,7 @@ or
 If you are a mod creator on a Mac, please be aware of these files and [try to avoid including them in your uploads](https://docs.google.com/document/d/1i5I6eWjcEW9JxRpdHDlgG1blp8CXM7pi50ttx-JzQHE/edit?usp=sharing).`,
         },
         {
+            id: 'error-log-scan',
             color: 'secondary',
             icon: 'mdi-folder',
             name: 'Inside your Mods Folder, I find…',
@@ -282,6 +288,7 @@ If you are a mod creator on a Mac, please be aware of these files and [try to av
 * You can also choose to just delete the file, and any other error files that were found.`,
         },
         {
+            id: 'mccc-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -319,6 +326,7 @@ If you are a mod creator on a Mac, please be aware of these files and [try to av
     * Some other features of the mod include increased control over story progression and better control over what NPC sims wear.`,
         },
         {
+            id: 'be-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -356,6 +364,7 @@ If you are a mod creator on a Mac, please be aware of these files and [try to av
 * Other features of BE include detecting the CC a sim is wearing in live mode and patch day scans, *which can be very useful for creators*.`,
         },
         {
+            id: 'modguard-missing-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -385,6 +394,7 @@ If you are a mod creator on a Mac, please be aware of these files and [try to av
 * ModGuard is essentially an anti-virus for .ts4script files. It will block attempts by them to install or run malicious files and warn you.`,
         },
         {
+            id: 'dependency-scan',
             color: 'tertiary',
             icon: 'mdi-folder-search',
             name: 'Inside your Installation and Mods Folders, I DO NOT find…',
@@ -422,6 +432,7 @@ This scan is entirely dependent on mod manifests.`,
 
         },
         {
+            id: 'cache-staleness-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -454,6 +465,7 @@ This scan is entirely dependent on mod manifests.`,
 * Not clearing your cache can mean that your game is holding on to old information, such as data from mods or custom content that you’ve deleted, or files that have been moved so that the game is now reading them differently. It can sometimes cause weird bugs when you're testing a mod that make no sense whatsoever.`,
         },
         {
+            id: 'multiple-mod-version-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -481,6 +493,7 @@ This scan is entirely dependent on mod manifests.`,
 This scan is entirely dependent on mod manifests.`,
         },
         {
+            id: 'exclusivity-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
@@ -516,6 +529,7 @@ This scan is entirely dependent on mod manifests.`,
 This scan is entirely dependent on mod manifests.`,
         },
         {
+            id: 'mismatched-inscribed-hashes-scan',
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
