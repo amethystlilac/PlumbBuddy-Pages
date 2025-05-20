@@ -8,11 +8,19 @@
 import { createRouter, createWebHistory } from 'vue-router/auto';
 import { setupLayouts } from 'virtual:generated-layouts';
 import { routes } from 'vue-router/auto-routes';
+import { delay } from '@/logic/general-utilities';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: setupLayouts(routes),
-    scrollBehavior(to, from, savedPosition) {
+    async scrollBehavior(to, from, savedPosition) {
+        if (to.hash) {
+            await delay(250);
+            return {
+                el: to.hash,
+                behavior: 'smooth',
+            };
+        }
         return { top: 0 };
     }
 });
