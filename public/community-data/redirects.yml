@@ -31,7 +31,7 @@ PlumbBuddyInAppGuideCatalogCreator: https://plumbbuddy.app/text-guides/creator-f
 PlumbBuddyInAppGuideCatalogEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-features#catalog
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Catalog)
+# (Dev Note: Hardcoded in PB UI markup -- ArchivistHeader)
 PlumbBuddyInAppGuideArchivist: https://plumbbuddy.app/text-guides/archivist
 
 # Owner: Amethyst Lilac
@@ -249,3 +249,15 @@ PlumbBuddyInAppGuideModHoundCreator: https://plumbbuddy.app/text-guides/creator-
 # Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
 PlumbBuddyInAppGuideModHoundEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayCasual: https://plumbbuddy.app/text-guides/player-parlay
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayCreator: https://plumbbuddy.app/text-guides/creator-parlay
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayEnthusiast: https://plumbbuddy.app/text-guides/player-parlay
