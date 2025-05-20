@@ -79,6 +79,14 @@ PlumbBuddyInAppGuideManifestEditorHashing: https://plumbbuddy.app/text-guides/ma
 PlumbBuddyInAppGuideManifestEditorConfirm: https://plumbbuddy.app/text-guides/manifest-editor#confirm
 
 # Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorUpdatingAManifest: https://plumbbuddy.app/text-guides/manifest-editor#updating-a-manifest
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorDetailsCreators: https://plumbbuddy.app/text-guides/manifest-editor#providing-support-for-your-mods
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideModHealthCasual: https://plumbbuddy.app/text-guides/casual-mod-health
 
