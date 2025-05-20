@@ -4,17 +4,14 @@
         :items="[{title: 'Casual Player PlumbBuddy Setup Guide'}]"
     />
     <v-container>
-        <div class="mx-auto" style="width: 560px;">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/5qze0OZn1Rw?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <iframe src="https://www.youtube.com/embed/5qze0OZn1Rw?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 16/9;"></iframe>
         <p class="text-center">
             How to get PlumbBuddy up and running so you can get back to playing your game with something watching out for you.
         </p>
-        <v-divider />
-        <ContentMenu
-            :contents="contents"
-        />
     </v-container>
+    <ContentMenu
+        :contents="contents"
+    />
 </template>
 
 <script setup>
@@ -73,7 +70,7 @@
             name: 'Archivist',
             image: 'treasure-7879866_640.png',
             description: `Saving Your Saves`,
-            to: 'casual-archivist',
+            to: 'archivist',
         },
         {
             color: 'success',

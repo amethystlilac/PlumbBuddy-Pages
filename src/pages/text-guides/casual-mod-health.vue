@@ -422,7 +422,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 *Extra info:*
 
 * PlumbBuddy can only give you this information if the creator has both manifested their mod and included information about requirements in that manifest.
-* In the case of the requirement being by someone other than the creator of the mod requiring it, PlumbBuddy can only give you this information both mods have been manifested.
+* In the case of the requirement being a mod, PlumbBuddy can only give you this information both mods have been manifested. This is more likely to be an issue if the required mod is by a different creator.
 * Having a mod installed but not having everything required to use it can lead to problems in game — from visual issues to errors to the game not loading — or to the mod not functioning at all.`,
 
         },
@@ -481,18 +481,14 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 
 * PlumbBuddy will tell you the file names and locations, and the version numbers if the manifests included that information.
 * PlumbBuddy will offer to take you to the download page for the mod, so that you can find out what went wrong.
-* PlumbBuddy will also offer to show you each copy of the mod in your Mods folder, so that you can decide which copy you want to keep.
-
----
-
-*Extra info:*`,
+* PlumbBuddy will also offer to show you each copy of the mod in your Mods folder, so that you can decide which copy you want to keep.`,
         },
         {
             color: 'warning',
             icon: 'mdi-sync-alert',
             name: 'Mod file analysis suggests…',
             image: 'casual-conflict.png',
-            description: `### A Different Way to Check Your Mods
+            description: `### Multiple Mods Claim (Thing That You Can Only Have One Of)
 
 *Setting:*
 
@@ -549,7 +545,7 @@ This scan is **disabled by default**, but it’s a great idea to use either Bett
 *Extra info:*
 
 * If a file has been altered so that it no longer matches the manifest, the information it contains may not be reliable, so the information from scans and in the Catalog may not be accurate or helpful.
-* If you downloaded the mod from anywhere except the original creator's site, you be very wary of this mod.`,
+* If you downloaded the mod from anywhere except the original creator's site, you should be very wary of this mod.`,
         },
     ];
 </script>

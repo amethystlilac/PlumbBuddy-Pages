@@ -1,3 +1,5 @@
+---
+
 ### Translating a Mod with Parlay
 
 So you’ve found a mod, and it doesn’t come in your language. Or it does, but it’s not the right version of your language–maybe it’s in Brazilian Portuguese and you’re from Portugal, or it uses American spelling instead of British. Maybe you want to see it in your language for personal use or to share with others.
@@ -76,8 +78,6 @@ Once you’ve completed your translation, you can use the button at the top righ
 
 ![image](/img/parlay-find-file.png "An image pointing out the button to use to find your translation file")
 
-![image](/img/parlay-translation-file.png "The translation file next to the original package file")
-
 By default, the file will be named something like `!amethyst_Family Reward Trait.fr-FR.l10n.package`. 
 
 This is:
@@ -89,7 +89,8 @@ This is:
 
 Essentially: `!Mod Name.language-location.translation.package`
 
-![image](/img/parlay-gendered.png "Parlay suggesting possible tokens")
+
+![image](/img/parlay-translation-file.png "The translation file next to the original package file")
 
 This file will show in your Catalog. If you look at it, it will list you as the translator.
 
@@ -100,3 +101,5 @@ If the original mod is manifested, it will list that mod as a requirement for yo
 ![image](/img/parlay-transl-dep.png "The original mod listing the translation as a dependent")
 
 If you want to upload the file to share it with others, you may want to rename it. For example, I might want to rename  `!LittleMsSam_BetterNanny.fr-FR.l10n.package` to `!LittleMsSam_BetterNanny.traduction FR-amethyst.package`, if I decided to upload a translation. That would not affect how it shows up in PlumbBuddy’s Catalog for other players, and it would show that I was the one to make that file. If you’re sharing with others, you might also want to fill out the rest of the manifest. Or not, up to you. As long as you entered your name as the translator, you’ll still be credited in the manifest. Note that Parlay does not create a scaffolding file, so a warning about that is to be expected.
+
+If you're a mod creator and want to learn about incorporating a translation created with Parlay into your mod, visit the [Parlay](https://plumbbuddy.app/text-guides/creator-parlay) guide.

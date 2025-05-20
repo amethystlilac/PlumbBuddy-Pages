@@ -16,6 +16,8 @@ If for any reason the website download link isn't working for you, you can also 
 
 Once it's finished downloading, click on the file in your browser's downloads or find where it downloaded and double click it. A new window will open. Click on Install and wait for it to finish installing.
 
+Don't unzip/extract the .msix file. It will break. Just install it as it is.
+
 ![image](/img/InstallationWindow.png "The installation window for PlumbBuddy, listing the publisher, version, source, and capabilities, with the Launch When Ready box checked and Install and Cancel buttons to the right")
 
 Once PlumbBuddy has finished installing, move on to [PlumbBuddy First Time Setup](https://plumbbuddy.app/text-guides/casual-onboarding).

@@ -5,7 +5,7 @@
         >
             <v-col
                 v-for="content in contents"
-                cols="7"
+                cols="12"
                 sm="4"
             >
                 <ContentCard

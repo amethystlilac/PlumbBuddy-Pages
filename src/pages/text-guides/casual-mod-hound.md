@@ -26,11 +26,13 @@ You can go as low as two days or as high as twelve weeks using the sliding scale
 
 ---
 
-*Pacakges Exclusions:*
+*Packages Exclusions:*
 
 This setting is to tell PlumbBuddy where your Custom Content is in your Mods folder, so that it won't try to send those files to Mod Hound.
 
 ***Mod Hound doesn't list CC, and it has a strict file limit for how many files it will scan.***
+
+***File limits may change based on the needs of the Mod Hound website. The defaults are listed here.***
 
 If you have over 5,000 files (.package and .ts4script) in your Mods folder, PlumbBuddy will warn you that you have a lot of files and you should consider excluding your CC. This is to prevent taxing the Mod Hound website, to keep it happy and healthy and available for everyone to use.
 
@@ -38,7 +40,7 @@ If you have over 26,000 files, PlumbBuddy will refuse to submit them, because Mo
 
 In the settings, when you have over 5,000 files, the box next to the number of files at the bottom left will change from green to a warning colour. If you have over 26,000 files, the box will turn to an error colour, giving a visual clue that you that you can't request a report until you remove some files or use an Exclusion above.
 
-The easiest and most reliable way to add an Exclusion is to type in the name of a folder in which you have CC (just CC, no mods) and end it with a forward slash (/), then hit enter. This will tell PlumbBuddy to ignore anything in that folder. Do not use a backslash (\).
+The easiest and most reliable way to add an Exclusion is to type in the name of a folder inside your Mods folder in which you have CC (just CC, no mods) and end it with a forward slash (/), then hit enter. This will tell PlumbBuddy to ignore anything in that folder. Do not use a backslash (\).
 
 * It must include the **full path** to that folder. If you have, for example, a folder called CAS, and inside that folder you have a folder called CC and a folder called Traits, you'd need to type in 'CAS/CC/' to exclude the CC but not the traits.
 
@@ -66,7 +68,7 @@ When your report is ready, there will be a notification in the top right.
 
 Or you might get a notification that you've already requested a report on this exact same Mods folder (same files and same file dates) and nothing has changed on Mod Hound's end, and PlumbBuddy will bring that report up for you.
 
-![image](/img/modhound-dupe.png "A green box saying 'Good news, I already asked Mod Hound about this exact configurration of your Mods folder about 44 seconds ago, and according to Mod Hound, nothing has changed since then. I've selected that report for you for your convenience.'")
+![image](/img/modhound-dupe.png "A green box saying 'Good news, I already asked Mod Hound about this exact configuration of your Mods folder about 44 seconds ago, and according to Mod Hound, nothing has changed since then. I've selected that report for you for your convenience.'")
 
 If you want to view an existing report, you can select it from the drop down box.
 
@@ -152,7 +154,7 @@ These are mods that are listed on Mod Hound but that don’t have a current stat
 
 It will give you the file name, the mod name, the creator, the file's date on Mod Hound, the file's date in your Mods folder, and any update notes that the creator set.
 
-There isn't really any advice Mod Hound can give for these mods. You can check the download page to see if more information is given there. Otherwise, they have the same status as any untracked.
+There isn't really any advice Mod Hound can give for these mods. You can check the download page to see if more information is given there. Otherwise, they have the same status as any untracked mod.
 
 ---
 

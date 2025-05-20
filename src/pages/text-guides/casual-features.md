@@ -18,7 +18,7 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * A short description
 * The download URL for the mod
 * The name(s) of the creator(s)
-* An Ask for Help button to seek help with the mod, either to go to a support avenue specified by the creator or to go to a general support discord server
+* An Ask for Help button to seek help with the mod, which will give you options to go to a support avenue specified by the creator if they listed one, or to go to a find general support
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
 * The files that are in the mod
@@ -70,7 +70,7 @@ There are two toggles at the top right. The one on the left turns on Archivist a
 
 ![image](/img/PB-Archivist.png "The Archivist tab, with a list of saves on the left. One is selected, showing a list of Snapshots on the right. At the top of the list of Snapshots is a sim in a red dress on the left and the name of the save and some details about it to the right. Across the top are the other tabs")
 
-To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/casual-archivist) guide.
+To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/archivist) guide.
 
 ---
 
