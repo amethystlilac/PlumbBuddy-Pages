@@ -13,16 +13,16 @@ import { delay } from '@/logic/general-utilities';
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: setupLayouts(routes),
-    async scrollBehavior(to, from, savedPosition) {
+    async scrollBehavior(to) {
         if (to.hash) {
-            await delay(250);
+            await delay(1000);
             return {
                 el: to.hash,
                 behavior: 'smooth',
             };
         }
         return { top: 0 };
-    }
+    },
 });
 
 // Workaround for https://github.com/vitejs/vite/issues/11804
