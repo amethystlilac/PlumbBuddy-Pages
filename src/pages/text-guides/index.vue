@@ -35,14 +35,14 @@
             image: 'santorini.jpg',
             description: `If you want to help other people have your favourite mod in your language or just have it for yourself, this guide get you started.`,
             to: 'text-guides/player-parlay',
-        },/*
+        },
         {
             color: 'success',
             icon: 'mdi-play-box-multiple',
             name: 'Creator Setup',
             image: 'AppleComputerComputerKeyboard.jpeg',
             description: `A guide for creators getting to know PlumbBuddy for the first time.`,
-            to: 'text-guides/creators-setup',
+            to: 'text-guides/creator-setup',
         },
         {
             color: 'success',
@@ -50,8 +50,8 @@
             name: 'Manifest Editor for Creators',
             image: 'developer-discuss-photo-md.jpeg',
             description: `An in-depth guide to what you need to know to get your mods manifested.`,
-            to: 'text-guides/creators-manifest-editor',
-        },*/
+            to: 'text-guides/manifest-editor',
+        },
         {
             color: 'error',
             icon: 'mdi-chat-question',
