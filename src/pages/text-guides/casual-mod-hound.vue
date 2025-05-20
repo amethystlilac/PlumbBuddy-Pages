@@ -4,10 +4,7 @@
         :items="[{title: 'Guides', to: '/text-guides'}, {title: 'Mod Hound'}]"
     />
     <v-container>
-        <v-divider />
-        <div class="mx-auto" style="width: 560px;">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/-cB-HVPN45I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+        <iframe src="https://www.youtube.com/embed/-cB-HVPN45I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 16/9;"></iframe>
         <p>
             <center>Mod Hound</center>
             <center>A Different Way to Check Your Mods</center>
