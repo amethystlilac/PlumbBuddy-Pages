@@ -1,5 +1,6 @@
 <template>
     <v-card
+        :id="guide.id"
         class="h-100"
     >
         <template

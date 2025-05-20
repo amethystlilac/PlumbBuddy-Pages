@@ -34,6 +34,7 @@
 <script setup>
     const guides = [
         {
+            id: 'mod-setting-scan',
             color: 'primary',
             icon: 'mdi-radiobox-indeterminate-variant',
             name: 'In The Sims 4 game options…',

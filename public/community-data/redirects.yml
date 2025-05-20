@@ -31,16 +31,28 @@ PlumbBuddyInAppGuideFoldersCreator: https://plumbbuddy.app/text-guides/creator-o
 PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-onboarding#folders
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideModHealthCasual: https://plumbbuddy.app/text-guides/casual-mod-health
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideModHealthCreator: https://plumbbuddy.app/text-guides/enthusiast-mod-health
 
 # Owner: Amethyst Lilac
-# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog; Mod Health Tab)
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideModHealthEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#mod-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanCreator: https://plumbbuddy.app/text-guides/enthusiast-mod-health#mod-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#mod-setting-scan
 
 # Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
