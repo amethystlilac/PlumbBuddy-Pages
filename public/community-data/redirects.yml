@@ -47,6 +47,34 @@ PlumbBuddyInAppGuideFoldersCreator: https://plumbbuddy.app/text-guides/creator-o
 PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-onboarding#folders
 
 # Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorSelect: https://plumbbuddy.app/text-guides/manifest-editor#select
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorDetails: https://plumbbuddy.app/text-guides/manifest-editor#details
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorComponents: https://plumbbuddy.app/text-guides/manifest-editor#components
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorRequirements: https://plumbbuddy.app/text-guides/manifest-editor#requirements
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorCrossMod: https://plumbbuddy.app/text-guides/manifest-editor#cross-mod
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorHashing: https://plumbbuddy.app/text-guides/manifest-editor#hashing
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorConfirm: https://plumbbuddy.app/text-guides/manifest-editor#confirm
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
 PlumbBuddyInAppGuideModHealthCasual: https://plumbbuddy.app/text-guides/casual-mod-health
 
