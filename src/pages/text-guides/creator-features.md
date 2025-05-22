@@ -4,6 +4,8 @@ Once you have PlumbBuddy set up and some mods with manifests installed, PlumbBud
 
 You might get some alerts right away. PlumbBuddy will do its best to tell you what you need to do. You might be told you have a .zip file in your mods folder, where it’s not supposed to be, or that you have a missing requirement for a mod. You might get a recommendation to download a specific mod that will help you. Or you might have no alerts at all.
 
+If you get an alert and want more information, there will be a question mark on the alert that you can click to bring you to the Mod Health guide's page.
+
 ![image](/img/PB-creator-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
 
 If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/creator-mod-health) guide.

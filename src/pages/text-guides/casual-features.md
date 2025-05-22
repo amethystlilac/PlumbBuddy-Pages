@@ -4,6 +4,8 @@ Once you have PlumbBuddy set up and some mods with manifests installed, PlumbBud
 
 You might get some alerts right away. That’s fine. PlumbBuddy will do its best to tell you what you need to do. You might be told you have a .zip file in your mods folder, where it’s not supposed to be, or that you have a missing requirement for a mod. You might get a recommendation to download a specific mod that will help you. Just read what it says, and decide what you want to do. Or you might have no alerts at all.
 
+If you get an alert and want more information, there will be a question mark on the alert that you can click to bring you to the Mod Health guide's page.
+
 ![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
 
 If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) guide.
@@ -54,7 +56,7 @@ The report will only give advice about mods that the creator has listed on Mod H
 
 In addition, many of the files in the report will come with buttons to view the file in your mods folder and/or to go to the download page for the mod, or in the case of the missing requirement, to download that.
 
-![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected below that, but no results shown to the right. The background is a frog on a lily pad. Across the top are the other tabs.")
+![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected below that, but no results shown to the right. The background is a frog on a lily pad.")
 
 If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/casual-mod-hound) guide.
 
