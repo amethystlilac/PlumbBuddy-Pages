@@ -14,7 +14,7 @@ Mod Hound has collaborated with PlumbBuddy to incorporate these scans into the P
 
 Mod Hound settings can be accessed in the menu on the left of PlumbBuddy, with other PlumbBuddy settings, of from the Mod Hound tab, by clicking on the gear icon next to the Request New Report button.
 
-![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Request New Report button and a gear icon below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
+![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Fetch Report button, a gear icon, and a question mark in a circle below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
 
 ---
 
@@ -48,7 +48,7 @@ The easiest and most reliable way to add an Exclusion is to type in the name of 
 
 You can see the number of files that are being excluded in real time as you change your Exclusions.
 
-![image](/img/modhound-settings-casual.png "The Mod Hound settings as described above, with three folders excluded, and at the bottom, a green symbol and 3025 Packages included on the left, and a grey symbol and 2533 Packages Excluded")
+![image](/img/modhound-settings-casual.png "The Mod Hound settings as described above, with three folders excluded, and at the bottom, a green symbol and 3033 Packages included on the left, and a grey symbol and 2534 Packages Excluded")
 
 ---
 
@@ -70,9 +70,9 @@ Or you might get a notification that you've already requested a report on this e
 
 ![image](/img/modhound-dupe.png "A green box saying 'Good news, I already asked Mod Hound about this exact configuration of your Mods folder about 44 seconds ago, and according to Mod Hound, nothing has changed since then. I've selected that report for you for your convenience.'")
 
-If you want to view an existing report, you can select it from the drop down box.
+If you want to view an existing report, you can select it from the menu.
 
-![image](/img/modhound-pick-report.png "A dropdown box with three dates to select, in front of a blurry background with a blue bar at the top")
+![image](/img/modhound-pick-report.png "A selection menu with six dates/times to select, in front of the Mod Hound dog")
 
 ---
 

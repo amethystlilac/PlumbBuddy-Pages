@@ -12,13 +12,15 @@ When you first install and open PlumbBuddy, the first thing you’ll see is the 
 
 ### Themes
 
+At the top of the themes tab, you can choose the scale of PlumbBuddy's UI. You have options on how to do this: type in the scale you want, use the arrows to increase or decrease the scale, click on the circle on the slider and use the left and right buttons on your keyboard, click and drag the slider (NOT recommended), or hold Ctrl on your keyboard and scroll your mouse wheel or use the + and - buttons on your keyboard. You can reset to the default using the button on the right.
+
 PlumbBuddy has a default light or dark theme based on your computer's settings, but you can choose from a variety of other themes that are included. Some are light mode only, some are dark mode only, and some have both — those follow your computer's settings.
 
 On the second tab, you can pick which one you want to use. Click on them to see what they look like, and click on them again to turn them off. Pick one (or none) for now, and then click next at the bottom right. If you want to, you can change your theme later in Settings.
 
 This guide uses the default dark mode theme, but you can use whatever you want.
 
-![image](/img/PB-theme-choice.png "An image of some of the theme choices available in PlumbBuddy")
+![image](/img/PB-theme-choice.png "An image woth a slider at the top, with the number 75 above it, and some of the theme choices available in PlumbBuddy below")
 
 ---
 

@@ -88,11 +88,13 @@ Archivist uses some special terms to describe what it's doing.
 
 The first time you look at Archivist, it will be blank. That’s because it’s toggled off by default. You get to decide if and when you want to archive your save files.
 
-![image](/img/casual-archivist-empty.png "An image of Archivist empty, with two toggles set to the off position and a faded folder icon on the left. The other PlumbBuddy tabs are visible along the top")
+![image](/img/casual-archivist-empty.png "An image of Archivist empty, with two toggles set to the off position, a faded folder icon, and a question mark in a circle on the left. The other PlumbBuddy tabs are visible along the top")
 
 There are two toggles and a folder icon on the top left. The first toggle turns on Archivist scanning its own database for *existing* Chronicles. This toggle needs to be on before you can turn on the second toggle or click the folder icon.
 
 If you have existing backup files of your saves, ones you've saved outside your saves folder in the normal game format, you can click the folder icon to have Archivist scan your backup folder. Archivist will only scan the folder you pick, not subfolders. If you have backups of saves currently in your saves folder, you may want to do this first, starting with the oldest if you have multiple. Or not, up to you — Archivist will still know which is oldest, but your Snapshot numbers won’t be in order.
+
+The question mark will bring you to this page.
 
 When you’re ready to have Archivist scan your saves folder, turn on the second toggle. It will start scanning again. The second toggle turns on Archivist actively saving Chronicles and Snapshots. You can turn this on and forget it, and as long as PlumbBuddy is active on your computer — on Windows, PlumbBuddy runs in the background, but on Mac, you need to choose to turn PlumbBuddy on — your saves will be archived.
 

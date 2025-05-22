@@ -20,7 +20,7 @@ If you'd like to list your mods on Mod Hound, instructions are available [here](
 
 Mod Hound settings can be accessed in the menu on the left of PlumbBuddy, with other PlumbBuddy settings, of from the Mod Hound tab, by clicking on the gear icon next to the Request New Report button.
 
-![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Request New Report button and a gear icon below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
+![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Fetch Report button, a gear icon, and a question mark in a circle below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
 
 ---
 
@@ -88,7 +88,7 @@ Or you might get a notification that you've already requested a report on this e
 
 If you want to view an existing report, you can select it from the drop down box.
 
-![image](/img/modhound-pick-report.png "A dropdown box with three dates to select, in front of a blurry background with a blue bar at the top")
+![image](/img/modhound-pick-report.png "A selection menu with six dates/times to select, in front of the Mod Hound dog")
 
 ---
 
