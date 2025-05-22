@@ -24,7 +24,9 @@
 
             Each of these sections has multiple scans that you can turn off or on if you find them useful. Read below to find out what these scan check for and what you can do when they alert you to a potential problem.<br><br>
 
-            Pay special attention to the very last scan on the page. It's the one designed specifically to help creators, and it's the only one enabled for creators by default.
+            Pay special attention to the very last scan on the page. It's the one designed specifically to help creators, and it's the only one enabled for creators by default.<br><br>
+
+            Each alert you get in PlumbBuddy will have a question mark on it to bring you to this page if you want more information.
         </p>
         <v-divider />
         <GuideMenu

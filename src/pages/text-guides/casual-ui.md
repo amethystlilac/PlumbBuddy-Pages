@@ -6,7 +6,7 @@ First it will start cataloging your mods. It will give an estimated time of how 
 
 ![image](/img/PB-casual-cataloging.png "An image of the top bar of the PlumbBuddy app, with a Cataloging Mods bar filling towards a timer counting down")
 
-Once PlumbBuddy is done scanning your Mods folder, it will begin analyzing your cache files to see if they need to be deleted. You can go ahead and make changes now. If PlumbBuddy found things that need to be fixed, you can fix them, or you can start your game if you want to play.
+When PlumbBuddy is done scanning your Mods folder, it will begin analyzing your cache files to see if they need to be deleted. You can go ahead and make changes now. If PlumbBuddy found things that need to be fixed, you can fix them, or you can start your game if you want to play.
 
 The last scan to finish will be the cache, and it will tell you if your cache is fine or needs to be deleted, or if there are no cache files.
 
@@ -52,6 +52,8 @@ If you click the settings button, there are 5 kinds of settings that you can cha
 * Folders, to change the folder locations or to reset them to the default.
 * Mod Health, to enable or disable PlumbBuddy’s scans. If you want to change which kinds of warnings PlumbBuddy will give you, you can do it here. If you accidentally (or on purpose) clicked Stop Telling Me and then changed your mind, here is where you can re-enable scans. You can also leave things on default.
 * Mod Hound, to change your Mod Hound settings, like how long you keep reports.
+
+Some of the tabs have a question mark at the bottom that you can click if you want more information.
 
 Pick which kind of setting you want to change or look at, and when that setting is the way you want it, click OK at the bottom right, or cancel if you don't want to change anything.
 

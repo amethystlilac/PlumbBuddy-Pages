@@ -22,7 +22,9 @@
             3. <b>Inside your Installation and Mods Folders, I DO NOT find...</b> — <i>For things that you don't have that you might need or want</i><br>
             4. <b>Mod file analysis suggests...</b> — <i>For things that PlumbBuddy has found about your mods</i><br><br>
 
-            Each of these sections has multiple scans that you can turn off or on if you find them useful. Read below to find out what these scan check for and what you can do when they alert you to a potential problem.
+            Each of these sections has multiple scans that you can turn off or on if you find them useful. Read below to find out what these scan check for and what you can do when they alert you to a potential problem.<br><br>
+
+            Each alert you get in PlumbBuddy will have a question mark on it to bring you to this page if you want more information.
         </p>
         <v-divider />
         <GuideMenu
