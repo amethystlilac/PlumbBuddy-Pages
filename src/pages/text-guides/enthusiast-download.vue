@@ -6,10 +6,20 @@
     <v-container>
         <v-divider />
         <p>
-            <center>Downloading and Installing PlumbBuddy</center>
             <center><img src=/img/DownloadArrowWide.jpeg></img></center>
+        </p>
+        <p style="font-size:3em;">
+            <center>Downloading and Installing PlumbBuddy</center>
+        </p>
+        <p style="font-size:1.5em;">
             <center>The first step to getting PlumbBuddy up and running and helping you is to install it.</center>
         </p>
+        <v-divider />
+        <p>
+            <center>Jump To:</center>
+            <center><a href="#downloading">Downloading</a> &emsp; <a href="#installing-on-windows">Installing on Windows</a> &emsp; <a href="#installing-on-mac">Installing on Mac</a></center>
+        </p>
+        <v-divider />
         <Markdown
             :source="enthusiastDownloadMarkdown" 
             class="standard-text"

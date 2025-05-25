@@ -1,5 +1,3 @@
----
-
 [Mod Hound](https://app.ts4modhound.com/) is a website created by [Lumpinou](https://www.patreon.com/lumpinou).
 
 For mod creators, it's a place where you can list your mods, including if they were updated, if they're broken or obsolete or working fine with the current patch, and if they require other mods that are also listed on the site; and where you can use various other tools that are useful when modding. You can then send mod users there so they can check if their mods are up to date.
@@ -68,9 +66,9 @@ This is for if you want to exclude a wide group of folders named in a similar wa
 
 ---
 
-### Requesting a Report
+### Fetching a Report
 
-When you want to have Mod Hound scan your Mods folder, you can click the Request New Report button on the right on the Mod Hound tab.
+When you want to have Mod Hound scan your Mods folder, you can click the Fetch Report button on the right on the Mod Hound tab.
 
 If your Mod Health scans aren't complete yet, PlumbBuddy will pause before sending the request, because Mod Health tells the Mod Hound tab what files you have.
 

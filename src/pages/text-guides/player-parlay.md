@@ -1,5 +1,3 @@
----
-
 ### Translating a Mod with Parlay
 
 So you’ve found a mod, and it doesn’t come in your language. Or it does, but it’s not the right version of your language–maybe it’s in Brazilian Portuguese and you’re from Portugal, or it uses American spelling instead of British. Maybe you want to see it in your language for personal use or to share with others.
@@ -72,7 +70,7 @@ As you type, Parlay will offer you tokens you can use. Some of these are ones yo
 
 You can also choose to copy the tokens and paste them into the correct place in your text, or type them out. It’s all up to you.
 
-### What’s Next?
+### When the Translation is Complete
 
 Once you’ve completed your translation, you can use the button at the top right to see your translation file in your mods folder. You can use it yourself, share it, or send it to the mod creator. The little person button may have information on how the mod creator would like you to tell them about the translation.
 

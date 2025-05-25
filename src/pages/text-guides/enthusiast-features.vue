@@ -6,9 +6,18 @@
     <v-container>
         <v-divider />
         <p>
-            <center>The Features</center>
             <center><img src=/img/helping-hand-wide.jpeg></img></center>
+        </p>
+        <p style="font-size:3em;">
+            <center>The Features</center>
+        </p>
+        <p style="font-size:1.5em;">
             <center>How can PlumbBuddy help you keep your Mods folder healthy?</center>
+        </p>
+        <v-divider />
+        <p>
+            <center>Jump To:</center>
+            <center><a href="#mod-health">Mod Health</a> &emsp; <a href="#catalog">Catalog</a> &emsp; <a href="#mod-hound">Mod Hound</a> &emsp; <a href="#archivist">Archivist</a> &emsp; <a href="#parlay">Parlay</a></center>
         </p>
         <v-divider />
         <Markdown

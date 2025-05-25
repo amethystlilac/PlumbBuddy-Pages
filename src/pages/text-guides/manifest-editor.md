@@ -1,5 +1,3 @@
----
-
 Once you have PlumbBuddy set up, you're ready to manifest a mod. Start by going to the Manifest Editor tab.
 
 Manifests have many things that you can include. Most mods won't need many of them, but they're there if you do.

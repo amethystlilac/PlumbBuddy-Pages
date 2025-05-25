@@ -1,5 +1,3 @@
----
-
 Once PlumbBuddy is set up, it will open to the Mod Health tab and start scanning your Mods folder.
 
 First it will start cataloging your mods. It will give an estimated time of how long that will take at the top, and there will be a progress bar. You should wait until this is mostly complete — until it's scanning topography — to do anything, because PlumbBuddy needs exclusive access to your files until it knows what they are.
