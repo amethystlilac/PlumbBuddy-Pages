@@ -6,10 +6,15 @@
     <v-container>
         <v-divider />
         <p>
-            <center>User Interface Overview</center>
             <center><img src=/img/checklistWide.png></img></center>
+        </p>
+        <p style="font-size:3em;">
+            <center>User Interface Overview</center>
+        </p>
+        <p style="font-size:1.5em;">
             <center>The menus and buttons</center>
         </p>
+        <v-divider />
         <Markdown
             :source="casualUIMarkdown" 
             class="standard-text"

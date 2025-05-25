@@ -5,8 +5,8 @@
     />
     <v-container>
         <iframe src="https://www.youtube.com/embed/5qze0OZn1Rw?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 16/9;"></iframe>
-        <p class="text-center">
-            How to get PlumbBuddy up and running
+        <p style="font-size:1.2em;">
+            <center>How to get PlumbBuddy up and running</center>
         </p>
     </v-container>
     <ContentMenu

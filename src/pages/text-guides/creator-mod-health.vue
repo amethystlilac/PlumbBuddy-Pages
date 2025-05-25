@@ -5,9 +5,18 @@
     />
     <v-container>
         <p>
-            <center>Mod Health</center>
             <center><img src="/img/nurse-health.jpeg"</center>
+        </p>
+        <p style="font-size:3em;">
+            <center>Mod Health</center>
+        </p>
+        <p style="font-size:1.5em;">
             <center>What the Scans Tell You</center>
+        </p>
+        <v-divider />
+        <p>
+            <center>Jump To:</center>
+            <center><a href="#mod-setting-scan">In The Sims 4 game options…</a> &emsp; <a href="#depth-scan">Inside your Mods Folder, I find...</a> &emsp; <a href="#mccc-missing-scan">Inside your Installation and Mods Folders, I DO NOT find...</a> &emsp; <a href="#cache-staleness-scan">Mod file analysis suggests...</a> &emsp; <a href="#mismatched-inscribed-hashes-scan">(Mod Name) has been Altered</a></center>
         </p>
         <v-divider />
         <p>

@@ -2,7 +2,7 @@ Setting up PlumbBuddy is fairly straightforward. There aren't really many ways i
 
 ---
 
-### Step One: The Legal Stuff
+### The Legal Stuff
 
 When you first install and open PlumbBuddy, the first thing you’ll see is the End User License Agreement. You have to agree to this to use PlumbBuddy. Read through it, and then click the Next button at the bottom right.
 
@@ -20,7 +20,7 @@ On the second tab, you can pick which one you want to use. Click on them to see 
 
 This guide uses the default dark mode theme, but you can use whatever you want.
 
-![image](/img/PB-theme-choice.png "An image woth a slider at the top, with the number 75 above it, and some of the theme choices available in PlumbBuddy below")
+![image](/img/PB-theme-choice.png "An image with a slider at the top, with the number 75 above it, and some of the theme choices available in PlumbBuddy below")
 
 ---
 

@@ -6,8 +6,10 @@
     <v-container>
         <v-divider />
         <p>
-            <center>Help with PlumbBuddy</center>
             <center><img src=/img/ConfusedSm.jpeg></img></center>
+        </p>
+        <p style="font-size:2em;">
+            <center>Help with PlumbBuddy</center>
         </p>
         <v-divider />
         <Markdown

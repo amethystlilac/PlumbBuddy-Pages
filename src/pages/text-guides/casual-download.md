@@ -1,5 +1,3 @@
----
-
 ### [Downloading](https://plumbbuddy.app/download)
 
 The easiest way to install the PlumbBuddy app is from [the download page](https://plumbbuddy.app/download). There, the website will make a pretty good guess about which version you need, but you can pick another version if it guesses wrong. The one at the top is the one you'll want most of the time.
