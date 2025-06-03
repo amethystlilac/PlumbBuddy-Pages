@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Source\\PlumbBuddy-Pages\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|c:\\source\\plumbbuddy-pages\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|c:\\source\\plumbbuddy-pages\\layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|solutionrelative:layout\\mainlayout.razor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|c:\\source\\plumbbuddy-pages\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|c:\\source\\plumbbuddy-pages\\layout\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|solutionrelative:layout\\mainmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|c:\\source\\plumbbuddy-pages\\pages\\whoarewe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78CA3C9A-FB88-4997-887D-37E47A50430C}|PlumbBuddy-Pages.csproj|solutionrelative:pages\\whoarewe.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainLayout.razor.cs",
-              "DocumentMoniker": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainLayout.razor.cs",
-              "RelativeDocumentMoniker": "Layout\\MainLayout.razor.cs",
-              "ToolTip": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainLayout.razor.cs",
-              "RelativeToolTip": "Layout\\MainLayout.razor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:22:58.325Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T05:13:32.426Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -68,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainMenu.razor",
-              "DocumentMoniker": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainMenu.razor",
-              "RelativeDocumentMoniker": "Layout\\MainMenu.razor",
-              "ToolTip": "C:\\Source\\PlumbBuddy-Pages\\Layout\\MainMenu.razor",
-              "RelativeToolTip": "Layout\\MainMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T05:01:17.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Source\\PlumbBuddy-Pages\\Pages\\Home.razor",
-              "RelativeDocumentMoniker": "Pages\\Home.razor",
-              "ToolTip": "C:\\Source\\PlumbBuddy-Pages\\Pages\\Home.razor",
-              "RelativeToolTip": "Pages\\Home.razor",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAHkAAAAbAAAAAAAAAA==",
+              "Title": "WhoAreWe.razor",
+              "DocumentMoniker": "C:\\Source\\PlumbBuddy-Pages\\Pages\\WhoAreWe.razor",
+              "RelativeDocumentMoniker": "Pages\\WhoAreWe.razor",
+              "ToolTip": "C:\\Source\\PlumbBuddy-Pages\\Pages\\WhoAreWe.razor",
+              "RelativeToolTip": "Pages\\WhoAreWe.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-25T04:42:18.371Z",
+              "WhenOpened": "2025-04-26T08:29:54.667Z",
               "EditorCaption": ""
             }
           ]

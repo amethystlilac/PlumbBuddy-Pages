@@ -17,3 +17,287 @@ LearnAboutMCCommandCenter: https://deaderpool-mccc.com/
 # Owner: Twisted Mexi
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Mod Guard Missing Scan Resolution)
 ModGuard: https://www.patreon.com/posts/98126153
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- CatalogDisplay)
+PlumbBuddyInAppGuideCatalogCasual: https://plumbbuddy.app/text-guides/casual-features#catalog
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- CatalogDisplay)
+PlumbBuddyInAppGuideCatalogCreator: https://plumbbuddy.app/text-guides/creator-features#catalog
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- CatalogDisplay)
+PlumbBuddyInAppGuideCatalogEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-features#catalog
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ArchivistHeader)
+PlumbBuddyInAppGuideArchivist: https://plumbbuddy.app/text-guides/archivist
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersCasual: https://plumbbuddy.app/text-guides/casual-onboarding#folders
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersCreator: https://plumbbuddy.app/text-guides/creator-onboarding#folders
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideFoldersEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-onboarding#folders
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditor: https://plumbbuddy.app/text-guides/manifest-editor
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorSelect: https://plumbbuddy.app/text-guides/manifest-editor#select
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorDetails: https://plumbbuddy.app/text-guides/manifest-editor#details
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorComponents: https://plumbbuddy.app/text-guides/manifest-editor#components
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorRequirements: https://plumbbuddy.app/text-guides/manifest-editor#requirements
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorCrossMod: https://plumbbuddy.app/text-guides/manifest-editor#cross-mod
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorHashing: https://plumbbuddy.app/text-guides/manifest-editor#hashing
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorConfirm: https://plumbbuddy.app/text-guides/manifest-editor#confirm
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorUpdatingAManifest: https://plumbbuddy.app/text-guides/manifest-editor#updating-a-manifest
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ManifestEditor)
+PlumbBuddyInAppGuideManifestEditorDetailsCreators: https://plumbbuddy.app/text-guides/manifest-editor#providing-support-for-your-mods
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideModHealthCasual: https://plumbbuddy.app/text-guides/casual-mod-health
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideModHealthCreator: https://plumbbuddy.app/text-guides/enthusiast-mod-health
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog; Settings Dialog)
+PlumbBuddyInAppGuideModHealthEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- BeMissingScan)
+PlumbBuddyInAppGuideModHealthBeMissingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#be-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- BeMissingScan)
+PlumbBuddyInAppGuideModHealthBeMissingScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#be-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- BeMissingScan)
+PlumbBuddyInAppGuideModHealthBeMissingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#be-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- CacheStalenessScan)
+PlumbBuddyInAppGuideModHealthCacheStalenessScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#cache-staleness-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- CacheStalenessScan)
+PlumbBuddyInAppGuideModHealthCacheStalenessScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#cache-staleness-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- CacheStalenessScan)
+PlumbBuddyInAppGuideModHealthCacheStalenessScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#cache-staleness-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageCorruptScan; Ts4ScriptCorruptScan)
+PlumbBuddyInAppGuideModHealthCorruptScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#corrupt-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageCorruptScan; Ts4ScriptCorruptScan)
+PlumbBuddyInAppGuideModHealthCorruptScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#corrupt-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageCorruptScan; Ts4ScriptCorruptScan)
+PlumbBuddyInAppGuideModHealthCorruptScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#corrupt-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- DependencyScan)
+PlumbBuddyInAppGuideModHealthDependencyScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#dependency-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- DependencyScan)
+PlumbBuddyInAppGuideModHealthDependencyScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#dependency-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- DependencyScan)
+PlumbBuddyInAppGuideModHealthDependencyScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#dependency-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageDepthScan; Ts4ScriptDepthScan)
+PlumbBuddyInAppGuideModHealthDepthScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#depth-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageDepthScan; Ts4ScriptDepthScan)
+PlumbBuddyInAppGuideModHealthDepthScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#depth-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- PackageDepthScan; Ts4ScriptDepthScan)
+PlumbBuddyInAppGuideModHealthDepthScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#depth-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ErrorLogScan)
+PlumbBuddyInAppGuideModHealthErrorLogScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#error-log-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ErrorLogScan)
+PlumbBuddyInAppGuideModHealthErrorLogScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#error-log-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ErrorLogScan)
+PlumbBuddyInAppGuideModHealthErrorLogScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#error-log-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ExclusivityScan)
+PlumbBuddyInAppGuideModHealthExclusivityScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#exclusivity-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ExclusivityScan)
+PlumbBuddyInAppGuideModHealthExclusivityScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#exclusivity-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ExclusivityScan)
+PlumbBuddyInAppGuideModHealthExclusivityScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#exclusivity-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; Loose7ZipArchiveScan; LooseRarArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseArchiveScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#loose-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; Loose7ZipArchiveScan; LooseRarArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseArchiveScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#loose-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; Loose7ZipArchiveScan; LooseRarArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseArchiveScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#loose-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; LooseZipArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseZipArchiveScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#loose-zip-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; LooseZipArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseZipArchiveScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#loose-zip-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; LooseZipArchiveScan)
+PlumbBuddyInAppGuideModHealthLooseZipArchiveScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#loose-zip-archive-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- McccMissingScan)
+PlumbBuddyInAppGuideModHealthMcccMissingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#mccc-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- McccMissingScan)
+PlumbBuddyInAppGuideModHealthMcccMissingScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#mccc-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- McccMissingScan)
+PlumbBuddyInAppGuideModHealthMcccMissingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#mccc-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MismatchedInscribedHashesScan)
+PlumbBuddyInAppGuideModHealthMismatchedInscribedHashesScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#mismatched-inscribed-hashes-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MismatchedInscribedHashesScan)
+PlumbBuddyInAppGuideModHealthMismatchedInscribedHashesScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#mismatched-inscribed-hashes-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MismatchedInscribedHashesScan)
+PlumbBuddyInAppGuideModHealthMismatchedInscribedHashesScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#mismatched-inscribed-hashes-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModGuardMissingScan)
+PlumbBuddyInAppGuideModHealthModGuardMissingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#modguard-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModGuardMissingScan)
+PlumbBuddyInAppGuideModHealthModGuardMissingScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#modguard-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModGuardMissingScan)
+PlumbBuddyInAppGuideModHealthModGuardMissingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#modguard-missing-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; ScriptModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#mod-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; ScriptModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#mod-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ModSettingScan; ScriptModSettingScan)
+PlumbBuddyInAppGuideModHealthModSettingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#mod-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MultipleModVersionsScan)
+PlumbBuddyInAppGuideModHealthMultipleModVersionsScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#multiple-mod-version-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MultipleModVersionsScan)
+PlumbBuddyInAppGuideModHealthMultipleModVersionsScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#multiple-mod-version-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- MultipleModVersionsScan)
+PlumbBuddyInAppGuideModHealthMultipleModVersionsScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#multiple-mod-version-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ShowModListStartupSettingScan)
+PlumbBuddyInAppGuideModHealthShowModListStartupSettingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#show-mod-list-startup-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ShowModListStartupSettingScan)
+PlumbBuddyInAppGuideModHealthShowModListStartupSettingScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#show-mod-list-startup-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB Component logic -- ShowModListStartupSettingScan)
+PlumbBuddyInAppGuideModHealthShowModListStartupSettingScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#show-mod-list-startup-setting-scan
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundCasual: https://plumbbuddy.app/text-guides/casual-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundCreator: https://plumbbuddy.app/text-guides/creator-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- Settings Dialog)
+PlumbBuddyInAppGuideModHoundEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-hound
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayCasual: https://plumbbuddy.app/text-guides/player-parlay
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayCreator: https://plumbbuddy.app/text-guides/creator-parlay
+
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
+PlumbBuddyInAppGuideParlayEnthusiast: https://plumbbuddy.app/text-guides/player-parlay

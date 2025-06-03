@@ -3,7 +3,7 @@
         color="success"
         :items="[{title: 'Download'}]"
     />
-    <div class="main-container">
+    <v-container>
         <div
             v-if="!globalState.currentRelease.value"
             class="mx-auto"
@@ -109,15 +109,15 @@
             class="standard-text"
         />
         <v-divider
-            v-if="currentRelease"
+            v-if="globalState?.totalDownloadCount?.value"
             class="my-4"
         />
         <p
-            v-if="currentRelease"
+            v-if="globalState?.totalDownloadCount?.value"
         >
             According to GitHub, PlumbBuddy has been downloaded {{ ('time').toQuantity(globalState.totalDownloadCount.value) }}. Isn't that nifty? Click one of the download links on the top of the page and <strong>🫵 you</strong> could be the {{ (globalState.totalDownloadCount.value + 1).toOrdinalWords() }}! 🎆
         </p>
-    </div>
+    </v-container>
 </template>
 
 <script setup>

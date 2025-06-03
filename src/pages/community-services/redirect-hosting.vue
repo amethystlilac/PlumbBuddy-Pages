@@ -3,7 +3,7 @@
         color="tertiary"
         :items="[{title: 'Community Services', to: '/community-services'}, {title: 'Redirect Hosting'}]"
     />
-    <div class="main-container">
+    <v-container>
         <Markdown
             :source="redirectHostingMarkdown" 
             class="standard-text"
@@ -37,7 +37,7 @@
                 />
             </template>
         </v-data-table>
-    </div>
+    </v-container>
 </template>
 
 <script setup>

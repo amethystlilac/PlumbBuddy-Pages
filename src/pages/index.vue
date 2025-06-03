@@ -84,10 +84,10 @@
     const carouselHeight = computed(() => height.value - 175);
     const carouselItems = [
         {
-            background: '/img/boseong.jpg',
+            background: '/img/yachtz.jpg',
             color: 'success',
-            title: 'PlumbBuddy 1.3 is Here!',
-            text: `Your buddy to help with mods and saves now also helps you help other mod users if you understand multiple languages!`,
+            title: 'PlumbBuddy 1.4 is Here!',
+            text: `Lumpinou has lent us her very good boi to help make sure your mods are up to date!`,
             buttonIcon: 'mdi-download',
             buttonText: 'Download Now!',
             buttonPath: '/download',

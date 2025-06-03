@@ -3,15 +3,12 @@
         color="secondary"
         :items="[{title: 'Features', to: '/features'}, {title: 'Parlay'}]"
     />
-    <div class="main-container">
-        <div class="mx-auto" style="width: 560px;">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/T60_aToD_nM?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <v-divider />
-        <FeaturePanels
-            :features="features"
-        />
-    </div>
+    <v-container>
+        <iframe src="https://www.youtube.com/embed/T60_aToD_nM?si=EB9Zh3d7VOFGiVqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 16/9;"></iframe>
+    </v-container>
+    <FeaturePanels
+        :features="features"
+    />
 </template>
 
 <script setup>

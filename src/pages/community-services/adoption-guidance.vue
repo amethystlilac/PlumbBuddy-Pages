@@ -3,7 +3,7 @@
         color="tertiary"
         :items="[{title: 'Community Services', to: '/community-services'}, {title: 'Adoption Guidance'}]"
     />
-    <div class="main-container">
+    <v-container>
         <Markdown :source="adoptionGuidancePart1Markdown" class="standard-text" />
         <div class="mx-auto" style="width: 560px;">
             <iframe width="560" height="315"
@@ -18,7 +18,7 @@
             </p>
         </div>
         <Markdown :source="adoptionGuidancePart2Markdown" class="standard-text" />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

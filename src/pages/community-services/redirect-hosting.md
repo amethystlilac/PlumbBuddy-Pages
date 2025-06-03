@@ -13,6 +13,6 @@ If you’d like to use a redirect link in your own manifest, you have two option
 
 ##### Option 2: Github
 1. There is one file that needs to be updated, linked below. It is kept in [the GitHub repository for this website](https://github.com/lama-Logic/PlumbBuddy-Pages). The easiest way to do that is to fork the repo, alter those files, and submit a pull request. To see how to do that, you can review [this video](https://youtu.be/bdb0JQ-j6U4?t=214).
-3. Submit your pull request. You may be asked for more information or to make changes. Please subscribe to notifications on the pull request and watch the email ssociated with your Github account to avoid having it denied due to non-responsiveness.
+3. Submit your pull request. You may be asked for more information or to make changes. Please subscribe to notifications on the pull request and watch the email associated with your Github account to avoid having it denied due to non-responsiveness.
    
 ###### `redirects.yml` Location

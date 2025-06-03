@@ -3,7 +3,7 @@
         color="primary"
         :items="[{title: 'Features', to: '/features'}, {title: 'Catalog'}]"
     />
-    <div class="main-container">
+    <v-container>
         <p>
             Manifests aren't <em>just</em> for me and the Mod Creators. You get to see what they say, too! And that can be <em>quite useful</em>.
         </p>
@@ -11,7 +11,7 @@
         <FeaturePanels
             :features="features"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>

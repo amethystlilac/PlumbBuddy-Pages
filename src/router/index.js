@@ -8,13 +8,21 @@
 import { createRouter, createWebHistory } from 'vue-router/auto';
 import { setupLayouts } from 'virtual:generated-layouts';
 import { routes } from 'vue-router/auto-routes';
+import { delay } from '@/logic/general-utilities';
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: setupLayouts(routes),
-    scrollBehavior(to, from, savedPosition) {
+    async scrollBehavior(to) {
+        if (to.hash) {
+            await delay(1000);
+            return {
+                el: to.hash,
+                behavior: 'smooth',
+            };
+        }
         return { top: 0 };
-    }
+    },
 });
 
 // Workaround for https://github.com/vitejs/vite/issues/11804

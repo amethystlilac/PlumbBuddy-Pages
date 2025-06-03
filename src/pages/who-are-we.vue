@@ -3,40 +3,27 @@
         color="info"
         :items="[{title: 'Who Are We?'}]"
     />
-    <div class="main-container" style="margin-bottom: 38vh;">
-        <v-container
-            v-if="!mobile"
+    <v-container
+        style="margin-bottom: 38vh;"
+    >
+        <v-row
+            justify="center"
         >
-            <v-row
-                justify="center"
+            <v-col
+                v-for="person in folks"
+                cols="12"
+                md="6"
+                lg="4"
             >
-                <v-col
-                    v-for="person in folks"
-                    xs="12"
-                    md="6"
-                    lg="4"
-                >
-                    <PersonCard
-                        :person="person"
-                    />
-                </v-col>
-            </v-row>
-        </v-container>
-        <PersonCard
-            v-if="mobile"
-            v-for="person in folks"
-            class="mt-2"
-            :person="person"
-        />
-    </div>
+                <PersonCard
+                    :person="person"
+                />
+            </v-col>
+        </v-row>
+    </v-container>
 </template>
 
 <script setup>
-    import { useDisplay } from 'vuetify';
-    import Markdown from 'vue3-markdown-it';
-
-    const { mobile } = useDisplay();
-
     const folks = [
     {
             image: 'AmethystLilacOnSixam.png',

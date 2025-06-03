@@ -3,7 +3,7 @@
         color="tertiary"
         :items="[{title: 'Features', to: '/features'}, {title: 'Manifest Editor'}]"
     />
-    <div class="main-container">
+    <v-container>
         <p>
             <em>Finally</em>, Creators can make mods self-describing: identifying <strong>who</strong> made them, <strong>where</strong> they came from, and <strong>what</strong> they need.
         </p>
@@ -11,7 +11,7 @@
         <FeaturePanels
             :features="features"
         />
-    </div>
+    </v-container>
 </template>
 
 <script setup>
