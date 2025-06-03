@@ -1,3 +1,38 @@
+"Amethyst Lilac":
+  logo_media: https://c10.patreonusercontent.com/4/patreon-media/p/campaign/10817658/b9f92aa76f0a48ff94fa163a376774bc/eyJ3IjoyMDB9/2.png?token-hash=kOR6rXBEsiuN3X-8Ao4aAkHpkIr0rJAnGL8c18bMtCg%3D
+  description:
+    "": |
+      Hi! If you need help with any of my mods, please visit my discord server.
+  specific_creators:
+    "Amethyst Lilac":
+      ask_for_help_steps:
+        "":
+          - label: Rules
+            icon: PoliceBadge
+            content: |
+              Things you should know before joining:
+              1. Keep it civil.
+              2. Don't feed the trolls.
+              3. There is no support available for people with pirated/cracked games or packs, with outdated games, or with severly NSFW mods installed.
+          - label: Join the Discord
+            icon: OpenInApp
+            content: |
+              [Click here](https://discord.gg/8MJMuz6Wmk) to join.
+          - label: Rules & Roles
+            icon: MessageText
+            content: |
+              At the top of the server, read the server's rules in the `#rules` channel.
+
+              Then click on the `#roles` channel and select the roles you want.
+          - label: Ask for Help
+            icon: Help
+            content: |
+              In the `About My Mods` section, go to the `#mod-and-cc-support` channel.
+
+              Describe your issue. If you're getting an error, please upload your mc_lasteexception.html or BE-Exception.html files. If it's something visual, send a screenshot.
+
+              Please be patient and wait for someone to respond.
+
 CodeBleu:
   logo_media: https://avatars.githubusercontent.com/u/25014958?v=4
   description:
