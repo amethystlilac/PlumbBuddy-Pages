@@ -21,16 +21,13 @@
           - label: Rules & Roles
             icon: MessageText
             content: |
-              At the top of the server, read the server's rules in the `#rules` channel.
-
+              At the top of the server, read the server's rules in the `#rules` channel.<br>
               Then click on the `#roles` channel and select the roles you want.
           - label: Ask for Help
             icon: Help
             content: |
-              In the `About My Mods` section, go to the `#mod-and-cc-support` channel.
-
-              Describe your issue. If you're getting an error, please upload your mc_lasteexception.html or BE-Exception.html files. If it's something visual, send a screenshot.
-
+              In the `About My Mods` section, go to the `#mod-and-cc-support` channel.<br>
+              Describe your issue. If you're getting an error, please upload your mc_lasteexception.html or BE-Exception.html files. If it's something visual, send a screenshot.<br>
               Please be patient and wait for someone to respond.
 
 CodeBleu:
