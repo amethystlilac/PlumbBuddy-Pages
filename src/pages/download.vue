@@ -23,7 +23,14 @@
                 />
             </v-progress-circular>
         </div>
-        <p
+        <v-alert
+            v-if="globalState.currentRelease.value"
+            text="Due to a CI/CD pipeline integrity threat in progress, downloads from the website are currently disabled. Please try again later."
+            title="Security Lockdown"
+            type="warning"
+            variant="tonal"
+        />
+        <!-- <p
             v-if="globalState.currentRelease.value"
         >
             I think you want this version based on your computer's operating system:
@@ -116,7 +123,7 @@
             v-if="globalState?.totalDownloadCount?.value"
         >
             According to GitHub, PlumbBuddy has been downloaded {{ ('time').toQuantity(globalState.totalDownloadCount.value) }}. Isn't that nifty? Click one of the download links on the top of the page and <strong>🫵 you</strong> could be the {{ (globalState.totalDownloadCount.value + 1).toOrdinalWords() }}! 🎆
-        </p>
+        </p> -->
     </v-container>
 </template>
 
