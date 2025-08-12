@@ -10,6 +10,10 @@ BetterExceptions: https://www.patreon.com/posts/99403318
 # (Dev Note: Hardcoded in PB UI markup -- MC Command Center Missing Scan Resolution)
 GetMCCommandCenter: https://deaderpool-mccc.com/downloads.html
 
+# Owner: Amethyst Lilac
+# (Dev Note: Hardcoded in Download component)
+LatestGithubRelease: https://github.com/Llama-Logic/PlumbBuddy/releases/latest
+
 # Owner: Deaderpool
 # (Dev Note: Hardcoded in PB UI markup -- Onboarding Dialog)
 LearnAboutMCCommandCenter: https://deaderpool-mccc.com/

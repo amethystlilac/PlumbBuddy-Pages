@@ -35,7 +35,6 @@ export const useGlobalState = createGlobalState(() => {
         }
         const isWindows = (platform.os?.family ?? 'Unknown') === 'Windows';
         if (isWindows) {
-            debugger;
             let instructionSetSuffix = '_x64.msix';
             if (navigator.userAgentData) {
                 const userAgent = await navigator.userAgentData.getHighEntropyValues([
