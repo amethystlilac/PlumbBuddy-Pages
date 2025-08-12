@@ -1,2 +1,2 @@
 download:
-  go_directly_to_github: true
+  go_directly_to_github: false
