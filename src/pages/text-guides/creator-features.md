@@ -95,7 +95,9 @@ To learn more about Parlay as a mod creator, including how to incorporate transl
 
 ---
 
-### Relational Data Storage and UI Bridge
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy.
 
 Relational Data Storage (RDS) is storage accessible by script mods in two varieties: global or per save. GLobal storage is accessible from all saves and is stored with a player's PlumbBuddy files in a SQLite database. Storage per save is stored in the player's save file. RDS operates outside the simulation and so does not burden the game. For more information about RDS, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/Relational-Data-Storage).
 

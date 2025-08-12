@@ -86,3 +86,7 @@ Parlay is an easy way to translate almost any mod into the language of your choi
 ![image](/img/PB-ParlayTyping.png "The Parlay tab, with a mod translation from in progress")
 
 To learn more about Parlay, visit the [Parlay](https://plumbbuddy.app/text-guides/player-parlay) guide.
+
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy. They let mod creators make use of storage in a way that doesn't slow down the game, and lets them show you things projected from the mod to PlumbBuddy, if you let them.

@@ -88,3 +88,11 @@ While not its purpose, it can also be used to customize the existing strings of 
 ![image](/img/PB-ParlayTyping.png "The Parlay tab, with a mod translation from in progress")
 
 To learn more about Parlay, visit the [Parlay](https://plumbbuddy.app/text-guides/player-parlay) guide.
+
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy. They let mod creators make use of storage in a way that doesn't slow down the game, and lets them show you things projected from the mod to PlumbBuddy, if you let them.
+
+Relational Data Storage (RDS) is storage accessible by script mods in two varieties: global or per save. GLobal storage is accessible from all saves and is stored with a player's PlumbBuddy files in a SQLite database. Storage per save is stored in the player's save file. RDS operates outside the simulation and so does not burden the game.
+
+UI Bridges allow script mods to display visual elements outside the game, in PlumbBuddy, as essentially a sandboxed website without access to the internet. UI Bridges can make use of RDS and PlumbBuddy's ability to catalogue the game's strings and images, and are only permitted to operate when allowed by the player.
