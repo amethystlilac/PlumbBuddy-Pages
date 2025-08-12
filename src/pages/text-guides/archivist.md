@@ -88,7 +88,7 @@ Archivist uses some special terms to describe what it's doing.
 
 The first time you look at Archivist, it will be blank. That’s because it’s toggled off by default. You get to decide if and when you want to archive your save files.
 
-![image](/img/casual-archivist-empty.png "An image of Archivist empty, with two toggles set to the off position, a faded folder icon, and a question mark in a circle on the left. The other PlumbBuddy tabs are visible along the top")
+![image](/img/archivist-empty.png "An image of Archivist empty, with two toggles set to the off position, a faded folder icon, and a question mark in a circle on the left.")
 
 There are two toggles and a folder icon on the top left. The first toggle turns on Archivist scanning its own database for *existing* Chronicles. This toggle needs to be on before you can turn on the second toggle or click the folder icon.
 

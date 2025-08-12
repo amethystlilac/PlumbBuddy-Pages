@@ -58,6 +58,6 @@ Some of the tabs have a question mark at the bottom that you can click if you wa
 
 Pick which kind of setting you want to change or look at, and when that setting is the way you want it, click OK at the bottom right, or cancel if you don't want to change anything.
 
-![image](/img/PB-enth-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user is an Enthusiast Player, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off, 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
+![image](/img/PB-enth-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user is an Enthusiast Player, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off, 'Enable runtime mod integration' toggled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
 
 Continue on to [The Features](https://plumbbuddy.app/text-guides/enthusiast-features) to see some things PlumbBuddy does to keep your Mods folder Healthy.
