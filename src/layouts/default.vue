@@ -153,6 +153,12 @@
             title: 'Manifest Editor',
         },
         {
+            color: 'tertiary',
+            icon: 'mdi-access-point-network',
+            path: '/features/runtime-mod-integration',
+            title: 'Runtime Mod Integration',
+        },
+        {
             isDivider: true,
         },
         {

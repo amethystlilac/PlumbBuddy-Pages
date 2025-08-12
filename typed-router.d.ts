@@ -32,6 +32,7 @@ declare module 'vue-router/auto-routes' {
     '/features/mod-health': RouteRecordInfo<'/features/mod-health', '/features/mod-health', Record<never, never>, Record<never, never>>,
     '/features/mod-hound': RouteRecordInfo<'/features/mod-hound', '/features/mod-hound', Record<never, never>, Record<never, never>>,
     '/features/parlay': RouteRecordInfo<'/features/parlay', '/features/parlay', Record<never, never>, Record<never, never>>,
+    '/features/runtime-mod-integration': RouteRecordInfo<'/features/runtime-mod-integration', '/features/runtime-mod-integration', Record<never, never>, Record<never, never>>,
     '/privacy-policy': RouteRecordInfo<'/privacy-policy', '/privacy-policy', Record<never, never>, Record<never, never>>,
     '/redirect': RouteRecordInfo<'/redirect', '/redirect', Record<never, never>, Record<never, never>>,
     '/terms-of-use': RouteRecordInfo<'/terms-of-use', '/terms-of-use', Record<never, never>, Record<never, never>>,

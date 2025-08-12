@@ -60,5 +60,13 @@
             description: `*Finally*, Creators can make mods self-describing: identifying **who** made them, **where** they came from, and **what** they need.`,
             to: 'features/manifest-editor',
         },
+        {
+            color: 'tertiary',
+            icon: 'mdi-access-point-network',
+            name: 'Runtime Mod Integration',
+            image: 'rmi.jpg',
+            description: `Runtime Mod Integration adds and maintains special mod files to the player's Mods folder which allow your mods to interoperate with PlumbBuddy.`,
+            to: 'features/runtime-mod-integration',
+        },
     ];
 </script>
