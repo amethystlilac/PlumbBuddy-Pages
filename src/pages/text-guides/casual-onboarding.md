@@ -98,12 +98,12 @@ Here are certain things that PlumbBuddy does by default that you can turn off, a
 
 * You can turn on auto checking for PlumbBuddy updates, which is off by default. This would make sure that you always know if your PlumbBuddy app has all the latest features and bug fixes.
 * You can turn off offering to help you find mod update news after you’ve updated your game, which is on by default.
-* You can turn off the global manifest package, which is on by default. This is a file that makes the information PlumbBuddy has about the mods installed in your mods folder available so that other mods can make use of it.
+* You can turn off runtime mod integration, which is on by default. This creates files that allow mods to use PlumbBuddy when you let them.
 * You can turn on PlumbBuddy having an icon in the system tray on Windows, which is off by default.
 
 Once you’ve made a decision, click Finish on the bottom right.
 
-![image](/img/PB-PB%20settings.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' toggled off, 'Offer to find mod update news when the game is patched' and 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off")
+![image](/img/PB-PB%20settings.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' toggled off, 'Offer to find mod update news when the game is patched' and 'Enable runtime mod integration' toddled on, and 'Show an icon in the system tray' toggled off")
 
 And we're done!
 

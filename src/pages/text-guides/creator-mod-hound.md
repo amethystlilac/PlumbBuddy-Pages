@@ -18,7 +18,7 @@ If you'd like to list your mods on Mod Hound, instructions are available [here](
 
 Mod Hound settings can be accessed in the menu on the left of PlumbBuddy, with other PlumbBuddy settings, of from the Mod Hound tab, by clicking on the gear icon next to the Request New Report button.
 
-![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the top, a Fetch Report button, a gear icon, and a question mark in a circle below that, an empty Display Report box below that, and an invitation to support Lumpinou to support Mod Hound at the bottom")
+![image](/img/modhound-gear.png "The Mod Hound dog in a circle at the left, a Fetch Report button, a gear icon, and a question mark in a circle to the right, and an empty Display Report box below that.")
 
 ---
 
@@ -74,7 +74,7 @@ If your Mod Health scans aren't complete yet, PlumbBuddy will pause before sendi
 
 PlumbBuddy will keep you updated on your report's progress.
 
-![image](/img/modhound-in-progress.png "The Mod Hound dog in a circle at the top above the words Waiting for Mod Hound's response, and a filling blue bar at the bottom")
+![image](/img/modhound-in-progress.png "The Mod Hound dog in a circle at the left with a blue bar being filled at the outside, and the words Your Request is Being Processed to the right above an empty Display Report box")
 
 When your report is ready, there will be a notification in the top right.
 
@@ -86,7 +86,7 @@ Or you might get a notification that you've already requested a report on this e
 
 If you want to view an existing report, you can select it from the drop down box.
 
-![image](/img/modhound-pick-report.png "A selection menu with six dates/times to select, in front of the Mod Hound dog")
+![image](/img/modhound-pick-report.png "A selection menu with four dates/times to select in the foreground, with the Mod Hound logo and buttons faded in the background")
 
 ---
 
@@ -94,7 +94,7 @@ If you want to view an existing report, you can select it from the drop down box
 
 Once you have (or select) your report, everything might be all good, or you might have some results that you should work on. Click on a section of the report to see what it says.
 
-![image](/img/modhound-report-menu.png "At the top is a date in a box titled Display Report. Below that is a list of categories, each with a number to the right.")
+![image](/img/modhound-report-menu.png "At the left is the Mod Hound logo. In the middle is the FEtch Report button and the Display Report selection box. To the right are 8 icons, each representing part of the report.")
 
 Each report can be searched by file, mod, or creator name, by date, and by the update notes. You can clear your search by clicking the X in the search bar.
 

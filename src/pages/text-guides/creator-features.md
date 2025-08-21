@@ -6,7 +6,7 @@ You might get some alerts right away. PlumbBuddy will do its best to tell you wh
 
 If you get an alert and want more information, there will be a question mark on the alert that you can click to bring you to the Mod Health guide's page.
 
-![image](/img/PB-creator-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
+![image](/img/PB-enth-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, the names of and all other tabs in a list at the left")
 
 If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/creator-mod-health) guide.
 
@@ -23,6 +23,7 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * An Ask for Help button to seek help with the mod, which will give options to go to a support avenue specified by the creator if they listed one, or to go to a find general support (If you'd like to list a support venue, let us know — it's linked from the PlumbBuddy website, not in the manifest)
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
+* Packs that the creator says will make using the mod better (in blue on the default theme)
 * The files that are in the mod
 * Any extra mods that the mod requires, as long as they have manifests themselves (dependencies)
 * Any other mods that require the mod, as long as they have manifests themselves (dependants)
@@ -31,7 +32,7 @@ You can click buttons on the right of the file names or dependency/dependant to 
 
 You can search the whole catalogue on the top right of the catalogue, and you can search the mod itself, if you need to, to the right side of the screen.
 
-![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below. Across the top are the other tabs.")
+![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below.")
 
 ---
 
@@ -91,3 +92,13 @@ While not its purpose, it can also be used to customize the existing strings of 
 For more information about translating with Parlay, please visit the [Parlay guide for translators](https://plumbbuddy.app/text-guides/player-parlay).
 
 To learn more about Parlay as a mod creator, including how to incorporate translations created using Parlay into your own mods and how to credit translators in your manifests, visit the [Parlay](https://plumbbuddy.app/text-guides/creator-parlay) guide.
+
+---
+
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy.
+
+Relational Data Storage (RDS) is storage accessible by script mods in two varieties: global or per save. GLobal storage is accessible from all saves and is stored with a player's PlumbBuddy files in a SQLite database. Storage per save is stored in the player's save file. RDS operates outside the simulation and so does not burden the game. For more information about RDS, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/Relational-Data-Storage).
+
+UI Bridges allow script mods to display visual elements outside the game, in PlumbBuddy, as essentially a sandboxed website without access to the internet. UI Bridges can make use of RDS and PlumbBuddy's ability to catalogue the game's strings and images, and are only permitted to operate when allowed by the player. For more information about UI Bridges, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/UI-Bridge).

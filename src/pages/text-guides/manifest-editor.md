@@ -4,8 +4,6 @@ Manifests have many things that you can include. Most mods won't need many of th
 
 Most of this page is dedicated to manifesting a mod. Towards the bottom, there are sections on Updating a Manifest and Providing Support for Your Mods.
 
-![image](/img/ME-tab.png)
-
 ---
 
 ### Select
@@ -195,7 +193,7 @@ To check if the code you typed in is valid, turn on PlumbBuddy’s pack toggle �
 
 The EA Promo Code is for is you have a creator code.
 
-If a player installs your mod but doesn’t have the required pack, they will be offered the choice of buying the pack and will be reminded to use your creator code if they choose to.
+If a player installs your mod but doesn’t have a required or recommended pack, they will be offered the choice of buying the pack and will be reminded to use your creator code if they choose to.
 
 ![image](/img/ME-req-promo.png "The EA Promo Code field for a mod, with the words 'If you have been invited to the EA Creator Network, PlumbBuddy can give players your Promo Code to use at check-out when buying packs to use with your mod.' below")
 
@@ -203,7 +201,11 @@ Incompatible packs is for when your mod does not work when a certain pack is ins
 
 ![image](/img/ME-req-incomp.png "The Incompatible Packs field for a mod, with the words 'Are there any official The Sims 4 packs from Electronic Arts that will cause your mod to NOT WORK?' below.")
 
-Below that, you can add a required mod, assuming it has a manifest.
+Below that, there are two buttons. At the left, you can add a **recommended** pack. This can be any pack that your mod will benefit from or improve. You can also tell the player why you recommend they use that pack with your mod.
+
+![image](/img/ME-rec-pack.png "Add Recommended Pack")
+
+At the right, you can add a required mod, assuming it has a manifest.
 
 Once you select that mod, you can click on the name to see the details of its manifest, and if applicable, to select features of that mod that your mod uses, and to add Requirement Identifiers — maybe your mod needs any of a variety of mods to work, but the player only needs to have one of them (you’d make them all required, and then add a Requirement Identifier, such as Venue List) — or Ignores — for if the player only needs this extra mod in certain situations (add a required mod and then tell it to ignore that requirement if you have a certain pack, for example). You can also add missing info if the original creator didn’t, such as a name or a download site.
 

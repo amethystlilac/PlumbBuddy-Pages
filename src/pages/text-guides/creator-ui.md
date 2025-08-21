@@ -2,13 +2,15 @@ Once PlumbBuddy is set up, it will open to the Mod Health tab and start scanning
 
 First it will start cataloging your mods. It will give an estimated time of how long that will take at the top, and there will be a progress bar. You should wait until this is mostly complete — until it's scanning topography — to do anything, because PlumbBuddy needs exclusive access to your files until it knows what they are.
 
-![image](/img/PB-enth-cataloging.png "An image of the top bar of the PlumbBuddy app, with a Cataloging Mods bar filling towards a timer counting down")
+![image](/img/PB-creator-cataloging.png "An image of the top bar of the PlumbBuddy app, with a Cataloging Mods bar filling towards a timer counting down")
 
 Once PlumbBuddy is done scanning your Mods folder, it will begin analyzing your cache files to see if they need to be deleted. You can go ahead and make changes now or begin manifesting a mod if you're ready. If PlumbBuddy found things that need to be fixed, you can fix them, or you can start your game if you want to play.
 
 The last scan to finish will be the cache, and it will tell you if your cache is fine or needs to be deleted, or if there are no cache files. Typically, you'll be advised to clear your cache if you've removed files from your Mods folder, to delete any remaining data that the game is trying to hold onto from them, or if you've *moved* files in your Mods folder, such as by renaming a folder, so that one file that was overriding another is now being overridden.
 
-![image](/img/PB-creator-analyzing-top.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Topography notification")
+Once the cache is analyzed, PlumbBuddy will begin cataloging game files. It will catalogue strings and images from the game for use by script mods, primarily in UI Bridges.
+
+![image](/img/PB-creator-analyzing-files.png "An image of the top bar of the PlumbBuddy app, with an Analyzing Topography notification")
 
 ---
 
@@ -16,6 +18,7 @@ After PlumbBuddy finishes cataloging, at the top left, you have:
 
 * The button to open the menu, which is three horizontal lines
 * The PlumbBuddy symbol
+* The toggle for UI Bridge Dev Mode. This defaults off and will be turned off every time you close PlumbBuddy.
 * A button to open your Downloads folder — or the one you chose as your Downloads folder in settings
 * A button to open your Mods folder
 * A button to quickly clear your cache files
@@ -61,7 +64,7 @@ Some of the tabs have a question mark at the bottom that you can click if you wa
 
 Pick which kind of setting you want to change or look at, and when that setting is the way you want it, click OK at the bottom right, or cancel if you don't want to change anything.
 
-![image](/img/PB-enth-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user is an Enthusiast Player, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off, 'Generate global manifest package' toddled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
+![image](/img/PB-creator-settings.png "An image of the General tab of PlumbBuddy's settings, showing that the current user is an Creator with a chosen Default Creator name, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off, 'Enable runtime mod integration' toggled on, and 'Show an icon in the system tray' toggled off, and the other tabs along the top")
 
 If you want to, you can continue on to [The Features](https://plumbbuddy.app/text-guides/creator-features) to see some things PlumbBuddy does to keep your Mods folder Healthy.
 

@@ -6,7 +6,7 @@ You might get some alerts right away. That’s fine. PlumbBuddy will do its best
 
 If you get an alert and want more information, there will be a question mark on the alert that you can click to bring you to the Mod Health guide's page.
 
-![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
+![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, the names of and all other tabs in a list at the left")
 
 If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) guide.
 
@@ -23,6 +23,7 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * An Ask for Help button to seek help with the mod, which will give you options to go to a support avenue specified by the creator if they listed one, or to go to a find general support
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
+* Packs that the creator says will make using the mod better (in blue on the default theme)
 * The files that are in the mod
 * Any extra mods that the mod requires, as long as they have manifests themselves (dependencies)
 * Any other mods that require the mod, as long as they have manifests themselves (dependants)
@@ -31,7 +32,7 @@ You can click buttons on the right of the file names or dependency/dependant to 
 
 You can search the whole catalogue on the top right of the catalogue, and you can search the mod itself, if you need to, to the right side of the screen.
 
-![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below. Across the top are the other tabs.")
+![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below.")
 
 ---
 
@@ -56,7 +57,7 @@ The report will only give advice about mods that the creator has listed on Mod H
 
 In addition, many of the files in the report will come with buttons to view the file in your mods folder and/or to go to the download page for the mod, or in the case of the missing requirement, to download that.
 
-![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected below that, but no results shown to the right. The background is a frog on a lily pad.")
+![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected to the right. The Outdated section of the report is shown below, with one outdated mod listed.")
 
 If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/casual-mod-hound) guide.
 
@@ -85,3 +86,7 @@ Parlay is an easy way to translate almost any mod into the language of your choi
 ![image](/img/PB-ParlayTyping.png "The Parlay tab, with a mod translation from in progress")
 
 To learn more about Parlay, visit the [Parlay](https://plumbbuddy.app/text-guides/player-parlay) guide.
+
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy. They let mod creators make use of storage in a way that doesn't slow down the game, and lets them show you things projected from the mod to PlumbBuddy, if you let them.
