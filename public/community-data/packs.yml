@@ -138,7 +138,7 @@ GP08:
   ea_stub: the-sims-4-realm-of-magic
   steam_stub: 1235746
 GP09:
-  english_name: "Star Wars: Journey to Batuu"
+  english_name: Journey to Batuu
   type: Game
   ea_stub: the-sims-4-star-wars-journey-to-batuu-game-pack
   steam_stub: 1301021
@@ -158,91 +158,91 @@ GP12:
   ea_stub: the-sims-4-werewolves
   steam_stub: 1776780
 SP01:
-  english_name: Luxury Party Stuff
+  english_name: Luxury Party
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-luxury-party-stuff
   steam_stub: 1235754
 SP02:
-  english_name: Perfect Patio Stuff
+  english_name: Perfect Patio
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-perfect-patio-stuff
   steam_stub: 1235752
 SP03:
-  english_name: Cool Kitchen Stuff
+  english_name: Cool Kitchen
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-cool-kitchen-stuff
   steam_stub: 1235756
 SP04:
-  english_name: Spooky Stuff
+  english_name: Spooky
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-spooky-stuff
   steam_stub: 1235759
 SP05:
-  english_name: Movie Hangout Stuff
+  english_name: Movie Hangout
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-movie-hangout-stuff
   steam_stub: 1235767
 SP06:
-  english_name: Romantic Garden Stuff
+  english_name: Romantic Garden
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-romantic-garden-stuff
   steam_stub: 1235758
 SP07:
-  english_name: Kids Room Stuff
+  english_name: Kids Room
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-kids-room-stuff
   steam_stub: 1235763
 SP08:
-  english_name: Backyard Stuff
+  english_name: Backyard
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-backyard-stuff
   steam_stub: 1235760
 SP09:
-  english_name: Vintage Glamour Stuff
+  english_name: Vintage Glamour
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-vintage-glamour-stuff
   steam_stub: 1235751
 SP10:
-  english_name: Bowling Night Stuff
+  english_name: Bowling Night
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-bowling-night-stuff
   steam_stub: 1235757
 SP11:
-  english_name: Fitness Stuff
+  english_name: Fitness
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-fitness-stuff
   steam_stub: 1235750
 SP12:
-  english_name: Toddler Stuff
+  english_name: Toddler
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-toddler-stuff
   steam_stub: 1235762
 SP13:
-  english_name: Laundry Day Stuff
+  english_name: Laundry Day
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-laundry-day-stuff
   steam_stub: 1235761
 SP14:
-  english_name: My First Pet Stuff
+  english_name: My First Pet
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-my-first-pet-stuff
   steam_stub: 1235753
 SP15:
-  english_name: Moshino Stuff Pack
+  english_name: Moshino
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-moschino-stuff-pack
@@ -266,249 +266,249 @@ SP18:
   ea_stub: the-sims-4-paranormal-stuff-pack
   steam_stub: 1368571
 SP20:
-  english_name: Throwback Fit Kit
+  english_name: Throwback Fit
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-throwback-fit-kit
   steam_stub: 1458153
 SP21:
-  english_name: Country Kitchen Kit
+  english_name: Country Kitchen
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-country-kitchen-kit
   steam_stub: 1458154
 SP22:
-  english_name: Bust The Dust Kit
+  english_name: Bust The Dust
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-bust-the-dust-kit
   steam_stub: 1458155
 SP23:
-  english_name: Courtyard Oasis Kit
+  english_name: Courtyard Oasis
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-courtyard-oasis-kit
   steam_stub: 1561770
 SP24:
-  english_name: Fashion Street Kit
+  english_name: Fashion Street
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-fashion-street-kit
   steam_stub: 1458152
 SP25:
-  english_name: Industrial Loft Kit
+  english_name: Industrial Loft
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-industrial-loft-kit
   steam_stub: 1621470
 SP26:
-  english_name: Incheon Arrivals Kit
+  english_name: Incheon Arrivals
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-incheon-arrivals-kit
   steam_stub: 1621471
 SP28:
-  english_name: Modern Menswear Kit
+  english_name: Modern Menswear
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-modern-menswear-kit
   steam_stub: 1621473
 SP29:
-  english_name: Blooming Rooms Kit
+  english_name: Blooming Rooms
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-blooming-rooms-kit
   steam_stub: 1621474
 SP30:
-  english_name: Carnaval Streetwear Kit
+  english_name: Carnaval Streetwear
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-carnaval-kit
   steam_stub: 1621475
 SP31:
-  english_name: Decor to the Max Kit
+  english_name: Decor to the Max
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-decor-to-the-max-kit
   steam_stub: 1621476
 SP32:
-  english_name: Moonlight Chic Kit
+  english_name: Moonlight Chic
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-moonlight-chic-kit
   steam_stub: 1904390
 SP33:
-  english_name: Little Campers Kit
+  english_name: Little Campers
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-little-campers-kit
   steam_stub: 1904391
 SP34:
-  english_name: First Fits Kit
+  english_name: First Fits
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-first-fits-kit
   steam_stub: 1932740
 SP35:
-  english_name: Desert Luxe Kit
+  english_name: Desert Luxe
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-desert-luxe-kit
   steam_stub: 1932741
 SP36:
-  english_name: Pastel Pop Kit
+  english_name: Pastel Pop
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-pastel-pop-kit
   steam_stub: 1932742
 SP37:
-  english_name: Everyday Clutter Kit
+  english_name: Everyday Clutter
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-everyday-clutter-kit
   steam_stub: 1932743
 SP38:
-  english_name: Simtimates Collection Kit
+  english_name: Simtimates Collection
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-simtimates-collection
   steam_stub: 2061330
 SP39:
-  english_name: Bathroom Clutter Kit
+  english_name: Bathroom Clutter
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-bathroom-clutter-kit
   steam_stub: 2061331
 SP40:
-  english_name: Greenhouse Haven Kit
+  english_name: Greenhouse Haven
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-greenhouse-haven-kit
   steam_stub: 2167330
 SP41:
-  english_name: Basement Treasures Kit
+  english_name: Basement Treasures
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-basement-treasures-kit
   steam_stub: 2167331
 SP42:
-  english_name: Grunge Revival Kit
+  english_name: Grunge Revival
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-grunge-revival-kit
   steam_stub: 2278350
 SP43:
-  english_name: Book Nook Kit
+  english_name: Book Nook
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-book-nook-kit
   steam_stub: 2278351
 SP44:
-  english_name: Poolside Splash Kit
+  english_name: Poolside Splash
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-poolside-splash
   steam_stub: 2397790
 SP45:
-  english_name: Modern Luxe Kit
+  english_name: Modern Luxe
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-modern-luxe
   steam_stub: 2397791
 SP46:
-  english_name: Home Chef Hustle Stuff
+  english_name: Home Chef Hustle
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-home-chef-hustles
   steam_stub: 2304400
 SP47:
-  english_name: Castle Estate Kit
+  english_name: Castle Estate
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-castle-estate-kit
   steam_stub: 2727370
 SP48:
-  english_name: Goth Galore Kit
+  english_name: Goth Galore
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-goth-galore-kit
   steam_stub: 2727380
 SP49:
-  english_name: Crystal Creations Stuff Pack
+  english_name: Crystal Creations
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-crystal-creations-stuff-pack
   steam_stub: 2727400
 SP50:
-  english_name: Urban Homage Kit
+  english_name: Urban Homage
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-urban-homage-kit
   steam_stub: 2738350
 SP51:
-  english_name: Party Essentials Kit
+  english_name: Party Essentials
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-party-essentials-kit
   steam_stub: 2738340
 SP52:
-  english_name: Riviera Retreat Kit
+  english_name: Riviera Retreat
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-riviera-retreat-kit
   steam_stub: 2782860
 SP53:
-  english_name: Cozy Bistro Kit
+  english_name: Cozy Bistro
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-cozy-bistro-kit
   steam_stub: 2782870
 SP54:
-  english_name: Artist Studio Kit
+  english_name: Artist Studio
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-artist-studio-kit
   steam_stub: 2815420
 SP55:
-  english_name: Storybook Nursery Kit
+  english_name: Storybook Nursery
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-storybook-nursery-kit
   steam_stub: 2815430
 SP56:
-  english_name: Sweet Slumber Party Kit
+  english_name: Sweet Slumber Party
   type: Stuff
   sub_type: Kit
   kit_type: CAS
@@ -516,7 +516,7 @@ SP56:
   ea_promo_code: TRILLYKE
   steam_stub: 3197130
 SP57:
-  english_name: Cozy Kitsch Kit
+  english_name: Cozy Kitsch
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
@@ -524,26 +524,26 @@ SP57:
   ea_promo_code: MYSHUNOSUN
   steam_stub: 3197140
 SP58:
-  english_name: Comfy Gamer Kit
+  english_name: Comfy Gamer
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-comfy-gamer-kit
   steam_stub: 2815440
 SP59:
-  english_name: Secret Sanctuary Kit
+  english_name: Secret Sanctuary
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-secret-sanctuary-kit
   steam_stub: 2815450
 SP60:
-  english_name: Casanova Cave Kit
+  english_name: Casanova Cave
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-casanova-cave-kit
   steam_stub: 3197120
 SP61:
-  english_name: Refined Living Room Kit
+  english_name: Refined Living Room
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
@@ -551,7 +551,7 @@ SP61:
   ea_promo_code: PIERISIM
   steam_stub: 3199810
 SP62:
-  english_name: Business Chic Kit
+  english_name: Business Chic
   type: Stuff
   sub_type: Kit
   kit_type: CAS
@@ -559,7 +559,7 @@ SP62:
   ea_promo_code: MADLENCC
   steam_stub: 3199820
 SP63:
-  english_name: Sleek Bathroom Kit
+  english_name: Sleek Bathroom
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
@@ -567,7 +567,7 @@ SP63:
   ea_promo_code: SYBOULETTE
   steam_stub: 3415980
 SP64:
-  english_name: Sweet Allure Kit
+  english_name: Sweet Allure
   type: Stuff
   sub_type: Kit
   kit_type: CAS
@@ -575,28 +575,28 @@ SP64:
   ea_promo_code: AHARRIS00BRITNEY
   steam_stub: 3415990
 SP65:
-  english_name: Restoration Workshop Kit
+  english_name: Restoration Workshop
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-restoration-workshop-kit
   steam_stub: 3199990
 SP66:
-  english_name: Golden Years Kit
+  english_name: Golden Years
   type: Stuff
   sub_type: Kit
   kit_type: CAS
   ea_stub: the-sims-4-golden-years-kit
   steam_stub: 3200000
 SP67:
-  english_name: Kitchen Clutter Kit
+  english_name: Kitchen Clutter
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
   ea_stub: the-sims-4-kitchen-clutter-kit
   steam_stub: 3200010
 SP71:
-  english_name: Grange Mudroom Kit
+  english_name: Grange Mudroom
   type: Stuff
   sub_type: Kit
   kit_type: BuildBuy
@@ -604,7 +604,7 @@ SP71:
   ea_promo_code: PEACEMAKER
   steam_stub: 3702300
 SP72:
-  english_name: Essential Glam Kit
+  english_name: Essential Glam
   type: Stuff
   sub_type: Kit
   kit_type: CAS
