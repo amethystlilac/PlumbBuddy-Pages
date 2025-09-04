@@ -93,6 +93,11 @@ EP19:
   type: Expansion
   ea_stub: the-sims-4-enchanted-by-nature-expansion-pack
   steam_stub: 3199780
+EP20:
+  english_name: Adventure Awaits
+  type: Expansion
+  ea_stub: the-sims-4-adventure-awaits-expansion-pack
+  steam_stub: 3548850
 FP01:
   english_name: Holiday Celebration
   type: Free
