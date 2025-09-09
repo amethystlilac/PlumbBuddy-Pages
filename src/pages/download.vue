@@ -46,14 +46,21 @@
         <div
             v-if="!isLoading && !goDirectlyToGithub && globalState.currentRelease.value"
         >
-            <p>
+            <p
+                v-if="globalState.currentReleaseRecommendedAsset.value"
+            >
                 I think you want this version based on your computer's operating system:
             </p>
+            <p
+                v-if="!globalState.currentReleaseRecommendedAsset.value"
+            >
+                I could not find an ideal download option based on your computer's operating system.
+            </p>
             <div
+                v-if="globalState.currentReleaseRecommendedAsset.value"
                 class="mt-4"
             >
                 <DownloadReleaseAsset
-                    v-if="globalState.currentReleaseRecommendedAsset.value"
                     :release="globalState.currentRelease.value"
                     :asset="globalState.currentReleaseRecommendedAsset.value"
                 />
@@ -64,11 +71,10 @@
                 Other options:
             </p>
             <div
-                v-for="otherOption in globalState.currentRelease.value.assets.filter(asset => asset.name !== globalState.currentReleaseRecommendedAsset.value.name)"
+                v-for="otherOption in globalState.currentReleaseRecommendedAsset.value ? globalState.currentRelease.value.assets.filter(asset => asset.name !== globalState.currentReleaseRecommendedAsset.value.name) : globalState.currentRelease.value.assets"
                 class="mt-4"
             >
                 <DownloadReleaseAsset
-                    v-if="globalState.currentReleaseRecommendedAsset.value"
                     :release="globalState.currentRelease.value"
                     :asset="otherOption"
                 />
