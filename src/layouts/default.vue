@@ -135,6 +135,12 @@
             title: 'Mod Hound',
         },
         {
+            color: 'primary',
+            icon: 'mdi-bag-personal-tag',
+            path: '/features/pack-selector',
+            title: 'Pack Selector',
+        },
+        {
             color: 'secondary',
             icon: 'mdi-archive-clock',
             path: '/features/archivist',

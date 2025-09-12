@@ -84,10 +84,10 @@
     const carouselHeight = computed(() => height.value - 175);
     const carouselItems = [
         {
-            background: '/img/yachtz.jpg',
+            background: '/img/expansion_pack_tiles.jpg',
             color: 'success',
-            title: 'PlumbBuddy 1.4 is Here!',
-            text: `Lumpinou has lent us her very good boi to help make sure your mods are up to date!`,
+            title: 'PlumbBuddy 1.6 is Here!',
+            text: `Want fast, simple, precise control over which Sims 4 packs are active when you launch the game?`,
             buttonIcon: 'mdi-download',
             buttonText: 'Download Now!',
             buttonPath: '/download',
@@ -100,6 +100,15 @@
             buttonIcon: 'mdi-bottle-tonic-plus',
             buttonText: 'Learn More',
             buttonPath: '/features/mod-health',
+        },
+        {
+            background: '/img/yachtz.jpg',
+            color: 'primary',
+            title: 'Mod Hound',
+            text: `Lumpinou has lent us her very good boi to help make sure your mods are up to date!`,
+            buttonIcon: 'mdi-dog',
+            buttonText: 'Learn More',
+            buttonPath: '/features/mod-hound',
         },
         {
             background: '/img/arcane_vault.jpg',
@@ -127,6 +136,15 @@
             buttonIcon: 'mdi-tag-edit',
             buttonText: 'Learn More',
             buttonPath: '/features/manifest-editor',
+        },
+        {
+            background: '/img/rmi.jpg',
+            color: 'tertiary',
+            title: 'Runtime Mod Integration',
+            text: `Harness the powers of PlumbBuddy from your script mods to enhance player experience.`,
+            buttonIcon: 'mdi-access-point-network',
+            buttonText: 'Learn More',
+            buttonPath: '/features/runtime-mod-integration',
         },
     ];
 

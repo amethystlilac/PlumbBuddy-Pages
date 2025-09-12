@@ -37,6 +37,14 @@
             to: 'features/mod-hound',
         },
         {
+            color: 'primary',
+            icon: 'mdi-bag-personal-tag',
+            name: 'Pack Selector',
+            image: 'expansion_pack_tiles.jpg',
+            description: 'Want fast, simple, precise control over which Sims 4 packs are active when you launch the game?',
+            to: 'features/pack-selector',
+        },
+        {
             color: 'secondary',
             icon: 'mdi-archive-clock',
             name: 'Archivist',
