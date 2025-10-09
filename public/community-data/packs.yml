@@ -600,6 +600,13 @@ SP67:
   kit_type: BuildBuy
   ea_stub: the-sims-4-kitchen-clutter-kit
   steam_stub: 3200010
+SP69:
+  english_name: Autumn Apparel
+  type: Stuff
+  sub_type: Kit
+  kit_type: CAS
+  ea_stub: the-sims-4-autumn-apparel-kit
+  steam_stub: 3602420
 SP71:
   english_name: Grange Mudroom
   type: Stuff
