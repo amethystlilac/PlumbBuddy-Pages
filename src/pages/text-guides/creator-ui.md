@@ -22,6 +22,7 @@ After PlumbBuddy finishes cataloging, at the top left, you have:
 * A button to open your Downloads folder — or the one you chose as your Downloads folder in settings
 * A button to open your Mods folder
 * A button to quickly clear your cache files
+* A button to open the Pack Selector
 * An ‘Ask for Help’ button, which will bring up options for getting help, and will guide you through the initial process for getting help if you choose, for example, to go to a general support discord server
 * Your current Game Version
 * The number of .package files in your Mods folder
@@ -32,6 +33,14 @@ After PlumbBuddy finishes cataloging, at the top left, you have:
 
 ![image](/img/PB-creator-top-menu.png "An image of the top bar of the PlumbBuddy app, with the buttons described above")
 
+Sometimes, you may also see:
+
+* An indication that PlumbBuddy is sleeping, because the game is open
+* An indication that PlumbBuddy is connected to the game and listening for things to do, like instructions from a mod, which will only happen if the game is open
+* An indication that you have a game controller connected to your computer, which can be detected and used by mods
+
+![image](/img/PB-top-menu-active.png "An image of part of the top bar of the PlumbBuddy app, with a symbol consisting of three Zs followed by the word Sleeping, a radio tower symbol, and a game controller symbol")
+
 ---
 
 If you open the menu, you’ll see:
@@ -40,6 +49,7 @@ If you open the menu, you’ll see:
 * A button to open your Downloads folder — or the one you chose as your Downloads folder in settings
 * A button to open your Mods folder
 * A button to quickly clear your cache
+* A button to open the Pack Selector
 * An ‘Ask for Help’ button, which will bring up options for support. You can pick a general support discord server there, see some self-help steps, and the link for the PlumbBuddy discord server is there if you need help with PlumbBuddy itself.
 * A button to check for updates of PlumbBuddy
 * The settings button

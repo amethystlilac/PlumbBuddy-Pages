@@ -119,6 +119,37 @@ or
 * This can mean the difference between a loading time of up to several hours and a loading time counted in minutes.`,
         },
         {
+            id: 'other-game',
+            color: 'secondary',
+            icon: 'mdi-folder',
+            name: 'Inside your Mods Folder, I find…',
+            image: 'other-game-result.png',
+            description: `### A The Sims 2/The Sims 3/SimCity 2013/Other Sims Game File Found: filename.package
+
+*Settings:*
+
+![image](/img/setting-other-game.png "…a mod file for a game other than The Sims 4")
+
+---
+
+*What is means:*
+
+* You have a .package file in your Mods folder that is meant for a different game.
+
+---
+
+*What you can do:*
+
+* PlumbBuddy will offer to move the file to your downloads folder, where you can decide what to do with it.
+* Alternatively, PlumbBuddy will offer to show you the file so that you can move it yourself.
+
+---
+
+*Extra info:*
+
+* The game is unable to read mod files meant for other games, but it can *try*, which can cause the game not to load or to crash or other unwanted behaviour.`,
+        },
+        {
             id: 'depth-scan',
             color: 'secondary',
             icon: 'mdi-folder',
