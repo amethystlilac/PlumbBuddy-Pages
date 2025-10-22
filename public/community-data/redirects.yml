@@ -271,6 +271,18 @@ PlumbBuddyInAppGuideModHealthMultipleModVersionsScanCreator: https://plumbbuddy.
 PlumbBuddyInAppGuideModHealthMultipleModVersionsScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#multiple-mod-version-scan
 
 # Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#other-game
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#other-game
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#other-game
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB Component logic -- ShowModListStartupSettingScan)
 PlumbBuddyInAppGuideModHealthShowModListStartupSettingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#show-mod-list-startup-setting-scan
 
