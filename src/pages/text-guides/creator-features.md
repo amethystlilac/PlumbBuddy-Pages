@@ -111,6 +111,23 @@ To learn more about Parlay as a mod creator, including how to incorporate transl
 
 ---
 
+### [Pack Selector](https://plumbbuddy.app/features/pack-selector)
+
+Pack Selector lets you choose which of your installed packs will load without having to load into the game and then *reload* the game. If you choose to enable the toggle at the bottom left of the window, it will show you pack names and sort Stuff Packs and Kits separately. Otherwise, you'll see the pack type (EP, GP, or SP for expansion/game/stuff pack; kits are a kind of stuff pack) and number along with its icon.
+
+You can enable or disable all packs, all packs of a certain type, or whichever combination of packs you want.
+
+PlumbBuddy will keep track of packs you disable using this pack selector and warn you if you have a manifested mod that requires a pack you've disabled. This isn't possible when using the game's own pack selector. If you have disabled packs using the in-game pack selector, PlumbBuddy will offer to clear that information out for you so that PlumbBuddy can give you the most accurate information.
+
+This is done by adding command line arguments to the EA app or Steam that tells it not to load whichever packs you choose. It will only show packs you have installed.
+
+![image](/img/PB-PackSelector-ToggleOff.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by pack code toggled on below and a toggle in the bottom left in the off position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+![image](/img/PB-PackSelector-ToggleOn.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by name toggled on below and a toggle in the bottom left in the on position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+---
+
+
 ### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
 
 Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy.

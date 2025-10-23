@@ -122,3 +122,7 @@ PlumbBuddy will keep track of packs you disable using this pack selector and war
 ### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
 
 Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy. They let mod creators make use of storage in a way that doesn't slow down the game, and lets them show you things projected from the mod to PlumbBuddy, if you let them.
+
+This is also the feature that allows mods to know if you have a controller connected and what buttons you have pressed.
+
+![image](/img/PB-controller-monitoring.png "The hover information that appears when a player has a controller connected, showing which buttons are currently being pressed")
