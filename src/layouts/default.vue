@@ -125,8 +125,8 @@
         {
             color: 'primary',
             icon: 'mdi-book',
-            path: '/features/catalog',
-            title: 'Catalog',
+            path: '/features/personal-notes-and-catalog',
+            title: 'Personal Notes & Catalog',
         },
         {
             color: 'primary',

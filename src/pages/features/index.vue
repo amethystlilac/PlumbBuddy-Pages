@@ -23,10 +23,10 @@
         {
             color: 'primary',
             icon: 'mdi-book',
-            name: 'Catalog',
+            name: 'Personal Notes & Catalog',
             image: 'catalogs.jpeg',
-            description: `Manifests aren't *just* for me and the Mod Creators. You get to see what they say, too! And that can be *quite useful*.`,
-            to: 'features/catalog',
+            description: `Had to wait a while for all those mod files to get cataloged, eh? Well, it wasn't _just_ for Mod Health. Want to see what **you** get out of it?`,
+            to: 'features/personal-notes-and-catalog',
         },
         {
             color: 'primary',

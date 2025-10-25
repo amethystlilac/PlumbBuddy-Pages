@@ -84,10 +84,10 @@
     const carouselHeight = computed(() => height.value - 175);
     const carouselItems = [
         {
-            background: '/img/expansion_pack_tiles.jpg',
+            background: '/img/gamer_girl.webp',
             color: 'success',
-            title: 'PlumbBuddy 1.6 is Here!',
-            text: `Want fast, simple, precise control over which Sims 4 packs are active when you launch the game?`,
+            title: 'PlumbBuddy 1.7 is Here!',
+            text: `Improved cataloging, keeping your own notes for your mods, and... what's that? <strong>Letting your mods use gamepads</strong>?!`,
             buttonIcon: 'mdi-download',
             buttonText: 'Download Now!',
             buttonPath: '/download',
