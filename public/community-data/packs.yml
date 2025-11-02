@@ -519,7 +519,7 @@ SP56:
   kit_type: CAS
   ea_stub: the-sims-4-sweet-slumber-party-kit
   is_creator_content: true
-  ea_promo_code: TRILLYKE
+  # ea_promo_code: TRILLYKE
   steam_stub: 3197130
 SP57:
   english_name: Cozy Kitsch
@@ -528,7 +528,7 @@ SP57:
   kit_type: BuildBuy
   ea_stub: the-sims-4-cozy-kitsch-kit
   is_creator_content: true
-  ea_promo_code: MYSHUNOSUN
+  # ea_promo_code: MYSHUNOSUN
   steam_stub: 3197140
 SP58:
   english_name: Comfy Gamer
@@ -556,7 +556,7 @@ SP61:
   kit_type: BuildBuy
   ea_stub: the-sims-4-refined-living-room-kit
   is_creator_content: true
-  ea_promo_code: PIERISIM
+  # ea_promo_code: PIERISIM
   steam_stub: 3199810
 SP62:
   english_name: Business Chic
@@ -565,7 +565,7 @@ SP62:
   kit_type: CAS
   ea_stub: the-sims-4-business-chic-kit
   is_creator_content: true
-  ea_promo_code: MADLENCC
+  # ea_promo_code: MADLENCC
   steam_stub: 3199820
 SP63:
   english_name: Sleek Bathroom
@@ -574,7 +574,7 @@ SP63:
   kit_type: BuildBuy
   ea_stub: the-sims-4-sleek-bathroom-kit
   is_creator_content: true
-  ea_promo_code: SYBOULETTE
+  # ea_promo_code: SYBOULETTE
   steam_stub: 3415980
 SP64:
   english_name: Sweet Allure
@@ -583,7 +583,7 @@ SP64:
   kit_type: CAS
   ea_stub: the-sims-4-sweet-allure-kit
   is_creator_content: true
-  ea_promo_code: AHARRIS00BRITNEY
+  # ea_promo_code: AHARRIS00BRITNEY
   steam_stub: 3415990
 SP65:
   english_name: Restoration Workshop
@@ -620,7 +620,7 @@ SP71:
   kit_type: BuildBuy
   ea_stub: the-sims-4-grange-mudroom-kit
   is_creator_content: true
-  ea_promo_code: PEACEMAKER
+  # ea_promo_code: PEACEMAKER
   steam_stub: 3702300
 SP72:
   english_name: Essential Glam
@@ -629,5 +629,5 @@ SP72:
   kit_type: CAS
   ea_stub: the-sims-4-essential-glam-kit
   is_creator_content: true
-  ea_promo_code: CRYPTICSIM
+  # ea_promo_code: CRYPTICSIM
   steam_stub: 3702310
