@@ -37,6 +37,7 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * The download URL for the mod
 * The name(s) of the creator(s)
 * An Ask for Help button to seek help with the mod, which will give options to go to a support avenue specified by the creator if they listed one, or to go to a find general support (If you'd like to list a support venue, let us know — it's linked from the PlumbBuddy website, not in the manifest)
+* A link to support the creator financially
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
 * Packs that the creator says will make using the mod better (in blue on the default theme)
