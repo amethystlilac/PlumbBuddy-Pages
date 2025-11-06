@@ -12,6 +12,22 @@ If you want to learn more about the scans themselves, go to the [Mod Health](htt
 
 ---
 
+### Personal Notes
+
+Personal Notes is a list of every .package and .ts4script file in your mods folder.
+
+You can search by file name, folder name, Manifested Name (for mods that have PlumbBuddy manifests), notes you've made (Personal Notes), or date.
+
+You can filter by file date or dates that you set (Personal Date), using beginning date (everything on or after that date), ending date (everything on or before that date), or between two dates.
+
+You can sort each column.
+
+You can combine these filters and searches to find just what you need. It's a great way to keep track of what's in your mods folder.
+
+![image](/img/PB-personal-notes.png "The Personal Notes tab. Across the top is a search bar and boxes for From File Data, To File Date, From Personal Date, and To Personal Date. Below that is a list of files with their file path relative to the Mods folder, with the headings Mods Folder Path, File Date, Manifested Name, Personal Notes, and Personal Date.")
+
+---
+
 ### [Catalog](https://plumbbuddy.app/features/catalog)
 
 If you go to the Catalog tab, you’ll see all of the mods you currently have installed that have manifests. For each one, if the information is included in the manifest, you may see:
@@ -21,6 +37,7 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * The download URL for the mod
 * The name(s) of the creator(s)
 * An Ask for Help button to seek help with the mod, which will give options to go to a support avenue specified by the creator if they listed one, or to go to a find general support (If you'd like to list a support venue, let us know — it's linked from the PlumbBuddy website, not in the manifest)
+* A link to support the creator financially
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
 * Packs that the creator says will make using the mod better (in blue on the default theme)
@@ -95,6 +112,23 @@ To learn more about Parlay as a mod creator, including how to incorporate transl
 
 ---
 
+### [Pack Selector](https://plumbbuddy.app/features/pack-selector)
+
+Pack Selector lets you choose which of your installed packs will load without having to load into the game and then *reload* the game. If you choose to enable the toggle at the bottom left of the window, it will show you pack names and sort Stuff Packs and Kits separately. Otherwise, you'll see the pack type (EP, GP, or SP for expansion/game/stuff pack; kits are a kind of stuff pack) and number along with its icon.
+
+You can enable or disable all packs, all packs of a certain type, or whichever combination of packs you want.
+
+PlumbBuddy will keep track of packs you disable using this pack selector and warn you if you have a manifested mod that requires a pack you've disabled. This isn't possible when using the game's own pack selector. If you have disabled packs using the in-game pack selector, PlumbBuddy will offer to clear that information out for you so that PlumbBuddy can give you the most accurate information.
+
+This is done by adding command line arguments to the EA app or Steam that tells it not to load whichever packs you choose. It will only show packs you have installed.
+
+![image](/img/PB-PackSelector-ToggleOff.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by pack code toggled on below and a toggle in the bottom left in the off position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+![image](/img/PB-PackSelector-ToggleOn.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by name toggled on below and a toggle in the bottom left in the on position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+---
+
+
 ### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
 
 Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy.
@@ -102,3 +136,7 @@ Runtime Mod Integration allows script mods to communicate and interact with Plum
 Relational Data Storage (RDS) is storage accessible by script mods in two varieties: global or per save. GLobal storage is accessible from all saves and is stored with a player's PlumbBuddy files in a SQLite database. Storage per save is stored in the player's save file. RDS operates outside the simulation and so does not burden the game. For more information about RDS, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/Relational-Data-Storage).
 
 UI Bridges allow script mods to display visual elements outside the game, in PlumbBuddy, as essentially a sandboxed website without access to the internet. UI Bridges can make use of RDS and PlumbBuddy's ability to catalogue the game's strings and images, and are only permitted to operate when allowed by the player. For more information about UI Bridges, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/UI-Bridge).
+
+This is also the feature that allows mods to know if a player has a (or up to four) controller connected and what buttons are pressed at any given time. For more information on Alternative Input Devices, please see [here](https://github.com/Llama-Logic/PlumbBuddy/wiki/Alternative-Input-Devices).
+
+![image](/img/PB-controller-monitoring.png "The hover information that appears when a player has a controller connected, showing which buttons are currently being pressed")

@@ -271,6 +271,18 @@ PlumbBuddyInAppGuideModHealthMultipleModVersionsScanCreator: https://plumbbuddy.
 PlumbBuddyInAppGuideModHealthMultipleModVersionsScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#multiple-mod-version-scan
 
 # Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#other-game
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanCreator: https://plumbbuddy.app/text-guides/creator-mod-health#other-game
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuideModHealthOtherGameScanEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-health#other-game
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB Component logic -- ShowModListStartupSettingScan)
 PlumbBuddyInAppGuideModHealthShowModListStartupSettingScanCasual: https://plumbbuddy.app/text-guides/casual-mod-health#show-mod-list-startup-setting-scan
 
@@ -295,6 +307,18 @@ PlumbBuddyInAppGuideModHoundCreator: https://plumbbuddy.app/text-guides/creator-
 PlumbBuddyInAppGuideModHoundEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-mod-hound
 
 # Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePackSelectorCasual: https://plumbbuddy.app/text-guides/casual-features#pack-selector
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePackSelectorCreator: https://plumbbuddy.app/text-guides/creator-features#pack-selector
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePackSelectorEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-features#pack-selector
+
+# Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
 PlumbBuddyInAppGuideParlayCasual: https://plumbbuddy.app/text-guides/player-parlay
 
@@ -305,3 +329,15 @@ PlumbBuddyInAppGuideParlayCreator: https://plumbbuddy.app/text-guides/creator-pa
 # Owner: Amethyst Lilac
 # (Dev Note: Hardcoded in PB UI markup -- ParlayPackage)
 PlumbBuddyInAppGuideParlayEnthusiast: https://plumbbuddy.app/text-guides/player-parlay
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePersonalNotesCasual: https://plumbbuddy.app/text-guides/casual-features#personal-notes
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePersonalNotesCreator: https://plumbbuddy.app/text-guides/creator-features#personal-notes
+
+# Owner: Amethyst Lilac
+# 
+PlumbBuddyInAppGuidePersonalNotesEnthusiast: https://plumbbuddy.app/text-guides/enthusiast-features#personal-notes

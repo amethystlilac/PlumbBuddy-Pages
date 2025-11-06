@@ -112,6 +112,8 @@ When it’s done, you’ll probably have Chronicles named things like My Saved G
 
 If you click on one of the Chronicles, you can see some information about it right away.
 
+At the left, you'll see the thumbnail of the most recent Snapshot.
+
 At the top, you’ll see the Name of the Chronicle. By default, this is the name shown in the game for the oldest Snapshot that was archived the first time the Chronicle was archived.
 
 Below that, you’ll see the size of its Archive file. This isn’t the game’s save files, it’s what Archivist has saved, after compression. The ratio of compression (how much space is used by Archivist vs. how much space is used by the same number of files in your saves folder) improves the more Snapshots are saved in a Chronicle — the bigger the save, the more compression there is for the same number of files.
@@ -152,7 +154,7 @@ Below all of that is a list of your Snapshots from that Chronicle.
 
 Below the header, you can see the date of each Snapshot, its Snapshot number, its tags, and three buttons.
 
-![image](/img/archivist-list-snapshots.png "An image showing a Chronicle selected, with a list of Snapshots below. Each Snapshot has a date; a snapshot number; tags for Live, the household name, the name of the lot, and the world; and three buttons.")
+![image](/img/PB-Archivist.png "An image showing a Chronicle selected, with a list of Snapshots below. Each Snapshot has a date; a snapshot number; tags for Live, the household name, the name of the lot, and the world; and three buttons.")
 
 At the left of each Snapshot is an arrow that you can click to view the details of each Snapshot. There you can see the Snapshot’s thumbnail when it was saved. You get the choice to use it for the entire Chronicle.
 
