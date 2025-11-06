@@ -70,6 +70,7 @@ If this is a new manifest, the Details tab is where you enter:
     ![image](/img/ME-URL.png "The Download Page URL field for a mod, with the words 'This should be a web page on which links or buttons are available to download the mod files for THIS MOD.' below, and three buttons on the right: a blue globe, a single hand held up in orange, and two hands clapping in green")
 * Where players can go to support you financially. Type/paste it in.
     * At the right end of this bar, there is a symbol that you can click to open the URL you entered.
+    ![image](/img/ME-support-creator.png "The Funding URL field for a mod, with instructions to enter the URL of a place where players can support the creator's mods")
 
 If you click Previous or Cancel at the bottom left, you’ll get a pop up asking if you’re sure you want to cancel. You can click Next on the bottom right or click a tab at the top to go to that tab.
 
