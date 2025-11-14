@@ -631,3 +631,20 @@ SP72:
   is_creator_content: true
   # ea_promo_code: CRYPTICSIM
   steam_stub: 3702310
+SP73:
+  english_name: Modern Retreat
+  type: Stuff
+  sub_type: Kit
+  kit_type: BuildBuy
+  ea_stub: the-sims-4-modern-retreat-kit
+  is_creator_content: true
+  # ea_promo_code: TUDTUDS
+  steam_stub: 3765160
+SP74:
+  english_name: Garden to Table
+  type: Stuff
+  sub_type: Kit
+  kit_type: BuildBuy
+  ea_stub: the-sims-4-garden-to-table-kit
+  is_creator_content: true
+  steam_stub: 3765170
