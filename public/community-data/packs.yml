@@ -606,6 +606,13 @@ SP67:
   kit_type: BuildBuy
   ea_stub: the-sims-4-kitchen-clutter-kit
   steam_stub: 3200010
+SP68:
+  english_name: SpongeBob's House
+  type: Stuff
+  sub_type: Kit
+  kit_type: BuildBuy
+  ea_stub: the-sims-4-spongebobs-house-kit
+  steam_stub: 3602410
 SP69:
   english_name: Autumn Apparel
   type: Stuff
@@ -613,6 +620,13 @@ SP69:
   kit_type: CAS
   ea_stub: the-sims-4-autumn-apparel-kit
   steam_stub: 3602420
+SP70:
+  english_name: SpongeBob Kid's Room
+  type: Stuff
+  sub_type: Kit
+  kit_type: BuildBuy
+  ea_stub: the-sims-4-spongebobs-kids-room-kit
+  steam_stub: 3602110
 SP71:
   english_name: Grange Mudroom
   type: Stuff
