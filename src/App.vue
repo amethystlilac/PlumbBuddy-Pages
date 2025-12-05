@@ -12,14 +12,16 @@
     const router = useRouter();
     const theme = useTheme();
 
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
     const updateTheme = () => {
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const prefersDark = mediaQuery.matches;
         theme.change(prefersDark ? 'dark' : 'light');
     };
 
     onMounted(() => {
         updateTheme();
-        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateTheme);
+        mediaQuery.addEventListener('change', updateTheme);
         document.body.addEventListener('click', e => {
             let target = e.target;
             if (!(target instanceof HTMLAnchorElement)) {
@@ -37,6 +39,6 @@
     });
 
     onUnmounted(() => {
-        window.matchMedia('(prefers-color-scheme: dark)').removeEventListener('change', updateTheme);
+        mediaQuery.removeEventListener('change', updateTheme);
     });
 </script>
