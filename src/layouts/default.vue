@@ -55,7 +55,7 @@
     </v-navigation-drawer>
     <div id="site-background"></div>
     <v-btn
-        v-if="route.path !== '/download'"
+        v-if="route.path !== '' && route.path !== '/' && route.path !== '/download'"
         color="success"
         class="position-absolute"
         prepend-icon="mdi-download"
