@@ -53,8 +53,16 @@
             </template>
         </v-list>
     </v-navigation-drawer>
-
     <div id="site-background"></div>
+    <v-btn
+        v-if="route.path !== '/download'"
+        color="success"
+        class="position-absolute"
+        prepend-icon="mdi-download"
+        style="top: 10px; right: 10px;"
+        text="Download"
+        to="/download"
+    />
     <v-main>
         <router-view />
     </v-main>
