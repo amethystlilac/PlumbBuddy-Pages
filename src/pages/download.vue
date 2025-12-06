@@ -87,15 +87,15 @@
             <v-container
                 class="pa-0"
             >
-                <v-row
-                    no-gutters
-                >
-                    <v-col 
-                        cols="7"
+                <v-row>
+                    <v-col
+                        :cols="12"
+                        :md="6"
                     >
                         <v-text-field
                             v-model="globalState.currentRelease.value.html_url"
-                            class="mr-4 clickable"
+                            class="clickable"
+                            hide-details
                             label="Release URL"
                             readonly
                             variant="solo-filled"
@@ -103,11 +103,13 @@
                         />
                     </v-col>
                     <v-col 
-                        cols="2"
+                        :cols="12"
+                        :md="2"
                     >
                         <v-text-field
                             v-model="globalState.currentRelease.value.author.login"
-                            class="mr-4 clickable"
+                            class="clickable"
+                            hide-details
                             label="Published by"
                             readonly
                             variant="solo-filled"
@@ -115,10 +117,12 @@
                         />
                     </v-col>
                     <v-col 
-                        cols="3"
+                        :cols="12"
+                        :md="4"
                     >
                         <v-text-field
                             v-model="globalState.currentReleasePublishedAt.value"
+                            hide-details
                             label="Published at"
                             readonly
                             variant="solo-filled"
