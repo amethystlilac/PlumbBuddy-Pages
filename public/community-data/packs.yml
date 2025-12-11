@@ -3,101 +3,121 @@ EP01:
   type: Expansion
   ea_stub: the-sims-4-get-to-work
   steam_stub: 1235734
+  retail_usd: 39.99
 EP02:
   english_name: Get Together
   type: Expansion
   ea_stub: the-sims-4-get-together
   steam_stub: 1235732
+  retail_usd: 39.99
 EP03:
   english_name: City Living
   type: Expansion
   ea_stub: the-sims-4-city-living
   steam_stub: 1235731
+  retail_usd: 39.99
 EP04:
   english_name: Cats & Dogs
   type: Expansion
   ea_stub: the-sims-4-cats-and-dogs
   steam_stub: 1235721
+  retail_usd: 39.99
 EP05:
   english_name: Seasons
   type: Expansion
   ea_stub: the-sims-4-seasons
   steam_stub: 1235733
+  retail_usd: 39.99
 EP06:
   english_name: Get Famous
   type: Expansion
   ea_stub: the-sims-4-get-famous
   steam_stub: 1235720
+  retail_usd: 39.99
 EP07:
   english_name: Island Living
   type: Expansion
   ea_stub: the-sims-4-island-living
   steam_stub: 1235730
+  retail_usd: 39.99
 EP08:
   english_name: Discover University
   type: Expansion
   ea_stub: the-sims-4-discover-university
   steam_stub: 1235722
+  retail_usd: 39.99
 EP09:
   english_name: Eco Lifestyle
   type: Expansion
   ea_stub: the-sims-4-eco-lifestyle
   steam_stub: 1301020
+  retail_usd: 39.99
 EP10:
   english_name: Snowy Escape
   type: Expansion
   ea_stub: the-sims-4-snowy-escape
   steam_stub: 1368572
+  retail_usd: 39.99
 EP11:
   english_name: Cottage Living
   type: Expansion
   ea_stub: the-sims-4-cottage-living
   steam_stub: 1458150
+  retail_usd: 39.99
 EP12:
   english_name: High School Years
   type: Expansion
   ea_stub: the-sims-4-high-school-years
   steam_stub: 1816550
+  retail_usd: 39.99
 EP13:
   english_name: Growing Together
   type: Expansion
   ea_stub: the-sims-4-growing-together
   steam_stub: 1904392
+  retail_usd: 39.99
 EP14:
   english_name: Horse Ranch
   type: Expansion
   ea_stub: the-sims-4-horse-ranch-expansion-pack
   steam_stub: 1990600
+  retail_usd: 39.99
 EP15:
   english_name: For Rent
   type: Expansion
   ea_stub: the-sims-4-for-rent-expansion-pack
   steam_stub: 2140610
+  retail_usd: 39.99
 EP16:
   english_name: Lovestruck
   type: Expansion
   ea_stub: the-sims-4-lovestruck-expansion-pack
   steam_stub: 2815270
+  retail_usd: 39.99
 EP17:
   english_name: Life & Death
   type: Expansion
   ea_stub: the-sims-4-life-and-death-expansion-pack
   steam_stub: 2815290
+  retail_usd: 39.99
 EP18:
   english_name: Businesses & Hobbies
   type: Expansion
   ea_stub: the-sims-4-businesses-and-hobbies-expansion-pack
   steam_stub: 2815310
+  retail_usd: 39.99
 EP19:
   english_name: Enchanted by Nature
   type: Expansion
   ea_stub: the-sims-4-enchanted-by-nature-expansion-pack
   steam_stub: 3199780
+  retail_usd: 39.99
 EP20:
   english_name: Adventure Awaits
   type: Expansion
   ea_stub: the-sims-4-adventure-awaits-expansion-pack
   steam_stub: 3548850
+  retail_usd: 39.99
 FP01:
   english_name: Holiday Celebration
   type: Free
@@ -107,169 +127,199 @@ GP01:
   type: Game
   ea_stub: the-sims-4-outdoor-retreat
   steam_stub: 1235741
+  retail_usd: 19.99
 GP02:
   english_name: Spa Day
   type: Game
   ea_stub: the-sims-4-spa-day
   steam_stub: 1235740
+  retail_usd: 19.99
 GP03:
   english_name: Dine Out
   type: Game
   ea_stub: the-sims-4-dine-out
   steam_stub: 1235747
+  retail_usd: 19.99
 GP04:
   english_name: Vampires
   type: Game
   ea_stub: the-sims-4-vampires
   steam_stub: 1235743
+  retail_usd: 19.99
 GP05:
   english_name: Parenthood
   type: Game
   ea_stub: the-sims-4-parenthood
   steam_stub: 1235745
+  retail_usd: 19.99
 GP06:
   english_name: Jungle Adventure
   type: Game
   ea_stub: the-sims-4-jungle-adventure
   steam_stub: 1235744
+  retail_usd: 19.99
 GP07:
   english_name: StrangerVille
   type: Game
   ea_stub: the-sims-4-strangerville
   steam_stub: 1235742
+  retail_usd: 19.99
 GP08:
   english_name: Realm of Magic
   type: Game
   ea_stub: the-sims-4-realm-of-magic
   steam_stub: 1235746
+  retail_usd: 19.99
 GP09:
   english_name: Journey to Batuu
   type: Game
   ea_stub: the-sims-4-star-wars-journey-to-batuu-game-pack
   steam_stub: 1301021
+  retail_usd: 19.99
 GP10:
   english_name: Dream Home Decorator
   type: Game
   ea_stub: the-sims-4-dream-home-decorator-game-pack
   steam_stub: 1458151
+  retail_usd: 19.99
 GP11:
   english_name: My Wedding Stories
   type: Game
   ea_stub: the-sims-4-my-wedding-stories-game-pack
   steam_stub: 1621460
+  retail_usd: 19.99
 GP12:
   english_name: Werewolves
   type: Game
   ea_stub: the-sims-4-werewolves
   steam_stub: 1776780
+  retail_usd: 19.99
 SP01:
   english_name: Luxury Party
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-luxury-party-stuff
   steam_stub: 1235754
+  retail_usd: 9.99
 SP02:
   english_name: Perfect Patio
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-perfect-patio-stuff
   steam_stub: 1235752
+  retail_usd: 9.99
 SP03:
   english_name: Cool Kitchen
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-cool-kitchen-stuff
   steam_stub: 1235756
+  retail_usd: 9.99
 SP04:
   english_name: Spooky
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-spooky-stuff
   steam_stub: 1235759
+  retail_usd: 9.99
 SP05:
   english_name: Movie Hangout
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-movie-hangout-stuff
   steam_stub: 1235767
+  retail_usd: 9.99
 SP06:
   english_name: Romantic Garden
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-romantic-garden-stuff
   steam_stub: 1235758
+  retail_usd: 9.99
 SP07:
   english_name: Kids Room
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-kids-room-stuff
   steam_stub: 1235763
+  retail_usd: 9.99
 SP08:
   english_name: Backyard
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-backyard-stuff
   steam_stub: 1235760
+  retail_usd: 9.99
 SP09:
   english_name: Vintage Glamour
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-vintage-glamour-stuff
   steam_stub: 1235751
+  retail_usd: 9.99
 SP10:
   english_name: Bowling Night
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-bowling-night-stuff
   steam_stub: 1235757
+  retail_usd: 9.99
 SP11:
   english_name: Fitness
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-fitness-stuff
   steam_stub: 1235750
+  retail_usd: 9.99
 SP12:
   english_name: Toddler
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-toddler-stuff
   steam_stub: 1235762
+  retail_usd: 9.99
 SP13:
   english_name: Laundry Day
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-laundry-day-stuff
   steam_stub: 1235761
+  retail_usd: 9.99
 SP14:
   english_name: My First Pet
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-my-first-pet-stuff
   steam_stub: 1235753
+  retail_usd: 9.99
 SP15:
   english_name: Moshino
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-moschino-stuff-pack
   steam_stub: 1235755
+  retail_usd: 9.99
 SP16:
   english_name: Tiny Living
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-tiny-living
   steam_stub: 1235766
+  retail_usd: 9.99
 SP17:
   english_name: Nifty Knitting
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-nifty-knitting-stuff-pack
   steam_stub: 1368570
+  retail_usd: 9.99
 SP18:
   english_name: Paranormal
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-paranormal-stuff-pack
   steam_stub: 1368571
+  retail_usd: 9.99
 SP20:
   english_name: Throwback Fit
   type: Stuff
@@ -277,6 +327,7 @@ SP20:
   kit_type: CAS
   ea_stub: the-sims-4-throwback-fit-kit
   steam_stub: 1458153
+  retail_usd: 4.99
 SP21:
   english_name: Country Kitchen
   type: Stuff
@@ -284,12 +335,14 @@ SP21:
   kit_type: BuildBuy
   ea_stub: the-sims-4-country-kitchen-kit
   steam_stub: 1458154
+  retail_usd: 4.99
 SP22:
   english_name: Bust The Dust
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-bust-the-dust-kit
   steam_stub: 1458155
+  retail_usd: 4.99
 SP23:
   english_name: Courtyard Oasis
   type: Stuff
@@ -297,6 +350,7 @@ SP23:
   kit_type: BuildBuy
   ea_stub: the-sims-4-courtyard-oasis-kit
   steam_stub: 1561770
+  retail_usd: 4.99
 SP24:
   english_name: Fashion Street
   type: Stuff
@@ -304,6 +358,7 @@ SP24:
   kit_type: CAS
   ea_stub: the-sims-4-fashion-street-kit
   steam_stub: 1458152
+  retail_usd: 4.99
 SP25:
   english_name: Industrial Loft
   type: Stuff
@@ -311,6 +366,7 @@ SP25:
   kit_type: BuildBuy
   ea_stub: the-sims-4-industrial-loft-kit
   steam_stub: 1621470
+  retail_usd: 4.99
 SP26:
   english_name: Incheon Arrivals
   type: Stuff
@@ -318,6 +374,7 @@ SP26:
   kit_type: CAS
   ea_stub: the-sims-4-incheon-arrivals-kit
   steam_stub: 1621471
+  retail_usd: 4.99
 SP28:
   english_name: Modern Menswear
   type: Stuff
@@ -325,6 +382,7 @@ SP28:
   kit_type: CAS
   ea_stub: the-sims-4-modern-menswear-kit
   steam_stub: 1621473
+  retail_usd: 4.99
 SP29:
   english_name: Blooming Rooms
   type: Stuff
@@ -332,6 +390,7 @@ SP29:
   kit_type: BuildBuy
   ea_stub: the-sims-4-blooming-rooms-kit
   steam_stub: 1621474
+  retail_usd: 4.99
 SP30:
   english_name: Carnaval Streetwear
   type: Stuff
@@ -339,6 +398,7 @@ SP30:
   kit_type: CAS
   ea_stub: the-sims-4-carnaval-kit
   steam_stub: 1621475
+  retail_usd: 4.99
 SP31:
   english_name: Decor to the Max
   type: Stuff
@@ -346,6 +406,7 @@ SP31:
   kit_type: BuildBuy
   ea_stub: the-sims-4-decor-to-the-max-kit
   steam_stub: 1621476
+  retail_usd: 4.99
 SP32:
   english_name: Moonlight Chic
   type: Stuff
@@ -353,6 +414,7 @@ SP32:
   kit_type: CAS
   ea_stub: the-sims-4-moonlight-chic-kit
   steam_stub: 1904390
+  retail_usd: 4.99
 SP33:
   english_name: Little Campers
   type: Stuff
@@ -360,6 +422,7 @@ SP33:
   kit_type: BuildBuy
   ea_stub: the-sims-4-little-campers-kit
   steam_stub: 1904391
+  retail_usd: 4.99
 SP34:
   english_name: First Fits
   type: Stuff
@@ -367,6 +430,7 @@ SP34:
   kit_type: CAS
   ea_stub: the-sims-4-first-fits-kit
   steam_stub: 1932740
+  retail_usd: 4.99
 SP35:
   english_name: Desert Luxe
   type: Stuff
@@ -374,6 +438,7 @@ SP35:
   kit_type: BuildBuy
   ea_stub: the-sims-4-desert-luxe-kit
   steam_stub: 1932741
+  retail_usd: 4.99
 SP36:
   english_name: Pastel Pop
   type: Stuff
@@ -381,6 +446,7 @@ SP36:
   kit_type: BuildBuy
   ea_stub: the-sims-4-pastel-pop-kit
   steam_stub: 1932742
+  retail_usd: 4.99
 SP37:
   english_name: Everyday Clutter
   type: Stuff
@@ -388,6 +454,7 @@ SP37:
   kit_type: BuildBuy
   ea_stub: the-sims-4-everyday-clutter-kit
   steam_stub: 1932743
+  retail_usd: 4.99
 SP38:
   english_name: Simtimates Collection
   type: Stuff
@@ -395,6 +462,7 @@ SP38:
   kit_type: CAS
   ea_stub: the-sims-4-simtimates-collection
   steam_stub: 2061330
+  retail_usd: 4.99
 SP39:
   english_name: Bathroom Clutter
   type: Stuff
@@ -402,6 +470,7 @@ SP39:
   kit_type: BuildBuy
   ea_stub: the-sims-4-bathroom-clutter-kit
   steam_stub: 2061331
+  retail_usd: 4.99
 SP40:
   english_name: Greenhouse Haven
   type: Stuff
@@ -409,6 +478,7 @@ SP40:
   kit_type: BuildBuy
   ea_stub: the-sims-4-greenhouse-haven-kit
   steam_stub: 2167330
+  retail_usd: 4.99
 SP41:
   english_name: Basement Treasures
   type: Stuff
@@ -416,6 +486,7 @@ SP41:
   kit_type: BuildBuy
   ea_stub: the-sims-4-basement-treasures-kit
   steam_stub: 2167331
+  retail_usd: 4.99
 SP42:
   english_name: Grunge Revival
   type: Stuff
@@ -423,6 +494,7 @@ SP42:
   kit_type: CAS
   ea_stub: the-sims-4-grunge-revival-kit
   steam_stub: 2278350
+  retail_usd: 4.99
 SP43:
   english_name: Book Nook
   type: Stuff
@@ -430,6 +502,7 @@ SP43:
   kit_type: BuildBuy
   ea_stub: the-sims-4-book-nook-kit
   steam_stub: 2278351
+  retail_usd: 4.99
 SP44:
   english_name: Poolside Splash
   type: Stuff
@@ -437,6 +510,7 @@ SP44:
   kit_type: BuildBuy
   ea_stub: the-sims-4-poolside-splash
   steam_stub: 2397790
+  retail_usd: 4.99
 SP45:
   english_name: Modern Luxe
   type: Stuff
@@ -444,12 +518,14 @@ SP45:
   kit_type: BuildBuy
   ea_stub: the-sims-4-modern-luxe
   steam_stub: 2397791
+  retail_usd: 4.99
 SP46:
   english_name: Home Chef Hustle
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-home-chef-hustles
   steam_stub: 2304400
+  retail_usd: 9.99
 SP47:
   english_name: Castle Estate
   type: Stuff
@@ -457,6 +533,7 @@ SP47:
   kit_type: BuildBuy
   ea_stub: the-sims-4-castle-estate-kit
   steam_stub: 2727370
+  retail_usd: 4.99
 SP48:
   english_name: Goth Galore
   type: Stuff
@@ -464,12 +541,14 @@ SP48:
   kit_type: CAS
   ea_stub: the-sims-4-goth-galore-kit
   steam_stub: 2727380
+  retail_usd: 4.99
 SP49:
   english_name: Crystal Creations
   type: Stuff
   sub_type: Full
   ea_stub: the-sims-4-crystal-creations-stuff-pack
   steam_stub: 2727400
+  retail_usd: 9.99
 SP50:
   english_name: Urban Homage
   type: Stuff
@@ -477,6 +556,7 @@ SP50:
   kit_type: CAS
   ea_stub: the-sims-4-urban-homage-kit
   steam_stub: 2738350
+  retail_usd: 4.99
 SP51:
   english_name: Party Essentials
   type: Stuff
@@ -484,6 +564,7 @@ SP51:
   kit_type: BuildBuy
   ea_stub: the-sims-4-party-essentials-kit
   steam_stub: 2738340
+  retail_usd: 4.99
 SP52:
   english_name: Riviera Retreat
   type: Stuff
@@ -491,6 +572,7 @@ SP52:
   kit_type: BuildBuy
   ea_stub: the-sims-4-riviera-retreat-kit
   steam_stub: 2782860
+  retail_usd: 4.99
 SP53:
   english_name: Cozy Bistro
   type: Stuff
@@ -498,6 +580,7 @@ SP53:
   kit_type: BuildBuy
   ea_stub: the-sims-4-cozy-bistro-kit
   steam_stub: 2782870
+  retail_usd: 4.99
 SP54:
   english_name: Artist Studio
   type: Stuff
@@ -505,6 +588,7 @@ SP54:
   kit_type: BuildBuy
   ea_stub: the-sims-4-artist-studio-kit
   steam_stub: 2815420
+  retail_usd: 4.99
 SP55:
   english_name: Storybook Nursery
   type: Stuff
@@ -512,6 +596,7 @@ SP55:
   kit_type: BuildBuy
   ea_stub: the-sims-4-storybook-nursery-kit
   steam_stub: 2815430
+  retail_usd: 4.99
 SP56:
   english_name: Sweet Slumber Party
   type: Stuff
@@ -521,6 +606,7 @@ SP56:
   is_creator_content: true
   # ea_promo_code: TRILLYKE
   steam_stub: 3197130
+  retail_usd: 4.99
 SP57:
   english_name: Cozy Kitsch
   type: Stuff
@@ -530,6 +616,7 @@ SP57:
   is_creator_content: true
   # ea_promo_code: MYSHUNOSUN
   steam_stub: 3197140
+  retail_usd: 4.99
 SP58:
   english_name: Comfy Gamer
   type: Stuff
@@ -537,18 +624,21 @@ SP58:
   kit_type: BuildBuy
   ea_stub: the-sims-4-comfy-gamer-kit
   steam_stub: 2815440
+  retail_usd: 4.99
 SP59:
   english_name: Secret Sanctuary
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-secret-sanctuary-kit
   steam_stub: 2815450
+  retail_usd: 4.99
 SP60:
   english_name: Casanova Cave
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-casanova-cave-kit
   steam_stub: 3197120
+  retail_usd: 4.99
 SP61:
   english_name: Refined Living Room
   type: Stuff
@@ -558,6 +648,7 @@ SP61:
   is_creator_content: true
   # ea_promo_code: PIERISIM
   steam_stub: 3199810
+  retail_usd: 4.99
 SP62:
   english_name: Business Chic
   type: Stuff
@@ -567,6 +658,7 @@ SP62:
   is_creator_content: true
   # ea_promo_code: MADLENCC
   steam_stub: 3199820
+  retail_usd: 4.99
 SP63:
   english_name: Sleek Bathroom
   type: Stuff
@@ -576,6 +668,7 @@ SP63:
   is_creator_content: true
   # ea_promo_code: SYBOULETTE
   steam_stub: 3415980
+  retail_usd: 4.99
 SP64:
   english_name: Sweet Allure
   type: Stuff
@@ -585,6 +678,7 @@ SP64:
   is_creator_content: true
   # ea_promo_code: AHARRIS00BRITNEY
   steam_stub: 3415990
+  retail_usd: 4.99
 SP65:
   english_name: Restoration Workshop
   type: Stuff
@@ -592,6 +686,7 @@ SP65:
   kit_type: BuildBuy
   ea_stub: the-sims-4-restoration-workshop-kit
   steam_stub: 3199990
+  retail_usd: 4.99
 SP66:
   english_name: Golden Years
   type: Stuff
@@ -599,6 +694,7 @@ SP66:
   kit_type: CAS
   ea_stub: the-sims-4-golden-years-kit
   steam_stub: 3200000
+  retail_usd: 4.99
 SP67:
   english_name: Kitchen Clutter
   type: Stuff
@@ -606,6 +702,7 @@ SP67:
   kit_type: BuildBuy
   ea_stub: the-sims-4-kitchen-clutter-kit
   steam_stub: 3200010
+  retail_usd: 4.99
 SP68:
   english_name: SpongeBob's House
   type: Stuff
@@ -613,6 +710,7 @@ SP68:
   kit_type: BuildBuy
   ea_stub: the-sims-4-spongebobs-house-kit
   steam_stub: 3602410
+  retail_usd: 6.99
 SP69:
   english_name: Autumn Apparel
   type: Stuff
@@ -620,12 +718,14 @@ SP69:
   kit_type: CAS
   ea_stub: the-sims-4-autumn-apparel-kit
   steam_stub: 3602420
+  retail_usd: 4.99
 SP70:
   english_name: SpongeBob Kid's Room
   type: Stuff
   sub_type: Kit
   ea_stub: the-sims-4-spongebobs-kids-room-kit
   steam_stub: 3602110
+  retail_usd: 6.99
 SP71:
   english_name: Grange Mudroom
   type: Stuff
@@ -635,6 +735,7 @@ SP71:
   is_creator_content: true
   # ea_promo_code: PEACEMAKER
   steam_stub: 3702300
+  retail_usd: 4.99
 SP72:
   english_name: Essential Glam
   type: Stuff
@@ -644,6 +745,7 @@ SP72:
   is_creator_content: true
   # ea_promo_code: CRYPTICSIM
   steam_stub: 3702310
+  retail_usd: 4.99
 SP73:
   english_name: Modern Retreat
   type: Stuff
@@ -653,6 +755,7 @@ SP73:
   is_creator_content: true
   # ea_promo_code: TUDTUDS
   steam_stub: 3765160
+  retail_usd: 4.99
 SP74:
   english_name: Garden to Table
   type: Stuff
@@ -661,6 +764,7 @@ SP74:
   ea_stub: the-sims-4-garden-to-table-kit
   is_creator_content: true
   steam_stub: 3765170
+  retail_usd: 4.99
 SP81:
   english_name: Prairie Dreams
   type: Stuff
@@ -669,3 +773,4 @@ SP81:
   ea_stub: the-sims-4-prairie-dreams-kit
   is_creator_content: true
   steam_stub: 3985830
+  retail_usd: 4.99
