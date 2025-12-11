@@ -661,3 +661,11 @@ SP74:
   ea_stub: the-sims-4-garden-to-table-kit
   is_creator_content: true
   steam_stub: 3765170
+SP81:
+  english_name: Prairie Dreams
+  type: Stuff
+  sub_type: Kit
+  kit_type: CAS
+  ea_stub: the-sims-4-prairie-dreams-kit
+  is_creator_content: true
+  steam_stub: 3985830
