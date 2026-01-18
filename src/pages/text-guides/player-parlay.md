@@ -4,9 +4,9 @@ So you’ve found a mod, and it doesn’t come in your language. Or it does, but
 
 Parlay’s here for you. Parlay is meant to be a user-friendly way to translate a mod from one language you understand into another. It generates a translation file next in your mods folder to the mod file you’ve chosen in a name format that will work for Windows players. (Sorry, Mac users, the usual translation difficulties prevent us from reliably naming a file for you. It might work as it is, or you may need to use your usual tricks to get it to work.)
 
-You can find the Parlay tab at the top of your PlumbBuddy app.
+You can find the Parlay tab at the left of your PlumbBuddy app.
 
-![image](/img/parlay-tab.png "The tabs at the top of PlumbBuddy, with Parlay in a yellow box")
+![image](/img/parlay-tab.png "The tabs listed at the left of PlumbBuddy, with Parlay in a yellow box")
 
 When you go to Parlay, the first thing you’ll see is a big empty bar and some greyed out buttons.
 

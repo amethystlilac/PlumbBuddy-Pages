@@ -45,7 +45,7 @@
                 'M16.627,6.164l-5.911,9.343h-6.478l1.493-2.298h4.03l1.463-2.328H2.239l-1.463,2.328h2.149L0,17.836h12.06l4.567-7.283,1.672,2.656h-1.433l-1.462,2.298h4.358l1.463,2.328h2.776l-7.373-11.671',
                 'M14.687,6.254H5.164l-1.463,2.328,9.522-.03,1.463-2.299'
             ],
-            href: 'https://help.ea.com/en-gb/help/the-sims/the-sims-4/mods-and-the-sims-4-game-updates/',
+            href: 'https://help.ea.com/en/articles/the-sims/the-sims-4/mods-policy/',
         },
         {
             title: 'Play The Sims 4 for Free!',

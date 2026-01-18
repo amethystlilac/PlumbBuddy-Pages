@@ -17,7 +17,7 @@
         <v-divider />
         <p>
             <center>Jump To:</center>
-            <center><a href="#mod-health">Mod Health</a> &emsp; <a href="#catalog">Catalog</a> &emsp; <a href="#mod-hound">Mod Hound</a> &emsp; <a href="#archivist">Archivist</a> &emsp; <a href="#parlay">Parlay</a></center>
+            <center><a href="#mod-health">Mod Health</a> &emsp; <a href="#personal-notes">Personal Notes</a> &emsp; <a href="#catalog">Catalog</a> &emsp; <a href="#mod-hound">Mod Hound</a> &emsp; <a href="#archivist">Archivist</a> &emsp; <a href="#parlay">Parlay</a> &emsp; <a href="#pack-selector">Pack Selector</a></center>
         </p>
         <v-divider />
         <Markdown

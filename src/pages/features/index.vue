@@ -23,10 +23,10 @@
         {
             color: 'primary',
             icon: 'mdi-book',
-            name: 'Catalog',
+            name: 'Personal Notes & Catalog',
             image: 'catalogs.jpeg',
-            description: `Manifests aren't *just* for me and the Mod Creators. You get to see what they say, too! And that can be *quite useful*.`,
-            to: 'features/catalog',
+            description: `Had to wait a while for all those mod files to get cataloged, eh? Well, it wasn't _just_ for Mod Health. Want to see what **you** get out of it?`,
+            to: 'features/personal-notes-and-catalog',
         },
         {
             color: 'primary',
@@ -35,6 +35,14 @@
             image: 'Nose.png',
             description: 'As another way to help you keep your Mods folder healthy, ModHound has partnered with PlumbBuddy to let you get reports from inside the app. Find your broken and outdated mods at the click of a button!',
             to: 'features/mod-hound',
+        },
+        {
+            color: 'primary',
+            icon: 'mdi-bag-personal-tag',
+            name: 'Pack Selector',
+            image: 'expansion_pack_tiles.jpg',
+            description: 'Want fast, simple, precise control over which Sims 4 packs are active when you launch the game?',
+            to: 'features/pack-selector',
         },
         {
             color: 'secondary',
@@ -59,6 +67,14 @@
             image: 'construction_workers.jpg',
             description: `*Finally*, Creators can make mods self-describing: identifying **who** made them, **where** they came from, and **what** they need.`,
             to: 'features/manifest-editor',
+        },
+        {
+            color: 'tertiary',
+            icon: 'mdi-access-point-network',
+            name: 'Runtime Mod Integration',
+            image: 'rmi.jpg',
+            description: `Runtime Mod Integration adds and maintains special mod files to the player's Mods folder which allow your mods to interoperate with PlumbBuddy.`,
+            to: 'features/runtime-mod-integration',
         },
     ];
 </script>

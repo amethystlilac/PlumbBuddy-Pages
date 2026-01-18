@@ -88,7 +88,7 @@ Archivist uses some special terms to describe what it's doing.
 
 The first time you look at Archivist, it will be blank. That’s because it’s toggled off by default. You get to decide if and when you want to archive your save files.
 
-![image](/img/casual-archivist-empty.png "An image of Archivist empty, with two toggles set to the off position, a faded folder icon, and a question mark in a circle on the left. The other PlumbBuddy tabs are visible along the top")
+![image](/img/archivist-empty.png "An image of Archivist empty, with two toggles set to the off position, a faded folder icon, and a question mark in a circle on the left.")
 
 There are two toggles and a folder icon on the top left. The first toggle turns on Archivist scanning its own database for *existing* Chronicles. This toggle needs to be on before you can turn on the second toggle or click the folder icon.
 
@@ -111,6 +111,8 @@ When it’s done, you’ll probably have Chronicles named things like My Saved G
 ### Chronicles
 
 If you click on one of the Chronicles, you can see some information about it right away.
+
+At the left, you'll see the thumbnail of the most recent Snapshot.
 
 At the top, you’ll see the Name of the Chronicle. By default, this is the name shown in the game for the oldest Snapshot that was archived the first time the Chronicle was archived.
 
@@ -152,7 +154,7 @@ Below all of that is a list of your Snapshots from that Chronicle.
 
 Below the header, you can see the date of each Snapshot, its Snapshot number, its tags, and three buttons.
 
-![image](/img/archivist-list-snapshots.png "An image showing a Chronicle selected, with a list of Snapshots below. Each Snapshot has a date; a snapshot number; tags for Live, the household name, the name of the lot, and the world; and three buttons.")
+![image](/img/PB-Archivist.png "An image showing a Chronicle selected, with a list of Snapshots below. Each Snapshot has a date; a snapshot number; tags for Live, the household name, the name of the lot, and the world; and three buttons.")
 
 At the left of each Snapshot is an arrow that you can click to view the details of each Snapshot. There you can see the Snapshot’s thumbnail when it was saved. You get the choice to use it for the entire Chronicle.
 

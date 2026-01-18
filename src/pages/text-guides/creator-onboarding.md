@@ -109,7 +109,7 @@ You can read more about the various Mod Health scans on the [Mod Health](https:/
 
 Once you've made your decisions, click Next on the bottom right.
 
-![image](/img/PB-Setup-ModHealth-creator.png "An image of the Mod Health settings as described above: four bars, the top three empty and the bottom one with one coloured bubble representing an active Mod Health scan. At the right of each bar is an x for removing all scans and a symbol to click to open a dropdown menu. At the bottom are Enable All, Disable All, and Set Default buttons.")
+![image](/img/PB-Setup-ModHealth-creator.png "An image of the Mod Health settings as described above: four bars, the two three empty, the third and fourth with coloured bubbles representing active Mod Health scans. At the right of each bar is an x for removing all scans and a symbol to click to open a dropdown menu. At the bottom are Enable All, Disable All, and Set Default buttons.")
 
 ---
 
@@ -126,24 +126,15 @@ Below that are a series of toggles:
 ![image](/img/auto-check-for-updates.png "Automatically check for updates")
 * You can turn on offering to help you find mod update news after you’ve updated your game.
 ![image](/img/offer-mod-news.png "Offer to help find mod update news when the game is patched")
-* You can turn off the global manifest package.
-    * This is a file that will be created in your Mods folder which makes the information PlumbBuddy has about the mods installed in your Mods folder available so that other mods can make use of it.
-![image](/img/generate-global-manifest.png "Generate global manifest package")
+* You can turn off runtime integration.
+    * This will create two files in your Mods folder, a package and a script. They will make the information PlumbBuddy has about the mods installed in your Mods folder available so that other mods can make use of it, and allow script mods to make use of PlumbBuddy's Relational Data Storage and UI Bridges.
+![image](/img/enable-runtime.png "Enable runtime mod integration")
 * You can turn on PlumbBuddy having an icon in the system tray on Windows.
 ![image](/img/show-icon-tray.png "Show an icon in the system tray")
-* You can turn off having PlumbBuddy store a mod's hash once it has been manifested.
-    * This is to assist you and players by having PlumbBuddy keep a background record that you've manifested a mod before even if the current version you're manifesting doesn't contain a manifest.
-![image](/img/auto-catalog.png "Automatically catalog mod manifests when composition succeeds")
-* You can turn off PlumbBuddy recording inside the manifest that you've previously manifested the mod, if you're manifesting a mod with the same name and creators but without an existing manifest. 
-    * This will ensure that if you update a mod and another mod lists it as a requirement in that mod's manifest, it will continue to count for the mod that was required before.
-    * If this is off and you manifest a mod without its previous manifest included, then PlumbBuddy will think that the requirements are not met.
-![image](/img/auto-subsume.png "Automatically subsume identically credited single-file mods when initializing a manifest")
-
-The last two toggles are a backup system for manifest hashes and it's probably best to leave them on.
 
 Once you’ve made a decision, click Finish on the bottom right.
 
-![image](/img/PB-PBsettings-creator.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off,  'Generate global manifest package' toddled on, 'Show an icon in the system tray' toggled off, and 'Automatically catalog manifests when composition succeeds' and 'Automatically subsume identically credited single-file mods when initializing a manifest' toggled off")
+![image](/img/PB-PBsettings-creator.png "An image of the PlumbBuddy app settings, with 'Automatically check for updates' and 'Offer to find mod update news when the game is patched' toggled off,  'Enable runtime mod integration' toggled on, and 'Show an icon in the system tray' toggled off.")
 
 And we're done!
 

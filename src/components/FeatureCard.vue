@@ -31,6 +31,17 @@
                 class="standard-text"
             />
         </v-card-text>
+        <v-card-actions
+            v-if="feature.href"
+        >
+            <v-btn
+                :color="feature.color"
+                :href="feature.href"
+                :prepend-icon="feature.buttonIcon ?? 'mdi-page-next'"
+            >
+                {{ feature.buttonLabel ?? 'Learn More' }}
+            </v-btn>
+        </v-card-actions>
     </v-card>
 </template>
 

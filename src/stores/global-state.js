@@ -35,7 +35,6 @@ export const useGlobalState = createGlobalState(() => {
         }
         const isWindows = (platform.os?.family ?? 'Unknown') === 'Windows';
         if (isWindows) {
-            debugger;
             let instructionSetSuffix = '_x64.msix';
             if (navigator.userAgentData) {
                 const userAgent = await navigator.userAgentData.getHighEntropyValues([
@@ -47,11 +46,9 @@ export const useGlobalState = createGlobalState(() => {
                 }
             }
             return currentRelease.value.assets.find(asset => asset.name.endsWith(instructionSetSuffix))
-                ?? currentRelease.value.assets.find(asset => asset.name.endsWith('.msix'))
-                ?? currentRelease.value.assets[0];
+                ?? currentRelease.value.assets.find(asset => asset.name.endsWith('.msix'));
         } else {
-            return currentRelease.value.assets.find(asset => asset.name.endsWith('.zip'))
-                ?? currentRelease.value.assets[0];
+            return currentRelease.value.assets.find(asset => asset.name.endsWith('.zip'));
         }
     });
 

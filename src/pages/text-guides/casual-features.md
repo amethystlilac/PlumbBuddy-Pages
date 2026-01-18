@@ -6,9 +6,25 @@ You might get some alerts right away. That’s fine. PlumbBuddy will do its best
 
 If you get an alert and want more information, there will be a question mark on the alert that you can click to bring you to the Mod Health guide's page.
 
-![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, and all other tabs visible across the top")
+![image](/img/PB-casual-mod-health.png "An image of the Mod Health tab of PlumbBuddy, with no alerts, the names of and all other tabs in a list at the left")
 
 If you want to learn more about the scans themselves, go to the [Mod Health](https://plumbbuddy.app/text-guides/casual-mod-health) guide.
+
+---
+
+### Personal Notes
+
+Personal Notes is a list of every .package and .ts4script file in your mods folder.
+
+You can search by file name, folder name, Manifested Name (for mods that have PlumbBuddy manifests), notes you've made (Personal Notes), or date.
+
+You can filter by file date or dates that you set (Personal Date), using beginning date (everything on or after that date), ending date (everything on or before that date), or between two dates.
+
+You can sort each column.
+
+You can combine these filters and searches to find just what you need. It's a great way to keep track of what's in your mods folder.
+
+![image](/img/PB-personal-notes.png "The Personal Notes tab. Across the top is a search bar and boxes for From File Data, To File Date, From Personal Date, and To Personal Date. Below that is a list of files with their file path relative to the Mods folder, with the headings Mods Folder Path, File Date, Manifested Name, Personal Notes, and Personal Date.")
 
 ---
 
@@ -21,8 +37,10 @@ If you go to the Catalog tab, you’ll see all of the mods you currently have in
 * The download URL for the mod
 * The name(s) of the creator(s)
 * An Ask for Help button to seek help with the mod, which will give you options to go to a support avenue specified by the creator if they listed one, or to go to a find general support
+* A link to support the creator financially
 * Packs the mod requires (in green on the default theme)
 * Packs the mod cannot be used with (in red on the default theme)
+* Packs that the creator says will make using the mod better (in blue on the default theme)
 * The files that are in the mod
 * Any extra mods that the mod requires, as long as they have manifests themselves (dependencies)
 * Any other mods that require the mod, as long as they have manifests themselves (dependants)
@@ -31,7 +49,7 @@ You can click buttons on the right of the file names or dependency/dependant to 
 
 You can search the whole catalogue on the top right of the catalogue, and you can search the mod itself, if you need to, to the right side of the screen.
 
-![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below. Across the top are the other tabs.")
+![image](/img/PB-catalog.png "An image of the Catalog tab, with a mod selected, showing the mod's name, link, creator, and required packs and an Ask For Help button at the top, with the files and required mod listed below.")
 
 ---
 
@@ -56,7 +74,7 @@ The report will only give advice about mods that the creator has listed on Mod H
 
 In addition, many of the files in the report will come with buttons to view the file in your mods folder and/or to go to the download page for the mod, or in the case of the missing requirement, to download that.
 
-![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected below that, but no results shown to the right. The background is a frog on a lily pad.")
+![image](/img/PB-ModHoundTab.png "The Mod Hound tab, with a dog at the top left and a report selected to the right. The Outdated section of the report is shown below, with one outdated mod listed.")
 
 If you want to learn more about how to use Mod Hound withing PlumbBuddy, visit the [Mod Hound](https://plumbbuddy.app/text-guides/casual-mod-hound) guide.
 
@@ -70,7 +88,7 @@ If you turn Archivist on, it will automatically make backups of your save files,
 
 There are two toggles at the top right. The one on the left turns on Archivist and lets you look at files that have already been archived. The one on the right lets Archivist archive new save points. You can turn that one on permanently, or if your computer isn't up to running anything else while the game is running, you might want to just turn it on occasionally.
 
-![image](/img/PB-Archivist.png "The Archivist tab, with a list of saves on the left. One is selected, showing a list of Snapshots on the right. At the top of the list of Snapshots is a sim in a red dress on the left and the name of the save and some details about it to the right. Across the top are the other tabs")
+![image](/img/PB-Archivist.png "An image showing a Chronicle selected, with a list of Snapshots below. Each Snapshot has a date; a snapshot number; tags for Live, the household name, the name of the lot, and the world; and three buttons.")
 
 To learn more about Archivist, visit the [Archivist](https://plumbbuddy.app/text-guides/archivist) guide.
 
@@ -85,3 +103,27 @@ Parlay is an easy way to translate almost any mod into the language of your choi
 ![image](/img/PB-ParlayTyping.png "The Parlay tab, with a mod translation from in progress")
 
 To learn more about Parlay, visit the [Parlay](https://plumbbuddy.app/text-guides/player-parlay) guide.
+
+---
+
+### [Pack Selector](https://plumbbuddy.app/features/pack-selector)
+
+Pack Selector lets you choose which of your installed packs will load without having to load into the game and then *reload* the game. If you choose to enable the toggle at the bottom left of the window, it will show you pack names and sort Stuff Packs and Kits separately. Otherwise, you'll see the pack type (EP, GP, or SP for expansion/game/stuff pack; kits are a kind of stuff pack) and number along with its icon.
+
+You can enable or disable all packs, all packs of a certain type, or whichever combination of packs you want.
+
+PlumbBuddy will keep track of packs you disable using this pack selector and warn you if you have a manifested mod that requires a pack you've disabled. This isn't possible when using the game's own pack selector.
+
+![image](/img/PB-PackSelector-ToggleOff.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by pack code toggled on below and a toggle in the bottom left in the off position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+![image](/img/PB-PackSelector-ToggleOn.png "The Pack Selector window, with a warning at the top telling you that disabling packs will remove it from your game, with packs listed by name toggled on below and a toggle in the bottom left in the on position which says 'Use PlumbBuddy.app Public Pack Catalog to Display Pack and Kit Names'")
+
+---
+
+### [Runtime Mod Integration](https://plumbbuddy.app/features/runtime-mod-integration)
+
+Runtime Mod Integration allows script mods to communicate and interact with PlumbBuddy. They let mod creators make use of storage in a way that doesn't slow down the game, and lets them show you things projected from the mod to PlumbBuddy, if you let them.
+
+This is also the feature that allows mods to know if you have a controller connected and what buttons you have pressed.
+
+![image](/img/PB-controller-monitoring.png "The hover information that appears when a player has a controller connected, showing which buttons are currently being pressed")

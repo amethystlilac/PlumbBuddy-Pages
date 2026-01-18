@@ -53,8 +53,16 @@
             </template>
         </v-list>
     </v-navigation-drawer>
-
     <div id="site-background"></div>
+    <v-btn
+        v-if="route.path !== '' && route.path !== '/' && route.path !== '/download'"
+        color="success"
+        class="position-absolute"
+        prepend-icon="mdi-download"
+        style="top: 10px; right: 10px;"
+        text="Download"
+        to="/download"
+    />
     <v-main>
         <router-view />
     </v-main>
@@ -125,14 +133,20 @@
         {
             color: 'primary',
             icon: 'mdi-book',
-            path: '/features/catalog',
-            title: 'Catalog',
+            path: '/features/personal-notes-and-catalog',
+            title: 'Personal Notes & Catalog',
         },
         {
             color: 'primary',
             icon: 'mdi-dog',
             path: '/features/mod-hound',
             title: 'Mod Hound',
+        },
+        {
+            color: 'primary',
+            icon: 'mdi-bag-personal-tag',
+            path: '/features/pack-selector',
+            title: 'Pack Selector',
         },
         {
             color: 'secondary',
@@ -151,6 +165,12 @@
             icon: 'mdi-tag-edit',
             path: '/features/manifest-editor',
             title: 'Manifest Editor',
+        },
+        {
+            color: 'tertiary',
+            icon: 'mdi-access-point-network',
+            path: '/features/runtime-mod-integration',
+            title: 'Runtime Mod Integration',
         },
         {
             isDivider: true,
